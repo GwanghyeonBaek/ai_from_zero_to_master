@@ -35,7 +35,10 @@ npm install
 npm run dev
 ```
 - 기본 주소: `http://localhost:3000`
-- `curriculum/`, `resources/latest.md` 내용을 읽어와 홈에 표시
+- 카드형 홈: 커리큘럼 + 자동 수집 리소스 포스트
+- 태그 페이지: `/tags/[tag]`
+- 포스트 상세: `/posts/[slug]`
+- `resources/latest.md` 섹션별로 자동 포스트 생성
 
 ## 폴더 구조
 - `curriculum/`: 단계별 학습 로드맵(체크리스트 포함)
