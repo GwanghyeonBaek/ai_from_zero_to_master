@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug, localizePost } from "@/lib/content";
 import { curriculumPlans } from "@/lib/curriculum";
+import { getCurriculumDetail, pick } from "@/lib/curriculumDetails";
 import { resolveLang, ui } from "@/lib/i18n";
 
 export function generateStaticParams() {
@@ -24,6 +25,7 @@ export default async function PostDetail({
   if (!post) return notFound();
   const localized = localizePost(post, lang);
   const plan = post.level ? curriculumPlans[post.level] : undefined;
+  const detail = getCurriculumDetail(post.level);
 
   return (
     <main className="mx-auto min-h-screen max-w-4xl px-6 py-10">
@@ -79,7 +81,7 @@ export default async function PostDetail({
       )}
 
       {post.kind === "curriculum" && plan && (
-        <section className="space-y-6">
+        <section className="space-y-8">
           <div>
             <h2 className="mb-2 text-xl font-semibold">{text.goals}</h2>
             <ul className="list-disc space-y-1 pl-5 text-slate-700">
@@ -114,6 +116,39 @@ export default async function PostDetail({
                 <li key={item}>{item}</li>
               ))}
             </ul>
+          </div>
+
+          <div>
+            <h2 className="mb-2 text-xl font-semibold">{text.detailedLessons}</h2>
+            {detail ? (
+              <div className="space-y-5">
+                <p className="text-slate-700">{pick(detail.intro, lang)}</p>
+                {detail.lessons.map((lesson) => (
+                  <article key={lesson.title.en} className="rounded-xl border p-4">
+                    <h3 className="text-lg font-semibold">{pick(lesson.title, lang)}</h3>
+                    <p className="mt-2 text-sm text-slate-700">{pick(lesson.explain, lang)}</p>
+                    <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-700">
+                      {pick(lesson.steps, lang).map((step) => (
+                        <li key={step}>{step}</li>
+                      ))}
+                    </ul>
+                    {lesson.code && (
+                      <pre className="mt-3 overflow-x-auto rounded-lg bg-slate-50 p-3 text-xs text-slate-700">
+                        {lesson.code}
+                      </pre>
+                    )}
+                    {lesson.practice && (
+                      <p className="mt-3 text-sm text-slate-700">
+                        <span className="font-semibold">{text.practiceTask}: </span>
+                        {pick(lesson.practice, lang)}
+                      </p>
+                    )}
+                  </article>
+                ))}
+              </div>
+            ) : (
+              <p className="text-sm text-slate-500">{text.comingSoon}</p>
+            )}
           </div>
         </section>
       )}

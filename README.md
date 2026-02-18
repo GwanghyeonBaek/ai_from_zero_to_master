@@ -39,6 +39,7 @@ npm run dev
 - 태그 페이지: `/tags/[tag]`
 - 포스트 상세: `/posts/[slug]`
 - `resources/latest.md` 섹션별로 자동 포스트 생성
+- 커리큘럼 상세 학습 콘텐츠(현재 00~03 우선 제공, EN/KO)
 
 ## 폴더 구조
 - `curriculum/`: 단계별 학습 로드맵(체크리스트 포함)
