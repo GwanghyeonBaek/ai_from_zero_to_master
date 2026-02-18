@@ -543,37 +543,182 @@ export const curriculumDetails: Record<string, CurriculumDetail> = {
   },
   "03-sql": {
     intro: {
-      en: "SQL is the language of real analytics. Build confidence with joins, aggregations, and windows.",
-      ko: "SQL은 실무 분석의 언어입니다. 조인·집계·윈도우 함수 중심으로 실전 감각을 만듭니다.",
+      en: "This SQL track is designed for real analytics work: querying cleanly, joining safely, and producing KPI-ready outputs.",
+      ko: "이 SQL 트랙은 실무 분석을 목표로 합니다: 정확한 조회, 안전한 조인, KPI 결과 산출까지 다룹니다.",
     },
     lessons: [
       {
-        title: { en: "1) Joins + aggregation", ko: "1) 조인 + 집계" },
-        explain: {
-          en: "Combine tables and compute KPI per dimension.",
-          ko: "테이블 결합 후 차원별 KPI를 계산합니다.",
+        title: { en: "Chapter 1) SELECT, WHERE, ORDER BY", ko: "챕터 1) SELECT, WHERE, ORDER BY" },
+        why: {
+          en: "Every SQL analysis begins with filtering and sorting raw data.",
+          ko: "모든 SQL 분석은 원본 데이터를 조회·필터·정렬하는 것에서 시작합니다.",
         },
-        steps: {
-          en: ["INNER JOIN orders + customers", "GROUP BY country", "SUM/COUNT metrics"],
-          ko: ["orders+customers INNER JOIN", "country 기준 GROUP BY", "SUM/COUNT 지표 산출"],
+        terms: {
+          en: [
+            { term: "SELECT", desc: "Choose columns to retrieve" },
+            { term: "WHERE", desc: "Filter rows by condition" },
+            { term: "ORDER BY", desc: "Sort result rows" },
+          ],
+          ko: [
+            { term: "SELECT", desc: "조회할 컬럼 선택" },
+            { term: "WHERE", desc: "조건으로 행 필터링" },
+            { term: "ORDER BY", desc: "결과 정렬" },
+          ],
         },
-        code: `SELECT c.country, COUNT(*) AS orders, SUM(o.amount) AS revenue\nFROM orders o\nJOIN customers c ON o.customer_id = c.id\nGROUP BY c.country\nORDER BY revenue DESC;`,
+        explain: { en: "Start with basic retrieval and conditions.", ko: "기본 조회와 조건 필터링부터 시작합니다." },
+        steps: { en: ["Select needed columns", "Filter by date/status", "Sort latest first"], ko: ["필요 컬럼 선택", "날짜/상태 필터", "최신순 정렬"] },
+        code: `SELECT order_id, customer_id, amount\nFROM orders\nWHERE amount >= 100\nORDER BY order_date DESC;`,
+        mistakes: { en: ["Using SELECT * in production queries", "Forgetting date range filters"], ko: ["실무에서 SELECT * 남용", "기간 필터 누락"] },
+        practice: { en: "Query last 30 days high-value orders (>=200).", ko: "최근 30일 고액 주문(>=200) 조회 쿼리를 작성하세요." },
+        next: { en: "Next chapter summarizes data with GROUP BY.", ko: "다음 챕터에서 GROUP BY로 지표를 요약합니다." },
       },
       {
-        title: { en: "2) Window function for ranking", ko: "2) 랭킹용 윈도우 함수" },
-        explain: {
-          en: "Use RANK() to find top entities per group.",
-          ko: "그룹별 상위 항목을 RANK()로 추출합니다.",
+        title: { en: "Chapter 2) GROUP BY and aggregations", ko: "챕터 2) GROUP BY와 집계" },
+        why: { en: "Business decisions depend on summarized metrics, not raw rows.", ko: "비즈니스 의사결정은 원시 행보다 집계 지표를 기반으로 합니다." },
+        terms: {
+          en: [
+            { term: "GROUP BY", desc: "Aggregate rows by category" },
+            { term: "COUNT/SUM/AVG", desc: "Common aggregate functions" },
+            { term: "HAVING", desc: "Filter aggregated groups" },
+          ],
+          ko: [
+            { term: "GROUP BY", desc: "카테고리 기준 집계" },
+            { term: "COUNT/SUM/AVG", desc: "대표 집계 함수" },
+            { term: "HAVING", desc: "집계 결과 조건 필터" },
+          ],
         },
-        steps: {
-          en: ["Partition by month", "Order by revenue desc", "Filter rank <= 3"],
-          ko: ["월 기준 파티션", "매출 내림차순 정렬", "rank<=3 필터"],
+        explain: { en: "Create KPI tables by segment (country/channel/product).", ko: "국가/채널/상품 등 세그먼트 기준 KPI 테이블을 만듭니다." },
+        steps: { en: ["Group by dimension", "Compute multiple metrics", "Filter low-volume groups"], ko: ["차원별 그룹화", "여러 지표 동시 계산", "저볼륨 그룹 제외"] },
+        code: `SELECT country, COUNT(*) AS orders, SUM(amount) AS revenue, AVG(amount) AS aov\nFROM orders\nGROUP BY country\nHAVING COUNT(*) >= 10\nORDER BY revenue DESC;`,
+        mistakes: { en: ["Mixing non-grouped columns without aggregation", "Using WHERE instead of HAVING for aggregates"], ko: ["비집계 컬럼을 GROUP BY 없이 조회", "집계조건에 WHERE 사용"] },
+        next: { en: "Next, combine multiple tables with joins.", ko: "다음은 조인을 통해 다중 테이블을 결합합니다." },
+      },
+      {
+        title: { en: "Chapter 3) Joins safely", ko: "챕터 3) 조인을 안전하게" },
+        why: { en: "Real datasets are split across tables; joins are unavoidable.", ko: "실무 데이터는 여러 테이블로 분리되어 있어 조인이 필수입니다." },
+        terms: {
+          en: [
+            { term: "INNER JOIN", desc: "Keep matching rows only" },
+            { term: "LEFT JOIN", desc: "Keep all left rows" },
+            { term: "Join key", desc: "Columns used to match tables" },
+          ],
+          ko: [
+            { term: "INNER JOIN", desc: "양쪽 매칭 행만 유지" },
+            { term: "LEFT JOIN", desc: "왼쪽 테이블 전체 유지" },
+            { term: "조인 키", desc: "테이블 연결에 사용하는 컬럼" },
+          ],
         },
-        code: `WITH m AS (\n  SELECT DATE_TRUNC('month', order_date) AS month, product_id, SUM(amount) AS revenue\n  FROM orders\n  GROUP BY 1,2\n)\nSELECT * FROM (\n  SELECT month, product_id, revenue,\n         RANK() OVER (PARTITION BY month ORDER BY revenue DESC) AS rnk\n  FROM m\n) t\nWHERE rnk <= 3;`,
-        practice: {
-          en: "Practice: Build a weekly KPI query with conversion_rate and retention proxy.",
-          ko: "실습: 주간 KPI 쿼리(전환율, 리텐션 대체지표 포함)를 작성하세요.",
+        explain: { en: "Join orders with customers/products and validate row counts.", ko: "orders를 customers/products와 조인하고 행 수를 검증합니다." },
+        steps: { en: ["Pick correct join type", "Check duplicates", "Validate result counts"], ko: ["조인 타입 선택", "중복 여부 점검", "결과 행 수 검증"] },
+        code: `SELECT o.order_id, c.country, o.amount\nFROM orders o\nLEFT JOIN customers c ON o.customer_id = c.id;`,
+        mistakes: { en: ["Join explosion due to non-unique keys", "Missing ON condition causing Cartesian product"], ko: ["유일키 미보장으로 행 폭증", "ON 누락으로 카테시안 곱 발생"] },
+        practice: { en: "Join orders+customers and compute revenue by customer segment.", ko: "orders+customers 조인 후 고객세그먼트별 매출을 계산하세요." },
+        next: { en: "Then use CTEs for readability and multi-step logic.", ko: "다음은 CTE로 다단계 로직을 읽기 쉽게 작성합니다." },
+      },
+      {
+        title: { en: "Chapter 4) CTEs and subqueries", ko: "챕터 4) CTE와 서브쿼리" },
+        why: { en: "Complex analytics queries become maintainable with staged query blocks.", ko: "복잡한 분석 쿼리는 단계별 블록(CTE)으로 나눠야 유지보수 가능합니다." },
+        terms: {
+          en: [
+            { term: "CTE", desc: "Named temporary result (WITH clause)" },
+            { term: "Subquery", desc: "Query inside another query" },
+            { term: "Refactor", desc: "Improve structure while keeping result" },
+          ],
+          ko: [
+            { term: "CTE", desc: "WITH 절의 이름 있는 임시 결과" },
+            { term: "서브쿼리", desc: "쿼리 내부의 또 다른 쿼리" },
+            { term: "리팩토링", desc: "결과는 유지하고 구조 개선" },
+          ],
         },
+        explain: { en: "Break KPI calculations into logical steps with WITH blocks.", ko: "WITH 블록으로 KPI 계산을 단계적으로 분리합니다." },
+        steps: { en: ["Create base CTE", "Aggregate in second CTE", "Select final output"], ko: ["기초 CTE 작성", "2차 집계 CTE 작성", "최종 SELECT 출력"] },
+        code: `WITH base AS (\n  SELECT customer_id, amount, order_date\n  FROM orders\n), monthly AS (\n  SELECT DATE_TRUNC('month', order_date) AS month, SUM(amount) AS revenue\n  FROM base\n  GROUP BY 1\n)\nSELECT * FROM monthly ORDER BY month;`,
+        next: { en: "Next chapter uses window functions for ranking and trends.", ko: "다음 챕터에서 윈도우 함수로 순위/추세를 계산합니다." },
+      },
+      {
+        title: { en: "Chapter 5) Window functions", ko: "챕터 5) 윈도우 함수" },
+        why: { en: "Window functions let you analyze row context without collapsing data.", ko: "윈도우 함수는 데이터 행을 유지하면서 순위/누적/이전값 비교를 가능하게 합니다." },
+        terms: {
+          en: [
+            { term: "OVER()", desc: "Defines window scope" },
+            { term: "PARTITION BY", desc: "Split window by group" },
+            { term: "RANK/ROW_NUMBER", desc: "Ordering within groups" },
+          ],
+          ko: [
+            { term: "OVER()", desc: "윈도우 범위 정의" },
+            { term: "PARTITION BY", desc: "그룹별 윈도우 분할" },
+            { term: "RANK/ROW_NUMBER", desc: "그룹 내 순위 계산" },
+          ],
+        },
+        explain: { en: "Use rank and cumulative metrics for trend analysis.", ko: "순위/누적 지표를 이용해 추세를 분석합니다." },
+        steps: { en: ["Partition by month", "Rank by revenue", "Compute running total"], ko: ["월별 파티션", "매출 순위 계산", "누적합 계산"] },
+        code: `SELECT month, product_id, revenue,\n       RANK() OVER (PARTITION BY month ORDER BY revenue DESC) AS rnk,\n       SUM(revenue) OVER (PARTITION BY month ORDER BY revenue DESC) AS running_rev\nFROM product_monthly;`,
+        mistakes: { en: ["Missing ORDER BY inside OVER for running metrics"], ko: ["누적 계산에서 OVER 내부 ORDER BY 누락"] },
+        next: { en: "Next chapter standardizes time-based analytics patterns.", ko: "다음 챕터는 시계열 분석 패턴을 표준화합니다." },
+      },
+      {
+        title: { en: "Chapter 6) Time-series SQL patterns", ko: "챕터 6) 시계열 SQL 패턴" },
+        why: { en: "Most KPI reporting is weekly/monthly trend analysis.", ko: "대부분의 KPI 리포팅은 주간/월간 추세 분석입니다." },
+        terms: {
+          en: [
+            { term: "DATE_TRUNC", desc: "Bucket timestamps by period" },
+            { term: "YoY/MoM", desc: "Period-over-period comparison" },
+            { term: "Lag", desc: "Previous period value" },
+          ],
+          ko: [
+            { term: "DATE_TRUNC", desc: "시간을 기간 단위로 절삭" },
+            { term: "YoY/MoM", desc: "전년/전월 대비" },
+            { term: "LAG", desc: "이전 기간 값 조회" },
+          ],
+        },
+        explain: { en: "Build weekly/monthly revenue and growth SQL templates.", ko: "주간/월간 매출 및 성장률 SQL 템플릿을 만듭니다." },
+        steps: { en: ["Aggregate by month", "Use LAG for previous month", "Compute growth rate"], ko: ["월 단위 집계", "LAG로 전월 값 조회", "성장률 계산"] },
+        code: `WITH m AS (\n  SELECT DATE_TRUNC('month', order_date) AS month, SUM(amount) AS revenue\n  FROM orders\n  GROUP BY 1\n)\nSELECT month, revenue,\n       LAG(revenue) OVER (ORDER BY month) AS prev_revenue,\n       (revenue - LAG(revenue) OVER (ORDER BY month)) / NULLIF(LAG(revenue) OVER (ORDER BY month),0) AS mom\nFROM m;`,
+        next: { en: "Now build complete KPI query packs for stakeholders.", ko: "이제 이해관계자용 KPI 쿼리 묶음을 구성합니다." },
+      },
+      {
+        title: { en: "Chapter 7) KPI query pack", ko: "챕터 7) KPI 쿼리 팩" },
+        why: { en: "Teams need reusable SQL packs for recurring reporting.", ko: "팀은 반복 리포팅을 위한 재사용 가능한 SQL 팩이 필요합니다." },
+        terms: {
+          en: [
+            { term: "KPI", desc: "Key performance indicator" },
+            { term: "Reusable query", desc: "Query template used repeatedly" },
+            { term: "Data contract", desc: "Agreed metric definition" },
+          ],
+          ko: [
+            { term: "KPI", desc: "핵심성과지표" },
+            { term: "재사용 쿼리", desc: "반복 사용 가능한 템플릿 쿼리" },
+            { term: "데이터 계약", desc: "지표 정의 합의 문서" },
+          ],
+        },
+        explain: { en: "Create a bundle for DAU, conversion, AOV, and retention proxy.", ko: "DAU/전환율/AOV/리텐션 대체지표 쿼리 묶음을 만듭니다." },
+        steps: { en: ["Define each KPI SQL", "Standardize date filters", "Document metric definition"], ko: ["KPI별 SQL 정의", "날짜 필터 표준화", "지표 정의 문서화"] },
+        code: `-- example: daily active users\nSELECT activity_date, COUNT(DISTINCT user_id) AS dau\nFROM user_events\nGROUP BY activity_date\nORDER BY activity_date;`,
+        mistakes: { en: ["Different KPI definitions across teams", "Hard-coded dates in every query"], ko: ["팀마다 KPI 정의가 다름", "쿼리마다 날짜를 하드코딩"] },
+        practice: { en: "Build 4 reusable KPI queries and save them in one SQL file.", ko: "재사용 가능한 KPI 쿼리 4개를 하나의 SQL 파일로 정리하세요." },
+        next: { en: "Final chapter covers SQL optimization and troubleshooting.", ko: "마지막 챕터에서 SQL 최적화와 트러블슈팅을 다룹니다." },
+      },
+      {
+        title: { en: "Chapter 8) SQL optimization and debugging", ko: "챕터 8) SQL 최적화와 디버깅" },
+        why: { en: "Slow or wrong queries block analytics workflows and decision speed.", ko: "느리거나 잘못된 쿼리는 분석 흐름과 의사결정을 지연시킵니다." },
+        terms: {
+          en: [
+            { term: "Execution plan", desc: "How database executes query" },
+            { term: "Index", desc: "Data structure for faster lookup" },
+            { term: "Bottleneck", desc: "Main cause of slowness" },
+          ],
+          ko: [
+            { term: "실행계획", desc: "DB가 쿼리를 수행하는 방식" },
+            { term: "인덱스", desc: "조회 속도를 높이는 구조" },
+            { term: "병목", desc: "성능 저하의 핵심 원인" },
+          ],
+        },
+        explain: { en: "Use EXPLAIN, simplify joins, and optimize filters for performance.", ko: "EXPLAIN으로 실행계획을 확인하고 조인/필터를 최적화합니다." },
+        steps: { en: ["Run EXPLAIN", "Reduce scanned rows", "Refactor heavy subqueries"], ko: ["EXPLAIN 실행", "스캔 행 수 줄이기", "무거운 서브쿼리 리팩토링"] },
+        code: `EXPLAIN ANALYZE\nSELECT *\nFROM orders\nWHERE order_date >= '2026-01-01'\n  AND customer_id = 123;`,
+        mistakes: { en: ["Optimizing before checking correctness", "Adding indexes blindly"], ko: ["정확성 검증 전 성능 최적화 시도", "근거 없이 인덱스 추가"] },
+        practice: { en: "Take one slow query and reduce runtime by at least 30%.", ko: "느린 쿼리 하나를 선정해 실행시간을 30% 이상 줄이세요." },
+        next: { en: "You are now ready for ML-feature and analytics engineering pipelines.", ko: "이제 ML 피처/분석 엔지니어링 파이프라인으로 넘어갈 준비가 되었습니다." },
       },
     ],
   },
