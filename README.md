@@ -28,6 +28,15 @@ pip install -r requirements.txt
 python scripts/update_resources.py
 ```
 
+## 블로그(Next.js) 실행
+```bash
+cd site
+npm install
+npm run dev
+```
+- 기본 주소: `http://localhost:3000`
+- `curriculum/`, `resources/latest.md` 내용을 읽어와 홈에 표시
+
 ## 폴더 구조
 - `curriculum/`: 단계별 학습 로드맵(체크리스트 포함)
 - `resources/`: 자동 수집된 최신 학습 리소스
@@ -40,6 +49,14 @@ python scripts/update_resources.py
 - 매일(UTC 기준) GitHub Actions가 최신 리소스를 수집
 - 변경사항이 있으면 자동 커밋
 - 필요 시 주간 요약 이슈/PR로 확장 가능
+
+## GitHub → Vercel 자동 배포
+1. Vercel에서 `New Project` 클릭
+2. GitHub `GwanghyeonBaek/ai_from_zero_to_master` repo 선택
+3. **Root Directory를 `site`로 지정**
+4. Deploy
+
+이후에는 `main` 브랜치에 push할 때마다 Vercel이 자동 배포합니다.
 
 ## 추천 학습 루프
 1. 로드맵 체크리스트 진행
