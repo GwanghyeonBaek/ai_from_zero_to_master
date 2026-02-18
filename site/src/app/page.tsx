@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getAllPosts, getAllTags } from "@/lib/content";
+import { getAllPosts, getAllTags, localizePost } from "@/lib/content";
 import { resolveLang, ui } from "@/lib/i18n";
 
 function kindBadge(kind: "curriculum" | "resource", lang: "en" | "ko") {
@@ -57,33 +57,36 @@ export default async function HomePage({
           <span className="text-sm text-slate-500">{posts.length}</span>
         </div>
         <div className="grid gap-4 md:grid-cols-2">
-          {posts.map((post) => (
-            <article key={post.slug} className="rounded-2xl border bg-white p-5 shadow-sm">
-              <div className="mb-3 flex items-center gap-2">
-                <span className="rounded-full bg-slate-100 px-2 py-1 text-xs text-slate-600">{kindBadge(post.kind, lang)}</span>
-                {post.updatedAt && (
-                  <span className="text-xs text-slate-500">
-                    {text.updated}: {post.updatedAt}
-                  </span>
-                )}
-              </div>
-              <h3 className="text-lg font-semibold">{post.title}</h3>
-              <p className="mt-2 line-clamp-2 text-sm text-slate-600">{post.excerpt}</p>
-              <div className="mt-3 flex flex-wrap gap-2">
-                {post.tags.map((tag) => (
-                  <span key={tag} className="rounded-full bg-slate-50 px-2 py-1 text-xs text-slate-500">
-                    #{tag}
-                  </span>
-                ))}
-              </div>
-              <Link
-                href={`/posts/${post.slug}?lang=${lang}`}
-                className="mt-4 inline-block text-sm font-medium text-blue-700 hover:underline"
-              >
-                {text.viewPost}
-              </Link>
-            </article>
-          ))}
+          {posts.map((post) => {
+            const localized = localizePost(post, lang);
+            return (
+              <article key={post.slug} className="rounded-2xl border bg-white p-5 shadow-sm">
+                <div className="mb-3 flex items-center gap-2">
+                  <span className="rounded-full bg-slate-100 px-2 py-1 text-xs text-slate-600">{kindBadge(post.kind, lang)}</span>
+                  {post.updatedAt && (
+                    <span className="text-xs text-slate-500">
+                      {text.updated}: {post.updatedAt}
+                    </span>
+                  )}
+                </div>
+                <h3 className="text-lg font-semibold">{localized.title}</h3>
+                <p className="mt-2 line-clamp-2 text-sm text-slate-600">{localized.excerpt}</p>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {post.tags.map((tag) => (
+                    <span key={tag} className="rounded-full bg-slate-50 px-2 py-1 text-xs text-slate-500">
+                      #{tag}
+                    </span>
+                  ))}
+                </div>
+                <Link
+                  href={`/posts/${post.slug}?lang=${lang}`}
+                  className="mt-4 inline-block text-sm font-medium text-blue-700 hover:underline"
+                >
+                  {text.viewPost}
+                </Link>
+              </article>
+            );
+          })}
         </div>
       </section>
     </main>

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getPostsByTag } from "@/lib/content";
+import { getPostsByTag, localizePost } from "@/lib/content";
 import { resolveLang, ui } from "@/lib/i18n";
 
 export default async function TagPage({
@@ -41,18 +41,21 @@ export default async function TagPage({
       </header>
 
       <div className="grid gap-4 md:grid-cols-2">
-        {posts.map((post) => (
-          <article key={post.slug} className="rounded-2xl border bg-white p-5 shadow-sm">
-            <h2 className="text-lg font-semibold">{post.title}</h2>
-            <p className="mt-2 text-sm text-slate-600">{post.excerpt}</p>
-            <Link
-              href={`/posts/${post.slug}?lang=${lang}`}
-              className="mt-4 inline-block text-sm font-medium text-blue-700 hover:underline"
-            >
-              {text.read}
-            </Link>
-          </article>
-        ))}
+        {posts.map((post) => {
+          const localized = localizePost(post, lang);
+          return (
+            <article key={post.slug} className="rounded-2xl border bg-white p-5 shadow-sm">
+              <h2 className="text-lg font-semibold">{localized.title}</h2>
+              <p className="mt-2 text-sm text-slate-600">{localized.excerpt}</p>
+              <Link
+                href={`/posts/${post.slug}?lang=${lang}`}
+                className="mt-4 inline-block text-sm font-medium text-blue-700 hover:underline"
+              >
+                {text.read}
+              </Link>
+            </article>
+          );
+        })}
       </div>
     </main>
   );

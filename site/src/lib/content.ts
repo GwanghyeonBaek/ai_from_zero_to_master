@@ -1,5 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
+import type { Lang } from "@/lib/i18n";
+import { curriculumPlans } from "@/lib/curriculum";
 
 export type BlogPost = {
   slug: string;
@@ -12,7 +14,6 @@ export type BlogPost = {
   source?: string;
   category?: string;
   links?: { title: string; url: string; desc?: string }[];
-  body?: string;
 };
 
 const ROOT = path.join(process.cwd(), "..");
@@ -20,27 +21,6 @@ const ROOT = path.join(process.cwd(), "..");
 function safeRead(filePath: string): string {
   if (!fs.existsSync(filePath)) return "";
   return fs.readFileSync(filePath, "utf-8");
-}
-
-function firstHeading(md: string, fallback: string): string {
-  const line = md
-    .split("\n")
-    .find((l) => l.trim().startsWith("# "))
-    ?.replace(/^#\s+/, "")
-    .trim();
-  return line || fallback;
-}
-
-function firstParagraph(md: string): string {
-  const lines = md
-    .split("\n")
-    .map((l) => l.trim())
-    .filter((l) => l && !l.startsWith("#") && !l.startsWith("-") && !/^\d+\./.test(l));
-  return lines[0] || "학습 로드맵을 확인해 보세요.";
-}
-
-function toKoreanTitle(slug: string): string {
-  return slug.replace(/^\d{2}-/, "").replaceAll("-", " ");
 }
 
 function parseCurriculumPosts(): BlogPost[] {
@@ -52,16 +32,14 @@ function parseCurriculumPosts(): BlogPost[] {
     .filter((d) => /^\d{2}-/.test(d))
     .sort()
     .map((d) => {
-      const mdPath = path.join(dir, d, "roadmap.md");
-      const body = safeRead(mdPath);
+      const plan = curriculumPlans[d];
       return {
         slug: `curriculum-${d}`,
-        title: firstHeading(body, toKoreanTitle(d)),
-        excerpt: firstParagraph(body),
+        title: plan?.title.en || d,
+        excerpt: plan?.summary.en || "Hands-on curriculum track.",
         tags: ["curriculum", d.split("-")[1] || "track"],
         kind: "curriculum",
         level: d,
-        body,
       };
     });
 }
@@ -102,8 +80,8 @@ function parseResourcePosts(): BlogPost[] {
       const category = categoryMatch?.[1]?.trim();
       current = {
         slug: `resources-${slugify(source)}`,
-        title: `${source} 최신 글 모음`,
-        excerpt: `${source}에서 자동 수집된 최신 콘텐츠`,
+        title: source,
+        excerpt: "",
         tags: ["resources", "auto", ...(category ? [category] : [])],
         kind: "resource",
         source,
@@ -149,4 +127,23 @@ export function getAllTags(): string[] {
 export function getPostsByTag(tag: string): BlogPost[] {
   const normalized = tag.toLowerCase();
   return getAllPosts().filter((p) => p.tags.map((t) => t.toLowerCase()).includes(normalized));
+}
+
+export function localizePost(post: BlogPost, lang: Lang): { title: string; excerpt: string } {
+  if (post.kind === "resource") {
+    const title = lang === "ko" ? `${post.source} 최신 글 모음` : `${post.source} latest picks`;
+    const excerpt =
+      lang === "ko"
+        ? `${post.source}에서 자동 수집된 최신 콘텐츠`
+        : `Auto-curated recent resources from ${post.source}`;
+    return { title, excerpt };
+  }
+
+  const plan = post.level ? curriculumPlans[post.level] : undefined;
+  if (!plan) return { title: post.title, excerpt: post.excerpt };
+
+  return {
+    title: plan.title[lang],
+    excerpt: plan.summary[lang],
+  };
 }
