@@ -1,0 +1,21 @@
+name: Learning Log
+description: 학습 기록 템플릿
+title: "[Learning] YYYY-MM-DD - Topic"
+labels: ["learning-log"]
+body:
+  - type: textarea
+    id: today
+    attributes:
+      label: 오늘 배운 것
+      description: 핵심 개념/코드/인사이트
+    validations:
+      required: true
+  - type: textarea
+    id: hard
+    attributes:
+      label: 어려웠던 점
+  - type: textarea
+    id: next
+    attributes:
+      label: 다음 액션
+      description: 다음 학습에서 할 일

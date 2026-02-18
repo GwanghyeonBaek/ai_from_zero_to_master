@@ -1,0 +1,16 @@
+feeds:
+  - name: Towards Data Science
+    url: https://towardsdatascience.com/feed
+    category: data-analysis
+  - name: KDnuggets
+    url: https://www.kdnuggets.com/feed
+    category: data-analysis
+  - name: OpenAI News
+    url: https://openai.com/news/rss.xml
+    category: ai
+  - name: Google AI Blog
+    url: https://blog.google/technology/ai/rss/
+    category: ai
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    category: llm
