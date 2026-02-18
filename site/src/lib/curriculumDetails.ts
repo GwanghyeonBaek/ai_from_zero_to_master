@@ -365,37 +365,179 @@ export const curriculumDetails: Record<string, CurriculumDetail> = {
   },
   "02-statistics": {
     intro: {
-      en: "Statistics should be connected to decisions: compare groups, estimate uncertainty, explain confidence.",
-      ko: "통계는 의사결정과 연결되어야 합니다: 그룹 비교, 불확실성 추정, 신뢰구간 해석.",
+      en: "This track teaches practical statistics for analysts: describe data, quantify uncertainty, and make evidence-based decisions.",
+      ko: "이 트랙은 분석가가 실제로 쓰는 통계를 다룹니다: 데이터 요약, 불확실성 정량화, 근거 기반 의사결정.",
     },
     lessons: [
       {
-        title: { en: "1) Descriptive statistics", ko: "1) 기술통계" },
-        explain: {
-          en: "Compute central tendency and spread before modeling.",
-          ko: "모델링 전에 중심·산포를 먼저 확인합니다.",
+        title: { en: "Chapter 1) Mean, median, and spread", ko: "챕터 1) 평균·중앙값·산포" },
+        why: {
+          en: "Before any model, you must understand what a dataset looks like.",
+          ko: "모델링 전에 데이터의 기본 분포를 이해해야 합니다.",
         },
-        steps: {
-          en: ["mean/median/std", "distribution shape", "outlier check"],
-          ko: ["평균/중앙값/표준편차", "분포 형태 확인", "이상치 점검"],
+        terms: {
+          en: [
+            { term: "Mean", desc: "Average value of data" },
+            { term: "Median", desc: "Middle value after sorting" },
+            { term: "Standard deviation", desc: "Typical distance from mean" },
+          ],
+          ko: [
+            { term: "평균", desc: "데이터의 산술 평균" },
+            { term: "중앙값", desc: "정렬 후 가운데 값" },
+            { term: "표준편차", desc: "평균으로부터의 평균적 거리" },
+          ],
         },
-        code: `import pandas as pd\n\ndf = pd.read_csv("sales.csv")\nprint(df["revenue"].describe())`,
+        explain: { en: "Compute central tendency and spread before any interpretation.", ko: "해석 전에 중심 경향과 산포를 먼저 계산합니다." },
+        steps: { en: ["Use describe()", "Compare mean vs median", "Check std and min/max"], ko: ["describe() 사용", "평균-중앙값 비교", "표준편차·최솟값·최댓값 확인"] },
+        code: `import pandas as pd\ndf = pd.read_csv("sales.csv")\nprint(df["revenue"].describe())`,
+        mistakes: { en: ["Using mean when data is highly skewed", "Ignoring outliers"], ko: ["한쪽으로 치우친 분포에서 평균만 사용", "이상치를 무시"] },
+        practice: { en: "Compare two columns and explain which one has more variability.", ko: "두 컬럼을 비교해 어떤 쪽이 변동성이 큰지 설명하세요." },
+        next: { en: "Next, visualize distributions to see the shape directly.", ko: "다음 챕터에서 시각화로 분포 형태를 직접 확인합니다." },
       },
       {
-        title: { en: "2) Hypothesis testing (A/B basics)", ko: "2) 가설검정(A/B 기초)" },
-        explain: {
-          en: "Test whether observed difference is likely due to chance.",
-          ko: "관측된 차이가 우연인지 통계적으로 검정합니다.",
+        title: { en: "Chapter 2) Distribution and outliers", ko: "챕터 2) 분포와 이상치" },
+        why: { en: "Shape of distribution changes interpretation and method choice.", ko: "분포 형태에 따라 해석과 통계 방법 선택이 달라집니다." },
+        terms: {
+          en: [
+            { term: "Skewness", desc: "Asymmetry of distribution" },
+            { term: "Outlier", desc: "Value far from typical range" },
+            { term: "IQR", desc: "Interquartile range (Q3-Q1)" },
+          ],
+          ko: [
+            { term: "왜도", desc: "분포의 비대칭 정도" },
+            { term: "이상치", desc: "일반 범위에서 벗어난 값" },
+            { term: "IQR", desc: "사분위 범위(Q3-Q1)" },
+          ],
         },
-        steps: {
-          en: ["Set H0/H1", "Choose significance level", "Interpret p-value correctly"],
-          ko: ["귀무/대립가설 설정", "유의수준 선택", "p-value 올바르게 해석"],
+        explain: { en: "Use histograms and boxplots to inspect skew and outliers.", ko: "히스토그램/박스플롯으로 왜도와 이상치를 점검합니다." },
+        steps: { en: ["Plot histogram", "Plot boxplot", "Flag outliers via IQR rule"], ko: ["히스토그램 작성", "박스플롯 작성", "IQR 규칙으로 이상치 표시"] },
+        code: `q1, q3 = df["revenue"].quantile([0.25, 0.75])\niqr = q3 - q1\noutliers = df[(df["revenue"] < q1 - 1.5*iqr) | (df["revenue"] > q3 + 1.5*iqr)]\nprint(len(outliers))`,
+        mistakes: { en: ["Deleting all outliers without context", "Assuming normality automatically"], ko: ["맥락 없이 이상치를 모두 삭제", "정규분포를 자동 가정"] },
+        next: { en: "After understanding distribution, move to probability foundations.", ko: "분포를 이해했으면 확률 기초로 넘어갑니다." },
+      },
+      {
+        title: { en: "Chapter 3) Probability basics", ko: "챕터 3) 확률 기초" },
+        why: { en: "Inference and uncertainty rely on probability thinking.", ko: "추론과 불확실성 해석은 확률 개념이 기반입니다." },
+        terms: {
+          en: [
+            { term: "Probability", desc: "Chance of event occurring" },
+            { term: "Independent events", desc: "One event does not affect another" },
+            { term: "Conditional probability", desc: "Probability under a condition" },
+          ],
+          ko: [
+            { term: "확률", desc: "사건이 일어날 가능성" },
+            { term: "독립사건", desc: "한 사건이 다른 사건에 영향 없음" },
+            { term: "조건부확률", desc: "조건이 있을 때의 확률" },
+          ],
         },
-        code: `from scipy import stats\n\na = [12,13,11,15,14]\nb = [15,17,16,18,17]\nt, p = stats.ttest_ind(a, b, equal_var=False)\nprint(t, p)`,
-        practice: {
-          en: "Practice: Explain result in 3 business sentences, not math symbols.",
-          ko: "실습: 수식 말고 비즈니스 문장 3줄로 결과를 설명하세요.",
+        explain: { en: "Practice event probability and conditional probability with simple business examples.", ko: "비즈니스 예제로 사건 확률과 조건부확률을 연습합니다." },
+        steps: { en: ["Define event", "Compute base probability", "Compute conditional probability"], ko: ["사건 정의", "기본 확률 계산", "조건부확률 계산"] },
+        code: `p_purchase = 0.2\np_member = 0.5\np_purchase_given_member = 0.3\nprint(p_purchase_given_member)`,
+        mistakes: { en: ["Confusing P(A|B) and P(B|A)"], ko: ["P(A|B)와 P(B|A)를 혼동"] },
+        next: { en: "Next chapter introduces sampling and the central limit theorem.", ko: "다음 챕터는 표본추출과 중심극한정리입니다." },
+      },
+      {
+        title: { en: "Chapter 4) Sampling and central limit theorem", ko: "챕터 4) 표본추출과 중심극한정리" },
+        why: { en: "You rarely observe full populations; good sampling enables valid conclusions.", ko: "모집단 전체를 보기 어렵기 때문에 올바른 표본추출이 결론의 품질을 좌우합니다." },
+        terms: {
+          en: [
+            { term: "Population", desc: "Entire target group" },
+            { term: "Sample", desc: "Subset drawn from population" },
+            { term: "CLT", desc: "Sample means approach normality as n grows" },
+          ],
+          ko: [
+            { term: "모집단", desc: "분석 대상 전체 집단" },
+            { term: "표본", desc: "모집단에서 추출한 일부" },
+            { term: "중심극한정리", desc: "표본평균 분포가 정규분포에 가까워짐" },
+          ],
         },
+        explain: { en: "Simulate repeated sampling and inspect sample mean distribution.", ko: "반복 표본추출 시뮬레이션으로 표본평균 분포를 확인합니다." },
+        steps: { en: ["Draw many random samples", "Compute sample means", "Plot mean distribution"], ko: ["무작위 표본 반복 추출", "표본평균 계산", "평균 분포 시각화"] },
+        code: `import numpy as np\nmeans = []\nfor _ in range(1000):\n    s = np.random.choice(df["revenue"], size=30, replace=True)\n    means.append(np.mean(s))\nprint(np.mean(means), np.std(means))`,
+        next: { en: "Then estimate intervals around metrics using confidence intervals.", ko: "다음으로 신뢰구간을 이용해 지표의 범위를 추정합니다." },
+      },
+      {
+        title: { en: "Chapter 5) Confidence intervals", ko: "챕터 5) 신뢰구간" },
+        why: { en: "Point estimates alone are misleading; intervals communicate uncertainty.", ko: "점추정만으로는 부족하며 신뢰구간이 불확실성을 전달합니다." },
+        terms: {
+          en: [
+            { term: "Point estimate", desc: "Single estimated value" },
+            { term: "Confidence interval", desc: "Range likely containing true parameter" },
+            { term: "Margin of error", desc: "Half-width of interval" },
+          ],
+          ko: [
+            { term: "점추정", desc: "하나의 추정값" },
+            { term: "신뢰구간", desc: "모수가 포함될 가능성이 높은 구간" },
+            { term: "오차한계", desc: "구간 반폭" },
+          ],
+        },
+        explain: { en: "Estimate 95% confidence interval for mean metrics.", ko: "평균 지표에 대한 95% 신뢰구간을 추정합니다." },
+        steps: { en: ["Compute sample mean", "Estimate standard error", "Build CI range"], ko: ["표본평균 계산", "표준오차 계산", "신뢰구간 산출"] },
+        code: `import numpy as np\nx = df["revenue"].dropna().values\nmean = np.mean(x)\nse = np.std(x, ddof=1) / np.sqrt(len(x))\nci = (mean - 1.96*se, mean + 1.96*se)\nprint(ci)`,
+        mistakes: { en: ["Interpreting CI as probability of parameter for this sample"], ko: ["신뢰구간을 샘플 기준 확률로 잘못 해석"] },
+        next: { en: "Next, formally compare groups with hypothesis testing.", ko: "다음으로 가설검정으로 집단 차이를 검증합니다." },
+      },
+      {
+        title: { en: "Chapter 6) Hypothesis testing", ko: "챕터 6) 가설검정" },
+        why: { en: "Testing helps decide whether observed differences are likely real or random.", ko: "관측된 차이가 실제인지 우연인지 판단하기 위해 검정이 필요합니다." },
+        terms: {
+          en: [
+            { term: "Null hypothesis", desc: "Default assumption of no effect" },
+            { term: "p-value", desc: "How extreme data is under H0" },
+            { term: "Significance level", desc: "Threshold for rejecting H0" },
+          ],
+          ko: [
+            { term: "귀무가설", desc: "효과가 없다는 기본 가정" },
+            { term: "p-value", desc: "귀무가설 하에서 관측값의 극단성" },
+            { term: "유의수준", desc: "귀무가설 기각 기준" },
+          ],
+        },
+        explain: { en: "Use t-tests for mean comparison and report interpretation in plain language.", ko: "평균 비교에 t-검정을 사용하고 결과를 쉬운 문장으로 해석합니다." },
+        steps: { en: ["Set H0/H1", "Run test", "Interpret p-value and effect direction"], ko: ["가설 설정", "검정 실행", "p-value와 효과 방향 해석"] },
+        code: `from scipy import stats\na = [12,13,11,15,14]\nb = [15,17,16,18,17]\nt, p = stats.ttest_ind(a, b, equal_var=False)\nprint(t, p)`,
+        practice: { en: "Explain t-test result in 3 business-friendly lines.", ko: "t-검정 결과를 비즈니스 친화 문장 3줄로 설명하세요." },
+        next: { en: "Next chapter applies this to A/B test decision-making.", ko: "다음 챕터에서 A/B 테스트 의사결정에 적용합니다." },
+      },
+      {
+        title: { en: "Chapter 7) A/B test analysis", ko: "챕터 7) A/B 테스트 분석" },
+        why: { en: "A/B testing is a core method for product and marketing optimization.", ko: "A/B 테스트는 제품/마케팅 최적화의 핵심 도구입니다." },
+        terms: {
+          en: [
+            { term: "Conversion rate", desc: "Share of users completing target action" },
+            { term: "Control/Treatment", desc: "Baseline vs changed variant" },
+            { term: "Lift", desc: "Relative improvement" },
+          ],
+          ko: [
+            { term: "전환율", desc: "목표 행동 완료 비율" },
+            { term: "대조군/실험군", desc: "기준안과 변경안" },
+            { term: "향상률(Lift)", desc: "상대적 개선 비율" },
+          ],
+        },
+        explain: { en: "Compare conversion between variants and judge statistical + practical significance.", ko: "버전 간 전환율을 비교해 통계적/실무적 유의성을 함께 판단합니다." },
+        steps: { en: ["Summarize by group", "Compute lift", "Run significance test"], ko: ["그룹별 요약", "향상률 계산", "유의성 검정"] },
+        code: `control_conv = 240/2000\ntreat_conv = 286/2000\nlift = (treat_conv - control_conv) / control_conv\nprint(round(lift*100, 2), "%")`,
+        mistakes: { en: ["Stopping experiment too early", "Ignoring sample size requirements"], ko: ["실험을 너무 일찍 종료", "필요 표본 수를 무시"] },
+        next: { en: "Finally, package insights into a clear statistical report.", ko: "마지막으로 분석 결과를 리포트 형태로 정리합니다." },
+      },
+      {
+        title: { en: "Chapter 8) Reporting statistical insights", ko: "챕터 8) 통계 인사이트 리포팅" },
+        why: { en: "Statistics only creates value when stakeholders can act on it.", ko: "통계는 이해관계자가 행동할 수 있을 때 가치가 생깁니다." },
+        terms: {
+          en: [
+            { term: "Insight", desc: "Actionable finding from data" },
+            { term: "Recommendation", desc: "Suggested next action" },
+            { term: "Limitation", desc: "Boundary where conclusion may not hold" },
+          ],
+          ko: [
+            { term: "인사이트", desc: "행동 가능한 데이터 발견" },
+            { term: "권고안", desc: "다음 행동 제안" },
+            { term: "한계점", desc: "결론 적용의 제한 조건" },
+          ],
+        },
+        explain: { en: "Write decision-ready summary with metric, uncertainty, and recommendation.", ko: "지표·불확실성·권고안을 포함한 의사결정용 요약을 작성합니다." },
+        steps: { en: ["State question", "Show evidence", "Recommend action + risk"], ko: ["질문 명시", "근거 제시", "행동/리스크 제안"] },
+        practice: { en: "Write a 1-page memo: what changed, confidence, and what to do next.", ko: "1페이지 메모를 작성하세요: 무엇이 달라졌고, 신뢰도와 다음 액션은 무엇인지." },
+        next: { en: "You are ready to move into SQL-based analytics pipelines.", ko: "이제 SQL 기반 분석 파이프라인으로 넘어갈 준비가 되었습니다." },
       },
     ],
   },
