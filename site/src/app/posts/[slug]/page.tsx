@@ -126,7 +126,28 @@ export default async function PostDetail({
                 {detail.lessons.map((lesson) => (
                   <article key={lesson.title.en} className="rounded-xl border p-4">
                     <h3 className="text-lg font-semibold">{pick(lesson.title, lang)}</h3>
-                    <p className="mt-2 text-sm text-slate-700">{pick(lesson.explain, lang)}</p>
+
+                    {lesson.why && (
+                      <p className="mt-2 text-sm text-slate-700">
+                        <span className="font-semibold">{text.whyThis}: </span>
+                        {pick(lesson.why, lang)}
+                      </p>
+                    )}
+
+                    {lesson.terms && (
+                      <div className="mt-3">
+                        <p className="text-sm font-semibold text-slate-800">{text.keyTerms}</p>
+                        <ul className="mt-1 list-disc space-y-1 pl-5 text-sm text-slate-700">
+                          {pick(lesson.terms, lang).map((item) => (
+                            <li key={item.term}>
+                              <span className="font-medium">{item.term}</span>: {item.desc}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    <p className="mt-3 text-sm text-slate-700">{pick(lesson.explain, lang)}</p>
                     <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-700">
                       {pick(lesson.steps, lang).map((step) => (
                         <li key={step}>{step}</li>
@@ -137,10 +158,29 @@ export default async function PostDetail({
                         {lesson.code}
                       </pre>
                     )}
+
+                    {lesson.mistakes && (
+                      <div className="mt-3">
+                        <p className="text-sm font-semibold text-slate-800">{text.commonMistakes}</p>
+                        <ul className="mt-1 list-disc space-y-1 pl-5 text-sm text-slate-700">
+                          {pick(lesson.mistakes, lang).map((m) => (
+                            <li key={m}>{m}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
                     {lesson.practice && (
                       <p className="mt-3 text-sm text-slate-700">
                         <span className="font-semibold">{text.practiceTask}: </span>
                         {pick(lesson.practice, lang)}
+                      </p>
+                    )}
+
+                    {lesson.next && (
+                      <p className="mt-2 text-sm text-slate-600">
+                        <span className="font-semibold">{text.nextStep}: </span>
+                        {pick(lesson.next, lang)}
                       </p>
                     )}
                   </article>

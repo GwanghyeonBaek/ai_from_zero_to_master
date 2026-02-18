@@ -2,10 +2,14 @@ import type { Lang } from "@/lib/i18n";
 
 export type LessonBlock = {
   title: { en: string; ko: string };
+  why?: { en: string; ko: string };
+  terms?: { en: { term: string; desc: string }[]; ko: { term: string; desc: string }[] };
   explain: { en: string; ko: string };
   steps: { en: string[]; ko: string[] };
   code?: string;
+  mistakes?: { en: string[]; ko: string[] };
   practice?: { en: string; ko: string };
+  next?: { en: string; ko: string };
 };
 
 export type CurriculumDetail = {
@@ -64,6 +68,22 @@ export const curriculumDetails: Record<string, CurriculumDetail> = {
     lessons: [
       {
         title: { en: "Chapter 1) Variables and data types", ko: "챕터 1) 변수와 자료형" },
+        why: {
+          en: "Every program is built on storing values. Without variables and types, you cannot control or transform data.",
+          ko: "모든 프로그램은 값을 저장하는 것에서 시작합니다. 변수와 자료형을 모르면 데이터 제어/변환이 불가능합니다.",
+        },
+        terms: {
+          en: [
+            { term: "Variable", desc: "A named container storing a value" },
+            { term: "Data type", desc: "The category of data (int, str, float, bool)" },
+            { term: "Type conversion", desc: "Changing one type into another" },
+          ],
+          ko: [
+            { term: "변수", desc: "값을 이름으로 저장하는 공간" },
+            { term: "자료형", desc: "데이터의 종류(int, str, float, bool)" },
+            { term: "형변환", desc: "자료형을 다른 형태로 바꾸는 것" },
+          ],
+        },
         explain: {
           en: "Understand int/float/str/bool and type conversion.",
           ko: "int/float/str/bool과 형변환의 기본을 익힙니다.",
@@ -73,21 +93,77 @@ export const curriculumDetails: Record<string, CurriculumDetail> = {
           ko: ["변수 선언", "type() 확인", "int()/str()/float() 형변환"],
         },
         code: `age = 27\nheight = 175.2\nname = "Alex"\nprint(type(age), type(height), type(name))\nprint(str(age) + " years old")`,
+        mistakes: {
+          en: ["Using string and number together without conversion", "Overwriting variable names accidentally"],
+          ko: ["문자열과 숫자를 형변환 없이 더함", "같은 변수명을 실수로 덮어씀"],
+        },
         practice: { en: "Create 5 variables for your profile and print one formatted sentence.", ko: "자기소개 변수 5개를 만들고 포맷된 문장 1개를 출력하세요." },
+        next: {
+          en: "Next chapter uses these types in operator expressions and user input.",
+          ko: "다음 챕터에서 이 자료형을 연산자와 사용자 입력에 적용합니다.",
+        },
       },
       {
         title: { en: "Chapter 2) Operators and input/output", ko: "챕터 2) 연산자와 입출력" },
+        why: {
+          en: "Programs become interactive only when they accept input and compute results.",
+          ko: "입력과 계산이 있어야 프로그램이 실제로 상호작용하게 됩니다.",
+        },
+        terms: {
+          en: [
+            { term: "Operator", desc: "A symbol that performs an operation" },
+            { term: "Expression", desc: "A piece of code that evaluates to a value" },
+            { term: "f-string", desc: "String formatting syntax with braces" },
+          ],
+          ko: [
+            { term: "연산자", desc: "연산을 수행하는 기호" },
+            { term: "표현식", desc: "값으로 계산되는 코드 조각" },
+            { term: "f-string", desc: "중괄호로 변수 삽입하는 문자열 포맷" },
+          ],
+        },
         explain: { en: "Use arithmetic/comparison/logical operators with input().", ko: "산술/비교/논리 연산자와 input()을 다룹니다." },
         steps: { en: ["Read user input", "Convert numeric input", "Use f-string output"], ko: ["input()으로 입력 받기", "숫자형 변환", "f-string 출력"] },
         code: `price = int(input("Price: "))\nqty = int(input("Quantity: "))\ntotal = price * qty\nprint(f"Total: {total}")`,
+        mistakes: {
+          en: ["Forgetting int() conversion from input", "Confusing = and =="],
+          ko: ["input 값을 int로 변환하지 않음", "= 과 == 를 혼동"],
+        },
         practice: { en: "Build a simple discount calculator (10% off over 100).", ko: "100 이상 10% 할인 계산기를 만드세요." },
+        next: {
+          en: "Next chapter uses operators to branch logic with if/elif/else.",
+          ko: "다음 챕터에서 연산 결과를 조건문(if/elif/else)에 연결합니다.",
+        },
       },
       {
         title: { en: "Chapter 3) Conditionals", ko: "챕터 3) 조건문" },
+        why: {
+          en: "Decision-making logic is the core of automation. Conditionals decide which action to run.",
+          ko: "자동화의 핵심은 의사결정 로직입니다. 조건문이 어떤 동작을 실행할지 결정합니다.",
+        },
+        terms: {
+          en: [
+            { term: "Boolean", desc: "A True/False value" },
+            { term: "Branch", desc: "One path among many conditional paths" },
+            { term: "Nested if", desc: "if statement inside another if" },
+          ],
+          ko: [
+            { term: "불리언", desc: "True/False 값" },
+            { term: "분기", desc: "조건에 따른 코드 실행 경로" },
+            { term: "중첩 if", desc: "if 안에 또 if를 사용하는 구조" },
+          ],
+        },
         explain: { en: "Control program flow with if/elif/else.", ko: "if/elif/else로 흐름을 제어합니다." },
         steps: { en: ["Single condition", "Multiple branches", "Nested conditions"], ko: ["단일 조건", "다중 분기", "중첩 조건"] },
         code: `score = 83\nif score >= 90:\n    grade = "A"\nelif score >= 80:\n    grade = "B"\nelse:\n    grade = "C"\nprint(grade)`,
+        mistakes: {
+          en: ["Using separate if blocks when elif is needed", "Wrong indentation breaks logic"],
+          ko: ["elif 대신 if를 분리해 논리가 깨짐", "들여쓰기 오류로 조건 로직이 깨짐"],
+        },
         practice: { en: "Write a login checker with id/password and lock message.", ko: "아이디/비밀번호 검사 + 잠금 메시지 로직을 작성하세요." },
+        next: {
+          en: "Next chapter repeats conditional logic across multiple items using loops.",
+          ko: "다음 챕터에서 반복문을 통해 조건 로직을 여러 데이터에 적용합니다.",
+        },
       },
       {
         title: { en: "Chapter 4) Loops", ko: "챕터 4) 반복문" },
