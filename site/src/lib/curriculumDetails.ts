@@ -20,43 +20,389 @@ export type CurriculumDetail = {
 export const curriculumDetails: Record<string, CurriculumDetail> = {
   "00-orientation": {
     intro: {
-      en: "This stage sets your real learning workflow: repository, environment, schedule, and note system.",
-      ko: "이 단계는 실제 학습 운영 체계(저장소, 환경, 일정, 노트 시스템)를 세팅합니다.",
+      en: "Orientation is your system-design phase for learning. You set tools, authentication, repo rules, and execution habits before touching advanced topics.",
+      ko: "오리엔테이션은 학습 시스템 설계 단계입니다. 고급 주제 전에 도구·인증·저장소 규칙·실행 습관을 먼저 구축합니다.",
     },
     lessons: [
       {
-        title: { en: "1) Learning environment setup", ko: "1) 학습 환경 세팅" },
+        title: { en: "Chapter 1) Toolchain installation checklist", ko: "챕터 1) 도구 체인 설치 체크리스트" },
+        why: {
+          en: "If your base tools are unstable, every later lesson fails randomly. This is like building a house foundation before walls.",
+          ko: "기초 도구가 불안정하면 이후 학습이 계속 랜덤하게 실패합니다. 벽보다 기초 공사가 먼저인 것과 같습니다.",
+        },
+        terms: {
+          en: [
+            { term: "Interpreter", desc: "Program that executes Python code" },
+            { term: "CLI", desc: "Command Line Interface tool" },
+            { term: "Extension", desc: "VS Code add-on feature" },
+            { term: "PATH", desc: "Environment variable for command lookup" },
+            { term: "Workspace", desc: "Root folder for one project" },
+          ],
+          ko: [
+            { term: "인터프리터", desc: "파이썬 코드를 실행하는 프로그램" },
+            { term: "CLI", desc: "명령줄 기반 도구" },
+            { term: "확장(Extension)", desc: "VS Code 기능 추가 모듈" },
+            { term: "PATH", desc: "명령어 위치를 찾는 환경변수" },
+            { term: "워크스페이스", desc: "프로젝트 루트 폴더" },
+          ],
+        },
         explain: {
-          en: "Install Python, VS Code, and Git. Verify all tools before moving on.",
-          ko: "Python, VS Code, Git를 설치하고 실행 가능한지 먼저 검증합니다.",
+          en: "Install Python 3.11+, Git, and VS Code. In VS Code, install Python extension and select the project interpreter. Think of this as preparing one clean lab bench before experiments.",
+          ko: "Python 3.11+, Git, VS Code를 설치하고 VS Code에서 Python 확장을 설치해 프로젝트 인터프리터를 선택합니다. 실험 전에 깨끗한 실험대를 만드는 단계라고 보면 됩니다.",
         },
         steps: {
           en: [
-            "Install Python 3.11+",
+            "Install Python from python.org (or package manager)",
+            "Install Git and confirm git command",
             "Install VS Code + Python extension",
-            "Install Git and run git --version",
-            "Create workspace folder and open in VS Code",
+            "Open project folder as workspace",
+            "Verify versions in terminal (python3 or py on Windows)",
           ],
           ko: [
-            "Python 3.11+ 설치",
+            "python.org(또는 패키지 매니저)로 Python 설치",
+            "Git 설치 후 git 명령 인식 확인",
             "VS Code + Python 확장 설치",
-            "Git 설치 후 git --version 확인",
-            "작업 폴더 생성 후 VS Code로 열기",
+            "프로젝트 폴더를 워크스페이스로 열기",
+            "터미널에서 버전 확인",
           ],
         },
-        code: `python3 --version\ngit --version`,
+        code: `python3 --version\ngit --version\ncode --version`,
+        mistakes: {
+          en: [
+            "Installing multiple Python versions and not knowing active one",
+            "Working in random folders outside a workspace",
+            "Skipping version checks after installation",
+            "Not selecting interpreter in VS Code",
+          ],
+          ko: [
+            "파이썬 다중 설치 후 현재 활성 버전 미확인",
+            "워크스페이스 밖 임의 폴더에서 작업",
+            "설치 후 버전 확인 생략",
+            "VS Code 인터프리터 선택 누락",
+          ],
+        },
+        practice: {
+          en: "Capture a screenshot or log proving Python, Git, and VS Code are correctly installed and recognized.",
+          ko: "Python/Git/VS Code가 정상 인식되는 화면 또는 로그를 캡처해 증빙하세요.",
+        },
+        next: {
+          en: "Now isolate dependencies with a virtual environment.",
+          ko: "다음은 가상환경으로 의존성을 격리합니다.",
+        },
       },
       {
-        title: { en: "2) GitHub workflow basics", ko: "2) GitHub 워크플로 기초" },
+        title: { en: "Chapter 2) Virtual environment and dependency hygiene", ko: "챕터 2) 가상환경과 의존성 위생" },
+        why: {
+          en: "Without isolation, package versions conflict across projects. A venv is like giving each project its own private kitchen.",
+          ko: "격리가 없으면 프로젝트 간 패키지 버전 충돌이 발생합니다. venv는 프로젝트마다 독립 주방을 주는 것과 같습니다.",
+        },
+        terms: {
+          en: [
+            { term: "venv", desc: "Project-local Python environment" },
+            { term: "pip", desc: "Python package installer" },
+            { term: "requirements.txt", desc: "Dependency snapshot for reproducibility" },
+            { term: "Activation", desc: "Switch shell context to venv" },
+            { term: "Reproducibility", desc: "Ability to recreate same environment" },
+          ],
+          ko: [
+            { term: "venv", desc: "프로젝트 로컬 파이썬 환경" },
+            { term: "pip", desc: "파이썬 패키지 설치 도구" },
+            { term: "requirements.txt", desc: "의존성 목록 파일" },
+            { term: "활성화", desc: "쉘을 가상환경 컨텍스트로 전환" },
+            { term: "재현성", desc: "동일 환경 재구성 가능성" },
+          ],
+        },
         explain: {
-          en: "Create one public repo and practice commit/push once.",
-          ko: "공개 repo 1개를 만들고 commit/push를 1회 수행합니다.",
+          en: "Create .venv inside each project, activate it, install packages there, and freeze dependencies. Official Python docs emphasize environments are disposable and should be recreated, not moved.",
+          ko: "프로젝트마다 .venv를 만들고 활성화한 뒤 그 안에 패키지를 설치하고 의존성을 고정합니다. 파이썬 공식 문서도 환경은 이동보다 재생성이 원칙이라고 강조합니다.",
         },
         steps: {
-          en: ["Create repo", "git init", "git add .", "git commit", "git push"],
-          ko: ["repo 생성", "git init", "git add .", "git commit", "git push"],
+          en: [
+            "Create .venv with python -m venv .venv",
+            "Activate environment (Linux/macOS/Windows)",
+            "Install packages with python -m pip",
+            "Save dependencies with python -m pip freeze > requirements.txt",
+            "Add .venv to .gitignore",
+          ],
+          ko: [
+            "python -m venv .venv로 가상환경 생성",
+            "OS별 방식으로 가상환경 활성화",
+            "python -m pip로 패키지 설치",
+            "python -m pip freeze > requirements.txt로 의존성 저장",
+            ".gitignore에 .venv 추가",
+          ],
         },
-        code: `git init\ngit add .\ngit commit -m "init"\ngit push -u origin main`,
+        code: `python3 -m venv .venv\n# Linux/macOS\nsource .venv/bin/activate\n# Windows PowerShell\n.venv\\Scripts\\Activate.ps1\n# Windows CMD\n.venv\\Scripts\\activate.bat\npython -m pip install -U pip\npython -m pip freeze > requirements.txt`,
+        mistakes: {
+          en: [
+            "Committing .venv directory to git",
+            "Installing globally instead of inside venv",
+            "Forgetting to regenerate requirements after package changes",
+            "Trying to copy/move venv between machines",
+          ],
+          ko: [
+            ".venv 디렉토리를 git에 커밋",
+            "가상환경 대신 전역 설치",
+            "패키지 변경 후 requirements 갱신 누락",
+            "가상환경을 기기 간 복사/이동 시도",
+          ],
+        },
+        practice: {
+          en: "Delete your .venv and recreate it only from requirements.txt to prove reproducibility.",
+          ko: ".venv를 삭제한 뒤 requirements.txt만으로 재생성해 재현성을 검증하세요.",
+        },
+        next: {
+          en: "Next, configure Git identity and repository defaults correctly.",
+          ko: "다음은 Git 신원 정보와 저장소 기본값을 정확히 설정합니다.",
+        },
+      },
+      {
+        title: { en: "Chapter 3) Git identity and local workflow", ko: "챕터 3) Git 신원 설정과 로컬 워크플로" },
+        why: {
+          en: "Commit history is your learning evidence. Wrong identity and messy commits destroy traceability.",
+          ko: "커밋 히스토리는 학습 증거입니다. 신원 설정 오류와 난잡한 커밋은 추적성을 망칩니다.",
+        },
+        terms: {
+          en: [
+            { term: "user.name", desc: "Commit author name" },
+            { term: "user.email", desc: "Commit author email" },
+            { term: "init.defaultBranch", desc: "Default branch for new repos" },
+            { term: "Staging", desc: "Preparing selected changes" },
+            { term: "Atomic commit", desc: "One logical change per commit" },
+          ],
+          ko: [
+            { term: "user.name", desc: "커밋 작성자 이름" },
+            { term: "user.email", desc: "커밋 작성자 이메일" },
+            { term: "init.defaultBranch", desc: "새 저장소 기본 브랜치" },
+            { term: "스테이징", desc: "선택 변경사항 준비 단계" },
+            { term: "원자적 커밋", desc: "논리적 변경 1개 단위 커밋" },
+          ],
+        },
+        explain: {
+          en: "Set identity once globally, but override per repo when needed. Use small, meaningful commits with clear messages. Think of Git identity and commit discipline like labeling every lab sample: if labels are wrong or mixed, you cannot trust later analysis. Git docs emphasize config scopes: system, global, local.",
+          ko: "신원 정보는 전역으로 1회 설정하되 필요 시 저장소 단위로 오버라이드합니다. 작은 단위의 의미 있는 커밋과 명확한 메시지를 사용하세요. Git 신원과 커밋 규율은 실험 샘플 라벨링과 같아서, 라벨이 틀리거나 섞이면 이후 분석을 신뢰할 수 없습니다. Git 문서도 설정 범위(system/global/local)를 강조합니다.",
+        },
+        steps: {
+          en: [
+            "Set global user.name and user.email",
+            "Set default branch name to main",
+            "Check effective config values",
+            "Commit one logical change at a time",
+          ],
+          ko: [
+            "전역 user.name/user.email 설정",
+            "기본 브랜치를 main으로 설정",
+            "현재 적용 설정값 확인",
+            "논리 변경 1개 단위로 커밋",
+          ],
+        },
+        code: `git config --global user.name "YourName"\ngit config --global user.email "you@example.com"\ngit config --global init.defaultBranch main\ngit config --list --show-origin`,
+        mistakes: {
+          en: [
+            "Using wrong email causing disconnected contribution graph",
+            "One giant commit for many unrelated changes",
+            "No commit message convention",
+          ],
+          ko: [
+            "잘못된 이메일로 기여 그래프 연결 실패",
+            "무관한 변경을 한 번에 대형 커밋",
+            "커밋 메시지 규칙 부재",
+          ],
+        },
+        practice: {
+          en: "Create three atomic commits: setup, dependency, and README update.",
+          ko: "setup/dependency/README 변경을 각각 원자적 커밋 3개로 분리해보세요.",
+        },
+        next: {
+          en: "Now connect local git to GitHub authentication safely.",
+          ko: "이제 로컬 Git을 GitHub 인증과 안전하게 연결합니다.",
+        },
+      },
+      {
+        title: { en: "Chapter 4) GitHub authentication (PAT vs SSH)", ko: "챕터 4) GitHub 인증(PAT vs SSH)" },
+        why: {
+          en: "Push/pull automation depends on stable authentication. Security mistakes here can leak full repo access.",
+          ko: "push/pull 자동화는 안정적인 인증이 핵심이며, 보안 실수 시 저장소 접근이 노출될 수 있습니다.",
+        },
+        terms: {
+          en: [
+            { term: "PAT", desc: "Personal Access Token for HTTPS auth" },
+            { term: "Fine-grained token", desc: "Token with minimal scoped permissions" },
+            { term: "SSH key", desc: "Public/private keypair auth" },
+            { term: "Least privilege", desc: "Grant only required permissions" },
+            { term: "Credential helper", desc: "Securely stores credentials locally" },
+          ],
+          ko: [
+            { term: "PAT", desc: "HTTPS 인증용 개인 액세스 토큰" },
+            { term: "세분화 토큰", desc: "최소 권한 범위 토큰" },
+            { term: "SSH 키", desc: "공개키/개인키 기반 인증" },
+            { term: "최소권한", desc: "필요한 권한만 부여" },
+            { term: "credential helper", desc: "로컬 인증정보 저장 도구" },
+          ],
+        },
+        explain: {
+          en: "For HTTPS, use fine-grained PAT with expiration and minimum repo permissions. For long-term development machines, SSH keys are often more convenient. Think of PAT/SSH like office access cards and master keys: you issue the minimum access, track who can enter, and immediately disable compromised credentials. Never hardcode tokens in scripts.",
+          ko: "HTTPS는 만료일과 최소 저장소 권한을 가진 세분화 PAT를 사용합니다. 장기 개발 머신은 SSH 키가 더 편한 경우가 많습니다. PAT/SSH는 출입카드와 마스터키처럼 다뤄야 해서, 최소 권한만 발급하고 접근 주체를 추적하며 노출 즉시 비활성화해야 합니다. 토큰을 스크립트에 하드코딩하면 안 됩니다.",
+        },
+        steps: {
+          en: [
+            "Choose auth mode (PAT or SSH)",
+            "If PAT: create fine-grained token + expiration",
+            "If SSH: generate ed25519 key and register public key",
+            "Test authentication and push",
+          ],
+          ko: [
+            "인증 방식(PAT/SSH) 선택",
+            "PAT라면 세분화 토큰 + 만료일 설정",
+            "SSH라면 ed25519 키 생성 후 공개키 등록",
+            "인증 테스트 후 push 확인",
+          ],
+        },
+        code: `# HTTPS + PAT flow\ngit config --global credential.helper store\ngit remote set-url origin https://github.com/<user>/<repo>.git\ngit push\n# (enter GitHub username + PAT when prompted)\n\n# SSH flow\nssh-keygen -t ed25519 -C "you@example.com"\nssh-add ~/.ssh/id_ed25519\ncat ~/.ssh/id_ed25519.pub\nssh -T git@github.com`,
+        mistakes: {
+          en: [
+            "Using over-permissioned classic tokens without expiration",
+            "Committing PAT into repo accidentally",
+            "Not revoking and rotating token after exposure",
+            "Sharing private SSH key or skipping passphrase protection",
+          ],
+          ko: [
+            "만료 없는 과권한 classic 토큰 사용",
+            "PAT를 저장소에 실수로 커밋",
+            "토큰 노출 후 revoke/rotation 미실행",
+            "SSH 개인키 공유 또는 패스프레이즈 미설정",
+          ],
+        },
+        practice: {
+          en: "Set up both PAT and SSH in a sandbox repo, then document when to choose each.",
+          ko: "샌드박스 저장소에서 PAT와 SSH를 모두 설정하고, 각각 언제 쓰는지 기준을 문서화하세요.",
+        },
+        next: {
+          en: "With auth done, enforce project structure and quality commands.",
+          ko: "인증이 끝났다면 프로젝트 구조와 품질 명령을 고정합니다.",
+        },
+      },
+      {
+        title: { en: "Chapter 5) Project scaffold and quality baseline", ko: "챕터 5) 프로젝트 스캐폴드와 품질 기준" },
+        why: {
+          en: "A consistent scaffold prevents chaos when content grows across many tracks.",
+          ko: "트랙이 많아질수록 일관된 스캐폴드가 없으면 금방 혼란해집니다.",
+        },
+        terms: {
+          en: [
+            { term: "Scaffold", desc: "Initial folder/file skeleton" },
+            { term: "Lint", desc: "Static code quality checks" },
+            { term: "Build", desc: "Compile/validate site output" },
+            { term: "CI", desc: "Automated checks per push" },
+          ],
+          ko: [
+            { term: "스캐폴드", desc: "초기 폴더/파일 골격" },
+            { term: "린트", desc: "정적 코드 품질 검사" },
+            { term: "빌드", desc: "사이트 결과 검증/생성" },
+            { term: "CI", desc: "push마다 자동 점검" },
+          ],
+        },
+        explain: {
+          en: "Define folder conventions, run commands, and done-definition now. This is like labeling shelves in a warehouse before stock arrives—retrieval stays fast as content grows.",
+          ko: "폴더 규칙·실행 명령·완료 기준을 지금 정의하면 이후 콘텐츠 확장 시 시간을 크게 절약합니다. 물건 입고 전에 창고 선반 라벨을 붙이는 것과 같은 원리입니다.",
+        },
+        steps: {
+          en: [
+            "Create standard folders (curriculum/resources/site)",
+            "Document setup commands in README",
+            "Run lint/build before each push",
+            "Adopt commit message convention",
+          ],
+          ko: [
+            "표준 폴더(curriculum/resources/site) 구성",
+            "README에 실행 명령 문서화",
+            "매 push 전 lint/build 실행",
+            "커밋 메시지 규칙 적용",
+          ],
+        },
+        code: `npm run build\n# optional\n# npm run lint`,
+        mistakes: {
+          en: [
+            "Skipping lint/build before push",
+            "No README setup/run instructions",
+            "Inconsistent folder naming across tracks",
+            "No CI parity between local and remote checks",
+          ],
+          ko: [
+            "push 전 lint/build 생략",
+            "README에 설치/실행 안내 미작성",
+            "트랙별 폴더 네이밍 불일치",
+            "로컬/원격 검사 기준 불일치",
+          ],
+        },
+        practice: {
+          en: "Write a one-page contributor guide: setup, run, commit, deploy.",
+          ko: "설치/실행/커밋/배포를 포함한 1페이지 기여 가이드를 작성하세요.",
+        },
+        next: {
+          en: "Final chapter creates your 2-week learning execution plan.",
+          ko: "마지막 챕터에서 2주 학습 실행 계획을 만듭니다.",
+        },
+      },
+      {
+        title: { en: "Chapter 6) 14-day execution plan", ko: "챕터 6) 14일 실행 계획" },
+        why: {
+          en: "People fail not because content is weak, but because schedule and feedback loops are missing.",
+          ko: "학습 실패의 주요 원인은 콘텐츠 부족보다 일정과 피드백 루프 부재입니다.",
+        },
+        terms: {
+          en: [
+            { term: "Cadence", desc: "Fixed rhythm of study sessions" },
+            { term: "Checkpoint", desc: "Scheduled progress review point" },
+            { term: "Retrospective", desc: "Post-activity reflection" },
+          ],
+          ko: [
+            { term: "케이던스", desc: "고정 학습 리듬" },
+            { term: "체크포인트", desc: "진도 점검 시점" },
+            { term: "회고", desc: "수행 후 개선 정리" },
+          ],
+        },
+        explain: {
+          en: "Build a realistic 14-day plan (60–90 min/day): study, coding, review, and publish. Treat it like sprint planning.",
+          ko: "현실적인 14일 계획(하루 60~90분)을 구성합니다: 학습·코딩·리뷰·공개. 스프린트 계획처럼 운영하세요.",
+        },
+        steps: {
+          en: [
+            "Define daily slot and backup slot",
+            "Set day-7 and day-14 checkpoints",
+            "Publish one weekly summary",
+            "Log blockers and mitigation",
+          ],
+          ko: [
+            "일일 학습 시간과 백업 시간 지정",
+            "7일차/14일차 체크포인트 설정",
+            "주간 요약 1회 공개",
+            "장애요인과 대응책 기록",
+          ],
+        },
+        code: `Day | Time | Output | Checkpoint\n01  | 20:00-21:00 | Setup notes | Tools verified\n07  | 20:00-21:30 | Week-1 summary | Checkpoint review\n14  | 20:00-21:30 | Final recap | Goal completion` ,
+        mistakes: {
+          en: [
+            "Planning unrealistic daily workload",
+            "No buffer day for missed sessions",
+            "Checkpoint without measurable criteria",
+            "Skipping retrospective after week 1",
+          ],
+          ko: [
+            "비현실적인 일일 학습량 계획",
+            "미이행 대비 버퍼일 미설정",
+            "측정 기준 없는 체크포인트",
+            "1주차 후 회고 생략",
+          ],
+        },
+        practice: {
+          en: "Submit your 14-day plan with exact times, outputs, and review criteria.",
+          ko: "정확한 시간/산출물/검토기준이 포함된 14일 계획표를 제출하세요.",
+        },
+        next: {
+          en: "You are now ready to start Python fundamentals with a stable execution system.",
+          ko: "이제 안정적인 실행 시스템을 갖춘 상태로 파이썬 기초 트랙에 진입할 수 있습니다.",
+        },
       },
     ],
   },
