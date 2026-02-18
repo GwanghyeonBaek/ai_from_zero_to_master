@@ -1,31 +1,48 @@
 import Link from "next/link";
 import { getAllPosts, getAllTags } from "@/lib/content";
+import { resolveLang, ui } from "@/lib/i18n";
 
-function kindBadge(kind: "curriculum" | "resource") {
-  return kind === "curriculum" ? "커리큘럼" : "자동 리소스";
+function kindBadge(kind: "curriculum" | "resource", lang: "en" | "ko") {
+  return kind === "curriculum" ? ui[lang].curriculum : ui[lang].resources;
 }
 
-export default function HomePage() {
+export default async function HomePage({
+  searchParams,
+}: {
+  searchParams: Promise<{ lang?: string }>;
+}) {
+  const { lang: qLang } = await searchParams;
+  const lang = resolveLang(qLang);
+  const text = ui[lang];
+
   const posts = getAllPosts();
   const tags = getAllTags();
 
   return (
     <main className="mx-auto min-h-screen max-w-6xl px-6 py-10">
       <header className="mb-10">
-        <p className="text-sm text-slate-500">AI Education Blog</p>
-        <h1 className="mt-2 text-3xl font-bold tracking-tight">AI From Zero to Master</h1>
-        <p className="mt-3 max-w-3xl text-slate-600">
-          GitHub의 콘텐츠를 기반으로 자동 갱신되는 학습 블로그입니다. 커리큘럼 트랙과 최신 리소스를 카드형으로 탐색해 보세요.
-        </p>
+        <div className="mb-4 flex items-center justify-between">
+          <p className="text-sm text-slate-500">{text.siteLabel}</p>
+          <div className="flex gap-2 text-sm">
+            <Link href="/?lang=en" className={`rounded-full border px-3 py-1 ${lang === "en" ? "bg-slate-100" : ""}`}>
+              {text.langEn}
+            </Link>
+            <Link href="/?lang=ko" className={`rounded-full border px-3 py-1 ${lang === "ko" ? "bg-slate-100" : ""}`}>
+              {text.langKo}
+            </Link>
+          </div>
+        </div>
+        <h1 className="mt-2 text-3xl font-bold tracking-tight">{text.title}</h1>
+        <p className="mt-3 max-w-3xl text-slate-600">{text.subtitle}</p>
       </header>
 
       <section className="mb-8">
-        <h2 className="mb-3 text-lg font-semibold">태그</h2>
+        <h2 className="mb-3 text-lg font-semibold">{text.tags}</h2>
         <div className="flex flex-wrap gap-2">
           {tags.map((tag) => (
             <Link
               key={tag}
-              href={`/tags/${encodeURIComponent(tag)}`}
+              href={`/tags/${encodeURIComponent(tag)}?lang=${lang}`}
               className="rounded-full border px-3 py-1 text-sm text-slate-700 hover:bg-slate-100"
             >
               #{tag}
@@ -36,16 +53,18 @@ export default function HomePage() {
 
       <section>
         <div className="mb-4 flex items-center justify-between">
-          <h2 className="text-xl font-semibold">포스트</h2>
-          <span className="text-sm text-slate-500">{posts.length}개</span>
+          <h2 className="text-xl font-semibold">{text.posts}</h2>
+          <span className="text-sm text-slate-500">{posts.length}</span>
         </div>
         <div className="grid gap-4 md:grid-cols-2">
           {posts.map((post) => (
             <article key={post.slug} className="rounded-2xl border bg-white p-5 shadow-sm">
               <div className="mb-3 flex items-center gap-2">
-                <span className="rounded-full bg-slate-100 px-2 py-1 text-xs text-slate-600">{kindBadge(post.kind)}</span>
+                <span className="rounded-full bg-slate-100 px-2 py-1 text-xs text-slate-600">{kindBadge(post.kind, lang)}</span>
                 {post.updatedAt && (
-                  <span className="text-xs text-slate-500">업데이트: {post.updatedAt}</span>
+                  <span className="text-xs text-slate-500">
+                    {text.updated}: {post.updatedAt}
+                  </span>
                 )}
               </div>
               <h3 className="text-lg font-semibold">{post.title}</h3>
@@ -58,10 +77,10 @@ export default function HomePage() {
                 ))}
               </div>
               <Link
-                href={`/posts/${post.slug}`}
+                href={`/posts/${post.slug}?lang=${lang}`}
                 className="mt-4 inline-block text-sm font-medium text-blue-700 hover:underline"
               >
-                포스트 보기 →
+                {text.viewPost}
               </Link>
             </article>
           ))}

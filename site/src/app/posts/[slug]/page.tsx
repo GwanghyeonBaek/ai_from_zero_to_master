@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/content";
+import { resolveLang, ui } from "@/lib/i18n";
 
 export function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }));
@@ -8,18 +9,34 @@ export function generateStaticParams() {
 
 export default async function PostDetail({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<{ lang?: string }>;
 }) {
   const { slug } = await params;
+  const { lang: qLang } = await searchParams;
+  const lang = resolveLang(qLang);
+  const text = ui[lang];
+
   const post = getPostBySlug(slug);
   if (!post) return notFound();
 
   return (
     <main className="mx-auto min-h-screen max-w-4xl px-6 py-10">
-      <Link href="/" className="text-sm text-slate-600 hover:underline">
-        ← 홈으로
-      </Link>
+      <div className="mb-4 flex items-center justify-between">
+        <Link href={`/?lang=${lang}`} className="text-sm text-slate-600 hover:underline">
+          {text.backHome}
+        </Link>
+        <div className="flex gap-2 text-sm">
+          <Link href={`/posts/${slug}?lang=en`} className={`rounded-full border px-3 py-1 ${lang === "en" ? "bg-slate-100" : ""}`}>
+            {text.langEn}
+          </Link>
+          <Link href={`/posts/${slug}?lang=ko`} className={`rounded-full border px-3 py-1 ${lang === "ko" ? "bg-slate-100" : ""}`}>
+            {text.langKo}
+          </Link>
+        </div>
+      </div>
 
       <header className="mt-5 mb-8">
         <h1 className="text-3xl font-bold tracking-tight">{post.title}</h1>
@@ -28,7 +45,7 @@ export default async function PostDetail({
           {post.tags.map((tag) => (
             <Link
               key={tag}
-              href={`/tags/${encodeURIComponent(tag)}`}
+              href={`/tags/${encodeURIComponent(tag)}?lang=${lang}`}
               className="rounded-full border px-2 py-1 text-xs text-slate-600"
             >
               #{tag}
@@ -39,7 +56,7 @@ export default async function PostDetail({
 
       {post.kind === "resource" && (
         <section>
-          <h2 className="mb-3 text-xl font-semibold">자동 생성된 링크 목록</h2>
+          <h2 className="mb-3 text-xl font-semibold">{text.autoLinks}</h2>
           <div className="space-y-3">
             {(post.links || []).map((item) => (
               <article key={item.url} className="rounded-xl border p-4">
@@ -60,7 +77,7 @@ export default async function PostDetail({
 
       {post.kind === "curriculum" && (
         <section>
-          <h2 className="mb-3 text-xl font-semibold">로드맵</h2>
+          <h2 className="mb-3 text-xl font-semibold">{text.roadmap}</h2>
           <pre className="overflow-x-auto rounded-xl border bg-slate-50 p-4 text-sm leading-7 text-slate-700">
             {post.body}
           </pre>
