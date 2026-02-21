@@ -48,26 +48,22 @@ function extractSectionBullets(md: string, headingKeywords: string[]): string[] 
 function parseRoadmapPlan(level: string): Partial<CurriculumPlan> | undefined {
   const md = readText(path.join(ROOT, "curriculum", level, "roadmap.md"));
   if (!md) return undefined;
-  const firstHeading = md.split("\n").find((l) => l.startsWith("# "))?.replace(/^#\s+/, "").trim();
-  const quote = md
-    .split("\n")
-    .find((l) => l.trim().startsWith(">"))
-    ?.replace(/^>\s*/, "")
-    .trim();
 
-  const goals = extractSectionBullets(md, ["학습목표", "Learning Outcomes"]);
+  const goals = extractSectionBullets(md, ["학습목표", "learning outcomes"]);
   const actions = extractSectionBullets(md, ["필수 실습", "필수 과제", "필수 체크", "실습", "과제", "required"]);
-  const deliverables = extractSectionBullets(md, ["출력물 패키지", "증빙 패키지", "Evidence"]);
+  const deliverables = extractSectionBullets(md, ["출력물 패키지", "증빙 패키지", "evidence"]);
 
-  const koTitle = firstHeading?.split("—")[1]?.trim() || firstHeading || level;
+  // Keep bilingual title/summary from canonical static map so EN/KO switching remains stable.
+  // Dynamic roadmap parsing is used for detailed list items.
+  const base = curriculumPlans[level];
 
   return {
     key: level,
-    title: { en: koTitle, ko: koTitle },
-    summary: { en: quote || "", ko: quote || "" },
+    title: base?.title,
+    summary: base?.summary,
     goals: { en: goals, ko: goals },
     actions: { en: actions, ko: actions },
-    tools: { en: [], ko: [] },
+    tools: base?.tools || { en: [], ko: [] },
     deliverables: { en: deliverables, ko: deliverables },
   };
 }
