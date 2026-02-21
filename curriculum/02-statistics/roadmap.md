@@ -171,3 +171,23 @@
 2. 숫자를 비즈니스 언어로 바꾸는 데 어떤 약점이 있는가?
 3. 검정 결과의 한계를 얼마나 명확히 설명했는가?
 4. 다음 챕터(SQL)에서 통계 분석과 연결할 포인트는 무엇인가?
+
+---
+
+## 9) 외부 공신력 자료 액기스 반영 (Statistics)
+
+### 참고자료
+- Khan Academy Statistics: https://www.khanacademy.org/math/statistics-probability
+- OpenIntro Statistics: https://www.openintro.org/book/os/
+- Think Stats 2e: https://greenteapress.com/wp/think-stats-2e/
+
+### 핵심 추출 내용(액기스)
+1. **평균 단독 해석 금지**: 분산/분포를 함께 봐야 왜곡을 피할 수 있음.
+2. **p-value 과신 금지**: 효과크기(effect size)와 실무 의미를 같이 제시해야 함.
+3. **표본 설계가 성능보다 먼저**: 잘못 뽑은 표본은 어떤 검정도 신뢰 어렵다.
+4. **시각화 + 통계치 동시 보고**: 수치만/그래프만 단독보다 해석 안정성이 높음.
+
+### 반영 매핑
+- Week1: 분포/이상치 해석
+- Week2: 신뢰구간/가설검정 + p-value 오해 교정
+- Week3: A/B 리포트에 "결론+한계+다음실험" 구조 강제

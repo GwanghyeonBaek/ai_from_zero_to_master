@@ -110,3 +110,24 @@
 - `curriculum/04-data-viz/exercises/problem-set.md`
 - `curriculum/04-data-viz/solutions/answer-guide.md`
 - `curriculum/04-data-viz/projects/sample-dashboard/`
+
+---
+
+## 9) 외부 공신력 자료 액기스 반영 (Data Visualization)
+
+### 참고자료
+- Fundamentals of Data Visualization: https://clauswilke.com/dataviz/
+- Storytelling with Data: https://www.storytellingwithdata.com/
+- seaborn docs: https://seaborn.pydata.org/
+- matplotlib docs: https://matplotlib.org/
+
+### 핵심 추출 내용(액기스)
+1. **질문-차트 정합성**: 차트는 미적 요소가 아니라 질문에 대한 답변 도구.
+2. **인지부하 최소화**: 불필요한 색/장식 제거, 메시지 중심 설계.
+3. **왜곡 방지 규율**: 축/스케일/범례/주석을 통해 오해 가능성 통제.
+4. **스토리 구조화**: 질문→증거→결론→액션 순서로 보고해야 의사결정 연결이 됨.
+
+### 반영 매핑
+- Week1: 차트 선택 기준 훈련
+- Week2: 왜곡 교정 + 접근성 강화
+- Week3: 스토리형 리포트/대시보드 완성
