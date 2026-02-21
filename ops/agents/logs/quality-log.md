@@ -22,3 +22,24 @@
   - `chapter-00-review.md`: **90/100 PASS** (all previously missing DoD/proof artifacts resolved)
   - `chapter-05-review.md`: **86/100 PASS** (lesson depth, deterministic labs, solution detail, rubric row-links resolved)
   - Final status: chapters 00~05 now PASS.
+- [13:31 UTC] Chapter 06 quality protocol prepared.
+  - Created/updated `ops/agents/reviews/chapter-06-review.md` as **PENDING** template.
+  - Embedded deterministic AGENT_QUALITY rubric, decision rule, critical defect rules, and evidence-linked checklist.
+  - Status: waiting for chapter-06 deliverables before scoring.
+- [13:43 UTC] Site detailed curriculum QA completed (00~05 scope).
+  - Review output: `ops/agents/reviews/site-detailed-learning-review.md`
+  - Score: **76/100**
+  - Verdict: **FAIL**
+  - Critical defects:
+    1) `00-orientation` actions mapping gap (`필수 체크` not parsed by current keyword set)
+    2) Lesson markdown rendered as lossy summary (not full markdown), causing detail-content drop
+  - Build evidence: `site/` `npm run build` succeeded (exit 0, static pages generated).
+  - Required fixes documented with file-level actions in review.
+- [13:52 UTC] Site detailed curriculum re-review completed after fixes (00~05 scope).
+  - Review output updated: `ops/agents/reviews/site-detailed-learning-review.md`
+  - Score: **91/100**
+  - Verdict: **PASS**
+  - Prior critical defect status:
+    1) `00-orientation` actions mapping: RESOLVED (`필수 체크`/normalized heading parsing now captured)
+    2) Lossy lesson rendering on primary detailed path: RESOLVED (section-based full markdown rendering path active)
+  - Build evidence: `site/` `npm run build` succeeded (exit 0, static pages generated 19/19).

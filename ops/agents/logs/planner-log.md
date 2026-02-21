@@ -17,3 +17,21 @@
   - Rationale: direct requirement from `mlcc_analysis.json` (`ml_fundamentals_required_model_methods`) and fairness module inclusion.
 - Decision: include explicit deliverable taxonomy per chapter: lessons/exercises/solutions/projects/rubrics/evidence.
   - Rationale: user request + AGENT_PLANNER checklist completeness requirement.
+- Created `ops/agents/plans/chapter-06-master-plan.md` to extend planning into deep learning.
+- Decision: treat MLCC `neural-networks` and `embeddings` as direct core mappings, and `fairness` as mandatory bridge mapping in chapter 06.
+  - Rationale: `mlcc_analysis.json` marks neural/embedding as direct fit for 06; fairness is positioned as cross-quality axis and must be introduced before later MLOps/capstone hardening.
+- Decision: define chapter 06 mandatory concepts as assessable competencies (architecture, optimization, regularization, embedding design, subgroup audit, reproducibility).
+  - Rationale: existing 06 roadmap is currently minimal and non-assessable; planning needed measurable depth.
+- Decision: require 10 lessons, 12 labs, 2 projects, and a dedicated fairness bridge report.
+  - Rationale: aligns with prior chapter planning pattern and quality gate rule: each core concept needs lesson+practice+evidence.
+- Decision: set gate rubric to 100 with pass 75, with auto-fail conditions for missing split evidence, embedding experiments, fairness audit, or runnable artifacts.
+  - Rationale: consistency with 00~05 baseline pass standard while preventing superficial completion.
+- Decision: include explicit evidence package (notebooks/reports/artifacts/src/README/checkpoints) and clean-environment rerun as exit criterion.
+  - Rationale: continuity with reproducibility standards established in master planning and MLCC adaptation quality gates.
+- Created `ops/agents/plans/site-detailed-learning-plan.md` for 00~05 site IA/UX conversion (tabs: lessons/exercises/solutions/evaluation/evidence/projects).
+- Decision: define deterministic file-to-UI mapping with priority + fallback chain (L1 directory files → L2 chapter root helper files → L3 roadmap sections → L4 static curriculumDetails → L5 empty contract state).
+  - Rationale: current `page.tsx` + `getCurriculumDetail` path only surfaces lesson-centric data; repository already contains tab-aligned assets across 00~05 and should be rendered without hardcoding.
+- Decision: set chapter completeness gate as 6-tab coverage minimum, plus stricter 05 checks (lessons/labs/solutions/leakage set counts).
+  - Rationale: aligns UX completion signal with MLCC quality-gate intent (lesson-practice-evaluation-evidence-project coherence) and existing 05 artifact granularity.
+- Decision: markdown-first rendering strategy (file card + sanitized markdown + checklist/code support) with fallback badge visibility.
+  - Rationale: curriculum assets are authored as markdown and include code/checklists/rubrics; preserving authoring format minimizes transformation loss and enables fast scaling.
