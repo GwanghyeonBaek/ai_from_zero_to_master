@@ -234,3 +234,27 @@ git config --list --show-origin
 - 오리엔테이션 게이트 통과 후 `01-python`으로 이동
 - `01-python`도 동일하게 **학습 목표 → 실습 → 평가 → 증빙** 구조로 완성
 - 최종적으로 00~09 모든 챕터를 한 플랫폼 내에서 완주 가능하게 운영
+
+---
+
+## 8) 외부 공신력 자료 연동 (00 챕터 반영)
+
+### 참고자료
+- The Missing Semester (MIT): https://missing.csail.mit.edu/
+- Git 공식 문서: https://git-scm.com/doc
+- Python 공식 문서(venv): https://docs.python.org/3/library/venv.html
+
+### 레슨 매핑
+- orientation-01-environment.md
+  - Missing Semester: Shell/개발환경 기본기
+- orientation-02-venv.md
+  - Python docs (venv): 생성/활성화/재생성 기준
+- orientation-03-git-auth.md
+  - Git docs: config scope / branch / commit / remote 기본
+- orientation-04-learning-ops.md ~ orientation-07-roadmap.md
+  - Missing Semester의 실무형 학습 습관/자동화 철학을 운영 규칙에 반영
+
+### 반영 원칙
+- 오리엔테이션의 모든 실습은 “재현 가능성”을 우선한다.
+- 명령어/설정은 공식 문서 기준을 우선 적용한다.
+- 도구 선택은 학습 효율과 보안(최소권한) 관점에서 결정한다.
