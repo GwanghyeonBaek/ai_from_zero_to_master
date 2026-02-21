@@ -1,0 +1,11 @@
+# Evidence Checklist (00)
+- [ ] setup-proof
+- [ ] venv-proof
+- [ ] git/auth logs
+- [ ] learning-contract
+- [ ] assessment-plan
+- [ ] 14-day plan
+- [ ] 90-day plan
+- [ ] retrospective
+- [ ] rerun-from-scratch proof
+- [ ] remote push proof
