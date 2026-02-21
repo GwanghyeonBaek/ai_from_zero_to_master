@@ -1,4 +1,4 @@
-# AI & Data Analysis: Zero → Pro
+# AI & Data Analysis: Zero → Master
 
 초보자가 **데이터분석 + AI**를 기초부터 실무/전문가 수준까지 학습할 수 있도록 만든 오픈 학습 리포지토리입니다.
 
