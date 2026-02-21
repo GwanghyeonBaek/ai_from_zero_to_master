@@ -1,9 +1,9 @@
 # Leakage Reenactment 01
 
-## Input Data
+## 입력 데이터
 - Path: `data/mlcc/ch05/main.csv`
 
-## Run Command
+## 실행 명령
 ```bash
 python curriculum/05-ml-fundamentals/solutions/src/pipeline.py --lab leakage-01 --data data/mlcc/ch05/main.csv --seed 42
 ```
@@ -13,10 +13,10 @@ python curriculum/05-ml-fundamentals/solutions/src/pipeline.py --lab leakage-01 
 - `artifacts/leakage-01/after-fix-metrics.csv`
 - `artifacts/leakage-01/fix-notes.md`
 
-## Acceptance Threshold
+## 합격 기준
 - Inflated metric observed before fix.
 - Metric normalizes after fix with documented cause.
-- Guardrail test added in `fix-notes.md`.
+- Guardrail test added in `fix-notes.md` 항목 참조.
 
-## Scoring Link
-- See rubric row `LEAK-01`.
+## 채점 연계
+- See rubric row `LEAK-01` 항목 참조.

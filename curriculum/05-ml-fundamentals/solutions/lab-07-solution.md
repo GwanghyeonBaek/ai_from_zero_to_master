@@ -19,5 +19,5 @@ print(train.shape, test.shape)
 
 ## Validation Notes
 - Seed must be fixed to 42.
-- Artifact files must be generated under `artifacts/lab-07/`.
+- Artifact files must be generated under `artifacts/lab-07/` 항목 참조.
 - Compare against dummy baseline and record uplift.

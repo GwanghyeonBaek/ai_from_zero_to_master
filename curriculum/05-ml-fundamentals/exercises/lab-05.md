@@ -1,20 +1,20 @@
 # Lab-05: linear regression diagnostics
 
-## Input Data
+## 입력 데이터
 - Path: `data/mlcc/ch05/main.csv`
 - Optional config: `data/mlcc/ch05/config.yaml`
 
-## Run Command
+## 실행 명령
 ```bash
 python curriculum/05-ml-fundamentals/solutions/src/pipeline.py --lab 5 --data data/mlcc/ch05/main.csv --seed 42
 ```
 
-## Expected Output Artifacts
-- Required: `artifacts/lab-05/regression-metrics.csv`
-- Log: `artifacts/lab-05/run.log`
+## 예상 산출물
+- 필수: `artifacts/lab-05/regression-metrics.csv`
+- 로그: `artifacts/lab-05/run.log`
 
-## Acceptance Threshold
+## 합격 기준
 - `rmse <= baseline_rmse * 0.95`
 
-## Scoring Link
-- See `curriculum/05-ml-fundamentals/rubrics/chapter-rubric.md` → row `LAB-05`.
+## 채점 연계
+- `curriculum/05-ml-fundamentals/rubrics/chapter-rubric.md`의 `LAB-05` 항목 참조.
