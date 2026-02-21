@@ -16,8 +16,8 @@
 ## 빠른 시작
 ```bash
 # 1) 클론
-# git clone <your-repo-url>
-# cd ai-data-from-zero-to-pro
+# git clone https://github.com/GwanghyeonBaek/ai_from_zero_to_master.git
+# cd ai_from_zero_to_master/ai-data-from-zero-to-pro
 
 # 2) Python 환경
 python3 -m venv .venv
@@ -27,6 +27,8 @@ pip install -r requirements.txt
 # 3) 최신 자료 수집(수동)
 python scripts/update_resources.py
 ```
+
+상세 설치/실행 문서는 `SETUP.md`를 확인하세요.
 
 ## 블로그(Next.js) 실행
 ```bash
@@ -39,7 +41,10 @@ npm run dev
 - 태그 페이지: `/tags/[tag]`
 - 포스트 상세: `/posts/[slug]`
 - `resources/latest.md` 섹션별로 자동 포스트 생성
-- 커리큘럼 상세 학습 콘텐츠(현재 00~03 우선 제공, EN/KO)
+- 커리큘럼 상세 학습 콘텐츠(00~09, EN/KO)
+
+> 중요: Vercel 사이트는 **학습 콘텐츠 뷰어** 역할이며,
+> 실습 실행/증빙 생성은 로컬 환경에서 진행하는 것을 권장합니다.
 
 ## 폴더 구조
 - `curriculum/`: 단계별 학습 로드맵(체크리스트 포함)
@@ -62,11 +67,18 @@ npm run dev
 
 이후에는 `main` 브랜치에 push할 때마다 Vercel이 자동 배포합니다.
 
+## 실행 및 교육 방법 (권장)
+1. 챕터별 `roadmap.md`에서 완료 기준 먼저 확인
+2. `lessons/` 학습 → `exercises/` 수행 → `solutions/` 복기
+3. `projects/` 수행 후 `rubrics/`로 자가 채점
+4. `evidence/`에 증빙 정리 후 다음 챕터로 이동
+5. Pass 기준 미달이면 해당 챕터 재학습
+
 ## 추천 학습 루프
-1. 로드맵 체크리스트 진행
-2. 매주 미니 프로젝트 1개
-3. 매달 포트폴리오 업데이트
-4. 자동 업데이트된 최신 자료에서 1~2개 읽고 정리
+1. 주 5일, 하루 1~2시간 학습 고정
+2. 주간 목표: 실습 3개 + 미니 프로젝트 1개
+3. 월간 목표: 챕터 1개 완주 + 회고 1회
+4. 자동 업데이트된 최신 자료에서 1~2개 읽고 적용
 
 ## 기여 규칙
 - 초보자 친화적 설명 우선
