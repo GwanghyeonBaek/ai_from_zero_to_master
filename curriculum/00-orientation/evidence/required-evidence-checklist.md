@@ -1,11 +1,13 @@
-# Evidence Checklist (00)
-- [ ] setup-proof
-- [ ] venv-proof
-- [ ] git/auth logs
-- [ ] learning-contract
-- [ ] assessment-plan
-- [ ] 14-day plan
-- [ ] 90-day plan
-- [ ] retrospective
-- [ ] rerun-from-scratch proof
-- [ ] remote push proof
+# Evidence Checklist (00) — linked artifacts
+- [ ] setup-proof → `curriculum/00-orientation/setup-proof.md`
+- [ ] venv-proof → `curriculum/00-orientation/venv-proof.md`
+- [ ] git-hygiene → `curriculum/00-orientation/git-hygiene.md`
+- [ ] auth-decision → `curriculum/00-orientation/auth-decision.md`
+- [ ] learning-contract → `curriculum/00-orientation/learning-contract.md`
+- [ ] assessment-plan → `curriculum/00-orientation/assessment-plan.md`
+- [ ] 14-day plan → `curriculum/00-orientation/plan-14days.md`
+- [ ] 90-day plan → `curriculum/00-orientation/plan-90days.md`
+- [ ] ai-safety-checklist → `curriculum/00-orientation/ai-safety-checklist.md`
+- [ ] orientation-retrospective → `curriculum/00-orientation/orientation-retrospective.md`
+- [ ] rerun-from-scratch proof detail → `curriculum/00-orientation/setup-proof.md` (Rerun section)
+- [ ] remote push proof detail → `curriculum/00-orientation/git-hygiene.md` (Remote Push Proof)
