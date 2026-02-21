@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "source": "Google Machine Learning Crash Course (MLCC, ko)",
+    "source_url": "https://developers.google.com/machine-learning/crash-course?hl=ko",
+    "collected_at_utc": "2026-02-21T13:11:00Z",
+    "method": "web_fetch module pages + curriculum mapping",
+    "license_note": "Google Developers content is licensed (CC BY 4.0 / Apache 2.0 where noted). This JSON stores structured analysis and adaptation plan, not verbatim course copy."
+  },
+  "module_catalog": [
+    {
+      "id": "mlcc-linear-regression",
+      "title_ko": "선형 회귀",
+      "url": "https://developers.google.com/machine-learning/crash-course/linear-regression?hl=ko",
+      "level": "foundational",
+      "core_topics": ["선형 모델", "편향/가중치", "손실", "경사하강", "다중 특성 선형회귀"],
+      "practical_outcomes": ["회귀 문제를 수식/코드로 구현", "잔차 해석 및 오차 지표 계산"],
+      "fit_for_project": "05-ml-fundamentals 핵심"
+    },
+    {
+      "id": "mlcc-logistic-regression",
+      "title_ko": "로지스틱 회귀",
+      "url": "https://developers.google.com/machine-learning/crash-course/logistic-regression?hl=ko",
+      "level": "foundational",
+      "core_topics": ["확률 예측", "시그모이드", "이진 분류"],
+      "practical_outcomes": ["분류 기준점(threshold) 기반 의사결정 이해"],
+      "fit_for_project": "05-ml-fundamentals 핵심"
+    },
+    {
+      "id": "mlcc-classification",
+      "title_ko": "분류",
+      "url": "https://developers.google.com/machine-learning/crash-course/classification?hl=ko",
+      "level": "foundational",
+      "core_topics": ["임곗값", "혼동행렬", "정확도/정밀도/재현율/AUC"],
+      "practical_outcomes": ["지표 선택을 비용구조와 연결", "threshold 튜닝"],
+      "fit_for_project": "05-ml-fundamentals 핵심"
+    },
+    {
+      "id": "mlcc-numerical-data",
+      "title_ko": "숫자 데이터 작업",
+      "url": "https://developers.google.com/machine-learning/crash-course/numerical-data?hl=ko",
+      "level": "foundational",
+      "core_topics": ["수치형 피처 정의", "수치형/범주형 구분", "데이터 준비 중요성"],
+      "practical_outcomes": ["데이터 타입 오판 방지"],
+      "fit_for_project": "01-python, 02-statistics, 05-ml-fundamentals 연결"
+    },
+    {
+      "id": "mlcc-categorical-data",
+      "title_ko": "범주형 데이터 작업",
+      "url": "https://developers.google.com/machine-learning/crash-course/categorical-data?hl=ko",
+      "level": "foundational",
+      "core_topics": ["범주형 데이터", "인코딩(one-hot/hash/mean)", "feature cross"],
+      "practical_outcomes": ["인코딩 전략 선택", "고차원 희소성 이해"],
+      "fit_for_project": "03-sql, 05-ml-fundamentals 핵심"
+    },
+    {
+      "id": "mlcc-overfitting",
+      "title_ko": "데이터 세트, 일반화, 과적합",
+      "url": "https://developers.google.com/machine-learning/crash-course/overfitting?hl=ko",
+      "level": "foundational",
+      "core_topics": ["일반화", "과적합", "데이터 품질 우선", "데이터 준비 비중"],
+      "practical_outcomes": ["train/val/test 설계", "학습 곡선 해석"],
+      "fit_for_project": "05-ml-fundamentals 핵심"
+    },
+    {
+      "id": "mlcc-neural-networks",
+      "title_ko": "신경망",
+      "url": "https://developers.google.com/machine-learning/crash-course/neural-networks?hl=ko",
+      "level": "intermediate",
+      "core_topics": ["비선형성", "은닉층", "자동 feature interaction"],
+      "practical_outcomes": ["선형/비선형 모델 차이 실험"],
+      "fit_for_project": "06-deep-learning 직접 반영"
+    },
+    {
+      "id": "mlcc-embeddings",
+      "title_ko": "임베딩",
+      "url": "https://developers.google.com/machine-learning/crash-course/embeddings?hl=ko",
+      "level": "intermediate",
+      "core_topics": ["희소 벡터 문제", "저차원 표현", "유사도"],
+      "practical_outcomes": ["추천/텍스트 태스크의 표현학습 기초"],
+      "fit_for_project": "06-deep-learning, 07-llm 연결"
+    },
+    {
+      "id": "mlcc-llm-intro",
+      "title_ko": "대규모 언어 모델 소개",
+      "url": "https://developers.google.com/machine-learning/crash-course/llm?hl=ko",
+      "level": "intermediate",
+      "core_topics": ["토큰", "언어모델 확률", "N-gram에서 현대 LLM으로"],
+      "practical_outcomes": ["LLM 작동원리 개념적 설명"],
+      "fit_for_project": "07-llm 직접 반영"
+    },
+    {
+      "id": "mlcc-automl",
+      "title_ko": "AutoML",
+      "url": "https://developers.google.com/machine-learning/crash-course/automl?hl=ko",
+      "level": "practical",
+      "core_topics": ["반복 작업 자동화", "알고리즘/하이퍼파라미터 탐색", "워크플로 생산성"],
+      "practical_outcomes": ["수동 학습 vs 자동화 트레이드오프 판단"],
+      "fit_for_project": "08-mlops 및 실무 운영 파트"
+    },
+    {
+      "id": "mlcc-fairness",
+      "title_ko": "공정성",
+      "url": "https://developers.google.com/machine-learning/crash-course/fairness?hl=ko",
+      "level": "practical",
+      "core_topics": ["편향 점검", "완화 전략", "책임 있는 평가"],
+      "practical_outcomes": ["모델 품질 평가에 fairness 축 추가"],
+      "fit_for_project": "08-mlops 및 09-capstone 품질 기준"
+    }
+  ],
+  "curriculum_alignment": {
+    "00-orientation": {
+      "add": ["MLCC 기반 학습계약: 각 모듈 완료 증빙 요구", "데이터 품질 우선 원칙 명시"]
+    },
+    "01-python": {
+      "add": ["numpy/pandas 기반 MLCC 실습 준비", "벡터연산과 함수기초(손실함수 준비)"]
+    },
+    "02-statistics": {
+      "add": ["분포/추정/검정과 모델평가 연결", "샘플링 편향과 일반화 리스크"]
+    },
+    "03-sql": {
+      "add": ["학습용 테이블 생성 파이프라인", "누수 방지용 시점 기준 feature mart"]
+    },
+    "04-data-viz": {
+      "add": ["분류/회귀 지표 시각화", "confusion matrix & ROC/PR 시각화"]
+    },
+    "05-ml-fundamentals": {
+      "add": [
+        "선형회귀/로지스틱회귀/분류지표/과적합/누수/교차검증 필수화",
+        "범주형 인코딩(one-hot/hash/mean) 실습 추가",
+        "모델군 확장: tree, random forest, gradient boosting, svm, knn 비교",
+        "실습코드 + 해설 + 루브릭 + 증빙 템플릿 완성"
+      ]
+    }
+  },
+  "ml_fundamentals_required_model_methods": [
+    {
+      "family": "Linear Models",
+      "models": ["LinearRegression", "Ridge/Lasso", "LogisticRegression"],
+      "must_cover": ["가정", "장단점", "규제", "해석성", "적용 시나리오"]
+    },
+    {
+      "family": "Tree-based",
+      "models": ["DecisionTree", "RandomForest", "GradientBoosting/XGBoost 개념"],
+      "must_cover": ["비선형 처리", "과적합 제어", "feature importance 해석"]
+    },
+    {
+      "family": "Margin/Distance",
+      "models": ["SVM", "kNN"],
+      "must_cover": ["스케일링 민감도", "커널/거리개념", "데이터 크기 제약"]
+    },
+    {
+      "family": "Baselines",
+      "models": ["DummyRegressor", "DummyClassifier"],
+      "must_cover": ["최소 성능 기준선", "실험 타당성 체크"]
+    }
+  ],
+  "quality_gates": [
+    "각 챕터에 학습목표-실습-평가-증빙 + 필수개념 상세 설명 존재",
+    "각 핵심 개념에 최소 1개 코드 실습 및 1개 평가 문항 존재",
+    "모든 실습은 실행 가능 코드와 데이터 경로를 제공",
+    "루브릭 점수표와 pass 기준이 명시",
+    "재현성 문서(README + seed + 실행명령) 제공"
+  ],
+  "next_actions": [
+    "planning agent가 본 JSON을 기준으로 00~05 개편 계획 수립",
+    "execution agent가 05 챕터를 lessons/exercises/solutions/projects까지 실제 생성",
+    "quality agent가 MLCC 매핑 누락 및 깊이 부족 항목을 챕터별로 판정"
+  ]
+}
