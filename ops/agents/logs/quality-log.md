@@ -43,3 +43,7 @@
     1) `00-orientation` actions mapping: RESOLVED (`필수 체크`/normalized heading parsing now captured)
     2) Lossy lesson rendering on primary detailed path: RESOLVED (section-based full markdown rendering path active)
   - Build evidence: `site/` `npm run build` succeeded (exit 0, static pages generated 19/19).
+- [13:56 UTC] Chapter 06 QA executed (learning-path difficulty + evidence measurability focus).
+  - `chapter-06-review.md`: **83/100 PASS**
+  - Critical defects: none
+  - Non-blocking improvements logged for lesson depth, embedding data scaffolding, and per-lab metric specificity.
