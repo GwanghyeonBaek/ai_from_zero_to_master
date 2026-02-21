@@ -17,3 +17,11 @@
 - [2026-02-21 13:16:48 UTC] Action: Audited current curriculum/00~05 file structures and identified deliverable gaps.
 - [2026-02-21 13:17:06 UTC] Action: Chapter 00 started; created full deliverable directories and foundational content files.
 - [2026-02-21 13:17:06 UTC] Checkpoint: Chapter 00 deliverables completed and review request created at ops/agents/reviews/chapter-00-request.md.
+- [2026-02-21 13:17:22 UTC] Action: Chapter 01 patch started; standardized rubrics/evidence and gate-aligned docs.
+- [2026-02-21 13:17:22 UTC] Checkpoint: Chapter 01 completed; review request created at ops/agents/reviews/chapter-01-request.md.
+- [2026-02-21 13:17:22 UTC] Action: Chapter 02 patch started; standardized rubrics/evidence and gate-aligned docs.
+- [2026-02-21 13:17:22 UTC] Checkpoint: Chapter 02 completed; review request created at ops/agents/reviews/chapter-02-request.md.
+- [2026-02-21 13:17:22 UTC] Action: Chapter 03 patch started; standardized rubrics/evidence and gate-aligned docs.
+- [2026-02-21 13:17:23 UTC] Checkpoint: Chapter 03 completed; review request created at ops/agents/reviews/chapter-03-request.md.
+- [2026-02-21 13:17:23 UTC] Action: Chapter 04 patch started; standardized rubrics/evidence and gate-aligned docs.
+- [2026-02-21 13:17:23 UTC] Checkpoint: Chapter 04 completed; review request created at ops/agents/reviews/chapter-04-request.md.
