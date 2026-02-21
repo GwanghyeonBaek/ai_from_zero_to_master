@@ -25,3 +25,7 @@
 - [2026-02-21 13:17:23 UTC] Checkpoint: Chapter 03 completed; review request created at ops/agents/reviews/chapter-03-request.md.
 - [2026-02-21 13:17:23 UTC] Action: Chapter 04 patch started; standardized rubrics/evidence and gate-aligned docs.
 - [2026-02-21 13:17:23 UTC] Checkpoint: Chapter 04 completed; review request created at ops/agents/reviews/chapter-04-request.md.
+- [2026-02-21 13:17:54 UTC] Action: Chapter 05 started; generated full deliverable structure for lessons/exercises/solutions/projects/rubrics/evidence.
+- [2026-02-21 13:17:54 UTC] Action: Chapter 05 content built (ml-01~12 lessons, 12 labs, leakage reenactments, solutions, 2 projects, rubric, checklist, retrospective, evidence package).
+- [2026-02-21 13:17:54 UTC] Checkpoint: Chapter 05 completed; review request created at ops/agents/reviews/chapter-05-request.md.
+- [2026-02-21 13:17:54 UTC] Action: Completed strict ordered execution for chapters 00~05 and prepared commits.
