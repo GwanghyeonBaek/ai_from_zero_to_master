@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { Lang } from "@/lib/i18n";
-import { curriculumPlans } from "@/lib/curriculum";
+import { curriculumPlans, getCurriculumPlan } from "@/lib/curriculum";
 
 export type BlogPost = {
   slug: string;
@@ -32,7 +32,7 @@ function parseCurriculumPosts(): BlogPost[] {
     .filter((d) => /^\d{2}-/.test(d))
     .sort()
     .map((d) => {
-      const plan = curriculumPlans[d];
+      const plan = getCurriculumPlan(d) || curriculumPlans[d];
       return {
         slug: `curriculum-${d}`,
         title: plan?.title.en || d,
@@ -139,7 +139,7 @@ export function localizePost(post: BlogPost, lang: Lang): { title: string; excer
     return { title, excerpt };
   }
 
-  const plan = post.level ? curriculumPlans[post.level] : undefined;
+  const plan = post.level ? getCurriculumPlan(post.level) || curriculumPlans[post.level] : undefined;
   if (!plan) return { title: post.title, excerpt: post.excerpt };
 
   return {

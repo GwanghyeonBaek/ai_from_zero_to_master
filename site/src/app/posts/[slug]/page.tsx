@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug, localizePost } from "@/lib/content";
-import { curriculumPlans } from "@/lib/curriculum";
+import { curriculumPlans, getCurriculumPlan } from "@/lib/curriculum";
 import { getCurriculumDetail, pick } from "@/lib/curriculumDetails";
 import { resolveLang, ui } from "@/lib/i18n";
 
@@ -24,7 +24,7 @@ export default async function PostDetail({
   const post = getPostBySlug(slug);
   if (!post) return notFound();
   const localized = localizePost(post, lang);
-  const plan = post.level ? curriculumPlans[post.level] : undefined;
+  const plan = post.level ? getCurriculumPlan(post.level) || curriculumPlans[post.level] : undefined;
   const detail = getCurriculumDetail(post.level);
 
   return (

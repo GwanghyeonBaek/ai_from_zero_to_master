@@ -1,3 +1,5 @@
+import fs from "node:fs";
+import path from "node:path";
 import type { Lang } from "@/lib/i18n";
 
 export type LessonBlock = {
@@ -1252,9 +1254,63 @@ export const curriculumDetails: Record<string, CurriculumDetail> = {
   },
 };
 
+const ROOT = path.join(process.cwd(), "..");
+
+function readMaybe(filePath: string): string {
+  return fs.existsSync(filePath) ? fs.readFileSync(filePath, "utf-8") : "";
+}
+
+function firstParagraph(md: string): string {
+  for (const raw of md.split("\n")) {
+    const line = raw.trim();
+    if (!line || line.startsWith("#") || line.startsWith("- ") || line.startsWith("* ")) continue;
+    return line;
+  }
+  return "";
+}
+
+function toLessonFromFile(filePath: string): LessonBlock {
+  const md = readMaybe(filePath);
+  const heading = md.split("\n").find((l) => l.startsWith("# "))?.replace(/^#\s+/, "") || path.basename(filePath, ".md");
+  const intro = firstParagraph(md) || "실습 가능한 형태로 내용을 정리합니다.";
+  const steps = md
+    .split("\n")
+    .map((l) => l.trim())
+    .filter((l) => /^[-*]\s+/.test(l))
+    .slice(0, 5)
+    .map((l) => l.replace(/^[-*]\s+/, ""));
+
+  return {
+    title: { en: heading, ko: heading },
+    explain: { en: intro, ko: intro },
+    steps: { en: steps.length ? steps : ["문서를 읽고 핵심 개념을 요약한다."], ko: steps.length ? steps : ["문서를 읽고 핵심 개념을 요약한다."] },
+    practice: { en: "문서 기준 실습 산출물을 제출하세요.", ko: "문서 기준 실습 산출물을 제출하세요." },
+  };
+}
+
+function buildDynamicDetail(level: string): CurriculumDetail | undefined {
+  const chapterDir = path.join(ROOT, "curriculum", level);
+  const roadmap = readMaybe(path.join(chapterDir, "roadmap.md"));
+  if (!roadmap) return undefined;
+
+  const intro = roadmap.split("\n").find((l) => l.trim().startsWith(">"))?.replace(/^>\s*/, "").trim() || "커리큘럼 원문 기준 상세 내용";
+  const lessonsDir = path.join(chapterDir, "lessons");
+  const lessonFiles = fs.existsSync(lessonsDir)
+    ? fs.readdirSync(lessonsDir).filter((f) => f.endsWith(".md")).sort().map((f) => path.join(lessonsDir, f))
+    : [];
+
+  if (lessonFiles.length === 0) return undefined;
+
+  return {
+    intro: { en: intro, ko: intro },
+    lessons: lessonFiles.map(toLessonFromFile),
+  };
+}
+
 export function getCurriculumDetail(level?: string) {
   if (!level) return undefined;
-  return curriculumDetails[level];
+  const dynamic = buildDynamicDetail(level);
+  return dynamic || curriculumDetails[level];
 }
 
 export function pick<T>(v: { en: T; ko: T }, lang: Lang): T {

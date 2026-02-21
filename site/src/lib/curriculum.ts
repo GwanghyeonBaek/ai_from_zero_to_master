@@ -1,3 +1,6 @@
+import fs from "node:fs";
+import path from "node:path";
+
 export type CurriculumPlan = {
   key: string;
   title: { en: string; ko: string };
@@ -7,6 +10,53 @@ export type CurriculumPlan = {
   tools: { en: string[]; ko: string[] };
   deliverables: { en: string[]; ko: string[] };
 };
+
+const ROOT = path.join(process.cwd(), "..");
+
+function readText(filePath: string): string {
+  return fs.existsSync(filePath) ? fs.readFileSync(filePath, "utf-8") : "";
+}
+
+function extractSectionBullets(md: string, headingKeywords: string[]): string[] {
+  const lines = md.split("\n");
+  const idx = lines.findIndex((l) => headingKeywords.some((k) => l.includes(k)));
+  if (idx < 0) return [];
+  const out: string[] = [];
+  for (let i = idx + 1; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (line.startsWith("## ") || line.startsWith("---")) break;
+    const bullet = line.match(/^[-*]\s+(.+)/)?.[1] ?? line.match(/^\d+\.\s+(.+)/)?.[1];
+    if (bullet) out.push(bullet.trim());
+  }
+  return out;
+}
+
+function parseRoadmapPlan(level: string): Partial<CurriculumPlan> | undefined {
+  const md = readText(path.join(ROOT, "curriculum", level, "roadmap.md"));
+  if (!md) return undefined;
+  const firstHeading = md.split("\n").find((l) => l.startsWith("# "))?.replace(/^#\s+/, "").trim();
+  const quote = md
+    .split("\n")
+    .find((l) => l.trim().startsWith(">"))
+    ?.replace(/^>\s*/, "")
+    .trim();
+
+  const goals = extractSectionBullets(md, ["학습목표", "Learning Outcomes"]);
+  const actions = extractSectionBullets(md, ["필수 실습", "필수 과제", "Required"]);
+  const deliverables = extractSectionBullets(md, ["출력물 패키지", "증빙 패키지", "Evidence"]);
+
+  const koTitle = firstHeading?.split("—")[1]?.trim() || firstHeading || level;
+
+  return {
+    key: level,
+    title: { en: koTitle, ko: koTitle },
+    summary: { en: quote || "", ko: quote || "" },
+    goals: { en: goals, ko: goals },
+    actions: { en: actions, ko: actions },
+    tools: { en: [], ko: [] },
+    deliverables: { en: deliverables, ko: deliverables },
+  };
+}
 
 export const curriculumPlans: Record<string, CurriculumPlan> = {
   "00-orientation": {
@@ -250,3 +300,12 @@ export const curriculumPlans: Record<string, CurriculumPlan> = {
     },
   },
 };
+
+export function getCurriculumPlan(level?: string): CurriculumPlan | undefined {
+  if (!level) return undefined;
+  const parsed = parseRoadmapPlan(level);
+  if (parsed && parsed.goals && parsed.goals.ko.length > 0) {
+    return parsed as CurriculumPlan;
+  }
+  return curriculumPlans[level];
+}
