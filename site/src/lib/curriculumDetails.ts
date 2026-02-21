@@ -1393,8 +1393,9 @@ export function getCurriculumSections(level?: string): CurriculumSections | unde
 
 export function getCurriculumDetail(level?: string) {
   if (!level) return undefined;
-  const dynamic = buildDynamicDetail(level);
-  return dynamic || curriculumDetails[level];
+  // Keep static detail as explicit fallback only.
+  // Full curriculum rendering should use getCurriculumSections() markdown sources.
+  return curriculumDetails[level];
 }
 
 export function pick<T>(v: { en: T; ko: T }, lang: Lang): T {

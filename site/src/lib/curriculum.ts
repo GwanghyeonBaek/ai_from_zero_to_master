@@ -17,10 +17,24 @@ function readText(filePath: string): string {
   return fs.existsSync(filePath) ? fs.readFileSync(filePath, "utf-8") : "";
 }
 
+function normalizeHeading(line: string): string {
+  return line
+    .replace(/^#+\s*/, "")
+    .replace(/^\d+[\.)]\s*/, "")
+    .replace(/[()\[\]【】:：]/g, "")
+    .trim()
+    .toLowerCase();
+}
+
 function extractSectionBullets(md: string, headingKeywords: string[]): string[] {
   const lines = md.split("\n");
-  const idx = lines.findIndex((l) => headingKeywords.some((k) => l.includes(k)));
+  const normalizedKeywords = headingKeywords.map((k) => k.toLowerCase());
+  const idx = lines.findIndex((l) => {
+    const norm = normalizeHeading(l);
+    return normalizedKeywords.some((k) => norm.includes(k));
+  });
   if (idx < 0) return [];
+
   const out: string[] = [];
   for (let i = idx + 1; i < lines.length; i++) {
     const line = lines[i].trim();
@@ -42,7 +56,7 @@ function parseRoadmapPlan(level: string): Partial<CurriculumPlan> | undefined {
     .trim();
 
   const goals = extractSectionBullets(md, ["학습목표", "Learning Outcomes"]);
-  const actions = extractSectionBullets(md, ["필수 실습", "필수 과제", "Required"]);
+  const actions = extractSectionBullets(md, ["필수 실습", "필수 과제", "필수 체크", "실습", "과제", "required"]);
   const deliverables = extractSectionBullets(md, ["출력물 패키지", "증빙 패키지", "Evidence"]);
 
   const koTitle = firstHeading?.split("—")[1]?.trim() || firstHeading || level;
