@@ -34,3 +34,12 @@
 - [2026-02-21 13:23:01 UTC] Action: Chapter 05 replaced lesson placeholders with concept-specific content and made labs deterministic.
 - [2026-02-21 13:23:01 UTC] Action: Chapter 05 expanded solutions with code snippets/metric ranges and added per-lab rubric row links.
 - [2026-02-21 13:23:01 UTC] Checkpoint: Re-review requests created for chapter 00 and chapter 05.
+- [2026-02-21 13:36:28 UTC] Action: Preflight requested for chapter 06 execution protocol.
+- [2026-02-21 13:36:28 UTC] Action: Read ops/agents/plans/chapter-06-master-plan.md (exists).
+- [2026-02-21 13:36:28 UTC] Action: Created review request scaffold at ops/agents/reviews/chapter-06-request.md.
+- [2026-02-21 13:36:28 UTC] Checkpoint: Preflight completed; waiting for execution authorization. No curriculum edits performed.
+- [2026-02-21 13:45:43 UTC] Action: Implemented curriculum detail loader to read full markdown files from curriculum/<chapter> directories by sections.
+- [2026-02-21 13:45:43 UTC] Action: Added section model and UI tabs for Lessons/Exercises/Solutions/Evaluation/Evidence/Projects on post detail pages.
+- [2026-02-21 13:45:43 UTC] Action: Added markdown renderer for curriculum documents and KO-only source label on English view.
+- [2026-02-21 13:45:43 UTC] Action: Preserved legacy summary fallback path when chapter files are missing.
+- [2026-02-21 13:45:43 UTC] Checkpoint: site build passed with `npm run build` in site/.

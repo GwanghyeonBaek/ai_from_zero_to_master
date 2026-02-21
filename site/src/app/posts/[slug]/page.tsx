@@ -2,8 +2,23 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug, localizePost } from "@/lib/content";
 import { curriculumPlans, getCurriculumPlan } from "@/lib/curriculum";
-import { getCurriculumDetail, pick } from "@/lib/curriculumDetails";
+import { getCurriculumDetail, getCurriculumSections, pick, type CurriculumSectionKey } from "@/lib/curriculumDetails";
 import { resolveLang, ui } from "@/lib/i18n";
+import { markdownToHtml } from "@/lib/markdown";
+
+const SECTION_KEYS: CurriculumSectionKey[] = ["lessons", "exercises", "solutions", "evaluation", "evidence", "projects"];
+
+function sectionLabel(key: CurriculumSectionKey, lang: "en" | "ko"): string {
+  const labels = {
+    lessons: { en: "Lessons", ko: "레슨" },
+    exercises: { en: "Exercises", ko: "실습" },
+    solutions: { en: "Solutions", ko: "해설" },
+    evaluation: { en: "Evaluation", ko: "평가" },
+    evidence: { en: "Evidence", ko: "증빙" },
+    projects: { en: "Projects", ko: "프로젝트" },
+  } as const;
+  return labels[key][lang];
+}
 
 export function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }));
@@ -14,10 +29,10 @@ export default async function PostDetail({
   searchParams,
 }: {
   params: Promise<{ slug: string }>;
-  searchParams: Promise<{ lang?: string }>;
+  searchParams: Promise<{ lang?: string; tab?: string }>;
 }) {
   const { slug } = await params;
-  const { lang: qLang } = await searchParams;
+  const { lang: qLang, tab: qTab } = await searchParams;
   const lang = resolveLang(qLang);
   const text = ui[lang];
 
@@ -26,6 +41,11 @@ export default async function PostDetail({
   const localized = localizePost(post, lang);
   const plan = post.level ? getCurriculumPlan(post.level) || curriculumPlans[post.level] : undefined;
   const detail = getCurriculumDetail(post.level);
+  const sections = getCurriculumSections(post.level);
+
+  const currentTab: CurriculumSectionKey = SECTION_KEYS.includes(qTab as CurriculumSectionKey)
+    ? (qTab as CurriculumSectionKey)
+    : "lessons";
 
   return (
     <main className="mx-auto min-h-screen max-w-4xl px-6 py-10">
@@ -34,10 +54,10 @@ export default async function PostDetail({
           {text.backHome}
         </Link>
         <div className="flex gap-2 text-sm">
-          <Link href={`/posts/${slug}?lang=en`} className={`rounded-full border px-3 py-1 ${lang === "en" ? "bg-slate-100" : ""}`}>
+          <Link href={`/posts/${slug}?lang=en${qTab ? `&tab=${qTab}` : ""}`} className={`rounded-full border px-3 py-1 ${lang === "en" ? "bg-slate-100" : ""}`}>
             {text.langEn}
           </Link>
-          <Link href={`/posts/${slug}?lang=ko`} className={`rounded-full border px-3 py-1 ${lang === "ko" ? "bg-slate-100" : ""}`}>
+          <Link href={`/posts/${slug}?lang=ko${qTab ? `&tab=${qTab}` : ""}`} className={`rounded-full border px-3 py-1 ${lang === "ko" ? "bg-slate-100" : ""}`}>
             {text.langKo}
           </Link>
         </div>
@@ -120,69 +140,55 @@ export default async function PostDetail({
 
           <div>
             <h2 className="mb-2 text-xl font-semibold">{text.detailedLessons}</h2>
-            {detail ? (
+
+            {sections ? (
+              <>
+                <div className="mb-4 flex flex-wrap gap-2">
+                  {SECTION_KEYS.map((key) => (
+                    <Link
+                      key={key}
+                      href={`/posts/${slug}?lang=${lang}&tab=${key}`}
+                      className={`rounded-full border px-3 py-1 text-sm ${currentTab === key ? "bg-slate-100" : ""}`}
+                    >
+                      {sectionLabel(key, lang)} ({sections[key].length})
+                    </Link>
+                  ))}
+                </div>
+
+                {sections[currentTab].length > 0 ? (
+                  <div className="space-y-5">
+                    {sections[currentTab].map((doc) => (
+                      <article key={doc.id} className="rounded-xl border p-4">
+                        <div className="mb-2 flex items-center justify-between gap-3">
+                          <h3 className="text-lg font-semibold">{doc.title}</h3>
+                          <span className="text-xs text-slate-500">{doc.relPath}</span>
+                        </div>
+                        {lang === "en" && doc.sourceLang === "ko" && (
+                          <p className="mb-2 text-xs text-amber-700">KO-only source (shown as-is)</p>
+                        )}
+                        <div
+                          className="prose prose-slate max-w-none text-sm"
+                          dangerouslySetInnerHTML={{ __html: markdownToHtml(doc.content) }}
+                        />
+                      </article>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="text-sm text-slate-500">No files in this section yet.</p>
+                )}
+              </>
+            ) : detail ? (
               <div className="space-y-5">
                 <p className="text-slate-700">{pick(detail.intro, lang)}</p>
                 {detail.lessons.map((lesson) => (
                   <article key={lesson.title.en} className="rounded-xl border p-4">
                     <h3 className="text-lg font-semibold">{pick(lesson.title, lang)}</h3>
-
-                    {lesson.why && (
-                      <p className="mt-2 text-sm text-slate-700">
-                        <span className="font-semibold">{text.whyThis}: </span>
-                        {pick(lesson.why, lang)}
-                      </p>
-                    )}
-
-                    {lesson.terms && (
-                      <div className="mt-3">
-                        <p className="text-sm font-semibold text-slate-800">{text.keyTerms}</p>
-                        <ul className="mt-1 list-disc space-y-1 pl-5 text-sm text-slate-700">
-                          {pick(lesson.terms, lang).map((item) => (
-                            <li key={item.term}>
-                              <span className="font-medium">{item.term}</span>: {item.desc}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-
                     <p className="mt-3 text-sm text-slate-700">{pick(lesson.explain, lang)}</p>
                     <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-700">
                       {pick(lesson.steps, lang).map((step) => (
                         <li key={step}>{step}</li>
                       ))}
                     </ul>
-                    {lesson.code && (
-                      <pre className="mt-3 overflow-x-auto rounded-lg bg-slate-50 p-3 text-xs text-slate-700">
-                        {lesson.code}
-                      </pre>
-                    )}
-
-                    {lesson.mistakes && (
-                      <div className="mt-3">
-                        <p className="text-sm font-semibold text-slate-800">{text.commonMistakes}</p>
-                        <ul className="mt-1 list-disc space-y-1 pl-5 text-sm text-slate-700">
-                          {pick(lesson.mistakes, lang).map((m) => (
-                            <li key={m}>{m}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-
-                    {lesson.practice && (
-                      <p className="mt-3 text-sm text-slate-700">
-                        <span className="font-semibold">{text.practiceTask}: </span>
-                        {pick(lesson.practice, lang)}
-                      </p>
-                    )}
-
-                    {lesson.next && (
-                      <p className="mt-2 text-sm text-slate-600">
-                        <span className="font-semibold">{text.nextStep}: </span>
-                        {pick(lesson.next, lang)}
-                      </p>
-                    )}
                   </article>
                 ))}
               </div>

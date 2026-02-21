@@ -1256,8 +1256,89 @@ export const curriculumDetails: Record<string, CurriculumDetail> = {
 
 const ROOT = path.join(process.cwd(), "..");
 
+export type CurriculumSectionKey = "lessons" | "exercises" | "solutions" | "evaluation" | "evidence" | "projects";
+
+export type CurriculumDoc = {
+  id: string;
+  title: string;
+  filePath: string;
+  relPath: string;
+  content: string;
+  sourceLang: "ko" | "en" | "mixed";
+};
+
+export type CurriculumSections = Record<CurriculumSectionKey, CurriculumDoc[]>;
+
 function readMaybe(filePath: string): string {
   return fs.existsSync(filePath) ? fs.readFileSync(filePath, "utf-8") : "";
+}
+
+function detectSourceLang(md: string): "ko" | "en" | "mixed" {
+  const hasKo = /[가-힣]/.test(md);
+  const hasEn = /[A-Za-z]/.test(md);
+  if (hasKo && hasEn) return "mixed";
+  if (hasKo) return "ko";
+  return "en";
+}
+
+function stripMdTitle(md: string): string {
+  return md.replace(/^#\s+.+\n?/, "").trim();
+}
+
+function firstHeadingOrFilename(filePath: string, md: string): string {
+  return md.split("\n").find((l) => l.startsWith("# "))?.replace(/^#\s+/, "").trim() || path.basename(filePath, ".md");
+}
+
+function listMarkdownFiles(dirPath: string): string[] {
+  if (!fs.existsSync(dirPath)) return [];
+  return fs
+    .readdirSync(dirPath)
+    .filter((f) => f.endsWith(".md"))
+    .sort()
+    .map((f) => path.join(dirPath, f));
+}
+
+function toDoc(filePath: string, chapterDir: string): CurriculumDoc {
+  const raw = readMaybe(filePath);
+  return {
+    id: path.relative(chapterDir, filePath).replace(/[^a-zA-Z0-9]+/g, "-").toLowerCase(),
+    title: firstHeadingOrFilename(filePath, raw),
+    filePath,
+    relPath: path.relative(chapterDir, filePath),
+    content: stripMdTitle(raw),
+    sourceLang: detectSourceLang(raw),
+  };
+}
+
+function buildSections(level: string): CurriculumSections {
+  const chapterDir = path.join(ROOT, "curriculum", level);
+  const allRootFiles = fs.existsSync(chapterDir)
+    ? fs.readdirSync(chapterDir).filter((f) => f.endsWith(".md")).sort().map((f) => path.join(chapterDir, f))
+    : [];
+
+  const lessons = listMarkdownFiles(path.join(chapterDir, "lessons"));
+  const exercises = [...listMarkdownFiles(path.join(chapterDir, "exercises")), ...allRootFiles.filter((f) => /practice|drill/i.test(path.basename(f)))];
+  const solutions = listMarkdownFiles(path.join(chapterDir, "solutions"));
+  const evaluation = [
+    ...listMarkdownFiles(path.join(chapterDir, "rubrics")),
+    ...allRootFiles.filter((f) => /rubric|assessment/i.test(path.basename(f))),
+  ];
+  const evidence = [
+    ...listMarkdownFiles(path.join(chapterDir, "evidence")),
+    ...allRootFiles.filter((f) => /evidence|proof|retrospective|contract/i.test(path.basename(f))),
+  ];
+  const projects = allRootFiles.filter((f) => /project|capstone/i.test(path.basename(f)));
+
+  const uniq = (arr: string[]) => [...new Set(arr)].sort();
+
+  return {
+    lessons: uniq(lessons).map((f) => toDoc(f, chapterDir)),
+    exercises: uniq(exercises).map((f) => toDoc(f, chapterDir)),
+    solutions: uniq(solutions).map((f) => toDoc(f, chapterDir)),
+    evaluation: uniq(evaluation).map((f) => toDoc(f, chapterDir)),
+    evidence: uniq(evidence).map((f) => toDoc(f, chapterDir)),
+    projects: uniq(projects).map((f) => toDoc(f, chapterDir)),
+  };
 }
 
 function firstParagraph(md: string): string {
@@ -1293,18 +1374,21 @@ function buildDynamicDetail(level: string): CurriculumDetail | undefined {
   const roadmap = readMaybe(path.join(chapterDir, "roadmap.md"));
   if (!roadmap) return undefined;
 
+  const sections = buildSections(level);
+  if (sections.lessons.length === 0) return undefined;
+
   const intro = roadmap.split("\n").find((l) => l.trim().startsWith(">"))?.replace(/^>\s*/, "").trim() || "커리큘럼 원문 기준 상세 내용";
-  const lessonsDir = path.join(chapterDir, "lessons");
-  const lessonFiles = fs.existsSync(lessonsDir)
-    ? fs.readdirSync(lessonsDir).filter((f) => f.endsWith(".md")).sort().map((f) => path.join(lessonsDir, f))
-    : [];
-
-  if (lessonFiles.length === 0) return undefined;
-
   return {
     intro: { en: intro, ko: intro },
-    lessons: lessonFiles.map(toLessonFromFile),
+    lessons: sections.lessons.map((d) => toLessonFromFile(d.filePath)),
   };
+}
+
+export function getCurriculumSections(level?: string): CurriculumSections | undefined {
+  if (!level) return undefined;
+  const sections = buildSections(level);
+  const hasAny = Object.values(sections).some((docs) => docs.length > 0);
+  return hasAny ? sections : undefined;
 }
 
 export function getCurriculumDetail(level?: string) {
