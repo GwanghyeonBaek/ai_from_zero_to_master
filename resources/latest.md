@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-02-21 04:13 UTC
+Updated: 2026-02-22 04:25 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Architecting GPUaaS for Enterprise AI On-Prem](https://towardsdatascience.com/architecting-gpuaas-for-enterprise-ai-on-prem/)
+  - <p>Multi-tenancy, scheduling, and cost modeling on Kubernetes</p> <p>The post <a href="https://towardsdatascience.com/architecting-gpuaas-for-enterprise-ai-on-prem/">Architectin...
 - [Donkeys, Not Unicorns](https://towardsdatascience.com/donkeys-not-unicorns-the-new-rules-of-commoditized-magic/)
   - <p>The New Rules of Entrepreneurship in the Era of Commoditized Magic</p> <p>The post <a href="https://towardsdatascience.com/donkeys-not-unicorns-the-new-rules-of-commoditized-...
 - [An End-to-End Guide to Beautifying Your Open-Source Repo with Agentic AI](https://towardsdatascience.com/an-end-to-end-guide-to-beautifying-your-open-source-repo-with-agentic-ai/)
   - <p>The guide to automated improvement of scientific and industrial repositories using open-source AI agents</p> <p>The post <a href="https://towardsdatascience.com/an-end-to-end...
 - [From Monolith to Contract-Driven Data Mesh](https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/)
   - <p>A pragmatic journey using website analytics as a real-world example</p> <p>The post <a href="https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/">From ...
-- [The Missing Curriculum: Essential Concepts For Data Scientists in the Age of AI Coding Agents](https://towardsdatascience.com/the-missing-curriculum-essential-concepts-for-data-scientists-in-the-age-of-ai-coding-agents/)
+- [Code Smells: Essential Concepts For Data Scientists in the Age of AI Coding Agents](https://towardsdatascience.com/the-missing-curriculum-essential-concepts-for-data-scientists-in-the-age-of-ai-coding-agents/)
   - <p>AI can write the code, but you have to steer the ship. Master the knowledge to keep you relevant in the age of AI.</p> <p>The post <a href="https://towardsdatascience.com/the...
-- [Understanding the Chi-Square Test Beyond the Formula](https://towardsdatascience.com/understanding-the-chi-square-test-beyond-the-formula/)
-  - <p>How categorical data becomes statistical evidence.</p> <p>The post <a href="https://towardsdatascience.com/understanding-the-chi-square-test-beyond-the-formula/">Understandin...
 
 ## KDnuggets (data-analysis)
 - [All About Google Colab File Management](https://www.kdnuggets.com/all-about-google-colab-file-management)
