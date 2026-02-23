@@ -1,10 +1,12 @@
 # Latest Learning Resources
 
-Updated: 2026-02-22 04:25 UTC
+Updated: 2026-02-23 04:32 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [The Reality of Vibe Coding: AI Agents and the Security Debt Crisis](https://towardsdatascience.com/the-reality-of-vibe-coding-ai-agents-and-the-security-debt-crisis/)
+  - <p>Why optimizing for speed over safety is leaving applications vulnerable, and how to fix it.</p> <p>The post <a href="https://towardsdatascience.com/the-reality-of-vibe-coding...
 - [Architecting GPUaaS for Enterprise AI On-Prem](https://towardsdatascience.com/architecting-gpuaas-for-enterprise-ai-on-prem/)
   - <p>Multi-tenancy, scheduling, and cost modeling on Kubernetes</p> <p>The post <a href="https://towardsdatascience.com/architecting-gpuaas-for-enterprise-ai-on-prem/">Architectin...
 - [Donkeys, Not Unicorns](https://towardsdatascience.com/donkeys-not-unicorns-the-new-rules-of-commoditized-magic/)
@@ -13,8 +15,6 @@ Updated: 2026-02-22 04:25 UTC
   - <p>The guide to automated improvement of scientific and industrial repositories using open-source AI agents</p> <p>The post <a href="https://towardsdatascience.com/an-end-to-end...
 - [From Monolith to Contract-Driven Data Mesh](https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/)
   - <p>A pragmatic journey using website analytics as a real-world example</p> <p>The post <a href="https://towardsdatascience.com/from-monolith-to-contract-driven-data-mesh/">From ...
-- [Code Smells: Essential Concepts For Data Scientists in the Age of AI Coding Agents](https://towardsdatascience.com/the-missing-curriculum-essential-concepts-for-data-scientists-in-the-age-of-ai-coding-agents/)
-  - <p>AI can write the code, but you have to steer the ship. Master the knowledge to keep you relevant in the age of AI.</p> <p>The post <a href="https://towardsdatascience.com/the...
 
 ## KDnuggets (data-analysis)
 - [All About Google Colab File Management](https://www.kdnuggets.com/all-about-google-colab-file-management)
@@ -35,10 +35,10 @@ Updated: 2026-02-22 04:25 UTC
   - OpenAI commits $7.5M to The Alignment Project to fund independent AI alignment research, strengthening global efforts to address AGI safety and security risks.
 - [Introducing OpenAI for India](https://openai.com/index/openai-for-india)
   - OpenAI for India expands AI access across the country—building local infrastructure, powering enterprises, and advancing workforce skills.
+- [Introducing EVMbench](https://openai.com/index/introducing-evmbench)
+  - OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.
 - [GPT-5.2 derives a new result in theoretical physics](https://openai.com/index/new-result-theoretical-physics)
   - A new preprint shows GPT-5.2 proposing a new formula for a gluon amplitude, later formally proved and verified by OpenAI and academic collaborators.
-- [Introducing Lockdown Mode and Elevated Risk labels in ChatGPT](https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt)
-  - Introducing Lockdown Mode and Elevated Risk labels in ChatGPT to help organizations defend against prompt injection and AI-driven data exfiltration.
 
 ## Google AI Blog (ai)
 - [“No technology has me dreaming bigger than AI”](https://blog.google/company-news/inside-google/message-ceo/sundar-pichai-ai-impact-summit-2026/)
