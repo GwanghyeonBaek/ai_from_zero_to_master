@@ -1,34 +1,36 @@
 # Latest Learning Resources
 
-Updated: 2026-02-24 04:26 UTC
+Updated: 2026-02-25 04:27 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Optimizing Token Generation in PyTorch Decoder Models](https://towardsdatascience.com/optimizing-token-generation-in-pytorch-decoder-models/)
+  - <p>Hiding host-device synchronization via CUDA stream interleaving</p> <p>The post <a href="https://towardsdatascience.com/optimizing-token-generation-in-pytorch-decoder-models/...
+- [Decisioning at the Edge: Policy Matching at Scale](https://towardsdatascience.com/decisioning-at-the-edge-policy-matching-at-scale/)
+  - <p>Policy-to-Agency Optimization with PuLP</p> <p>The post <a href="https://towardsdatascience.com/decisioning-at-the-edge-policy-matching-at-scale/">Decisioning at the Edge: Po...
+- [Optimizing Deep Learning Models with SAM](https://towardsdatascience.com/optimizing-deep-learning-models-with-sam/)
+  - <p>A deep dive into the Sharpness-Aware-Minimization (SAM) algorithm and how it improves the generalizability of modern deep learning models</p> <p>The post <a href="https://tow...
+- [AI Bots Formed a Cartel. No One Told Them To.](https://towardsdatascience.com/ai-bots-formed-a-cartel-no-one-told-them-to/)
+  - <p>Inside the research that shows algorithmic price-fixing isn't a bug in the code. It's a feature of the math.</p> <p>The post <a href="https://towardsdatascience.com/ai-bots-f...
 - [Is the AI and Data Job Market Dead?](https://towardsdatascience.com/is-the-ai-and-data-job-market-dead/)
   - <p>What you should be doing in the current job market</p> <p>The post <a href="https://towardsdatascience.com/is-the-ai-and-data-job-market-dead/">Is the AI and Data Job Market ...
-- [PySpark for Pandas Users](https://towardsdatascience.com/pyspark-for-pandas-users/)
-  - <p>Common Pandas operations and their equivalents in PySpark</p> <p>The post <a href="https://towardsdatascience.com/pyspark-for-pandas-users/">PySpark for Pandas Users</a> appe...
-- [AI in Multiple GPUs: Gradient Accumulation & Data Parallelism](https://towardsdatascience.com/ai-in-multiple-gpus-grad-accum-data-parallelism/)
-  - <p>Learn and implement gradient accum and data parallelism from scratch in PyTorch</p> <p>The post <a href="https://towardsdatascience.com/ai-in-multiple-gpus-grad-accum-data-pa...
-- [Build Effective Internal Tooling with Claude Code](https://towardsdatascience.com/build-effective-internal-tooling-with-claude-code/)
-  - <p>Use Claude Code to quickly build completely personalized applications</p> <p>The post <a href="https://towardsdatascience.com/build-effective-internal-tooling-with-claude-cod...
-- [The Reality of Vibe Coding: AI Agents and the Security Debt Crisis](https://towardsdatascience.com/the-reality-of-vibe-coding-ai-agents-and-the-security-debt-crisis/)
-  - <p>Why optimizing for speed over safety is leaving applications vulnerable, and how to fix it.</p> <p>The post <a href="https://towardsdatascience.com/the-reality-of-vibe-coding...
 
 ## KDnuggets (data-analysis)
+- [Cloud vs. Local vs. Hybrid for AI Models: A Practitioner’s Guide (Sponsored)](https://www.kdnuggets.com/cloud-vs-local-vs-hybrid-for-ai-models-a-practitioners-guide-sponsored)
+  - For most small- and medium-sized business leaders, the question about AI has shifted. While it used to be “Should we use AI?”, it’s now “Where should we run it?”
+- [Grounded PRD Generation with NotebookLM](https://www.kdnuggets.com/grounded-prd-generation-with-notebooklm)
+  - Leverage NotebookLM's features to turn raw, sometimes chaotic information into a grounded PRD in a matter of minutes.
+- [5 Python Data Validation Libraries You Should Be Using](https://www.kdnuggets.com/5-python-data-validation-libraries-you-should-be-using)
+  - These five libraries approach validation from very different angles, which is exactly why they matter. Each one solves a specific class of problems that appear again and again i...
 - [The MCP Revolution and the Search for Stable AI Use Cases](https://www.kdnuggets.com/the-mcp-revolution-and-the-search-for-stable-ai-use-cases)
   - A conversation with AI researcher Sebastian Wallkötter reveals insights on standardization, security challenges, and the fundamental question facing enterprise artificial intell...
 - [5 Essential Design Patterns for Building Robust Agentic AI Systems](https://www.kdnuggets.com/5-essential-design-patterns-for-building-robust-agentic-ai-systems)
   - Build robust AI agents with design patterns for ReAct loops, multi-agent workflows, and state management essential for moving from prototype to reliable production.
-- [All About Google Colab File Management](https://www.kdnuggets.com/all-about-google-colab-file-management)
-  - This is the ultimate guide to uploading, downloading, and saving files in Colab.
-- [7 XGBoost Tricks for More Accurate Predictive Models](https://www.kdnuggets.com/7-xgboost-tricks-for-more-accurate-predictive-models)
-  - 7 Python tricks that may help make the most of the standalone XGBoost library, particularly in terms of seeking more accurate predictive models.
-- [FastMCP: The Pythonic Way to Build MCP Servers and Clients](https://www.kdnuggets.com/fastmcp-the-pythonic-way-to-build-mcp-servers-and-clients)
-  - Learn how to build MCP servers and clients using FastMCP, which is comprehensive, complete with error handling, best practices, and deployment strategies, making it ideal for bo...
 
 ## OpenAI News (ai)
+- [Arvind KC appointed Chief People Officer](https://openai.com/index/arvind-kc-chief-people-officer)
+  - OpenAI appoints Arvind KC as Chief People Officer to help scale the company, strengthen its culture, and lead how work evolves in the age of AI.
 - [Why we no longer evaluate SWE-bench Verified](https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified)
   - SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.
 - [OpenAI announces Frontier Alliance Partners](https://openai.com/index/frontier-alliance-partners)
@@ -37,8 +39,6 @@ Updated: 2026-02-24 04:26 UTC
   - We share our AI model’s proof attempts for the First Proof math challenge, testing research-grade reasoning on expert-level problems.
 - [Advancing independent research on AI alignment](https://openai.com/index/advancing-independent-research-ai-alignment)
   - OpenAI commits $7.5M to The Alignment Project to fund independent AI alignment research, strengthening global efforts to address AGI safety and security risks.
-- [Introducing OpenAI for India](https://openai.com/index/openai-for-india)
-  - OpenAI for India expands AI access across the country—building local infrastructure, powering enterprises, and advancing workforce skills.
 
 ## Google AI Blog (ai)
 - [“No technology has me dreaming bigger than AI”](https://blog.google/company-news/inside-google/message-ceo/sundar-pichai-ai-impact-summit-2026/)
