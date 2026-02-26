@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-02-25 04:27 UTC
+Updated: 2026-02-26 04:24 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Scaling Feature Engineering Pipelines with Feast and Ray](https://towardsdatascience.com/scaling-feature-engineering-pipelines-with-feast-and-ray/)
+  - <p>Utilizing feature stores like Feast and distributed compute frameworks like Ray in production machine learning systems</p> <p>The post <a href="https://towardsdatascience.com...
+- [Breaking the Host Memory Bottleneck: How Peer Direct Transformed Gaudi’s Cloud Performance](https://towardsdatascience.com/breaking-the-host-memory-bottleneck/)
+  - <p>Engineering RDMA-like performance over cloud host NICs using libfabric, DMA-BUF, and HCCL to restore distributed training scalability </p> <p>The post <a href="https://toward...
+- [Aliasing in Audio, Easily Explained: From Wagon Wheels to Waveforms](https://towardsdatascience.com/aliasing-in-audio-easily-explained-from-wagon-wheels-to-waveforms/)
+  - <p>Understanding the foundational distortion of digital audio from first principles, with worked examples and visual intuition</p> <p>The post <a href="https://towardsdatascienc...
+- [How to Define the Modeling Scope of an Internal Credit Risk Model](https://towardsdatascience.com/how-to-define-the-modeling-scope-of-an-internal-credit-risk-model/)
+  - <p>Dataset construction for Internal Ratings-Based (IRB) Probability of Default (PD) models</p> <p>The post <a href="https://towardsdatascience.com/how-to-define-the-modeling-sc...
 - [Optimizing Token Generation in PyTorch Decoder Models](https://towardsdatascience.com/optimizing-token-generation-in-pytorch-decoder-models/)
   - <p>Hiding host-device synchronization via CUDA stream interleaving</p> <p>The post <a href="https://towardsdatascience.com/optimizing-token-generation-in-pytorch-decoder-models/...
-- [Decisioning at the Edge: Policy Matching at Scale](https://towardsdatascience.com/decisioning-at-the-edge-policy-matching-at-scale/)
-  - <p>Policy-to-Agency Optimization with PuLP</p> <p>The post <a href="https://towardsdatascience.com/decisioning-at-the-edge-policy-matching-at-scale/">Decisioning at the Edge: Po...
-- [Optimizing Deep Learning Models with SAM](https://towardsdatascience.com/optimizing-deep-learning-models-with-sam/)
-  - <p>A deep dive into the Sharpness-Aware-Minimization (SAM) algorithm and how it improves the generalizability of modern deep learning models</p> <p>The post <a href="https://tow...
-- [AI Bots Formed a Cartel. No One Told Them To.](https://towardsdatascience.com/ai-bots-formed-a-cartel-no-one-told-them-to/)
-  - <p>Inside the research that shows algorithmic price-fixing isn't a bug in the code. It's a feature of the math.</p> <p>The post <a href="https://towardsdatascience.com/ai-bots-f...
-- [Is the AI and Data Job Market Dead?](https://towardsdatascience.com/is-the-ai-and-data-job-market-dead/)
-  - <p>What you should be doing in the current job market</p> <p>The post <a href="https://towardsdatascience.com/is-the-ai-and-data-job-market-dead/">Is the AI and Data Job Market ...
 
 ## KDnuggets (data-analysis)
 - [Cloud vs. Local vs. Hybrid for AI Models: A Practitioner’s Guide (Sponsored)](https://www.kdnuggets.com/cloud-vs-local-vs-hybrid-for-ai-models-a-practitioners-guide-sponsored)
@@ -29,6 +29,8 @@ Updated: 2026-02-25 04:27 UTC
   - Build robust AI agents with design patterns for ReAct loops, multi-agent workflows, and state management essential for moving from prototype to reliable production.
 
 ## OpenAI News (ai)
+- [Disrupting malicious uses of AI | February 2026](https://openai.com/index/disrupting-malicious-ai-uses)
+  - Our latest threat report examines how malicious actors combine AI models with websites and social platforms—and what it means for detection and defense.
 - [Arvind KC appointed Chief People Officer](https://openai.com/index/arvind-kc-chief-people-officer)
   - OpenAI appoints Arvind KC as Chief People Officer to help scale the company, strengthen its culture, and lead how work evolves in the age of AI.
 - [Why we no longer evaluate SWE-bench Verified](https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified)
@@ -37,20 +39,18 @@ Updated: 2026-02-25 04:27 UTC
   - OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.
 - [Our First Proof submissions](https://openai.com/index/first-proof-submissions)
   - We share our AI model’s proof attempts for the First Proof math challenge, testing research-grade reasoning on expert-level problems.
-- [Advancing independent research on AI alignment](https://openai.com/index/advancing-independent-research-ai-alignment)
-  - OpenAI commits $7.5M to The Alignment Project to fund independent AI alignment research, strengthening global efforts to address AGI safety and security risks.
 
 ## Google AI Blog (ai)
+- [See the whole picture and find the look with Circle to Search](https://blog.google/products-and-platforms/products/search/circle-to-search-february-2026/)
+  - Google Search interface featuring AI-powered tools including an "AI Overview" that breaks down an outfit's components and a virtual "Try it on" button that visualizes apparel on...
+- [A more intelligent Android on Samsung Galaxy S26](https://blog.google/products-and-platforms/platforms/android/samsung-unpacked-2026/)
+  - A woman in a red turtleneck, camouflage shorts, and black boots poses against a bright red wall, while a smartphone to her right displays a Google search page with image recogni...
 - [“No technology has me dreaming bigger than AI”](https://blog.google/company-news/inside-google/message-ceo/sundar-pichai-ai-impact-summit-2026/)
   - a stylized design resembling the Ashoka Chakra with colorful network lines and text reading "भारत 2026 INDIA." A vertical line separates it from the Google logo on the right, al...
 - [AI Impact Summit 2026](https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-collection/)
   - <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Collection_Hero-2.max-600x600.format-webp.webp" />A look at the partnerships and investments Google ann...
 - [A new way to express yourself: Gemini can now create music](https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/)
   - Image showing sample tracks created with Lyria 3
-- [AI Impact Summit 2026: How we’re partnering to make AI work for everyone](https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-india/)
-  - four people seated on a conference stage
-- [Our 2026 Responsible AI Progress Report](https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/)
-  - an illustration of blue and white cubes
 
 ## Hugging Face Blog (llm)
 - [Deploying Open Source Vision Language Models (VLM) on Jetson](https://huggingface.co/blog/nvidia/cosmos-on-jetson)
