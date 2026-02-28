@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-02-27 04:21 UTC
+Updated: 2026-02-28 04:02 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Coding the Pong Game from Scratch in Python](https://towardsdatascience.com/coding-the-pong-game-from-scratch-in-python/)
+  - <p>Implementing the classic Pong game in Python using OOP and Turtle</p> <p>The post <a href="https://towardsdatascience.com/coding-the-pong-game-from-scratch-in-python/">Coding...
+- [Stop Asking if a Model Is Interpretable](https://towardsdatascience.com/stop-asking-if-a-model-is-interpretable/)
+  - <p>Start asking what question the explanation should answer.</p> <p>The post <a href="https://towardsdatascience.com/stop-asking-if-a-model-is-interpretable/">Stop Asking if a M...
+- [Generative AI, Discriminative Human](https://towardsdatascience.com/generative-ai-discriminative-human/)
+  - <p>How to think critically about AI in an ocean of hype</p> <p>The post <a href="https://towardsdatascience.com/generative-ai-discriminative-human/">Generative AI, Discriminativ...
+- [The Gap Between Junior and Senior Data Scientists Isn’t Code](https://towardsdatascience.com/the-gap-between-junior-and-senior-data-scientists-isnt-code/)
+  - <p>Why my obsession with complex algorithms was actually holding my career back.</p> <p>The post <a href="https://towardsdatascience.com/the-gap-between-junior-and-senior-data-s...
 - [Designing Data and AI Systems That Hold Up in Production](https://towardsdatascience.com/designing-data-and-ai-systems-that-hold-up-in-production/)
   - <p>A system-level perspective on architecture, agents, and responsible scale</p> <p>The post <a href="https://towardsdatascience.com/designing-data-and-ai-systems-that-hold-up-i...
-- [A Generalizable MARL-LP Approach for Scheduling in Logistics](https://towardsdatascience.com/generalizable-marl-lp-approach-for-scheduling-in-logistics/)
-  - <p>Part 1. Hybrid Solution for Dynamic Vehicle Routing — Context and Architecture</p> <p>The post <a href="https://towardsdatascience.com/generalizable-marl-lp-approach-for-sche...
-- [Detecting and Editing Visual Objects with Gemini](https://towardsdatascience.com/detecting-and-editing-visual-objects-with-gemini/)
-  - <p> A practical guide to identifying, restoring, and transforming elements within your images</p> <p>The post <a href="https://towardsdatascience.com/detecting-and-editing-visua...
-- [Take a Deep Dive into Filtering in DAX](https://towardsdatascience.com/take-a-deep-dive-into-filtering-in-dax/)
-  - <p>Have you ever wondered what happens when you apply a filter in a DAX expression? Well, Today I will take you on a deep dive into this fascinating topic, with examples to help...
-- [Scaling Feature Engineering Pipelines with Feast and Ray](https://towardsdatascience.com/scaling-feature-engineering-pipelines-with-feast-and-ray/)
-  - <p>Utilizing feature stores like Feast and distributed compute frameworks like Ray in production machine learning systems</p> <p>The post <a href="https://towardsdatascience.com...
 
 ## KDnuggets (data-analysis)
+- [Docker AI for Agent Builders: Models, Tools, and Cloud Offload](https://www.kdnuggets.com/docker-ai-for-agent-builders-models-tools-and-cloud-offload)
+  - This article explores five infrastructure patterns that make Docker a powerful foundation for building robust, autonomous AI applications.
+- [The Future of Data Storytelling Formats: Beyond Dashboards](https://www.kdnuggets.com/the-future-of-data-storytelling-formats-beyond-dashboards)
+  - Redefining data storytelling through interactive narratives, immersive environments, and alternative sensory techniques
+- [5 Things You Need to Know Before Using OpenClaw](https://www.kdnuggets.com/5-things-you-need-to-know-before-using-openclaw)
+  - OpenClaw is incredibly powerful, but if you install it without understanding these five things, you could expose far more than you expect.
 - [5 Useful Python Scripts for Automated Data Quality Checks](https://www.kdnuggets.com/5-useful-python-scripts-for-automated-data-quality-checks)
   - Bad data leads to bad decisions. These Python scripts will help you catch data quality issues before they cause problems.
 - [Data Lake vs Data Warehouse vs Lakehouse vs Data Mesh: What’s the Difference?](https://www.kdnuggets.com/data-lake-vs-data-warehouse-vs-lakehouse-vs-data-mesh-whats-the-difference)
   - Data Lake vs Data Warehouse vs Lakehouse vs Data Mesh explained simply. Learn the key differences and which architecture fits your data needs
-- [Top 7 OpenClaw Tools & Integrations You Are Missing Out On](https://www.kdnuggets.com/top-7-openclaw-tools-integrations-you-are-missing-out)
-  - Most people are only using 10% of OpenClaw. These integrations unlock what it is truly capable of.
-- [Cloud vs. Local vs. Hybrid for AI Models: A Practitioner’s Guide (Sponsored)](https://bit.ly/4qK1Cxo)
-  - For most small- and medium-sized business leaders, the question about AI has shifted. While it used to be “Should we use AI?”, it’s now “Where should we run it?”
-- [Grounded PRD Generation with NotebookLM](https://www.kdnuggets.com/grounded-prd-generation-with-notebooklm)
-  - Leverage NotebookLM's features to turn raw, sometimes chaotic information into a grounded PRD in a matter of minutes.
 
 ## OpenAI News (ai)
-- [Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting](https://openai.com/index/pacific-northwest-national-laboratory)
-  - OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting—showing potential to...
-- [OpenAI Codex and Figma launch seamless code-to-design experience](https://openai.com/index/figma-partnership)
-  - OpenAI and Figma launch a new Codex integration that connects code and design, enabling teams to move between implementation and the Figma canvas to iterate and ship faster.
-- [Disrupting malicious uses of AI | February 2026](https://openai.com/index/disrupting-malicious-ai-uses)
-  - Our latest threat report examines how malicious actors combine AI models with websites and social platforms—and what it means for detection and defense.
-- [Arvind KC appointed Chief People Officer](https://openai.com/index/arvind-kc-chief-people-officer)
-  - OpenAI appoints Arvind KC as Chief People Officer to help scale the company, strengthen its culture, and lead how work evolves in the age of AI.
-- [Why we no longer evaluate SWE-bench Verified](https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified)
-  - SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.
+- [Joint Statement from OpenAI and Microsoft](https://openai.com/index/continuing-microsoft-partnership)
+  - Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.
+- [Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock](https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock)
+  - Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.
+- [Scaling AI for everyone](https://openai.com/index/scaling-ai-for-everyone)
+  - Today we’re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.
+- [OpenAI and Amazon announce strategic partnership](https://openai.com/index/amazon-partnership)
+  - OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.
+- [An update on our mental health-related work](https://openai.com/index/update-on-mental-health-related-work)
+  - OpenAI shares updates on its mental health safety work, including parental controls, trusted contacts, improved distress detection, and recent litigation developments.
 
 ## Google AI Blog (ai)
 - [Google and the Massachusetts AI Hub are launching a new AI training initiative for the Commonwealth.](https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/)
