@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-02-28 04:02 UTC
+Updated: 2026-03-01 04:29 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Claude Skills and Subagents: Escaping the Prompt Engineering Hamster Wheel](https://towardsdatascience.com/claude-skills-and-subagents-escaping-the-prompt-engineering-hamster-wheel/)
+  - <p>How reusable, lazy-loaded instructions solve the context bloat problem in AI-assisted development.</p> <p>The post <a href="https://towardsdatascience.com/claude-skills-and-s...
+- [Scaling ML Inference on Databricks: Liquid or Partitioned? Salted or Not?](https://towardsdatascience.com/liquid-or-partitioned-salted-or-not-scaling-ml-inference-on-databricks/)
+  - <p>A case study on techniques to maximize your clusters</p> <p>The post <a href="https://towardsdatascience.com/liquid-or-partitioned-salted-or-not-scaling-ml-inference-on-datab...
 - [Coding the Pong Game from Scratch in Python](https://towardsdatascience.com/coding-the-pong-game-from-scratch-in-python/)
   - <p>Implementing the classic Pong game in Python using OOP and Turtle</p> <p>The post <a href="https://towardsdatascience.com/coding-the-pong-game-from-scratch-in-python/">Coding...
 - [Stop Asking if a Model Is Interpretable](https://towardsdatascience.com/stop-asking-if-a-model-is-interpretable/)
   - <p>Start asking what question the explanation should answer.</p> <p>The post <a href="https://towardsdatascience.com/stop-asking-if-a-model-is-interpretable/">Stop Asking if a M...
 - [Generative AI, Discriminative Human](https://towardsdatascience.com/generative-ai-discriminative-human/)
   - <p>How to think critically about AI in an ocean of hype</p> <p>The post <a href="https://towardsdatascience.com/generative-ai-discriminative-human/">Generative AI, Discriminativ...
-- [The Gap Between Junior and Senior Data Scientists Isn’t Code](https://towardsdatascience.com/the-gap-between-junior-and-senior-data-scientists-isnt-code/)
-  - <p>Why my obsession with complex algorithms was actually holding my career back.</p> <p>The post <a href="https://towardsdatascience.com/the-gap-between-junior-and-senior-data-s...
-- [Designing Data and AI Systems That Hold Up in Production](https://towardsdatascience.com/designing-data-and-ai-systems-that-hold-up-in-production/)
-  - <p>A system-level perspective on architecture, agents, and responsible scale</p> <p>The post <a href="https://towardsdatascience.com/designing-data-and-ai-systems-that-hold-up-i...
 
 ## KDnuggets (data-analysis)
 - [Docker AI for Agent Builders: Models, Tools, and Cloud Offload](https://www.kdnuggets.com/docker-ai-for-agent-builders-models-tools-and-cloud-offload)
@@ -29,16 +29,16 @@ Updated: 2026-02-28 04:02 UTC
   - Data Lake vs Data Warehouse vs Lakehouse vs Data Mesh explained simply. Learn the key differences and which architecture fits your data needs
 
 ## OpenAI News (ai)
+- [Our agreement with the Department of War](https://openai.com/index/our-agreement-with-the-department-of-war)
+  - Details on OpenAI’s contract with the Department of War, outlining safety red lines, legal protections, and how AI systems will be deployed in classified environments.
 - [Joint Statement from OpenAI and Microsoft](https://openai.com/index/continuing-microsoft-partnership)
   - Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.
-- [Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock](https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock)
-  - Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.
-- [Scaling AI for everyone](https://openai.com/index/scaling-ai-for-everyone)
-  - Today we’re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.
 - [OpenAI and Amazon announce strategic partnership](https://openai.com/index/amazon-partnership)
   - OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.
-- [An update on our mental health-related work](https://openai.com/index/update-on-mental-health-related-work)
-  - OpenAI shares updates on its mental health safety work, including parental controls, trusted contacts, improved distress detection, and recent litigation developments.
+- [Scaling AI for everyone](https://openai.com/index/scaling-ai-for-everyone)
+  - Today we’re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.
+- [Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock](https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock)
+  - Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.
 
 ## Google AI Blog (ai)
 - [Google and the Massachusetts AI Hub are launching a new AI training initiative for the Commonwealth.](https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/)
