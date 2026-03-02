@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-03-01 04:29 UTC
+Updated: 2026-03-02 04:22 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Zero-Waste Agentic RAG: Designing Caching Architectures to Minimize Latency and LLM Costs at Scale](https://towardsdatascience.com/zero-waste-agentic-rag-designing-caching-architectures-to-minimize-latency-and-llm-costs-at-scale/)
+  - <p>Reducing LLM costs by 30% with validation-aware, multi-tier caching</p> <p>The post <a href="https://towardsdatascience.com/zero-waste-agentic-rag-designing-caching-architect...
+- [Context Engineering as Your Competitive Edge](https://towardsdatascience.com/context-engineering-as-your-competitive-edge/)
+  - <p>If you have both unique domain expertise and know how to make it usable to your AI systems, you’ll be hard to beat.</p> <p>The post <a href="https://towardsdatascience.com/co...
 - [Claude Skills and Subagents: Escaping the Prompt Engineering Hamster Wheel](https://towardsdatascience.com/claude-skills-and-subagents-escaping-the-prompt-engineering-hamster-wheel/)
   - <p>How reusable, lazy-loaded instructions solve the context bloat problem in AI-assisted development.</p> <p>The post <a href="https://towardsdatascience.com/claude-skills-and-s...
 - [Scaling ML Inference on Databricks: Liquid or Partitioned? Salted or Not?](https://towardsdatascience.com/liquid-or-partitioned-salted-or-not-scaling-ml-inference-on-databricks/)
   - <p>A case study on techniques to maximize your clusters</p> <p>The post <a href="https://towardsdatascience.com/liquid-or-partitioned-salted-or-not-scaling-ml-inference-on-datab...
 - [Coding the Pong Game from Scratch in Python](https://towardsdatascience.com/coding-the-pong-game-from-scratch-in-python/)
   - <p>Implementing the classic Pong game in Python using OOP and Turtle</p> <p>The post <a href="https://towardsdatascience.com/coding-the-pong-game-from-scratch-in-python/">Coding...
-- [Stop Asking if a Model Is Interpretable](https://towardsdatascience.com/stop-asking-if-a-model-is-interpretable/)
-  - <p>Start asking what question the explanation should answer.</p> <p>The post <a href="https://towardsdatascience.com/stop-asking-if-a-model-is-interpretable/">Stop Asking if a M...
-- [Generative AI, Discriminative Human](https://towardsdatascience.com/generative-ai-discriminative-human/)
-  - <p>How to think critically about AI in an ocean of hype</p> <p>The post <a href="https://towardsdatascience.com/generative-ai-discriminative-human/">Generative AI, Discriminativ...
 
 ## KDnuggets (data-analysis)
 - [Docker AI for Agent Builders: Models, Tools, and Cloud Offload](https://www.kdnuggets.com/docker-ai-for-agent-builders-models-tools-and-cloud-offload)
