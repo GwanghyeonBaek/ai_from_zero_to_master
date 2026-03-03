@@ -1,32 +1,32 @@
 # Latest Learning Resources
 
-Updated: 2026-03-02 04:22 UTC
+Updated: 2026-03-03 04:22 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [YOLOv3 Paper Walkthrough: Even Better, But Not That Much](https://towardsdatascience.com/yolov3-paper-walkthrough-even-better-but-not-that-much/)
+  - <p>A PyTorch implementation on the YOLOv3 architecture from scratch</p> <p>The post <a href="https://towardsdatascience.com/yolov3-paper-walkthrough-even-better-but-not-that-muc...
+- [The Machine Learning Lessons I’ve Learned This Month](https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-4/)
+  - <p>February 2026: exchange with others, documentation, and MLOps</p> <p>The post <a href="https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-4/">...
+- [Code Less, Ship Faster: Building APIs with FastAPI](https://towardsdatascience.com/code-less-ship-faster-building-apis-with-fastapi/)
+  - <p>Master path operations, Pydantic models, dependency injection, and automatic documentation.</p> <p>The post <a href="https://towardsdatascience.com/code-less-ship-faster-buil...
+- [Exciting Changes Are Coming to the TDS Author Payment Program](https://towardsdatascience.com/exciting-changes-are-coming-to-the-tds-author-payment-program/)
+  - <p>Authors can now benefit from updated earning tiers and a higher article cap</p> <p>The post <a href="https://towardsdatascience.com/exciting-changes-are-coming-to-the-tds-aut...
 - [Zero-Waste Agentic RAG: Designing Caching Architectures to Minimize Latency and LLM Costs at Scale](https://towardsdatascience.com/zero-waste-agentic-rag-designing-caching-architectures-to-minimize-latency-and-llm-costs-at-scale/)
   - <p>Reducing LLM costs by 30% with validation-aware, multi-tier caching</p> <p>The post <a href="https://towardsdatascience.com/zero-waste-agentic-rag-designing-caching-architect...
-- [Context Engineering as Your Competitive Edge](https://towardsdatascience.com/context-engineering-as-your-competitive-edge/)
-  - <p>If you have both unique domain expertise and know how to make it usable to your AI systems, you’ll be hard to beat.</p> <p>The post <a href="https://towardsdatascience.com/co...
-- [Claude Skills and Subagents: Escaping the Prompt Engineering Hamster Wheel](https://towardsdatascience.com/claude-skills-and-subagents-escaping-the-prompt-engineering-hamster-wheel/)
-  - <p>How reusable, lazy-loaded instructions solve the context bloat problem in AI-assisted development.</p> <p>The post <a href="https://towardsdatascience.com/claude-skills-and-s...
-- [Scaling ML Inference on Databricks: Liquid or Partitioned? Salted or Not?](https://towardsdatascience.com/liquid-or-partitioned-salted-or-not-scaling-ml-inference-on-databricks/)
-  - <p>A case study on techniques to maximize your clusters</p> <p>The post <a href="https://towardsdatascience.com/liquid-or-partitioned-salted-or-not-scaling-ml-inference-on-datab...
-- [Coding the Pong Game from Scratch in Python](https://towardsdatascience.com/coding-the-pong-game-from-scratch-in-python/)
-  - <p>Implementing the classic Pong game in Python using OOP and Turtle</p> <p>The post <a href="https://towardsdatascience.com/coding-the-pong-game-from-scratch-in-python/">Coding...
 
 ## KDnuggets (data-analysis)
+- [The SMB Owner’s Guide to AI ROI: Measuring Time Saved, Revenue Gained, and Risk Added (Sponsored)](https://bit.ly/4rRtvVu)
+  - Artificial intelligence is currently occupying the same mental space that "the cloud" did fifteen years ago, or the internet itself did twenty-five years ago.
+- [Getting Started with Python Async Programming](https://www.kdnuggets.com/getting-started-with-python-async-programming)
+  - Build faster Python applications by mastering async programming and learning how to handle I/O bound workloads efficiently with real world examples.
+- [Data Engineering for the LLM Age](https://www.kdnuggets.com/data-engineering-for-the-llm-age)
+  - Great LLMs need great data. Discover the pipelines, tools, and RAG architecture shaping the future of AI-ready data engineering
 - [Docker AI for Agent Builders: Models, Tools, and Cloud Offload](https://www.kdnuggets.com/docker-ai-for-agent-builders-models-tools-and-cloud-offload)
   - This article explores five infrastructure patterns that make Docker a powerful foundation for building robust, autonomous AI applications.
 - [The Future of Data Storytelling Formats: Beyond Dashboards](https://www.kdnuggets.com/the-future-of-data-storytelling-formats-beyond-dashboards)
   - Redefining data storytelling through interactive narratives, immersive environments, and alternative sensory techniques
-- [5 Things You Need to Know Before Using OpenClaw](https://www.kdnuggets.com/5-things-you-need-to-know-before-using-openclaw)
-  - OpenClaw is incredibly powerful, but if you install it without understanding these five things, you could expose far more than you expect.
-- [5 Useful Python Scripts for Automated Data Quality Checks](https://www.kdnuggets.com/5-useful-python-scripts-for-automated-data-quality-checks)
-  - Bad data leads to bad decisions. These Python scripts will help you catch data quality issues before they cause problems.
-- [Data Lake vs Data Warehouse vs Lakehouse vs Data Mesh: What’s the Difference?](https://www.kdnuggets.com/data-lake-vs-data-warehouse-vs-lakehouse-vs-data-mesh-whats-the-difference)
-  - Data Lake vs Data Warehouse vs Lakehouse vs Data Mesh explained simply. Learn the key differences and which architecture fits your data needs
 
 ## OpenAI News (ai)
 - [Our agreement with the Department of War](https://openai.com/index/our-agreement-with-the-department-of-war)
