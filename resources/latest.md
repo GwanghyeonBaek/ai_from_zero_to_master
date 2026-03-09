@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-03-08 04:19 UTC
+Updated: 2026-03-09 04:25 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Write C Code Without Learning C: The Magic of PythoC](https://towardsdatascience.com/write-c-code-without-learning-c-the-magic-of-pythoc/)
+  - <p>Compile native, standalone applications using the Python syntax you already know.</p> <p>The post <a href="https://towardsdatascience.com/write-c-code-without-learning-c-the-...
+- [LatentVLA: Latent Reasoning Models for Autonomous Driving](https://towardsdatascience.com/latentvla-latent-reasoning-models-for-autonomous-driving/)
+  - <p>What if natural language is not the best abstraction for driving?</p> <p>The post <a href="https://towardsdatascience.com/latentvla-latent-reasoning-models-for-autonomous-dri...
 - [Understanding Context and Contextual Retrieval in RAG](https://towardsdatascience.com/understanding-context-and-contextual-retrieval-in-rag/)
   - <p>Why traditional RAG loses context and how contextual retrieval dramatically improves retrieval accuracy</p> <p>The post <a href="https://towardsdatascience.com/understanding-...
 - [The AI Bubble Has a Data Science Escape Hatch](https://towardsdatascience.com/the-ai-bubble-has-a-data-science-escape-hatch/)
   - <p>Five classical data science skills are becoming the scarcest resource in tech. A 90-day roadmap to build them while everyone else chases AI hype.</p> <p>The post <a href="htt...
 - [What Makes Quantum Machine Learning “Quantum”?](https://towardsdatascience.com/what-makes-quantum-machine-learning-quantum/)
   - <p>And where is it today?</p> <p>The post <a href="https://towardsdatascience.com/what-makes-quantum-machine-learning-quantum/">What Makes Quantum Machine Learning “Quantum”?</a...
-- [The Data Team’s Survival Guide for the Next Era of Data](https://towardsdatascience.com/the-data-teams-survival-guide-for-the-next-era-of-data/)
-  - <p>6 pillars to declutter your stack, escape the service trap, and build the missing foundations for the new primary data consumer: the AI agent.</p> <p>The post <a href="https:...
-- [The Black Box Problem: Why AI-Generated Code Stops Being Maintainable](https://towardsdatascience.com/the-black-box-problem-why-ai-generated-code-stops-being-maintainable/)
-  - <p>Same notification system, two architectures. Unstructured generation couples everything into a single module. Structured generation decomposes into independent components wit...
 
 ## KDnuggets (data-analysis)
 - [5 Powerful Python Decorators to Optimize LLM Applications](https://www.kdnuggets.com/5-powerful-python-decorators-to-optimize-llm-applications)
@@ -35,10 +35,9 @@ Updated: 2026-03-08 04:19 UTC
   - Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.
 - [How Balyasny Asset Management built an AI research engine for investing](https://openai.com/index/balyasny-asset-management)
   - See how Balyasny built an AI research system with GPT-5.4, rigorous model evaluation, and agent workflows to transform investment analysis at scale.
+- [GPT-5.4 Thinking System Card](https://openai.com/index/gpt-5-4-thinking-system-card)
 - [Reasoning models struggle to control their chains of thought, and that’s good](https://openai.com/index/reasoning-models-chain-of-thought-controllability)
   - OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.
-- [Introducing GPT-5.4](https://openai.com/index/introducing-gpt-5-4)
-  - Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.
 
 ## Google AI Blog (ai)
 - [How our open-source AI model SpeciesNet is helping to promote wildlife conservation](https://blog.google/company-news/outreach-and-initiatives/sustainability/speciesnet-open-source-ai-wildlife/)
