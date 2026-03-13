@@ -1,31 +1,31 @@
 # Latest Learning Resources
 
-Updated: 2026-03-12 04:21 UTC
+Updated: 2026-03-13 04:20 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Exploratory Data Analysis for Credit Scoring with Python](https://towardsdatascience.com/exploratory-data-analysis-for-credit-scoring-with-python/)
+  - <p>Understanding default risk through statistical analysis of borrower and loan characteristics.</p> <p>The post <a href="https://towardsdatascience.com/exploratory-data-analysi...
+- [Solving the Human Training Data Problem](https://towardsdatascience.com/solving-the-human-training-data-problem/)
+  - <p>How AI has completely transformed the way I study as a graduate student</p> <p>The post <a href="https://towardsdatascience.com/solving-the-human-training-data-problem/">Solv...
+- [Scaling Vector Search: Comparing Quantization and Matryoshka Embeddings for 80% Cost Reduction](https://towardsdatascience.com/649627-2/)
+  - <p>Navigating the performance cliff: How pairing MRL with int8 and binary quantization balances infrastructure costs with retrieval accuracy.</p> <p>The post <a href="https://to...
+- [I Finally Built My First AI App (And It Wasn’t What I Expected)](https://towardsdatascience.com/i-finally-built-my-first-ai-app-and-it-wasnt-what-i-expected/)
+  - <p>A beginner-friendly walkthrough of API calls, environment variables, and real-world AI infrastructure</p> <p>The post <a href="https://towardsdatascience.com/i-finally-built-...
 - [An Intuitive Guide to MCMC (Part I): The Metropolis-Hastings Algorithm](https://towardsdatascience.com/an-intuitive-guide-to-mcmc-part-i-the-metropolis-hastings-algorithm/)
   - <p>Tired of the AI hype? Let's talk about the probabilistic algorithms actually driving high-end quantitative finance.</p> <p>The post <a href="https://towardsdatascience.com/an...
-- [Spectral Clustering Explained: How Eigenvectors Reveal Complex Cluster Structures](https://towardsdatascience.com/spectral-clustering-explained-how-eigenvectors-reveal-complex-cluster-structures/)
-  - <p>Understanding why spectral clustering outperforms K-means</p> <p>The post <a href="https://towardsdatascience.com/spectral-clustering-explained-how-eigenvectors-reveal-comple...
-- [Why Most A/B Tests Are Lying to You](https://towardsdatascience.com/why-most-a-b-tests-are-lying-to-you/)
-  - <p>The 4 statistical sins that invalidate most A/B tests, plus a pre-test checklist and Bayesian vs frequentist decision framework you can use Monday.</p> <p>The post <a href="h...
-- [How the Fourier Transform Converts Sound Into Frequencies](https://towardsdatascience.com/everything-you-need-to-know-about-fourier-transform/)
-  - <p>A visual, intuition-first guide to understanding what the math is really doing — from winding machines to spectrograms</p> <p>The post <a href="https://towardsdatascience.com...
-- [Hybrid Neuro-Symbolic Fraud Detection: Guiding Neural Networks with Domain Rules](https://towardsdatascience.com/hybrid-neuro-symbolic-fraud-detection-guiding-neural-networks-with-domain-rules/)
-  - <p>I really thought I was onto something big: add a couple of simple domain rules to the loss function, and watch fraud detection just skyrocket on super-imbalanced data. The fi...
 
 ## KDnuggets (data-analysis)
+- [The 2026 Data Science Starter Kit: What to Learn First (And What to Ignore)](https://www.kdnuggets.com/the-2026-data-science-starter-kit-what-to-learn-first-and-what-to-ignore)
+  - New to data science? Cut through the noise with the 2026 starter kit. Which Python, SQL, and machine learning essentials are important, and what can be ignored?
+- [Top 7 AI Agent Orchestration Frameworks](https://www.kdnuggets.com/top-7-ai-agent-orchestration-frameworks)
+  - Looking to build autonomous AI agent systems? Here are the frameworks that will help you orchestrate agents effectively.
 - [Run a Real Time Speech to Speech AI Model Locally](https://www.kdnuggets.com/run-a-real-time-speech-to-speech-ai-model-locally)
   - In this guide, you learn how to install and run PersonaPlex locally step by step, so you can experience real time, interruptible speech to speech AI directly on your own machine.
 - [5 Free AI Tools to Understand Code and Generate Documentation](https://www.kdnuggets.com/5-free-ai-tools-to-understand-code-and-generate-documentation)
   - Discover five AI tools that make exploring and understanding large codebases faster and easier.
 - [Understanding The Cost Of One Compromised Account (Sponsored)](https://bit.ly/40nBVbe)
-- [Run Tiny AI Models Locally Using BitNet A Beginner Guide](https://www.kdnuggets.com/run-tiny-ai-models-locally-using-bitnet-a-beginner-guide)
-  - Learn how to install bitnet.cpp, download the BitNet b1.58 model, and run a fully local AI chat and inference server on your machine.
-- [Postgres vs MySQL vs SQLite: Comparing SQL Performance Across Engines](https://www.kdnuggets.com/postgres-vs-mysql-vs-sqlite-comparing-sql-performance-across-engines)
-  - Check out a practical benchmark of three popular SQL databases using real-world analytical problems.
 
 ## OpenAI News (ai)
 - [Rakuten fixes issues twice as fast with Codex](https://openai.com/index/rakuten)
@@ -52,7 +52,7 @@ Updated: 2026-03-12 04:21 UTC
   - an MP4 of a carousel with images reading "Gemini 3.1 Pro" and "Nano Banana 2"
 
 ## Hugging Face Blog (llm)
-- [How NVIDIA AI-Q Reached \#1 on DeepResearch Bench I and II](https://huggingface.co/blog/nvidia/how-nvidia-won-deepresearch-bench)
+- [Build an Agent That Thinks Like a Data Scientist: How We Hit #1 on DABStep with Reusable Tool Generation](https://huggingface.co/blog/nvidia/nemo-agent-toolkit-data-explorer-dabstep-1st-place)
 - [Introducing Storage Buckets on the Hugging Face Hub](https://huggingface.co/blog/storage-buckets)
 - [Keep the Tokens Flowing: Lessons from 16 Open-Source RL Libraries](https://huggingface.co/blog/async-rl-training-landscape)
 - [Granite 4.0 1B Speech: Compact, Multilingual, and Built for the Edge](https://huggingface.co/blog/ibm-granite/granite-4-speech)
