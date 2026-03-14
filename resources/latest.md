@@ -1,41 +1,42 @@
 # Latest Learning Resources
 
-Updated: 2026-03-13 04:20 UTC
+Updated: 2026-03-14 04:18 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
-- [Exploratory Data Analysis for Credit Scoring with Python](https://towardsdatascience.com/exploratory-data-analysis-for-credit-scoring-with-python/)
-  - <p>Understanding default risk through statistical analysis of borrower and loan characteristics.</p> <p>The post <a href="https://towardsdatascience.com/exploratory-data-analysi...
-- [Solving the Human Training Data Problem](https://towardsdatascience.com/solving-the-human-training-data-problem/)
-  - <p>How AI has completely transformed the way I study as a graduate student</p> <p>The post <a href="https://towardsdatascience.com/solving-the-human-training-data-problem/">Solv...
-- [Scaling Vector Search: Comparing Quantization and Matryoshka Embeddings for 80% Cost Reduction](https://towardsdatascience.com/649627-2/)
-  - <p>Navigating the performance cliff: How pairing MRL with int8 and binary quantization balances infrastructure costs with retrieval accuracy.</p> <p>The post <a href="https://to...
-- [I Finally Built My First AI App (And It Wasn’t What I Expected)](https://towardsdatascience.com/i-finally-built-my-first-ai-app-and-it-wasnt-what-i-expected/)
-  - <p>A beginner-friendly walkthrough of API calls, environment variables, and real-world AI infrastructure</p> <p>The post <a href="https://towardsdatascience.com/i-finally-built-...
-- [An Intuitive Guide to MCMC (Part I): The Metropolis-Hastings Algorithm](https://towardsdatascience.com/an-intuitive-guide-to-mcmc-part-i-the-metropolis-hastings-algorithm/)
-  - <p>Tired of the AI hype? Let's talk about the probabilistic algorithms actually driving high-end quantitative finance.</p> <p>The post <a href="https://towardsdatascience.com/an...
+- [Why Care About Prompt Caching in LLMs?](https://towardsdatascience.com/why-care-about-promp-caching-in-llms/)
+  - <p>Optimizing the cost and latency of your LLM calls with Prompt Caching</p> <p>The post <a href="https://towardsdatascience.com/why-care-about-promp-caching-in-llms/">Why Care ...
+- [How Vision Language Models Are Trained from “Scratch”](https://towardsdatascience.com/how-vision-language-models-are-trained-from-scratch/)
+  - <p>A deep dive into exactly how text-only language models are finetuned to *see* images</p> <p>The post <a href="https://towardsdatascience.com/how-vision-language-models-are-tr...
+- [Personalized Restaurant Ranking with a Two-Tower Embedding Variant](https://towardsdatascience.com/personalized-restaurant-ranking-with-a-two-tower-embedding-variant/)
+  - <p>How a lightweight two-tower model improved restaurant discovery when popularity ranking failed</p> <p>The post <a href="https://towardsdatascience.com/personalized-restaurant...
+- [A Tale of Two Variances: Why NumPy and Pandas Give Different Answers](https://towardsdatascience.com/a-tale-of-two-variances-why-numpy-and-pandas-give-different-answers/)
+  - <p>Imagine you are analyzing a small dataset: You want to calculate some summary statistics to get an idea of the distribution of this data, so you use numpy to calculate the me...
+- [How to Build Agentic RAG with Hybrid Search](https://towardsdatascience.com/how-to-build-agentic-rag-with-hybrid-search/)
+  - <p>Learn how to build a powerful agentic RAG system</p> <p>The post <a href="https://towardsdatascience.com/how-to-build-agentic-rag-with-hybrid-search/">How to Build Agentic RA...
 
 ## KDnuggets (data-analysis)
+- [We Used 5 Outlier Detection Methods on a Real Dataset: They Disagreed on 96% of Flagged Samples](https://www.kdnuggets.com/we-used-5-outlier-detection-methods-on-a-real-dataset-they-disagreed-on-96-of-flagged-samples)
+  - Out of 816 wines flagged by at least one method, just 32 made the unanimous list. Those wines had something in common.
+- [5 Powerful Python Decorators for High-Performance Data Pipelines](https://www.kdnuggets.com/5-powerful-python-decorators-for-high-performance-data-pipelines)
+  - This article presents five useful and effective Python decorators to build and optimize high performance data pipelines.
 - [The 2026 Data Science Starter Kit: What to Learn First (And What to Ignore)](https://www.kdnuggets.com/the-2026-data-science-starter-kit-what-to-learn-first-and-what-to-ignore)
   - New to data science? Cut through the noise with the 2026 starter kit. Which Python, SQL, and machine learning essentials are important, and what can be ignored?
 - [Top 7 AI Agent Orchestration Frameworks](https://www.kdnuggets.com/top-7-ai-agent-orchestration-frameworks)
   - Looking to build autonomous AI agent systems? Here are the frameworks that will help you orchestrate agents effectively.
 - [Run a Real Time Speech to Speech AI Model Locally](https://www.kdnuggets.com/run-a-real-time-speech-to-speech-ai-model-locally)
   - In this guide, you learn how to install and run PersonaPlex locally step by step, so you can experience real time, interruptible speech to speech AI directly on your own machine.
-- [5 Free AI Tools to Understand Code and Generate Documentation](https://www.kdnuggets.com/5-free-ai-tools-to-understand-code-and-generate-documentation)
-  - Discover five AI tools that make exploring and understanding large codebases faster and easier.
-- [Understanding The Cost Of One Compromised Account (Sponsored)](https://bit.ly/40nBVbe)
 
 ## OpenAI News (ai)
 - [Rakuten fixes issues twice as fast with Codex](https://openai.com/index/rakuten)
   - Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks.
 - [Designing AI agents to resist prompt injection](https://openai.com/index/designing-agents-to-resist-prompt-injection)
   - How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.
-- [From model to agent: Equipping the Responses API with a computer environment](https://openai.com/index/equip-responses-api-computer-environment)
-  - How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.
 - [Wayfair boosts catalog accuracy and support speed with OpenAI](https://openai.com/index/wayfair)
   - Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.
+- [From model to agent: Equipping the Responses API with a computer environment](https://openai.com/index/equip-responses-api-computer-environment)
+  - How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.
 - [Improving instruction hierarchy in frontier LLMs](https://openai.com/index/instruction-hierarchy-challenge)
   - IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.
 
@@ -52,7 +53,7 @@ Updated: 2026-03-13 04:20 UTC
   - an MP4 of a carousel with images reading "Gemini 3.1 Pro" and "Nano Banana 2"
 
 ## Hugging Face Blog (llm)
-- [Build an Agent That Thinks Like a Data Scientist: How We Hit #1 on DABStep with Reusable Tool Generation](https://huggingface.co/blog/nvidia/nemo-agent-toolkit-data-explorer-dabstep-1st-place)
+- [Beyond Semantic Similarity: Introducing NVIDIA NeMo Retriever’s Generalizable Agentic Retrieval Pipeline](https://huggingface.co/blog/nvidia/nemo-retriever-agentic-retrieval)
 - [Introducing Storage Buckets on the Hugging Face Hub](https://huggingface.co/blog/storage-buckets)
 - [Keep the Tokens Flowing: Lessons from 16 Open-Source RL Libraries](https://huggingface.co/blog/async-rl-training-landscape)
 - [Granite 4.0 1B Speech: Compact, Multilingual, and Built for the Edge](https://huggingface.co/blog/ibm-granite/granite-4-speech)
