@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-03-14 04:18 UTC
+Updated: 2026-03-15 04:40 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [The Multi-Agent Trap](https://towardsdatascience.com/the-multi-agent-trap/)
+  - <p>Google DeepMind found multi-agent networks amplify errors 17x. Learn 3 architecture patterns that separate $60M wins from the 40% that get canceled.</p> <p>The post <a href="...
+- [The Current Status of The Quantum Software Stack](https://towardsdatascience.com/the-current-status-of-the-quantum-software-stack/)
+  - <p>How do we program quantum computers today?</p> <p>The post <a href="https://towardsdatascience.com/the-current-status-of-the-quantum-software-stack/">The Current Status of Th...
 - [Why Care About Prompt Caching in LLMs?](https://towardsdatascience.com/why-care-about-promp-caching-in-llms/)
   - <p>Optimizing the cost and latency of your LLM calls with Prompt Caching</p> <p>The post <a href="https://towardsdatascience.com/why-care-about-promp-caching-in-llms/">Why Care ...
 - [How Vision Language Models Are Trained from “Scratch”](https://towardsdatascience.com/how-vision-language-models-are-trained-from-scratch/)
   - <p>A deep dive into exactly how text-only language models are finetuned to *see* images</p> <p>The post <a href="https://towardsdatascience.com/how-vision-language-models-are-tr...
 - [Personalized Restaurant Ranking with a Two-Tower Embedding Variant](https://towardsdatascience.com/personalized-restaurant-ranking-with-a-two-tower-embedding-variant/)
   - <p>How a lightweight two-tower model improved restaurant discovery when popularity ranking failed</p> <p>The post <a href="https://towardsdatascience.com/personalized-restaurant...
-- [A Tale of Two Variances: Why NumPy and Pandas Give Different Answers](https://towardsdatascience.com/a-tale-of-two-variances-why-numpy-and-pandas-give-different-answers/)
-  - <p>Imagine you are analyzing a small dataset: You want to calculate some summary statistics to get an idea of the distribution of this data, so you use numpy to calculate the me...
-- [How to Build Agentic RAG with Hybrid Search](https://towardsdatascience.com/how-to-build-agentic-rag-with-hybrid-search/)
-  - <p>Learn how to build a powerful agentic RAG system</p> <p>The post <a href="https://towardsdatascience.com/how-to-build-agentic-rag-with-hybrid-search/">How to Build Agentic RA...
 
 ## KDnuggets (data-analysis)
 - [We Used 5 Outlier Detection Methods on a Real Dataset: They Disagreed on 96% of Flagged Samples](https://www.kdnuggets.com/we-used-5-outlier-detection-methods-on-a-real-dataset-they-disagreed-on-96-of-flagged-samples)
