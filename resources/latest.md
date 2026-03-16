@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-03-15 04:40 UTC
+Updated: 2026-03-16 04:47 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [The 2026 Data Mandate: Is Your Governance Architecture a Fortress or a Liability?](https://towardsdatascience.com/the-2026-data-mandate-is-your-governance-architecture-a-fortress-or-a-liability/)
+  - <p>Is your data strategy 2026-ready? Get a deep dive into the mandatory shift toward human-in-the-loop oversight, active metadata, and the strategic advantages of European data ...
+- [The Causal Inference Playbook: Advanced Methods Every Data Scientist Should Master](https://towardsdatascience.com/the-causal-inference-playbook-advanced-methods-every-data-scientist-should-master/)
+  - <p>Master six advanced causal inference methods with Python: doubly robust estimation, instrumental variables, regression discontinuity, modern difference-in-differences, hetero...
 - [The Multi-Agent Trap](https://towardsdatascience.com/the-multi-agent-trap/)
   - <p>Google DeepMind found multi-agent networks amplify errors 17x. Learn 3 architecture patterns that separate $60M wins from the 40% that get canceled.</p> <p>The post <a href="...
 - [The Current Status of The Quantum Software Stack](https://towardsdatascience.com/the-current-status-of-the-quantum-software-stack/)
   - <p>How do we program quantum computers today?</p> <p>The post <a href="https://towardsdatascience.com/the-current-status-of-the-quantum-software-stack/">The Current Status of Th...
 - [Why Care About Prompt Caching in LLMs?](https://towardsdatascience.com/why-care-about-promp-caching-in-llms/)
   - <p>Optimizing the cost and latency of your LLM calls with Prompt Caching</p> <p>The post <a href="https://towardsdatascience.com/why-care-about-promp-caching-in-llms/">Why Care ...
-- [How Vision Language Models Are Trained from “Scratch”](https://towardsdatascience.com/how-vision-language-models-are-trained-from-scratch/)
-  - <p>A deep dive into exactly how text-only language models are finetuned to *see* images</p> <p>The post <a href="https://towardsdatascience.com/how-vision-language-models-are-tr...
-- [Personalized Restaurant Ranking with a Two-Tower Embedding Variant](https://towardsdatascience.com/personalized-restaurant-ranking-with-a-two-tower-embedding-variant/)
-  - <p>How a lightweight two-tower model improved restaurant discovery when popularity ranking failed</p> <p>The post <a href="https://towardsdatascience.com/personalized-restaurant...
 
 ## KDnuggets (data-analysis)
 - [We Used 5 Outlier Detection Methods on a Real Dataset: They Disagreed on 96% of Flagged Samples](https://www.kdnuggets.com/we-used-5-outlier-detection-methods-on-a-real-dataset-they-disagreed-on-96-of-flagged-samples)
