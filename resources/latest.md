@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-03-18 04:31 UTC
+Updated: 2026-03-19 04:30 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Two-Stage Hurdle Models: Predicting Zero-Inflated Outcomes](https://towardsdatascience.com/two-stage-hurdle-models-predicting-zero-inflated-outcomes/)
+  - <p>Why one model can't do two jobs</p> <p>The post <a href="https://towardsdatascience.com/two-stage-hurdle-models-predicting-zero-inflated-outcomes/">Two-Stage Hurdle Models: P...
+- [The New Experience of Coding with AI](https://towardsdatascience.com/the-new-experience-of-coding-with-ai/)
+  - <p>The seduction of AI code assistants</p> <p>The post <a href="https://towardsdatascience.com/the-new-experience-of-coding-with-ai/">The New Experience of Coding with AI</a> ap...
+- [Why You Should Stop Worrying About AI Taking Data Science Jobs](https://towardsdatascience.com/stop-worrying-about-ai-taking-data-science-jobs-heres-why/)
+  - <p>It's all just fearmongering</p> <p>The post <a href="https://towardsdatascience.com/stop-worrying-about-ai-taking-data-science-jobs-heres-why/">Why You Should Stop Worrying A...
+- [One Model to Rule Them All? SAP-RPT-1 and the Future of Tabular Foundation Models](https://towardsdatascience.com/one-model-to-rule-them-all-sap-rpt-1-and-the-future-of-tabular-foundation-models/)
+  - <p>A hands-on case study and practical guidance</p> <p>The post <a href="https://towardsdatascience.com/one-model-to-rule-them-all-sap-rpt-1-and-the-future-of-tabular-foundation...
 - [How to Effectively Review Claude Code Output](https://towardsdatascience.com/how-to-effectively-review-claude-code-output/)
   - <p>Get more out of your coding agents by making reviewing more efficient</p> <p>The post <a href="https://towardsdatascience.com/how-to-effectively-review-claude-code-output/">H...
-- [Self-Hosting Your First LLM](https://towardsdatascience.com/self-hosting-your-first-llm/)
-  - <p>Privacy. Cost. Customization. Everything you need to know—step by step.</p> <p>The post <a href="https://towardsdatascience.com/self-hosting-your-first-llm/">Self-Hosting You...
-- [Introducing Gemini Embeddings 2 Preview](https://towardsdatascience.com/introducing-gemini-embeddings-2-preview/)
-  - <p>One embedding model to rule them all</p> <p>The post <a href="https://towardsdatascience.com/introducing-gemini-embeddings-2-preview/">Introducing Gemini Embeddings 2 Preview...
-- [How a Neural Network Learned Its Own Fraud Rules: A Neuro-Symbolic AI Experiment](https://towardsdatascience.com/how-a-neural-network-learned-its-own-fraud-rules-a-neuro-symbolic-ai-experiment/)
-  - <p>Most neuro-symbolic systems inject rules written by humans. But what if a neural network could discover those rules itself?</p> <p>In this experiment, I extend a hybrid neura...
-- [Hallucinations in LLMs Are Not a Bug in the Data](https://towardsdatascience.com/hallucinations-in-llms-are-not-a-bug-in-the-data/)
-  - <p>It’s a feature of the architecture</p> <p>The post <a href="https://towardsdatascience.com/hallucinations-in-llms-are-not-a-bug-in-the-data/">Hallucinations in LLMs Are Not a...
 
 ## KDnuggets (data-analysis)
+- [Visualizing Patterns in Solutions: How Data Structure Affects Coding Style](https://www.kdnuggets.com/visualizing-patterns-in-solutions-how-data-structure-affects-coding-style)
+  - Read this empirical analysis of how dataset structure drives window functions, CTEs, JOINs, and pandas merge patterns.
+- [7 Ways to Reduce Hallucinations in Production LLMs](https://www.kdnuggets.com/7-ways-to-reduce-hallucinations-in-production-llms)
+  - Most LLM hallucination fixes fail. Here is what actually works in production.
 - [AIOps 101: The 3 Pillars of Reliably Deploying AI Models (Sponsored)](https://bit.ly/ingram-topic-21-kdn-website#new_tab)
   - In the lab, your AI model might seem perfect, but the real world is often where it breaks.
 - [OpenClaw Explained: The Free AI Agent Tool Going Viral Already in 2026](https://www.kdnuggets.com/openclaw-explained-the-free-ai-agent-tool-going-viral-already-in-2026)
   - With 100+ built-in skills, OpenClaw connects AI models directly to apps, browsers, and system tools.
 - [The State of Agent Engineering Report Overview](https://www.kdnuggets.com/the-state-of-agent-engineering-report-overview)
   - Check out the current state AI agent engineering the accessible way: demystifying the jargon, and seeking supporting evidence.
-- [The Evolution From Prompt Engineering to Concept Engineering](https://www.kdnuggets.com/the-evolution-from-prompt-engineering-to-concept-engineering)
-  - Learn about a future-proof shift from fragile prompt strings to reusable, testable building blocks.
-- [5 Critical Shifts D&A Leaders Must Make to Drive Analytics and AI Success](https://www.kdnuggets.com/2026/03/gartner/5-critical-shifts-da-leaders-must-make-to-drive-analytics-and-ai-success)
-  - Access the complimentary Gartner insights now and discover how to make the shifts that matter most for analytics and AI success.
 
 ## OpenAI News (ai)
 - [Introducing GPT-5.4 mini and nano](https://openai.com/index/introducing-gpt-5-4-mini-and-nano)
   - GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.
+- [OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first](https://openai.com/index/japan-teen-safety-blueprint)
+  - OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.
 - [Equipping workers with insights about compensation](https://openai.com/index/equipping-workers-with-insights-about-compensation)
   - New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.
 - [Why Codex Security Doesn’t Include a SAST Report](https://openai.com/index/why-codex-security-doesnt-include-sast)
   - A deep dive into why Codex Security doesn’t rely on traditional SAST, instead using AI-driven constraint reasoning and validation to find real vulnerabilities with fewer false p...
 - [Rakuten fixes issues twice as fast with Codex](https://openai.com/index/rakuten)
   - Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks.
-- [Designing AI agents to resist prompt injection](https://openai.com/index/designing-agents-to-resist-prompt-injection)
-  - How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.
 
 ## Google AI Blog (ai)
 - [Bringing the power of Personal Intelligence to more people](https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/)
