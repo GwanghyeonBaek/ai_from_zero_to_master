@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-03-21 04:13 UTC
+Updated: 2026-03-22 04:27 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Escaping the SQL Jungle](https://towardsdatascience.com/escaping-the-sql-jungle/)
+  - <p>Most data platforms don’t break overnight; they grow into complexity, query by query. Over time, business logic spreads across SQL scripts, dashboards, and scheduled jobs unt...
+- [A Gentle Introduction to Nonlinear Constrained Optimization with Piecewise Linear Approximations](https://towardsdatascience.com/a-gentle-introduction-to-nonlinear-constrained-optimization-with-piecewise-linear-approximations/)
+  - <p>Piecewise linear approximations are a practical way to handle nonlinear constrained models using LP/MIP<br /> solvers like Gurobi.</p> <p>The post <a href="https://towardsdat...
 - [The Math That’s Killing Your AI Agent](https://towardsdatascience.com/the-math-thats-killing-your-ai-agent/)
   - <p>An 85% accurate AI agent fails 4 out of 5 times on a 10-step task. Learn the compound probability math behind production failures (and the 4-check pre-deployment framework to...
 - [Building Robust Credit Scoring Models (Part 3)](https://towardsdatascience.com/building-robust-credit-scoring-models-part-3/)
   - <p>Handling outliers and missing values in borrower data using Python.</p> <p>The post <a href="https://towardsdatascience.com/building-robust-credit-scoring-models-part-3/">Bui...
 - [How to Measure AI Value](https://towardsdatascience.com/how-to-measure-ai-value/)
   - <p>While efficiency is an important source of AI value, it is only part of the picture</p> <p>The post <a href="https://towardsdatascience.com/how-to-measure-ai-value/">How to M...
-- [Agentic RAG Failure Modes: Retrieval Thrash, Tool Storms, and Context Bloat (and How to Spot Them Early)](https://towardsdatascience.com/agentic-rag-failure-modes-retrieval-thrash-tool-storms-and-context-bloat-and-how-to-spot-them-early/)
-  - <p>Why agentic RAG systems fail silently in production and how to detect them before your cloud bill does</p> <p>The post <a href="https://towardsdatascience.com/agentic-rag-fai...
-- [The Basics of Vibe Engineering](https://towardsdatascience.com/the-basics-of-vibe-engineering/)
-  - <p>Building products without the coding part</p> <p>The post <a href="https://towardsdatascience.com/the-basics-of-vibe-engineering/">The Basics of Vibe Engineering</a> appeared...
 
 ## KDnuggets (data-analysis)
 - [SynthID: What it is and How it Works](https://www.kdnuggets.com/synthid-what-it-is-and-how-it-works)
@@ -33,10 +33,10 @@ Updated: 2026-03-21 04:13 UTC
   - How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.
 - [OpenAI to acquire Astral](https://openai.com/index/openai-to-acquire-astral)
   - Accelerates Codex growth to power the next generation of Python developer tools
-- [OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first](https://openai.com/index/japan-teen-safety-blueprint)
-  - OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.
 - [Introducing GPT-5.4 mini and nano](https://openai.com/index/introducing-gpt-5-4-mini-and-nano)
   - GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.
+- [OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first](https://openai.com/index/japan-teen-safety-blueprint)
+  - OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.
 - [Equipping workers with insights about compensation](https://openai.com/index/equipping-workers-with-insights-about-compensation)
   - New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.
 
