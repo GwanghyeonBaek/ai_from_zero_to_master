@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-03-22 04:27 UTC
+Updated: 2026-03-23 04:37 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Prompt Caching with the OpenAI API: A Full Hands-On Python tutorial](https://towardsdatascience.com/prompt-caching-with-openai-api-full-hands-on-python-tutorial/)
+  - <p>A step-by-step guide to making your OpenAI apps faster, cheaper, and more efficient</p> <p>The post <a href="https://towardsdatascience.com/prompt-caching-with-openai-api-ful...
+- [Building a Navier-Stokes Solver in Python from Scratch: Simulating Airflow](https://towardsdatascience.com/building-a-navier-stokes-solver-in-python-from-scratch-simulating-airflow/)
+  - <p>A hands-on guide to implementing CFD with NumPy, from discretization to airflow simulation around a bird's wing</p> <p>The post <a href="https://towardsdatascience.com/buildi...
 - [Escaping the SQL Jungle](https://towardsdatascience.com/escaping-the-sql-jungle/)
   - <p>Most data platforms don’t break overnight; they grow into complexity, query by query. Over time, business logic spreads across SQL scripts, dashboards, and scheduled jobs unt...
 - [A Gentle Introduction to Nonlinear Constrained Optimization with Piecewise Linear Approximations](https://towardsdatascience.com/a-gentle-introduction-to-nonlinear-constrained-optimization-with-piecewise-linear-approximations/)
   - <p>Piecewise linear approximations are a practical way to handle nonlinear constrained models using LP/MIP<br /> solvers like Gurobi.</p> <p>The post <a href="https://towardsdat...
 - [The Math That’s Killing Your AI Agent](https://towardsdatascience.com/the-math-thats-killing-your-ai-agent/)
   - <p>An 85% accurate AI agent fails 4 out of 5 times on a 10-step task. Learn the compound probability math behind production failures (and the 4-check pre-deployment framework to...
-- [Building Robust Credit Scoring Models (Part 3)](https://towardsdatascience.com/building-robust-credit-scoring-models-part-3/)
-  - <p>Handling outliers and missing values in borrower data using Python.</p> <p>The post <a href="https://towardsdatascience.com/building-robust-credit-scoring-models-part-3/">Bui...
-- [How to Measure AI Value](https://towardsdatascience.com/how-to-measure-ai-value/)
-  - <p>While efficiency is an important source of AI value, it is only part of the picture</p> <p>The post <a href="https://towardsdatascience.com/how-to-measure-ai-value/">How to M...
 
 ## KDnuggets (data-analysis)
 - [SynthID: What it is and How it Works](https://www.kdnuggets.com/synthid-what-it-is-and-how-it-works)
