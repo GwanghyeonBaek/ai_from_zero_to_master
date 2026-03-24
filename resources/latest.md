@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-03-23 04:37 UTC
+Updated: 2026-03-24 04:26 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [4 Pandas Concepts That Quietly Break Your Data Pipelines](https://towardsdatascience.com/most-pandas-tutorials-skip-this-thats-why-your-code-breaks-later/)
+  - <p>Master data types, index alignment, and defensive Pandas practices to prevent silent bugs in real data pipelines.</p> <p>The post <a href="https://towardsdatascience.com/most...
+- [Causal Inference Is Eating Machine Learning](https://towardsdatascience.com/causal-inference-is-eating-machine-learning/)
+  - <p>Your ML model predicts perfectly but recommends wrong actions. Learn the 5-question diagnostic, method comparison matrix, and Python workflow to fix it with causal inference....
+- [Neuro-Symbolic Fraud Detection: Catching Concept Drift Before F1 Drops (Label-Free)](https://towardsdatascience.com/neuro-symbolic-fraud-detection-catching-concept-drift-before-f1-drops-label-free/)
+  - <p>This Article asks what happens next. The model has encoded its knowledge of fraud as symbolic rules. V14 below a threshold means fraud. What happens when that relationship st...
+- [I Built a Podcast Clipping App in One Weekend Using Vibe Coding](https://towardsdatascience.com/i-built-a-podcast-clipping-app-in-one-weekend-using-vibe-coding/)
+  - <p>Rapid prototyping with Replit, AI agents, and minimal manual coding</p> <p>The post <a href="https://towardsdatascience.com/i-built-a-podcast-clipping-app-in-one-weekend-usin...
 - [Prompt Caching with the OpenAI API: A Full Hands-On Python tutorial](https://towardsdatascience.com/prompt-caching-with-openai-api-full-hands-on-python-tutorial/)
   - <p>A step-by-step guide to making your OpenAI apps faster, cheaper, and more efficient</p> <p>The post <a href="https://towardsdatascience.com/prompt-caching-with-openai-api-ful...
-- [Building a Navier-Stokes Solver in Python from Scratch: Simulating Airflow](https://towardsdatascience.com/building-a-navier-stokes-solver-in-python-from-scratch-simulating-airflow/)
-  - <p>A hands-on guide to implementing CFD with NumPy, from discretization to airflow simulation around a bird's wing</p> <p>The post <a href="https://towardsdatascience.com/buildi...
-- [Escaping the SQL Jungle](https://towardsdatascience.com/escaping-the-sql-jungle/)
-  - <p>Most data platforms don’t break overnight; they grow into complexity, query by query. Over time, business logic spreads across SQL scripts, dashboards, and scheduled jobs unt...
-- [A Gentle Introduction to Nonlinear Constrained Optimization with Piecewise Linear Approximations](https://towardsdatascience.com/a-gentle-introduction-to-nonlinear-constrained-optimization-with-piecewise-linear-approximations/)
-  - <p>Piecewise linear approximations are a practical way to handle nonlinear constrained models using LP/MIP<br /> solvers like Gurobi.</p> <p>The post <a href="https://towardsdat...
-- [The Math That’s Killing Your AI Agent](https://towardsdatascience.com/the-math-thats-killing-your-ai-agent/)
-  - <p>An 85% accurate AI agent fails 4 out of 5 times on a 10-step task. Learn the compound probability math behind production failures (and the 4-check pre-deployment framework to...
 
 ## KDnuggets (data-analysis)
+- [Decision-Making for Busy Owners: Moving Fast vs. Moving Slow (Sponsored)](https://bit.ly/Ingram-topic-22-kdn-website#new_tab)
+  - Was "move fast and break things" ever really the best approach to building a business?
+- [10 Best X (Twitter) Accounts to Follow for LLM Updates](https://www.kdnuggets.com/10-best-x-twitter-accounts-to-follow-for-llm-updates)
+  - Skip the hype and follow these 10 X accounts for reliable LLM papers, product launches, and thoughtful takes on where AI is heading.
+- [How to Speed Up Slow Python Code Even If You’re a Beginner](https://www.kdnuggets.com/how-to-speed-up-slow-python-code-even-if-youre-a-beginner)
+  - Slow Python code is often caused by small inefficiencies. With a few beginner-friendly techniques, you can make your programs run noticeably faster. This guide will teach you how.
+- [5 Tips to Turn OpenAI Codex Into a Powerful AI Coding Agent](https://www.kdnuggets.com/5-tips-to-turn-openai-codex-into-a-powerful-ai-coding-agent)
+  - Learn five practical ways to make OpenAI Codex more agentic, reliable, and useful for real software engineering workflows.
 - [SynthID: What it is and How it Works](https://www.kdnuggets.com/synthid-what-it-is-and-how-it-works)
   - Learn everything about SynthID, how it embeds invisible AI watermarks, and how it verifies and identifies AI-generated content across text, images, audio, and video
-- [5 Powerful Python Decorators for Robust AI Agents](https://www.kdnuggets.com/5-powerful-python-decorators-for-robust-ai-agents)
-  - These five Python decorators have saved me from countless headaches, and they will probably save you, too.
-- [Abacus AI Honest Review And Pricing: The AI That Lets You Vibe Code, Build Agents & Replace 10+ Tools?](https://www.kdnuggets.com/2026/03/abacus/abacus-ai-honest-review-and-pricing-the-ai-that-lets-you-vibe-code-build-agents-replace-10-tools)
-  - A detailed Abacus AI review exploring Abacus AI features, vibe coding AI, DeepAgent, and how this AI agent platform helps build applications and automate workflows faster.
-- [(Free) Agentic Coding with Goose](https://www.kdnuggets.com/free-agentic-coding-with-goose)
-  - Goose is a free, open-source AI agent that goes beyond code suggestions to autonomously execute tasks, letting you automate development workflows directly on your machine.
-- [5 Useful Python Scripts for Synthetic Data Generation](https://www.kdnuggets.com/5-useful-python-scripts-for-synthetic-data-generation)
-  - Before you trust a library to generate your data, learn how to do it yourself and see where bias and errors actually begin.
 
 ## OpenAI News (ai)
+- [Creating with Sora Safely](https://openai.com/index/creating-with-sora-safely)
+  - To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the ...
 - [How we monitor internal coding agents for misalignment](https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment)
   - How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.
 - [OpenAI to acquire Astral](https://openai.com/index/openai-to-acquire-astral)
   - Accelerates Codex growth to power the next generation of Python developer tools
-- [Introducing GPT-5.4 mini and nano](https://openai.com/index/introducing-gpt-5-4-mini-and-nano)
-  - GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.
 - [OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first](https://openai.com/index/japan-teen-safety-blueprint)
   - OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.
-- [Equipping workers with insights about compensation](https://openai.com/index/equipping-workers-with-insights-about-compensation)
-  - New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.
+- [Introducing GPT-5.4 mini and nano](https://openai.com/index/introducing-gpt-5-4-mini-and-nano)
+  - GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.
 
 ## Google AI Blog (ai)
 - [Bringing the power of Personal Intelligence to more people](https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/)
@@ -53,8 +53,8 @@ Updated: 2026-03-23 04:37 UTC
   - Photos of animals being identified by the SpeciesNet AI model
 
 ## Hugging Face Blog (llm)
+- [A New Framework for Evaluating Voice Agents (EVA)](https://huggingface.co/blog/ServiceNow-AI/eva)
 - [Build a Domain-Specific Embedding Model in Under a Day](https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune)
 - [What's New in Mellea 0.4.0 + Granite Libraries Release](https://huggingface.co/blog/ibm-granite/granite-libraries)
 - [State of Open Source on Hugging Face: Spring 2026](https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026)
 - [Holotron-12B - High Throughput Computer Use Agent](https://huggingface.co/blog/Hcompany/holotron-12b)
-- [Introducing Storage Buckets on the Hugging Face Hub](https://huggingface.co/blog/storage-buckets)
