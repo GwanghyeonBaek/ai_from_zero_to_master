@@ -1,32 +1,32 @@
 # Latest Learning Resources
 
-Updated: 2026-03-26 04:40 UTC
+Updated: 2026-03-27 04:41 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [How to Make Your AI App Faster and More Interactive with Response Streaming](https://towardsdatascience.com/how-to-make-your-ai-app-faster-and-more-interactive-with-response-streaming/)
+  - <p>In my latest posts, we&#8217;ve talked a lot about prompt caching as well as caching in general, and how it can improve your AI app in terms of cost and latency. However, eve...
+- [Beyond Code Generation: AI for the Full Data Science Workflow](https://towardsdatascience.com/beyond-code-generation-ai-for-the-full-data-science-workflow/)
+  - <p>Using Codex and MCP to connect Google Drive, GitHub, BigQuery, and analysis in one real workflow</p> <p>The post <a href="https://towardsdatascience.com/beyond-code-generatio...
+- [What the Bits-over-Random Metric Changed in How I Think About RAG and Agents](https://towardsdatascience.com/what-the-bits-over-random-metric-changed-in-how-i-think-about-rag-and-agents/)
+  - <p>Why retrieval that looks excellent on paper can still behave like noise in real RAG and agent workflows</p> <p>The post <a href="https://towardsdatascience.com/what-the-bits-...
 - [Following Up on Like-for-Like for Stores: Handling PY](https://towardsdatascience.com/follow-up-on-like-for-like-for-stores-handling-py/)
   - <p>My last article was about implementing Like-for-Like (L4L) for Stores. After discussing my solution with my peers and clients, I encountered an interesting issue that brought...
 - [The Machine Learning Lessons I’ve Learned This Month](https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-5/)
   - <p>Proactivity, blocking, and planning</p> <p>The post <a href="https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-5/">The Machine Learning Lesso...
-- [Building Human-In-The-Loop Agentic Workflows](https://towardsdatascience.com/building-human-in-the-loop-agentic-workflows/)
-  - <p>Understanding how to set up human-in-the-loop (HITL) agentic workflows in LangGraph</p> <p>The post <a href="https://towardsdatascience.com/building-human-in-the-loop-agentic...
-- [My Models Failed. That’s How I Became a Better Data Scientist.](https://towardsdatascience.com/my-models-failed-thats-how-i-became-a-better-data-scientist/)
-  - <p>Data Leakage, Real-World Models, and the Path to Production AI in Healthcare</p> <p>The post <a href="https://towardsdatascience.com/my-models-failed-thats-how-i-became-a-bet...
-- [How to Make Claude Code Improve from its Own Mistakes](https://towardsdatascience.com/how-to-make-claude-code-improve-from-its-mistakes/)
-  - <p>Supercharge Claude Code with continual learning</p> <p>The post <a href="https://towardsdatascience.com/how-to-make-claude-code-improve-from-its-mistakes/">How to Make Claude...
 
 ## KDnuggets (data-analysis)
+- [Getting Started with Smolagents: Build Your First Code Agent in 15 Minutes](https://www.kdnuggets.com/getting-started-with-smolagents-build-your-first-code-agent-in-15-minutes)
+  - Build an AI weather agent in 40 lines of Python using Hugging Face's smolagents library. Learn to create tools, connect LLMs, and run autonomous tasks.
+- [10 GitHub Repositories to Master OpenClaw](https://www.kdnuggets.com/10-github-repositories-to-master-openclaw)
+  - Learn OpenClaw by exploring key GitHub repositories covering agents, skills, automation, memory systems, and deployment tools.
 - [Vibe Coding a Private AI Financial Analyst with Python and Local LLMs](https://www.kdnuggets.com/vibe-coding-a-private-ai-financial-analyst-with-python-and-local-llms)
   - Learn to build an AI data analyst with Python: analyzes data, detects anomalies, and generates predictions using local LLMs.
 - [Building Declarative Data Pipelines with Snowflake Dynamic Tables: A Workshop Deep Dive](https://www.kdnuggets.com/building-declarative-data-pipelines-with-snowflake-dynamic-tables-a-workshop-deep-dive)
   - Traditional data pipeline development often requires extensive procedural code to define how data should be transformed and moved between stages. The declarative approach flips ...
 - [5 Useful DIY Python Functions for Error Handling](https://www.kdnuggets.com/5-useful-diy-python-functions-for-error-handling)
   - Debugging Python doesn’t need to be complicated. These 5 DIY functions simplify error handling and improve code reliability.
-- [ChatLLM Review: Tired of Multiple AI Tools? Here’s a Smarter All-in-One Alternative](https://www.kdnuggets.com/2026/03/abacus/chatllm-all-in-one-ai-platform-review)
-  - Explore ChatLLM by Abacus AI, an all-in-one AI platform that brings together tools like ChatGPT, Claude, and Midjourney into a single workflow. Learn about its features, pricing...
-- [Analytics Patterns Every Data Scientist Should Master](https://www.kdnuggets.com/analytics-patterns-every-data-scientist-should-master)
-  - Learn the analytics pattern you can use in most business analytics tasks.
 
 ## OpenAI News (ai)
 - [Inside our approach to the Model Spec](https://openai.com/index/our-approach-to-the-model-spec)
@@ -41,16 +41,16 @@ Updated: 2026-03-26 04:40 UTC
   - ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.
 
 ## Google AI Blog (ai)
+- [Watch James Manyika talk AI and creativity with LL COOL J.](https://blog.google/innovation-and-ai/technology/ai/ll-cool-j-dialogues/)
+  - <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Approved_thumbnail_with_logo.max-600x600.format-webp.webp" />In the latest episode of our Dialogues on ...
+- [Transform your headphones into a live personal translator on iOS.](https://blog.google/products-and-platforms/products/translate/live-translate-with-headphones/)
+  - <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Static-InterstitialscreenJapane.max-600x600.format-webp.webp" />Google Translate’s Live translate with ...
+- [Gemini 3.1 Flash Live: Making audio AI more natural and reliable](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/)
+  - The Gemini emblem sits next to text reading 'Gemini 3.1 Flash Live'. The background has blue, multicolored dots making up a microphone icon
+- [Search Live is expanding globally](https://blog.google/products-and-platforms/products/search/search-live-global-expansion/)
+  - A graphic with the words Search Live shown underneath a waveform icon. To the right, a phone shows the Google app with Search Live open. The camera is pointing at trees in a for...
 - [Build with Lyria 3, our newest music generation model](https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/)
   - Google Lyria teaser
-- [Lyria 3 Pro: Create longer tracks in more Google products](https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/)
-  - Sizzle video showing new capabilities from Lyria 3 Pro
-- [Bringing the power of Personal Intelligence to more people](https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/)
-  - Bubble that says "Personal Intelligence" with Google G, Google Photos logo, and Gmail logo around it
-- [Our latest investment in open source security for the AI era](https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/)
-  - A collage including security icons and photos of hands clasped, a man looking at a computer, and two people pointing at something off camera
-- [How AI is helping improve heart health in rural Australia](https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/)
-  - A doctor is sitting across a desk from a patient. The doctor is holding a tablet and a pen. Medical charts renderings are in the background.
 
 ## Hugging Face Blog (llm)
 - [A New Framework for Evaluating Voice Agents (EVA)](https://huggingface.co/blog/ServiceNow-AI/eva)
