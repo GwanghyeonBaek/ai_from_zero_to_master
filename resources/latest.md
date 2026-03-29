@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-03-28 04:28 UTC
+Updated: 2026-03-29 04:44 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Using OpenClaw as a Force Multiplier: What One Person Can Ship with Autonomous Agents](https://towardsdatascience.com/using-openclaw-as-a-force-multiplier-what-one-person-can-ship-with-autonomous-agents/)
+  - <p>It's easier than ever to 10x your output with agentic AI.</p> <p>The post <a href="https://towardsdatascience.com/using-openclaw-as-a-force-multiplier-what-one-person-can-shi...
+- [From NetCDF to Insights: A Practical Pipeline for City-Level Climate Risk Analysis](https://towardsdatascience.com/from-netcdf-to-insights-a-practical-pipeline-for-city-level-climate-risk-analysis/)
+  - <p>Integrating CMIP6 projections, ERA5 reanalysis, and impact models into a lightweight, interpretable workflow</p> <p>The post <a href="https://towardsdatascience.com/from-netc...
 - [Building a Production-Grade Multi-Node Training Pipeline with PyTorch DDP](https://towardsdatascience.com/building-a-production-grade-multi-node-training-pipeline-with-pytorch-ddp/)
   - <p>A practical, code-driven guide to scaling deep learning across machines — from NCCL process groups to gradient synchronization</p> <p>The post <a href="https://towardsdatasci...
 - [A Beginner’s Guide to Quantum Computing with Python](https://towardsdatascience.com/a-beginners-guide-to-quantum-computing-with-python/)
   - <p>Simulate a quantum computer with Qiskit</p> <p>The post <a href="https://towardsdatascience.com/a-beginners-guide-to-quantum-computing-with-python/">A Beginner’s Guide to Qua...
 - [How ElevenLabs Voice AI Is Replacing Screens in Warehouse and Manufacturing Operations](https://towardsdatascience.com/how-elevenlabs-voice-ai-is-replacing-screens-in-warehouse-and-manufacturing-operations/)
   - <p>A warehouse picking operation is the process of collecting items from storage locations to fulfil customer orders. It is one of the most labour-intensive activities in logist...
-- [How to Make Your AI App Faster and More Interactive with Response Streaming](https://towardsdatascience.com/how-to-make-your-ai-app-faster-and-more-interactive-with-response-streaming/)
-  - <p>In my latest posts, we&#8217;ve talked a lot about prompt caching as well as caching in general, and how it can improve your AI app in terms of cost and latency. However, eve...
-- [Beyond Code Generation: AI for the Full Data Science Workflow](https://towardsdatascience.com/beyond-code-generation-ai-for-the-full-data-science-workflow/)
-  - <p>Using Codex and MCP to connect Google Drive, GitHub, BigQuery, and analysis in one real workflow</p> <p>The post <a href="https://towardsdatascience.com/beyond-code-generatio...
 
 ## KDnuggets (data-analysis)
 - [7 Free Web APIs Every Developer and Vibe Coder Should Know](https://www.kdnuggets.com/7-free-web-apis-every-developer-and-vibe-coder-should-know)
@@ -53,8 +53,8 @@ Updated: 2026-03-28 04:28 UTC
   - Google Lyria teaser
 
 ## Hugging Face Blog (llm)
+- [Liberate your OpenClaw](https://huggingface.co/blog/liberate-your-openclaw)
 - [A New Framework for Evaluating Voice Agents (EVA)](https://huggingface.co/blog/ServiceNow-AI/eva)
 - [Build a Domain-Specific Embedding Model in Under a Day](https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune)
 - [What's New in Mellea 0.4.0 + Granite Libraries Release](https://huggingface.co/blog/ibm-granite/granite-libraries)
 - [State of Open Source on Hugging Face: Spring 2026](https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026)
-- [Holotron-12B - High Throughput Computer Use Agent](https://huggingface.co/blog/Hcompany/holotron-12b)
