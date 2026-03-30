@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-03-29 04:44 UTC
+Updated: 2026-03-30 05:06 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [How to Become an AI Engineer Fast (Skills, Projects, Salary)](https://towardsdatascience.com/how-to-become-an-ai-engineer-fast-skills-projects-salary/)
+  - <p>Spoiler, it will take longer than 3 months</p> <p>The post <a href="https://towardsdatascience.com/how-to-become-an-ai-engineer-fast-skills-projects-salary/">How to Become an...
+- [Self-Healing Neural Networks in PyTorch: Fix Model Drift in Real Time Without Retraining](https://towardsdatascience.com/self-healing-neural-networks-in-pytorch-fix-model-drift-in-real-time-without-retraining/)
+  - <p>What happens when your production model drifts and retraining isn’t an option? This article shows how a self-healing neural network detects drift, adapts in real time using a...
 - [Using OpenClaw as a Force Multiplier: What One Person Can Ship with Autonomous Agents](https://towardsdatascience.com/using-openclaw-as-a-force-multiplier-what-one-person-can-ship-with-autonomous-agents/)
   - <p>It's easier than ever to 10x your output with agentic AI.</p> <p>The post <a href="https://towardsdatascience.com/using-openclaw-as-a-force-multiplier-what-one-person-can-shi...
 - [From NetCDF to Insights: A Practical Pipeline for City-Level Climate Risk Analysis](https://towardsdatascience.com/from-netcdf-to-insights-a-practical-pipeline-for-city-level-climate-risk-analysis/)
   - <p>Integrating CMIP6 projections, ERA5 reanalysis, and impact models into a lightweight, interpretable workflow</p> <p>The post <a href="https://towardsdatascience.com/from-netc...
 - [Building a Production-Grade Multi-Node Training Pipeline with PyTorch DDP](https://towardsdatascience.com/building-a-production-grade-multi-node-training-pipeline-with-pytorch-ddp/)
   - <p>A practical, code-driven guide to scaling deep learning across machines — from NCCL process groups to gradient synchronization</p> <p>The post <a href="https://towardsdatasci...
-- [A Beginner’s Guide to Quantum Computing with Python](https://towardsdatascience.com/a-beginners-guide-to-quantum-computing-with-python/)
-  - <p>Simulate a quantum computer with Qiskit</p> <p>The post <a href="https://towardsdatascience.com/a-beginners-guide-to-quantum-computing-with-python/">A Beginner’s Guide to Qua...
-- [How ElevenLabs Voice AI Is Replacing Screens in Warehouse and Manufacturing Operations](https://towardsdatascience.com/how-elevenlabs-voice-ai-is-replacing-screens-in-warehouse-and-manufacturing-operations/)
-  - <p>A warehouse picking operation is the process of collecting items from storage locations to fulfil customer orders. It is one of the most labour-intensive activities in logist...
 
 ## KDnuggets (data-analysis)
 - [7 Free Web APIs Every Developer and Vibe Coder Should Know](https://www.kdnuggets.com/7-free-web-apis-every-developer-and-vibe-coder-should-know)
@@ -37,8 +37,8 @@ Updated: 2026-03-29 04:44 UTC
   - OpenAI launches a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.
 - [Helping developers build safer AI experiences for teens](https://openai.com/index/teen-safety-policies-gpt-oss-safeguard)
   - OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.
-- [Powering product discovery in ChatGPT](https://openai.com/index/powering-product-discovery-in-chatgpt)
-  - ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.
+- [Update on the OpenAI Foundation](https://openai.com/index/update-on-the-openai-foundation)
+  - The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.
 
 ## Google AI Blog (ai)
 - [Watch James Manyika talk AI and creativity with LL COOL J.](https://blog.google/innovation-and-ai/technology/ai/ll-cool-j-dialogues/)
