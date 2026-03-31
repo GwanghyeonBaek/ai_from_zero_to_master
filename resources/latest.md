@@ -1,22 +1,24 @@
 # Latest Learning Resources
 
-Updated: 2026-03-30 05:06 UTC
+Updated: 2026-03-31 04:43 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [How to Lie with Statistics with your Robot Best Friend](https://towardsdatascience.com/how-to-lie-with-statistics-with-your-robot-best-friend/)
+  - <p>What is p hacking, is it bad, and can you get ai to do it for you?</p> <p>The post <a href="https://towardsdatascience.com/how-to-lie-with-statistics-with-your-robot-best-fri...
+- [Why Data Scientists Should Care About Quantum Computing](https://towardsdatascience.com/why-data-scientists-should-care-about-quantum-computing/)
+  - <p>Sara A. Metwalli on the rise of a promising new technology, the effects of LLM on her work, and more.</p> <p>The post <a href="https://towardsdatascience.com/why-data-scienti...
+- [Explainable AI in Production: A Neuro-Symbolic Model for Real-Time Fraud Detection](https://towardsdatascience.com/explainable-ai-in-production-a-neuro-symbolic-model-for-real-time-fraud-detection/)
+  - <p>SHAP needs 30 ms to explain a fraud prediction. That explanation is stochastic, runs after the decision, and requires a background dataset you have to maintain at inference t...
 - [How to Become an AI Engineer Fast (Skills, Projects, Salary)](https://towardsdatascience.com/how-to-become-an-ai-engineer-fast-skills-projects-salary/)
   - <p>Spoiler, it will take longer than 3 months</p> <p>The post <a href="https://towardsdatascience.com/how-to-become-an-ai-engineer-fast-skills-projects-salary/">How to Become an...
 - [Self-Healing Neural Networks in PyTorch: Fix Model Drift in Real Time Without Retraining](https://towardsdatascience.com/self-healing-neural-networks-in-pytorch-fix-model-drift-in-real-time-without-retraining/)
   - <p>What happens when your production model drifts and retraining isn’t an option? This article shows how a self-healing neural network detects drift, adapts in real time using a...
-- [Using OpenClaw as a Force Multiplier: What One Person Can Ship with Autonomous Agents](https://towardsdatascience.com/using-openclaw-as-a-force-multiplier-what-one-person-can-ship-with-autonomous-agents/)
-  - <p>It's easier than ever to 10x your output with agentic AI.</p> <p>The post <a href="https://towardsdatascience.com/using-openclaw-as-a-force-multiplier-what-one-person-can-shi...
-- [From NetCDF to Insights: A Practical Pipeline for City-Level Climate Risk Analysis](https://towardsdatascience.com/from-netcdf-to-insights-a-practical-pipeline-for-city-level-climate-risk-analysis/)
-  - <p>Integrating CMIP6 projections, ERA5 reanalysis, and impact models into a lightweight, interpretable workflow</p> <p>The post <a href="https://towardsdatascience.com/from-netc...
-- [Building a Production-Grade Multi-Node Training Pipeline with PyTorch DDP](https://towardsdatascience.com/building-a-production-grade-multi-node-training-pipeline-with-pytorch-ddp/)
-  - <p>A practical, code-driven guide to scaling deep learning across machines — from NCCL process groups to gradient synchronization</p> <p>The post <a href="https://towardsdatasci...
 
 ## KDnuggets (data-analysis)
+- [5 Useful Python Scripts for Effective Feature Selection](https://www.kdnuggets.com/5-useful-python-scripts-for-effective-feature-selection)
+  - Learn five simple Python scripts to perform effective feature selection. Each one is practical, minimal, and easy to use in real projects.
 - [7 Free Web APIs Every Developer and Vibe Coder Should Know](https://www.kdnuggets.com/7-free-web-apis-every-developer-and-vibe-coder-should-know)
   - Learn which tools help AI agents search, scrape, crawl, map websites, answer questions, and research the web faster.
 - [Getting Started with Smolagents: Build Your First Code Agent in 15 Minutes](https://www.kdnuggets.com/getting-started-with-smolagents-build-your-first-code-agent-in-15-minutes)
@@ -25,10 +27,10 @@ Updated: 2026-03-30 05:06 UTC
   - Learn OpenClaw by exploring key GitHub repositories covering agents, skills, automation, memory systems, and deployment tools.
 - [Vibe Coding a Private AI Financial Analyst with Python and Local LLMs](https://www.kdnuggets.com/vibe-coding-a-private-ai-financial-analyst-with-python-and-local-llms)
   - Learn to build an AI data analyst with Python: analyzes data, detects anomalies, and generates predictions using local LLMs.
-- [Building Declarative Data Pipelines with Snowflake Dynamic Tables: A Workshop Deep Dive](https://www.kdnuggets.com/building-declarative-data-pipelines-with-snowflake-dynamic-tables-a-workshop-deep-dive)
-  - Traditional data pipeline development often requires extensive procedural code to define how data should be transformed and moved between stages. The declarative approach flips ...
 
 ## OpenAI News (ai)
+- [Helping disaster response teams turn AI into action across Asia](https://openai.com/index/helping-disaster-response-teams-asia)
+  - AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation
 - [STADLER reshapes knowledge work at a 230-year-old company](https://openai.com/index/stadler)
   - Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees.
 - [Inside our approach to the Model Spec](https://openai.com/index/our-approach-to-the-model-spec)
@@ -37,8 +39,6 @@ Updated: 2026-03-30 05:06 UTC
   - OpenAI launches a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.
 - [Helping developers build safer AI experiences for teens](https://openai.com/index/teen-safety-policies-gpt-oss-safeguard)
   - OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.
-- [Update on the OpenAI Foundation](https://openai.com/index/update-on-the-openai-foundation)
-  - The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.
 
 ## Google AI Blog (ai)
 - [Watch James Manyika talk AI and creativity with LL COOL J.](https://blog.google/innovation-and-ai/technology/ai/ll-cool-j-dialogues/)
