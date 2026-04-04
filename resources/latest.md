@@ -1,32 +1,32 @@
 # Latest Learning Resources
 
-Updated: 2026-04-03 04:38 UTC
+Updated: 2026-04-04 04:25 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [DenseNet Paper Walkthrough: All Connected](https://towardsdatascience.com/densenet-paper-walkthrough-all-connected/)
+  - <p>When we try to train a very deep neural network model, one issue that we might encounter is the vanishing gradient problem. This is essentially a problem where the weight upd...
+- [I Replaced Vector DBs with Google’s Memory Agent Pattern for my notes in Obsidian](https://towardsdatascience.com/i-replaced-vector-dbs-with-googles-memory-agent-pattern-for-my-notes-in-obsidian/)
+  - <p>Persistent AI memory without embeddings, Pinecone, or a PhD in similarity search.</p> <p>The post <a href="https://towardsdatascience.com/i-replaced-vector-dbs-with-googles-m...
 - [Linear Regression Is Actually a Projection Problem (Part 2: From Projections to Predictions)](https://towardsdatascience.com/linear-regression-is-actually-a-projection-problem-part-2-from-projections-to-predictions/)
   - <p>The Vector View of Least Squares.</p> <p>The post <a href="https://towardsdatascience.com/linear-regression-is-actually-a-projection-problem-part-2-from-projections-to-predic...
 - [How to Handle Classical Data in Quantum Models](https://towardsdatascience.com/how-to-handle-classical-data-in-quantum-models/)
   - <p>Workflows and encoding techniques in quantum machine learning</p> <p>The post <a href="https://towardsdatascience.com/how-to-handle-classical-data-in-quantum-models/">How to ...
 - [Quantum Simulations with Python](https://towardsdatascience.com/quantum-simulations-with-python/)
   - <p>Run Quantum Experiments with Qiskit-Aer</p> <p>The post <a href="https://towardsdatascience.com/quantum-simulations-with-python/">Quantum Simulations with Python</a> appeared...
-- [The Inversion Error: Why Safe AGI Requires an Enactive Floor and State-Space Reversibility](https://towardsdatascience.com/the-inversion-error-why-safe-agi-requires-an-enactive-floor-and-state-space-reversibility/)
-  - <p>A systems design diagnosis of hallucination, corrigibility, and the structural gap that scaling cannot close</p> <p>The post <a href="https://towardsdatascience.com/the-inver...
-- [How Can A Model 10,000× Smaller Outsmart ChatGPT?](https://towardsdatascience.com/how-can-a-model-10000x-smaller-outsmart-chatgpt-2/)
-  - <p>Why thinking longer can matter more than being bigger</p> <p>The post <a href="https://towardsdatascience.com/how-can-a-model-10000x-smaller-outsmart-chatgpt-2/">How Can A Mo...
 
 ## KDnuggets (data-analysis)
+- [The Most Common Statistical Traps in FAANG Interviews](https://www.kdnuggets.com/the-most-common-statistical-traps-in-faang-interviews)
+  - Five key statistical traps in FAANG interviews that test your ability to question data, spot bias, and think critically
+- [5 Useful Docker Containers for Agentic Developers](https://www.kdnuggets.com/5-useful-docker-containers-for-agentic-developers)
+  - Build AI agents instantly with 5 ready‑to‑run Docker containers. Pull, run, and start creating with zero setup.
 - [“Just in Time” World Modeling Supports Human Planning and Reasoning](https://www.kdnuggets.com/just-in-time-world-modeling-supports-human-planning-and-reasoning)
   - An overview of a state-of-the-art study, uncovering simulation-based reasoning, a "just-in-time" framework and how it helps improve predictions in the context of supporting huma...
 - [LLMOps in 2026: The 10 Tools Every Team Must Have](https://www.kdnuggets.com/llmops-in-2026-the-10-tools-every-team-must-have)
   - Don’t deploy another model until you check out these essential 2026 LLMOps tools.
 - [Top 5 Agent Skill Marketplaces for Building Powerful AI Agents](https://www.kdnuggets.com/top-5-agent-skill-marketplaces-for-building-powerful-ai-agents)
   - Explore the top agent skill marketplaces shaping how AI agents discover, install, and use reusable capabilities.
-- [Build Better AI Agents with Google Antigravity Skills and Workflows](https://www.kdnuggets.com/build-better-ai-agents-with-google-antigravity-skills-and-workflows)
-  - How to configure Antigravity AI agent workflows to resiliently automate critical code generation tasks: all without the need for third-party tools.
-- [7 Essential AI Website Builders: From Prompt to Production](https://www.kdnuggets.com/7-essential-ai-website-builders-from-prompt-to-production)
-  - I reviewed dozens of AI website builders and found 7 that are worth testing.
 
 ## OpenAI News (ai)
 - [OpenAI acquires TBPN](https://openai.com/index/openai-acquires-tbpn)
