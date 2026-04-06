@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-04-05 04:44 UTC
+Updated: 2026-04-06 05:05 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Proxy-Pointer RAG: Achieving Vectorless Accuracy at Vector RAG Scale and Cost](https://towardsdatascience.com/proxy-pointer-rag-achieving-vectorless-accuracy-at-vector-rag-scale-and-cost/)
+  - <p>A new way to build vector RAG—structure-aware and reasoning-capable</p> <p>The post <a href="https://towardsdatascience.com/proxy-pointer-rag-achieving-vectorless-accuracy-at...
+- [A Data Scientist’s Take on the $599 MacBook Neo](https://towardsdatascience.com/a-data-scientists-take-on-the-599-macbook-neo/)
+  - <p>Why it doesn’t fit my workflow but still makes sense for beginners</p> <p>The post <a href="https://towardsdatascience.com/a-data-scientists-take-on-the-599-macbook-neo/">A D...
 - [Building a Python Workflow That Catches Bugs Before Production](https://towardsdatascience.com/building-a-python-workflow-that-catches-bugs-before-production/)
   - <p>Using modern tooling to identify defects earlier in the software lifecycle.</p> <p>The post <a href="https://towardsdatascience.com/building-a-python-workflow-that-catches-bu...
 - [Building Robust Credit Scoring Models with Python](https://towardsdatascience.com/building-robust-credit-scoring-models-with-python/)
   - <p>A Practical Guide to Measuring Relationships between Variables for Feature Selection in a Credit Scoring.</p> <p>The post <a href="https://towardsdatascience.com/building-rob...
 - [DenseNet Paper Walkthrough: All Connected](https://towardsdatascience.com/densenet-paper-walkthrough-all-connected/)
   - <p>When we try to train a very deep neural network model, one issue that we might encounter is the vanishing gradient problem. This is essentially a problem where the weight upd...
-- [I Replaced Vector DBs with Google’s Memory Agent Pattern for my notes in Obsidian](https://towardsdatascience.com/i-replaced-vector-dbs-with-googles-memory-agent-pattern-for-my-notes-in-obsidian/)
-  - <p>Persistent AI memory without embeddings, Pinecone, or a PhD in similarity search.</p> <p>The post <a href="https://towardsdatascience.com/i-replaced-vector-dbs-with-googles-m...
-- [Linear Regression Is Actually a Projection Problem (Part 2: From Projections to Predictions)](https://towardsdatascience.com/linear-regression-is-actually-a-projection-problem-part-2-from-projections-to-predictions/)
-  - <p>The Vector View of Least Squares.</p> <p>The post <a href="https://towardsdatascience.com/linear-regression-is-actually-a-projection-problem-part-2-from-projections-to-predic...
 
 ## KDnuggets (data-analysis)
 - [The Most Common Statistical Traps in FAANG Interviews](https://www.kdnuggets.com/the-most-common-statistical-traps-in-faang-interviews)
