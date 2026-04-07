@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-04-06 05:05 UTC
+Updated: 2026-04-07 04:41 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [The Geometry Behind the Dot Product: Unit Vectors, Projections, and Intuition](https://towardsdatascience.com/the-geometry-behind-the-dot-product-unit-vectors-projections-and-intuition/)
+  - <p>The geometric foundations you need to understand the dot product</p> <p>The post <a href="https://towardsdatascience.com/the-geometry-behind-the-dot-product-unit-vectors-proj...
+- [How to Run Claude Code Agents in Parallel](https://towardsdatascience.com/how-to-run-claude-code-agents-in-parallel/)
+  - <p>Learn how to apply coding agents in parallel to work more efficiently</p> <p>The post <a href="https://towardsdatascience.com/how-to-run-claude-code-agents-in-parallel/">How ...
+- [Behavior is the New Credential](https://towardsdatascience.com/behavior-is-the-new-credential/)
+  - <p>We are living through a paradigm shift in how we prove we are who we say we are online. Instead of asking What do you know? (password, PIN, mother’s maiden name) or What do y...
 - [Proxy-Pointer RAG: Achieving Vectorless Accuracy at Vector RAG Scale and Cost](https://towardsdatascience.com/proxy-pointer-rag-achieving-vectorless-accuracy-at-vector-rag-scale-and-cost/)
   - <p>A new way to build vector RAG—structure-aware and reasoning-capable</p> <p>The post <a href="https://towardsdatascience.com/proxy-pointer-rag-achieving-vectorless-accuracy-at...
 - [A Data Scientist’s Take on the $599 MacBook Neo](https://towardsdatascience.com/a-data-scientists-take-on-the-599-macbook-neo/)
   - <p>Why it doesn’t fit my workflow but still makes sense for beginners</p> <p>The post <a href="https://towardsdatascience.com/a-data-scientists-take-on-the-599-macbook-neo/">A D...
-- [Building a Python Workflow That Catches Bugs Before Production](https://towardsdatascience.com/building-a-python-workflow-that-catches-bugs-before-production/)
-  - <p>Using modern tooling to identify defects earlier in the software lifecycle.</p> <p>The post <a href="https://towardsdatascience.com/building-a-python-workflow-that-catches-bu...
-- [Building Robust Credit Scoring Models with Python](https://towardsdatascience.com/building-robust-credit-scoring-models-with-python/)
-  - <p>A Practical Guide to Measuring Relationships between Variables for Feature Selection in a Credit Scoring.</p> <p>The post <a href="https://towardsdatascience.com/building-rob...
-- [DenseNet Paper Walkthrough: All Connected](https://towardsdatascience.com/densenet-paper-walkthrough-all-connected/)
-  - <p>When we try to train a very deep neural network model, one issue that we might encounter is the vanishing gradient problem. This is essentially a problem where the weight upd...
 
 ## KDnuggets (data-analysis)
+- [Building A Bulletproof Strategy For Data Recovery (Sponsored)](https://bit.ly/Ingram-topic-24-kdn-website)
+  - Data disruptions are no longer rare events. Hardware failures, ransomware, and unexpected outages can interrupt operations at any time. The difference between a temporary setbac...
+- [AI Isn’t Coming For Your Job: Automation Is](https://www.kdnuggets.com/ai-isnt-coming-for-your-job-automation-is)
+  - But here's what nobody's actually saying out loud: the threat everyone keeps attributing to AI belongs more specifically to automation.
+- [5 Fun Projects Using OpenClaw](https://www.kdnuggets.com/5-fun-projects-using-openclaw)
+  - Turn OpenClaw into a powerful personal assistant with these 5 hands-on projects from beginner to advanced.
 - [The Most Common Statistical Traps in FAANG Interviews](https://www.kdnuggets.com/the-most-common-statistical-traps-in-faang-interviews)
   - Five key statistical traps in FAANG interviews that test your ability to question data, spot bias, and think critically
 - [5 Useful Docker Containers for Agentic Developers](https://www.kdnuggets.com/5-useful-docker-containers-for-agentic-developers)
   - Build AI agents instantly with 5 ready‑to‑run Docker containers. Pull, run, and start creating with zero setup.
-- [“Just in Time” World Modeling Supports Human Planning and Reasoning](https://www.kdnuggets.com/just-in-time-world-modeling-supports-human-planning-and-reasoning)
-  - An overview of a state-of-the-art study, uncovering simulation-based reasoning, a "just-in-time" framework and how it helps improve predictions in the context of supporting huma...
-- [LLMOps in 2026: The 10 Tools Every Team Must Have](https://www.kdnuggets.com/llmops-in-2026-the-10-tools-every-team-must-have)
-  - Don’t deploy another model until you check out these essential 2026 LLMOps tools.
-- [Top 5 Agent Skill Marketplaces for Building Powerful AI Agents](https://www.kdnuggets.com/top-5-agent-skill-marketplaces-for-building-powerful-ai-agents)
-  - Explore the top agent skill marketplaces shaping how AI agents discover, install, and use reusable capabilities.
 
 ## OpenAI News (ai)
+- [Announcing the OpenAI Safety Fellowship](https://openai.com/index/introducing-openai-safety-fellowship)
+  - A pilot program to support independent safety and alignment research and develop the next generation of talent
+- [Industrial policy for the Intelligence Age](https://openai.com/index/industrial-policy-for-the-intelligence-age)
+  - Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced ...
 - [OpenAI acquires TBPN](https://openai.com/index/openai-acquires-tbpn)
   - OpenAI acquires TBPN to accelerate global conversations around AI and support independent media, expanding dialogue with builders, businesses, and the broader tech community.
 - [Codex now offers more flexible pricing for teams](https://openai.com/index/codex-flexible-pricing-for-teams)
   - Codex now includes pay-as-you-go pricing for ChatGPT Business and Enterprise, providing teams a more flexible option to start and scale adoption.
 - [Gradient Labs gives every bank customer an AI account manager](https://openai.com/index/gradient-labs)
   - Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.
-- [Accelerating the next phase of AI](https://openai.com/index/accelerating-the-next-phase-ai)
-  - OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.
-- [Helping disaster response teams turn AI into action across Asia](https://openai.com/index/helping-disaster-response-teams-asia)
-  - AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation
 
 ## Google AI Blog (ai)
 - [New ways to balance cost and reliability in the Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/)
@@ -56,5 +56,5 @@ Updated: 2026-04-06 05:05 UTC
 - [Welcome Gemma 4: Frontier multimodal intelligence on device](https://huggingface.co/blog/gemma4)
 - [Holo3: Breaking the Computer Use Frontier](https://huggingface.co/blog/Hcompany/holo3)
 - [Falcon Perception](https://huggingface.co/blog/tiiuae/falcon-perception)
+- [Any Custom Frontend with Gradio's Backend](https://huggingface.co/blog/introducing-gradio-server)
 - [Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents](https://huggingface.co/blog/ibm-granite/granite-4-vision)
-- [TRL v1.0: Post-Training Library Built to Move with the Field](https://huggingface.co/blog/trl-v1)
