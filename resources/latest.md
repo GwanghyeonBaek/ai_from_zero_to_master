@@ -1,32 +1,32 @@
 # Latest Learning Resources
 
-Updated: 2026-04-07 04:41 UTC
+Updated: 2026-04-08 04:45 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Democratizing Marketing Mix Models (MMM) with Open Source and Gen AI](https://towardsdatascience.com/democratizing-marketing-mix-models-mmm-with-open-source-and-gen-ai/)
+  - <p>A practical system design combining open-source Bayesian MMM and GenAI for transparent, vendor independent marketing analytics insights.</p> <p>The post <a href="https://towa...
+- [From 4 Weeks to 45 Minutes: Designing a Document Extraction System for 4,700+ PDFs](https://towardsdatascience.com/from-4-weeks-to-45-minutes-designing-a-document-extraction-system-for-4700-pdfs/)
+  - <p>How a hybrid PyMuPDF + GPT-4 Vision pipeline replaced £8,000 in manual engineering effort, and why the latest models weren’t the answer</p> <p>The post <a href="https://towar...
+- [Context Engineering for AI Agents: A Deep Dive](https://towardsdatascience.com/deep-dive-into-context-engineering-for-ai-agents/)
+  - <p>How to optimize context, a precious finite resource for AI agents</p> <p>The post <a href="https://towardsdatascience.com/deep-dive-into-context-engineering-for-ai-agents/">C...
+- [The Arithmetic of Productivity Boosts: Why Does a “40% Increase in Productivity” Never Actually Work?](https://towardsdatascience.com/the-arithmetic-of-productivity-boosts-why-does-a-40-increase-in-productivity-never-actually-work/)
+  - <p>Why do grand productivity promises never actually deliver? Is every product just bad, or is there something else hiding in the numbers? </p> <p>The post <a href="https://towa...
 - [The Geometry Behind the Dot Product: Unit Vectors, Projections, and Intuition](https://towardsdatascience.com/the-geometry-behind-the-dot-product-unit-vectors-projections-and-intuition/)
   - <p>The geometric foundations you need to understand the dot product</p> <p>The post <a href="https://towardsdatascience.com/the-geometry-behind-the-dot-product-unit-vectors-proj...
-- [How to Run Claude Code Agents in Parallel](https://towardsdatascience.com/how-to-run-claude-code-agents-in-parallel/)
-  - <p>Learn how to apply coding agents in parallel to work more efficiently</p> <p>The post <a href="https://towardsdatascience.com/how-to-run-claude-code-agents-in-parallel/">How ...
-- [Behavior is the New Credential](https://towardsdatascience.com/behavior-is-the-new-credential/)
-  - <p>We are living through a paradigm shift in how we prove we are who we say we are online. Instead of asking What do you know? (password, PIN, mother’s maiden name) or What do y...
-- [Proxy-Pointer RAG: Achieving Vectorless Accuracy at Vector RAG Scale and Cost](https://towardsdatascience.com/proxy-pointer-rag-achieving-vectorless-accuracy-at-vector-rag-scale-and-cost/)
-  - <p>A new way to build vector RAG—structure-aware and reasoning-capable</p> <p>The post <a href="https://towardsdatascience.com/proxy-pointer-rag-achieving-vectorless-accuracy-at...
-- [A Data Scientist’s Take on the $599 MacBook Neo](https://towardsdatascience.com/a-data-scientists-take-on-the-599-macbook-neo/)
-  - <p>Why it doesn’t fit my workflow but still makes sense for beginners</p> <p>The post <a href="https://towardsdatascience.com/a-data-scientists-take-on-the-599-macbook-neo/">A D...
 
 ## KDnuggets (data-analysis)
+- [Supabase vs Firebase: Which Backend Is Right for Your Next App?](https://www.kdnuggets.com/supabase-vs-firebase-which-backend-is-right-for-your-next-app)
+  - Compare SQL and NoSQL backend services. Find out which BaaS is right for your next app in this neutral guide.
+- [7 Steps to Mastering Retrieval-Augmented Generation](https://www.kdnuggets.com/7-steps-to-mastering-retrieval-augmented-generation)
+  - As language model applications evolved, they increasingly became one with so-called RAG architectures: learn 7 key steps deemed essential to mastering their successful development.
+- [10 LLM Engineering Concepts Explained in 10 Minutes](https://www.kdnuggets.com/10-llm-engineering-concepts-explained-in-10-minutes)
+  - The 10 concepts every LLM engineer swears by to build reliable AI systems.
 - [Building A Bulletproof Strategy For Data Recovery (Sponsored)](https://bit.ly/Ingram-topic-24-kdn-website)
   - Data disruptions are no longer rare events. Hardware failures, ransomware, and unexpected outages can interrupt operations at any time. The difference between a temporary setbac...
 - [AI Isn’t Coming For Your Job: Automation Is](https://www.kdnuggets.com/ai-isnt-coming-for-your-job-automation-is)
   - But here's what nobody's actually saying out loud: the threat everyone keeps attributing to AI belongs more specifically to automation.
-- [5 Fun Projects Using OpenClaw](https://www.kdnuggets.com/5-fun-projects-using-openclaw)
-  - Turn OpenClaw into a powerful personal assistant with these 5 hands-on projects from beginner to advanced.
-- [The Most Common Statistical Traps in FAANG Interviews](https://www.kdnuggets.com/the-most-common-statistical-traps-in-faang-interviews)
-  - Five key statistical traps in FAANG interviews that test your ability to question data, spot bias, and think critically
-- [5 Useful Docker Containers for Agentic Developers](https://www.kdnuggets.com/5-useful-docker-containers-for-agentic-developers)
-  - Build AI agents instantly with 5 ready‑to‑run Docker containers. Pull, run, and start creating with zero setup.
 
 ## OpenAI News (ai)
 - [Announcing the OpenAI Safety Fellowship](https://openai.com/index/introducing-openai-safety-fellowship)
