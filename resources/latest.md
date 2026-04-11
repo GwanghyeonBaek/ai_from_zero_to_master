@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-04-10 05:07 UTC
+Updated: 2026-04-11 04:28 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [When Things Get Weird with Custom Calendars in Tabular Models](https://towardsdatascience.com/when-things-get-weird-with-the-custom-calendars-in-tabular-models/)
+  - <p>Since September 2025, we have had Calendar-based Time Intelligence in Power BI and Fabric Tabular models. While this feature offers great possibilities, we must be aware of i...
+- [Why MLOps Retraining Schedules Fail — Models Don’t Forget, They Get Shocked](https://towardsdatascience.com/why-mlops-retraining-schedules-fail-models-dont-forget-they-get-shocked/)
+  - <p>We fitted the Ebbinghaus forgetting curve to 555,000 real fraud transactions and got R² = −0.31 — worse than a flat line. This result explains why calendar-based retraining f...
+- [A Guide to Voice Cloning on Voxtral with a Missing Encoder](https://towardsdatascience.com/voxtral-tts-surgery-codes-from-audio-reconstruction-2/)
+  - <p>Can we reconstruct audio codes if we have audio for the Voxtral text-to-speech model?</p> <p>The post <a href="https://towardsdatascience.com/voxtral-tts-surgery-codes-from-a...
+- [How Does AI Learn to See in 3D and Understand Space?](https://towardsdatascience.com/how-does-ai-learn-to-see-in-3d-and-understand-space/)
+  - <p>How depth estimation, foundation segmentation, and geometric fusion are converging into spatial intelligence</p> <p>The post <a href="https://towardsdatascience.com/how-does-...
 - [A Visual Explanation of Linear Regression](https://towardsdatascience.com/a-visual-explanation-of-the-linear-regression/)
   - <p>A long-form article featuring over 100 visualizations, covering a range of topics from how to build linear regression model, measure the quality and how to improve the model<...
-- [How Visual-Language-Action (VLA) Models Work](https://towardsdatascience.com/how-visual-language-action-vla-models-work/)
-  - <p>The mathematical foundations of Vision-Language-Action (VLA) models for humanoid robots and more</p> <p>The post <a href="https://towardsdatascience.com/how-visual-language-a...
-- [A Survival Analysis Guide with Python: Using Time-To-Event Models to Forecast Customer Lifetime](https://towardsdatascience.com/a-survival-analysis-guide-with-python-using-time-to-event-models-to-forecast-customer-lifetime/)
-  - <p>Understand survival analysis by modeling customer retention through Kaplan-Meier curves and Cox Proportional Hazard regressions.</p> <p>The post <a href="https://towardsdatas...
-- [The Future of AI for Sales Is Diverse and Distributed](https://towardsdatascience.com/the-future-of-ai-for-sales-is-diverse-and-distributed/)
-  - <p>True creativity and innovation will come from human-agent collaboration. One human, millions of agents.</p> <p>The post <a href="https://towardsdatascience.com/the-future-of-...
-- [Why AI Is Training on Its Own Garbage (and How to Fix It)](https://towardsdatascience.com/why-ai-is-training-on-its-own-garbage-and-how-to-fix-it/)
-  - <p>Deep Web Data Is the Gold We Can't Touch, Yet</p> <p>The post <a href="https://towardsdatascience.com/why-ai-is-training-on-its-own-garbage-and-how-to-fix-it/">Why AI Is Trai...
 
 ## KDnuggets (data-analysis)
+- [Advanced NotebookLM Tips & Tricks for Power Users](https://www.kdnuggets.com/advanced-notebooklm-tips-tricks-for-power-users)
+  - Let's break down five newly introduced, high-impact features, and discuss how advanced practitioners can incorporate them into their daily workflows to maximize productivity.
+- [5 Useful Things to Do with Google’s Antigravity Besides Coding](https://www.kdnuggets.com/5-useful-things-to-do-with-googles-antigravity-besides-coding)
+  - Antigravity is sitting on a stack of capabilities, many of which have very little to do with writing functions.
 - [All About Pyjanitor’s Method Chaining Functionality, And Why Its Useful](https://www.kdnuggets.com/all-about-pyjanitors-method-chaining-functionality-and-why-its-useful)
   - Cleancode, clean data: why Pyjanitor's method chaining approach is the pathway to reach this double goal.
 - [Kaggle + Google’s Free 5-Day Gen AI Course](https://www.kdnuggets.com/kaggle-googles-free-5-day-gen-ai-course)
   - This five day generative AI intensive course covers foundational models, embeddings, AI agents, domain-specific LLMs, and MLOps through a week of whitepapers, hands-on code labs...
 - [5 Docker Containers for Small Business](https://www.kdnuggets.com/5-docker-containers-for-small-business)
   - Here are five ready-to-go Docker containers that can be deployed today to make any small business run smoother.
-- [Run Qwen3.5 on an Old Laptop: A Lightweight Local Agentic AI Setup Guide](https://www.kdnuggets.com/run-qwen3-5-on-an-old-laptop-a-lightweight-local-agentic-ai-setup-guide)
-  - Turn an aging laptop into a private AI workspace with Ollama and OpenCode for local coding, testing, and experimentation.
-- [5 Useful Python Scripts to Automate Boring Excel Tasks](https://www.kdnuggets.com/5-useful-python-scripts-to-automate-boring-excel-tasks)
-  - Merging spreadsheets, cleaning exports, and splitting reports are necessary-but-boring tasks. These Python scripts handle the repetitive parts so you can focus on the actual work.
 
 ## OpenAI News (ai)
-- [CyberAgent moves faster with ChatGPT Enterprise and Codex](https://openai.com/index/cyberagent)
-  - CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.
-- [OpenAI Full Fan Mode Contest: Terms & Conditions](https://openai.com/index/full-fan-mode-contest-terms-conditions)
-  - Explore the official terms and conditions for the OpenAI Full Fan Mode Contest, including eligibility, entry steps, judging criteria, and prize details. Learn how to participate...
-- [The next phase of enterprise AI](https://openai.com/index/next-phase-of-enterprise-ai)
-  - OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.
-- [Introducing the Child Safety Blueprint](https://openai.com/index/introducing-child-safety-blueprint)
-  - Discover OpenAI’s Child Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people onl...
-- [Announcing the OpenAI Safety Fellowship](https://openai.com/index/introducing-openai-safety-fellowship)
-  - A pilot program to support independent safety and alignment research and develop the next generation of talent
+- [Using custom GPTs](https://openai.com/academy/custom-gpts)
+  - Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants.
+- [ChatGPT for customer success teams](https://openai.com/academy/customer-success)
+  - Learn how customer success teams use ChatGPT to manage accounts, improve communication, reduce churn, and drive adoption and renewals.
+- [Applications of AI at OpenAI](https://openai.com/academy/applications-of-ai)
+  - Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.
+- [Research with ChatGPT](https://openai.com/academy/search-and-deep-research)
+  - Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.
+- [Analyzing data with ChatGPT](https://openai.com/academy/data-analysis)
+  - Learn how to analyze data with ChatGPT by exploring datasets, generating insights, creating visualizations, and turning findings into actionable decisions.
 
 ## Google AI Blog (ai)
 - [New ways to balance cost and reliability in the Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/)
