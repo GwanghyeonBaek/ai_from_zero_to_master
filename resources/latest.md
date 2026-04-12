@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-04-11 04:28 UTC
+Updated: 2026-04-12 05:06 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Advanced RAG Retrieval: Cross-Encoders & Reranking](https://towardsdatascience.com/advanced-rag-retrieval-cross-encoders-reranking/)
+  - <p>A deep-dive and practical guide to cross-encoders, advanced techniques, and why your retrieval pipeline deserves a second pass.</p> <p>The post <a href="https://towardsdatasc...
+- [Why Every AI Coding Assistant Needs a Memory Layer](https://towardsdatascience.com/why-every-ai-coding-assistant-needs-a-memory-layer/)
+  - <p>AI coding assistants need a persistent memory layer to overcome the statelessness of LLMs and improve code quality by systematically providing context across sessions.</p> <p...
+- [Introduction to Reinforcement Learning Agents with the Unity Game Engine](https://towardsdatascience.com/introduction-to-reinforcement-learning-agents-with-the-unity-game-engine/)
+  - <p>A step-by-step interactive guide to one of the most vexing areas of machine learning. </p> <p>The post <a href="https://towardsdatascience.com/introduction-to-reinforcement-l...
 - [When Things Get Weird with Custom Calendars in Tabular Models](https://towardsdatascience.com/when-things-get-weird-with-the-custom-calendars-in-tabular-models/)
   - <p>Since September 2025, we have had Calendar-based Time Intelligence in Power BI and Fabric Tabular models. While this feature offers great possibilities, we must be aware of i...
 - [Why MLOps Retraining Schedules Fail — Models Don’t Forget, They Get Shocked](https://towardsdatascience.com/why-mlops-retraining-schedules-fail-models-dont-forget-they-get-shocked/)
   - <p>We fitted the Ebbinghaus forgetting curve to 555,000 real fraud transactions and got R² = −0.31 — worse than a flat line. This result explains why calendar-based retraining f...
-- [A Guide to Voice Cloning on Voxtral with a Missing Encoder](https://towardsdatascience.com/voxtral-tts-surgery-codes-from-audio-reconstruction-2/)
-  - <p>Can we reconstruct audio codes if we have audio for the Voxtral text-to-speech model?</p> <p>The post <a href="https://towardsdatascience.com/voxtral-tts-surgery-codes-from-a...
-- [How Does AI Learn to See in 3D and Understand Space?](https://towardsdatascience.com/how-does-ai-learn-to-see-in-3d-and-understand-space/)
-  - <p>How depth estimation, foundation segmentation, and geometric fusion are converging into spatial intelligence</p> <p>The post <a href="https://towardsdatascience.com/how-does-...
-- [A Visual Explanation of Linear Regression](https://towardsdatascience.com/a-visual-explanation-of-the-linear-regression/)
-  - <p>A long-form article featuring over 100 visualizations, covering a range of topics from how to build linear regression model, measure the quality and how to improve the model<...
 
 ## KDnuggets (data-analysis)
 - [Advanced NotebookLM Tips & Tricks for Power Users](https://www.kdnuggets.com/advanced-notebooklm-tips-tricks-for-power-users)
@@ -29,16 +29,16 @@ Updated: 2026-04-11 04:28 UTC
   - Here are five ready-to-go Docker containers that can be deployed today to make any small business run smoother.
 
 ## OpenAI News (ai)
-- [Using custom GPTs](https://openai.com/academy/custom-gpts)
-  - Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants.
-- [ChatGPT for customer success teams](https://openai.com/academy/customer-success)
-  - Learn how customer success teams use ChatGPT to manage accounts, improve communication, reduce churn, and drive adoption and renewals.
-- [Applications of AI at OpenAI](https://openai.com/academy/applications-of-ai)
-  - Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.
-- [Research with ChatGPT](https://openai.com/academy/search-and-deep-research)
-  - Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.
-- [Analyzing data with ChatGPT](https://openai.com/academy/data-analysis)
-  - Learn how to analyze data with ChatGPT by exploring datasets, generating insights, creating visualizations, and turning findings into actionable decisions.
+- [Getting started with ChatGPT](https://openai.com/academy/getting-started)
+  - Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.
+- [Brainstorming with ChatGPT](https://openai.com/academy/brainstorming)
+  - Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans.
+- [Writing with ChatGPT](https://openai.com/academy/writing)
+  - Learn how to use ChatGPT for writing to draft, revise, and refine content with clear structure, tone, and intent.
+- [ChatGPT for research](https://openai.com/academy/research)
+  - Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.
+- [Responsible and safe use of AI](https://openai.com/academy/responsible-and-safe-use)
+  - Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT.
 
 ## Google AI Blog (ai)
 - [New ways to balance cost and reliability in the Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/)
