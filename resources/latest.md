@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-04-13 05:22 UTC
+Updated: 2026-04-14 05:05 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [How to Apply Claude Code to Non-technical Tasks](https://towardsdatascience.com/how-to-apply-claude-code-to-non-technical-tasks/)
+  - <p>Learn how to apply coding agents to all tasks on your computer</p> <p>The post <a href="https://towardsdatascience.com/how-to-apply-claude-code-to-non-technical-tasks/">How t...
+- [Your Model Isn’t Done: Understanding and Fixing Model Drift](https://towardsdatascience.com/your-model-isnt-done-understanding-and-fixing-model-drift/)
+  - <p>How production models fail over time, and how to catch and fix it before it breaks trust.</p> <p>The post <a href="https://towardsdatascience.com/your-model-isnt-done-underst...
+- [Range Over Depth: A Reflection on the Role of the Data Generalist](https://towardsdatascience.com/range-over-depth-a-reflection-on-the-role-of-the-data-generalist/)
+  - <p>What has changed in the past five years in the role and importance of generalists in data teams</p> <p>The post <a href="https://towardsdatascience.com/range-over-depth-a-ref...
+- [I Built a Tiny Computer Inside a Transformer](https://towardsdatascience.com/i-built-a-tiny-computer-inside-a-transformer/)
+  - <p>By compiling a simple program directly into transformer weights.</p> <p>The post <a href="https://towardsdatascience.com/i-built-a-tiny-computer-inside-a-transformer/">I Buil...
 - [Stop Treating AI Memory Like a Search Problem](https://towardsdatascience.com/stop-treating-ai-memory-like-a-search-problem/)
   - <p>Why storing and retrieving data isn’t enough to build reliable AI memory systems</p> <p>The post <a href="https://towardsdatascience.com/stop-treating-ai-memory-like-a-search...
-- [Write Pandas Like a Pro With Method Chaining Pipelines](https://towardsdatascience.com/this-one-pandas-pattern-separates-beginners-from-intermediate-users/)
-  - <p>Master method chaining, assign(), and pipe() to write cleaner, testable, production-ready Pandas code</p> <p>The post <a href="https://towardsdatascience.com/this-one-pandas-...
-- [Your ReAct Agent Is Wasting 90% of Its Retries — Here’s How to Stop It](https://towardsdatascience.com/your-react-agent-is-wasting-90-of-its-retries-heres-how-to-stop-it/)
-  - <p>Most ReAct-style agents are silently wasting their retry budget on errors that can never succeed. In a 200-task benchmark, 90.8% of retries were spent on hallucinated tool ca...
-- [Advanced RAG Retrieval: Cross-Encoders & Reranking](https://towardsdatascience.com/advanced-rag-retrieval-cross-encoders-reranking/)
-  - <p>A deep-dive and practical guide to cross-encoders, advanced techniques, and why your retrieval pipeline deserves a second pass.</p> <p>The post <a href="https://towardsdatasc...
-- [Why Every AI Coding Assistant Needs a Memory Layer](https://towardsdatascience.com/why-every-ai-coding-assistant-needs-a-memory-layer/)
-  - <p>AI coding assistants need a persistent memory layer to overcome the statelessness of LLMs and improve code quality by systematically providing context across sessions.</p> <p...
 
 ## KDnuggets (data-analysis)
+- [Breaking Down the .claude Folder](https://www.kdnuggets.com/breaking-down-the-claude-folder)
+  - The .claude folder is created by tools that integrate with Claude to store local state, to keep track of how the model behaves inside your project.
+- [Are AI Agents Your Next Security Nightmare?](https://www.kdnuggets.com/are-ai-agents-your-next-security-nightmare)
+  - This article provides a reflective summary, based on the most recent insights and dilemmas, about the current state of security in AI agents.
+- [5 Best Books for Building Agentic AI Systems in 2026](https://www.kdnuggets.com/5-best-books-for-building-agentic-ai-systems-in-2026)
+  - These five books are the ones worth your time in 2026 if you are building systems where models don't just respond, they act.
 - [Advanced NotebookLM Tips & Tricks for Power Users](https://www.kdnuggets.com/advanced-notebooklm-tips-tricks-for-power-users)
   - Let's break down five newly introduced, high-impact features, and discuss how advanced practitioners can incorporate them into their daily workflows to maximize productivity.
 - [5 Useful Things to Do with Google’s Antigravity Besides Coding](https://www.kdnuggets.com/5-useful-things-to-do-with-googles-antigravity-besides-coding)
   - Antigravity is sitting on a stack of capabilities, many of which have very little to do with writing functions.
-- [All About Pyjanitor’s Method Chaining Functionality, And Why Its Useful](https://www.kdnuggets.com/all-about-pyjanitors-method-chaining-functionality-and-why-its-useful)
-  - Cleancode, clean data: why Pyjanitor's method chaining approach is the pathway to reach this double goal.
-- [Kaggle + Google’s Free 5-Day Gen AI Course](https://www.kdnuggets.com/kaggle-googles-free-5-day-gen-ai-course)
-  - This five day generative AI intensive course covers foundational models, embeddings, AI agents, domain-specific LLMs, and MLOps through a week of whitepapers, hands-on code labs...
-- [5 Docker Containers for Small Business](https://www.kdnuggets.com/5-docker-containers-for-small-business)
-  - Here are five ready-to-go Docker containers that can be deployed today to make any small business run smoother.
 
 ## OpenAI News (ai)
-- [Using projects in ChatGPT](https://openai.com/academy/projects)
-  - Learn how to use orojects in ChatGPT to organize chats, files, and instructions, manage ongoing work, and collaborate more effectively.
-- [ChatGPT for marketing teams](https://openai.com/academy/marketing)
-  - Learn how marketing teams use ChatGPT to plan campaigns, generate content, analyze performance, and move from ideas to execution faster.
-- [Our response to the Axios developer tool compromise](https://openai.com/index/axios-developer-tool-compromise)
-  - OpenAI responds to the Axios supply chain attack by rotating macOS code signing certificates, updating apps, and confirming no user data was compromised.
-- [Using custom GPTs](https://openai.com/academy/custom-gpts)
-  - Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants.
-- [Analyzing data with ChatGPT](https://openai.com/academy/data-analysis)
-  - Learn how to analyze data with ChatGPT by exploring datasets, generating insights, creating visualizations, and turning findings into actionable decisions.
+- [Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI](https://openai.com/index/cloudflare-openai-agent-cloud)
+  - Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.
+- [ChatGPT for operations teams](https://openai.com/academy/operations)
+  - Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.
+- [Applications of AI at OpenAI](https://openai.com/academy/applications-of-ai)
+  - Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.
+- [ChatGPT for finance teams](https://openai.com/academy/finance)
+  - Learn how finance teams use ChatGPT to streamline reporting, analyze data, improve forecasts, and communicate insights more clearly.
+- [Brainstorming with ChatGPT](https://openai.com/academy/brainstorming)
+  - Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans.
 
 ## Google AI Blog (ai)
 - [New ways to balance cost and reliability in the Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/)
