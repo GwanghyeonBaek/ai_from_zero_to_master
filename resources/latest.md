@@ -1,56 +1,56 @@
 # Latest Learning Resources
 
-Updated: 2026-04-14 05:05 UTC
+Updated: 2026-04-15 05:06 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
-- [How to Apply Claude Code to Non-technical Tasks](https://towardsdatascience.com/how-to-apply-claude-code-to-non-technical-tasks/)
-  - <p>Learn how to apply coding agents to all tasks on your computer</p> <p>The post <a href="https://towardsdatascience.com/how-to-apply-claude-code-to-non-technical-tasks/">How t...
-- [Your Model Isn’t Done: Understanding and Fixing Model Drift](https://towardsdatascience.com/your-model-isnt-done-understanding-and-fixing-model-drift/)
-  - <p>How production models fail over time, and how to catch and fix it before it breaks trust.</p> <p>The post <a href="https://towardsdatascience.com/your-model-isnt-done-underst...
-- [Range Over Depth: A Reflection on the Role of the Data Generalist](https://towardsdatascience.com/range-over-depth-a-reflection-on-the-role-of-the-data-generalist/)
-  - <p>What has changed in the past five years in the role and importance of generalists in data teams</p> <p>The post <a href="https://towardsdatascience.com/range-over-depth-a-ref...
-- [I Built a Tiny Computer Inside a Transformer](https://towardsdatascience.com/i-built-a-tiny-computer-inside-a-transformer/)
-  - <p>By compiling a simple program directly into transformer weights.</p> <p>The post <a href="https://towardsdatascience.com/i-built-a-tiny-computer-inside-a-transformer/">I Buil...
-- [Stop Treating AI Memory Like a Search Problem](https://towardsdatascience.com/stop-treating-ai-memory-like-a-search-problem/)
-  - <p>Why storing and retrieving data isn’t enough to build reliable AI memory systems</p> <p>The post <a href="https://towardsdatascience.com/stop-treating-ai-memory-like-a-search...
+- [RAG Isn’t Enough — I Built the Missing Context Layer That Makes LLM Systems Work](https://towardsdatascience.com/rag-isnt-enough-i-built-the-missing-context-layer-that-makes-llm-systems-work/)
+  - <p>Most RAG tutorials focus on retrieval or prompting. The real problem starts when context grows. This article shows a full context engineering system built in pure Python that...
+- [Data Modeling for Analytics Engineers: The Complete Primer](https://towardsdatascience.com/data-modeling-for-analytics-engineers-the-complete-primer/)
+  - <p>The best data models make it hard to ask bad questions and easy to answer good ones.</p> <p>The post <a href="https://towardsdatascience.com/data-modeling-for-analytics-engin...
+- [A Practical Guide to Choosing the Right Quantum SDK](https://towardsdatascience.com/a-practical-guide-to-choosing-the-right-quantum-sdk/)
+  - <p>What to use, when to use it, and what to ignore?</p> <p>The post <a href="https://towardsdatascience.com/a-practical-guide-to-choosing-the-right-quantum-sdk/">A Practical Gui...
+- [A Guide to Understanding GPUs and Maximizing GPU Utilization](https://towardsdatascience.com/a-guide-to-gpu-utilization/)
+  - <p>In an age of constrained compute, learn how to optimize GPU efficiency through understanding architecture, bottlenecks, and fixes ranging from simple PyTorch commands to cust...
+- [How To Produce Ultra-Compact Vector Graphic Plots With Orthogonal Distance Fitting](https://towardsdatascience.com/how-to-produce-ultra-compact-vector-graphic-plots-with-orthogonal-distance-fitting/)
+  - <p>Generate high-quality, minimal SVG plots by fitting Bézier curves with an ODF algorithm.</p> <p>The post <a href="https://towardsdatascience.com/how-to-produce-ultra-compact-...
 
 ## KDnuggets (data-analysis)
+- [Collaborative AI Systems: Human-AI Teaming Workflows](https://www.kdnuggets.com/collaborative-ai-systems-human-ai-teaming-workflows)
+  - Everyone says they're "collaborating" with AI. Most are just giving orders and accepting whatever comes back.
+- [Top 7 Docker Compose Templates Every Developer Should Use](https://www.kdnuggets.com/top-7-docker-compose-templates-every-developer-should-use)
+  - Learn seven Docker Compose templates for CMS, web apps, databases, Python backends, streaming, automation, and local AI development.
 - [Breaking Down the .claude Folder](https://www.kdnuggets.com/breaking-down-the-claude-folder)
   - The .claude folder is created by tools that integrate with Claude to store local state, to keep track of how the model behaves inside your project.
 - [Are AI Agents Your Next Security Nightmare?](https://www.kdnuggets.com/are-ai-agents-your-next-security-nightmare)
   - This article provides a reflective summary, based on the most recent insights and dilemmas, about the current state of security in AI agents.
 - [5 Best Books for Building Agentic AI Systems in 2026](https://www.kdnuggets.com/5-best-books-for-building-agentic-ai-systems-in-2026)
   - These five books are the ones worth your time in 2026 if you are building systems where models don't just respond, they act.
-- [Advanced NotebookLM Tips & Tricks for Power Users](https://www.kdnuggets.com/advanced-notebooklm-tips-tricks-for-power-users)
-  - Let's break down five newly introduced, high-impact features, and discuss how advanced practitioners can incorporate them into their daily workflows to maximize productivity.
-- [5 Useful Things to Do with Google’s Antigravity Besides Coding](https://www.kdnuggets.com/5-useful-things-to-do-with-googles-antigravity-besides-coding)
-  - Antigravity is sitting on a stack of capabilities, many of which have very little to do with writing functions.
 
 ## OpenAI News (ai)
+- [Trusted access for the next era of cyber defense](https://openai.com/index/scaling-trusted-access-for-cyber-defense)
+  - OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.
 - [Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI](https://openai.com/index/cloudflare-openai-agent-cloud)
   - Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.
-- [ChatGPT for operations teams](https://openai.com/academy/operations)
-  - Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.
-- [Applications of AI at OpenAI](https://openai.com/academy/applications-of-ai)
-  - Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.
 - [ChatGPT for finance teams](https://openai.com/academy/finance)
   - Learn how finance teams use ChatGPT to streamline reporting, analyze data, improve forecasts, and communicate insights more clearly.
-- [Brainstorming with ChatGPT](https://openai.com/academy/brainstorming)
-  - Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans.
+- [ChatGPT for marketing teams](https://openai.com/academy/marketing)
+  - Learn how marketing teams use ChatGPT to plan campaigns, generate content, analyze performance, and move from ideas to execution faster.
+- [Getting started with ChatGPT](https://openai.com/academy/getting-started)
+  - Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.
 
 ## Google AI Blog (ai)
+- [Turn your best AI prompts into one-click tools in Chrome](https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/)
+  - Video showing Skills in Chrome
+- [Bringing people together at AI for the Economy Forum](https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/ai-economy-forum/)
+  - Woman working with a large tool. On the left are the Google and MIT FutureTech logos, "AI for the Economy Forum", and "Innovation and Adaption in the New Era"
 - [New ways to balance cost and reliability in the Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/)
   - Gemini API Dials
 - [Create, edit and share videos at no cost in Google Vids](https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/)
   - Google Vids logo surrounded by various video editing UI
 - [We’re creating a new satellite imagery map to help protect Brazil’s forests.](https://blog.google/products-and-platforms/products/earth/satellite-imagery-brazilian-deforestation/)
   - <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/bfc_keyword_before_after_white_.max-600x600.format-webp_QNQ8psB.webp" />Google partnered with the Brazi...
-- [The latest AI news we announced in March 2026](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/)
-  - March 2026 AI Recap showing new updates
-- [Build with Veo 3.1 Lite, our most cost-effective video generation model](https://blog.google/innovation-and-ai/technology/ai/veo-3-1-lite/)
-  - Build with Veo 3.1 Lite
 
 ## Hugging Face Blog (llm)
 - [Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs](https://huggingface.co/blog/waypoint-1-5)
