@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-04-18 04:40 UTC
+Updated: 2026-04-19 05:10 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Your RAG System Retrieves the Right Data — But Still Produces Wrong Answers. Here’s Why (and How to Fix It).](https://towardsdatascience.com/your-rag-system-retrieves-the-right-data-but-still-produces-wrong-answers-heres-why-and-how-to-fix-it/)
+  - <p>Your RAG system is retrieving the right documents with perfect scores — yet it still confidently returns the wrong answer.<br /> I built a 220 MB local experiment that proves...
+- [AI Agents Need Their Own Desk, and Git Worktrees Give Them One](https://towardsdatascience.com/ai-agents-need-their-own-desk-and-git-worktrees-give-it-one/)
+  - <p>Git worktrees, parallel agentic coding sessions, and the setup tax you should be aware of</p> <p>The post <a href="https://towardsdatascience.com/ai-agents-need-their-own-des...
+- [How to Learn Python for Data Science Fast in 2026 (Without Wasting Time)](https://towardsdatascience.com/how-to-learn-python-so-fast-it-feels-like-cheating/)
+  - <p>What I wish I did at the beginning of my journey</p> <p>The post <a href="https://towardsdatascience.com/how-to-learn-python-so-fast-it-feels-like-cheating/">How to Learn Pyt...
 - [Beyond Prompting: Using Agent Skills in Data Science](https://towardsdatascience.com/beyond-prompting-using-agent-skills-in-data-science/)
   - <p>How I turned my eight-year weekly visualization habit into a reusable AI workflow</p> <p>The post <a href="https://towardsdatascience.com/beyond-prompting-using-agent-skills-...
 - [You Don’t Need Many Labels to Learn](https://towardsdatascience.com/you-dont-need-many-labels-to-learn/)
   - <p>What if an unsupervised model could become a strong classifier with only a handful of labels?</p> <p>The post <a href="https://towardsdatascience.com/you-dont-need-many-label...
-- [6 Things I Learned Building LLMs From Scratch That No Tutorial Teaches You](https://towardsdatascience.com/6-things-i-learned-building-llms-from-scratch-that-no-tutorial-teaches-you/)
-  - <p>From rank-stabilized scaling to quantization stability: A statistical and architectural deep dive into the optimizations powering modern Transformers.</p> <p>The post <a href...
-- [A Practical Guide to Memory for Autonomous LLM Agents](https://towardsdatascience.com/a-practical-guide-to-memory-for-autonomous-llm-agents/)
-  - <p>Architectures, pitfalls, and patterns that work</p> <p>The post <a href="https://towardsdatascience.com/a-practical-guide-to-memory-for-autonomous-llm-agents/">A Practical Gu...
-- [What It Actually Takes to Run Code on 200M€ Supercomputer](https://towardsdatascience.com/what-it-actually-takes-to-run-code-on-200me-supercomputer/)
-  - <p>Inside MareNostrum V: SLURM schedulers, fat-tree topologies, and scaling pipelines across 8,000 nodes in a 19th-century chapel</p> <p>The post <a href="https://towardsdatasci...
 
 ## KDnuggets (data-analysis)
 - [I Vibe Coded a Tool to That Analyzes Customer Sentiment and Topics From Call Recordings](https://www.kdnuggets.com/vibe-coded-tool-analyzes-customer-sentiment-and-topics-from-call-recordings)
