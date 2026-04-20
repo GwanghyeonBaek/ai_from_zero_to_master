@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-04-19 05:10 UTC
+Updated: 2026-04-20 05:21 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Proxy-Pointer RAG: Structure Meets Scale at 100% Accuracy with Smarter Retrieval](https://towardsdatascience.com/proxy-pointer-rag-structure-meets-scale-100-accuracy-with-smarter-retrieval/)
+  - <p>Open source. 5-minute setup. Vector RAG done right—try it yourself.</p> <p>The post <a href="https://towardsdatascience.com/proxy-pointer-rag-structure-meets-scale-100-accura...
+- [Dreaming in Cubes](https://towardsdatascience.com/dreaming-in-cubes/)
+  - <p>Generating Minecraft Worlds with Vector Quantized Variational Autoencoders (VQ-VAE) and Transformers</p> <p>The post <a href="https://towardsdatascience.com/dreaming-in-cubes...
+- [KV Cache Is Eating Your VRAM. Here’s How Google Fixed It With TurboQuant.](https://towardsdatascience.com/kv-cache-is-eating-your-vram-heres-how-google-fixed-it-with-turboquant/)
+  - <p>Explore the end-to-end pipeline of TurboQuant, a novel KV cache quantization framework. This overview breaks down how multi-stage compression achieves near-lossless storage t...
 - [Your RAG System Retrieves the Right Data — But Still Produces Wrong Answers. Here’s Why (and How to Fix It).](https://towardsdatascience.com/your-rag-system-retrieves-the-right-data-but-still-produces-wrong-answers-heres-why-and-how-to-fix-it/)
   - <p>Your RAG system is retrieving the right documents with perfect scores — yet it still confidently returns the wrong answer.<br /> I built a 220 MB local experiment that proves...
 - [AI Agents Need Their Own Desk, and Git Worktrees Give Them One](https://towardsdatascience.com/ai-agents-need-their-own-desk-and-git-worktrees-give-it-one/)
   - <p>Git worktrees, parallel agentic coding sessions, and the setup tax you should be aware of</p> <p>The post <a href="https://towardsdatascience.com/ai-agents-need-their-own-des...
-- [How to Learn Python for Data Science Fast in 2026 (Without Wasting Time)](https://towardsdatascience.com/how-to-learn-python-so-fast-it-feels-like-cheating/)
-  - <p>What I wish I did at the beginning of my journey</p> <p>The post <a href="https://towardsdatascience.com/how-to-learn-python-so-fast-it-feels-like-cheating/">How to Learn Pyt...
-- [Beyond Prompting: Using Agent Skills in Data Science](https://towardsdatascience.com/beyond-prompting-using-agent-skills-in-data-science/)
-  - <p>How I turned my eight-year weekly visualization habit into a reusable AI workflow</p> <p>The post <a href="https://towardsdatascience.com/beyond-prompting-using-agent-skills-...
-- [You Don’t Need Many Labels to Learn](https://towardsdatascience.com/you-dont-need-many-labels-to-learn/)
-  - <p>What if an unsupervised model could become a strong classifier with only a handful of labels?</p> <p>The post <a href="https://towardsdatascience.com/you-dont-need-many-label...
 
 ## KDnuggets (data-analysis)
 - [I Vibe Coded a Tool to That Analyzes Customer Sentiment and Topics From Call Recordings](https://www.kdnuggets.com/vibe-coded-tool-analyzes-customer-sentiment-and-topics-from-call-recordings)
