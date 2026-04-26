@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-04-25 04:44 UTC
+Updated: 2026-04-26 05:20 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Causal Inference Is Different in Business](https://towardsdatascience.com/causal-inference-is-different-in-business/)
+  - <p>How does decision-gravity dictate this gap?</p> <p>The post <a href="https://towardsdatascience.com/causal-inference-is-different-in-business/">Causal Inference Is Different ...
+- [The Essential Guide to Effectively Summarizing Massive Documents, Part 2](https://towardsdatascience.com/the-essential-guide-to-effectively-summarizing-massive-documents-part-2/)
+  - <p>We have the document clusters, and it’s time to unlock their true potential! Let’s explore how to extract meaningful information from the actionable clusters.</p> <p>The post...
 - [Introduction to Approximate Solution Methods for Reinforcement Learning](https://towardsdatascience.com/introduction-to-approximate-solution-methods-for-reinforcement-learning-2/)
   - <p>Learn about function approximation and the different choices for approximation functions</p> <p>The post <a href="https://towardsdatascience.com/introduction-to-approximate-s...
 - [I Built an AI Pipeline for Kindle Highlights](https://towardsdatascience.com/i-built-an-ai-pipeline-for-kindle-highlights/)
   - <p>A local, zero-cost project that cleans, structures, and summarizes your reading automatically</p> <p>The post <a href="https://towardsdatascience.com/i-built-an-ai-pipeline-f...
 - [How to Improve Claude Code Performance with Automated Testing](https://towardsdatascience.com/how-to-vastly-improve-claude-code-performance-with-automated-testing/)
   - <p>Learn how to get the most out of Claude Code</p> <p>The post <a href="https://towardsdatascience.com/how-to-vastly-improve-claude-code-performance-with-automated-testing/">Ho...
-- [How to Select Variables Robustly in a Scoring Model](https://towardsdatascience.com/how-to-select-variables-robustly-in-a-scoring-model/)
-  - <p>More variables don't make a better scoring model. Stable variables do. Here's how to find them.</p> <p>The post <a href="https://towardsdatascience.com/how-to-select-variable...
-- [Using a Local LLM as a Zero-Shot Classifier](https://towardsdatascience.com/using-a-local-llm-as-a-zero-shot-classifier/)
-  - <p>A practical pipeline for classifying messy free-text data into meaningful categories using a locally hosted LLM, no labeled training data required.</p> <p>The post <a href="h...
 
 ## KDnuggets (data-analysis)
 - [7 Practical OpenClaw Use Cases You Should Know](https://www.kdnuggets.com/7-practical-openclaw-use-cases-you-should-know)
