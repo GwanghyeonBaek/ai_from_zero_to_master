@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-04-26 05:20 UTC
+Updated: 2026-04-27 05:32 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Bytes Speak All Languages: Cross-Script Name Retrieval via Contrastive Learning](https://towardsdatascience.com/bytes-speak-all-languages-cross-script-name-retrieval-via-contrastive-learning/)
+  - <p>Why learn 8 scripts when you can learn 256 bytes?</p> <p>The post <a href="https://towardsdatascience.com/bytes-speak-all-languages-cross-script-name-retrieval-via-contrastiv...
+- [I Reduced My Pandas Runtime by 95% — Here’s What I Was Doing Wrong](https://towardsdatascience.com/i-reduced-my-pandas-runtime-by-95-heres-what-i-was-doing-wrong/)
+  - <p>Most slow Pandas code "works", until it doesn't. Learn how to spot hidden bottlenecks, avoid costly row-wise operations, and know when Pandas is no longer enough.</p> <p>The ...
 - [Causal Inference Is Different in Business](https://towardsdatascience.com/causal-inference-is-different-in-business/)
   - <p>How does decision-gravity dictate this gap?</p> <p>The post <a href="https://towardsdatascience.com/causal-inference-is-different-in-business/">Causal Inference Is Different ...
 - [The Essential Guide to Effectively Summarizing Massive Documents, Part 2](https://towardsdatascience.com/the-essential-guide-to-effectively-summarizing-massive-documents-part-2/)
   - <p>We have the document clusters, and it’s time to unlock their true potential! Let’s explore how to extract meaningful information from the actionable clusters.</p> <p>The post...
 - [Introduction to Approximate Solution Methods for Reinforcement Learning](https://towardsdatascience.com/introduction-to-approximate-solution-methods-for-reinforcement-learning-2/)
   - <p>Learn about function approximation and the different choices for approximation functions</p> <p>The post <a href="https://towardsdatascience.com/introduction-to-approximate-s...
-- [I Built an AI Pipeline for Kindle Highlights](https://towardsdatascience.com/i-built-an-ai-pipeline-for-kindle-highlights/)
-  - <p>A local, zero-cost project that cleans, structures, and summarizes your reading automatically</p> <p>The post <a href="https://towardsdatascience.com/i-built-an-ai-pipeline-f...
-- [How to Improve Claude Code Performance with Automated Testing](https://towardsdatascience.com/how-to-vastly-improve-claude-code-performance-with-automated-testing/)
-  - <p>Learn how to get the most out of Claude Code</p> <p>The post <a href="https://towardsdatascience.com/how-to-vastly-improve-claude-code-performance-with-automated-testing/">Ho...
 
 ## KDnuggets (data-analysis)
 - [7 Practical OpenClaw Use Cases You Should Know](https://www.kdnuggets.com/7-practical-openclaw-use-cases-you-should-know)
@@ -29,15 +29,15 @@ Updated: 2026-04-26 05:20 UTC
   - Learn faster, build smarter, and unlock the full power of Claude Code through real examples, reusable templates, prompts, workflows, subagents, and system design.
 
 ## OpenAI News (ai)
+- [Our principles](https://openai.com/index/our-principles)
+  - Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.
+- [GPT-5.5 System Card](https://openai.com/index/gpt-5-5-system-card)
 - [Introducing GPT-5.5](https://openai.com/index/introducing-gpt-5-5)
   - Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.
-- [GPT-5.5 System Card](https://openai.com/index/gpt-5-5-system-card)
 - [Automations](https://openai.com/academy/codex-automations)
   - Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.
-- [Top 10 uses for Codex at work](https://openai.com/academy/top-10-use-cases-codex-for-work)
-  - Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.
-- [Plugins and skills](https://openai.com/academy/codex-plugins-and-skills)
-  - Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.
+- [How to get started with Codex](https://openai.com/academy/codex-how-to-start)
+  - Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.
 
 ## Google AI Blog (ai)
 - [8 Gemini tips for organizing your space (and life)](https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/)
