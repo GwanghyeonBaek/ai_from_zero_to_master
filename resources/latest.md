@@ -1,32 +1,32 @@
 # Latest Learning Resources
 
-Updated: 2026-05-01 05:49 UTC
+Updated: 2026-05-02 05:19 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [How to Get Hired in the AI Era](https://towardsdatascience.com/how-to-get-hired-in-the-ai-era/)
+  - <p>What people actually look for when hiring juniors that stand out.</p> <p>The post <a href="https://towardsdatascience.com/how-to-get-hired-in-the-ai-era/">How to Get Hired in...
+- [Churn Without Fragmentation: How a Party-Label Bug Reversed My Headline Finding](https://towardsdatascience.com/fractured-local-britain-voter-volatility-in-english-councils-2018-2022/)
+  - <p>A data quality case study from English local elections on categorical normalisation, metric validation, and why raw labels should never define analytical groups.</p> <p>The p...
+- [Ghost: A Database for Our Times?](https://towardsdatascience.com/ghost-a-database-for-our-times/)
+  - <p>The first database built for AI Agents</p> <p>The post <a href="https://towardsdatascience.com/ghost-a-database-for-our-times/">Ghost: A Database for Our Times?</a> appeared ...
+- [Why Powerful Machine Learning Is Deceptively Easy](https://towardsdatascience.com/why-powerful-ml-is-deceptively-easy/)
+  - <p>Or why what appears powerful can be methodologically fragile</p> <p>The post <a href="https://towardsdatascience.com/why-powerful-ml-is-deceptively-easy/">Why Powerful Machin...
 - [A Gentle Introduction to Stochastic Programming](https://towardsdatascience.com/a-gentle-introduction-to-stochastic-programming/)
   - <p>How to make decisions when your spreadsheet is lying about the future</p> <p>The post <a href="https://towardsdatascience.com/a-gentle-introduction-to-stochastic-programming/...
-- [Proxy-Pointer RAG: Multimodal Answers Without Multimodal Embeddings](https://towardsdatascience.com/proxy-pointer-rag-multimodal-answers-without-multimodal-embeddings/)
-  - <p>Structure is all you need</p> <p>The post <a href="https://towardsdatascience.com/proxy-pointer-rag-multimodal-answers-without-multimodal-embeddings/">Proxy-Pointer RAG: Mult...
-- [How to Study the Monotonicity and Stability of Variables in a Scoring Model using Python](https://towardsdatascience.com/how-to-study-the-monotonicity-and-stability-of-variables-in-a-scoring-model-using-python/)
-  - <p>How can you validate that your variables tell a consistent risk?</p> <p>The post <a href="https://towardsdatascience.com/how-to-study-the-monotonicity-and-stability-of-variab...
-- [Why AI Engineers Are Moving Beyond LangChain to Native Agent Architectures](https://towardsdatascience.com/why-ai-engineers-are-moving-beyond-langchain-to-native-agent-architectures/)
-  - <p>Frameworks accelerated the first wave of LLM apps, but production demands a different architecture.</p> <p>The post <a href="https://towardsdatascience.com/why-ai-engineers-a...
-- [4 YAML Files Instead of PySpark: How We Let Analysts Build Data Pipelines Without Engineers](https://towardsdatascience.com/4-yaml-files-instead-of-pyspark-how-we-let-analysts-build-data-pipelines-without-engineers/)
-  - <p>How we replaced Python pipelines with dlt, dbt, and Trino — and cut delivery time from weeks to one day.</p> <p>The post <a href="https://towardsdatascience.com/4-yaml-files-...
 
 ## KDnuggets (data-analysis)
+- [The “Robust” Data Scientist: Winning with Messy Data and Pingouin](https://www.kdnuggets.com/the-robust-data-scientist-winning-with-messy-data-and-pingouin)
+  - This article uncovers the craftsmanship of using robust statistics in data science processes: illustrating what to do when data fail tests due to not meeting standard assumptions.
+- [Open Weight Text-to-Speach with Voxtral TTS](https://www.kdnuggets.com/open-weight-text-to-speach-with-voxtral-tts)
+  - Learn how the Voxtral TTS model works, what makes its voice cloning and low‑latency performance special, and how to start generating speech with just a few lines of Python code.
 - [Learn The Most In-Demand Tech Skills for FREE](https://www.kdnuggets.com/2026/04/zerotomastery/learn-the-most-in-demand-tech-skills-for-free)
   - From April 30 - May 10, Zero To Mastery's entire course catalogue is 100% free.
+- [Building Agentic AI Systems with Microsoft’s Agent Framework](https://www.kdnuggets.com/building-agentic-ai-systems-with-microsofts-agent-framework)
+  - Read this technical walkthrough of safety, MCP, workflow orchestration, and agentic RAG in Python.
 - [5 Powerful Python Decorators to Build Clean AI Code](https://www.kdnuggets.com/5-powerful-python-decorators-to-build-clean-ai-code)
   - This article outlines five particularly useful Python decorators that, based on developers' experience, haven proven themselves effective to make AI code cleaner.
-- [Self-Hosted LLMs in the Real World: Limits, Workarounds, and Hard Lessons](https://www.kdnuggets.com/self-hosted-llms-in-the-real-world-limits-workarounds-and-hard-lessons)
-  - This article is about what actually happens when you take self-hosted LLMs seriously: not the benchmarks, not the hype, but the real operational friction most tutorials skip ent...
-- [Local Whisper Audio Transcription](https://www.kdnuggets.com/local-whisper-audio-transcription)
-  - Learn how to eranscribe audio locally using Faster‑Whisper and Python, with an emphasis on privacy‑first and CPU/GPU‑ready.
-- [A/B Testing Pitfalls: What Works and What Doesn’t with Real Data](https://www.kdnuggets.com/a-b-testing-pitfalls-what-works-and-what-doesnt-with-real-data)
-  - Learn why most “winning” experiments fail in production, and how top companies avoid this.
 
 ## OpenAI News (ai)
 - [Introducing Advanced Account Security](https://openai.com/index/advanced-account-security)
@@ -37,8 +37,8 @@ Updated: 2026-05-01 05:49 UTC
   - OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.
 - [Cybersecurity in the Intelligence Age](https://openai.com/index/cybersecurity-in-the-intelligence-age)
   - OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.
-- [OpenAI models, Codex, and Managed Agents come to AWS](https://openai.com/index/openai-on-aws)
-  - OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.
+- [Our commitment to community safety](https://openai.com/index/our-commitment-to-community-safety)
+  - Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.
 
 ## Google AI Blog (ai)
 - [Celebrating 20 years of Google Translate: Fun facts, tips and new features to try](https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/)
