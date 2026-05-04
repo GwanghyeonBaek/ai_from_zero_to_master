@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-05-03 05:38 UTC
+Updated: 2026-05-04 05:44 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [CSPNet Paper Walkthrough: Just Better, No Tradeoffs](https://towardsdatascience.com/cspnet-paper-walkthrough-just-better-no-tradeoff/)
+  - <p>A review of the Cross-Stage Partial Network paper — and a from-scratch PyTorch implementation</p> <p>The post <a href="https://towardsdatascience.com/cspnet-paper-walkthrough...
+- [Inference Scaling (Test-Time Compute): Why Reasoning Models Raise Your Compute Bill](https://towardsdatascience.com/inference-scaling-test-time-compute-why-reasoning-models-raise-your-compute-bill/)
+  - <p>Why reasoning models dramatically increase token usage, latency, and infrastructure costs in production systems</p> <p>The post <a href="https://towardsdatascience.com/infere...
 - [Which Regularizer Should You Actually Use? Lessons from 134,400 Simulations](https://towardsdatascience.com/which-regularizer-should-you-actually-use-lessons-from-134400-simulations/)
   - <p>A practitioner's decision framework for Ridge, Lasso, and ElasticNet based on three quantities you can compute before fitting a model</p> <p>The post <a href="https://towards...
 - [How a 2021 Quantization Algorithm Quietly Outperforms Its 2026 Successor](https://towardsdatascience.com/how-a-2021-quantization-algorithm-quietly-outperforms-its-2026-successor/)
   - <p>One scale parameter determines accuracy in rotation-based vector quantization.</p> <p>The post <a href="https://towardsdatascience.com/how-a-2021-quantization-algorithm-quiet...
 - [How to Get Hired in the AI Era](https://towardsdatascience.com/how-to-get-hired-in-the-ai-era/)
   - <p>What people actually look for when hiring juniors that stand out.</p> <p>The post <a href="https://towardsdatascience.com/how-to-get-hired-in-the-ai-era/">How to Get Hired in...
-- [Churn Without Fragmentation: How a Party-Label Bug Reversed My Headline Finding](https://towardsdatascience.com/fractured-local-britain-voter-volatility-in-english-councils-2018-2022/)
-  - <p>A data quality case study from English local elections on categorical normalisation, metric validation, and why raw labels should never define analytical groups.</p> <p>The p...
-- [Ghost: A Database for Our Times?](https://towardsdatascience.com/ghost-a-database-for-our-times/)
-  - <p>The first database built for AI Agents</p> <p>The post <a href="https://towardsdatascience.com/ghost-a-database-for-our-times/">Ghost: A Database for Our Times?</a> appeared ...
 
 ## KDnuggets (data-analysis)
 - [The “Robust” Data Scientist: Winning with Messy Data and Pingouin](https://www.kdnuggets.com/the-robust-data-scientist-winning-with-messy-data-and-pingouin)
