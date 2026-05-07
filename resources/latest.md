@@ -1,45 +1,48 @@
 # Latest Learning Resources
 
-Updated: 2026-05-06 05:36 UTC
+Updated: 2026-05-07 05:40 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
-- [Discrete Time-To-Event Modeling – Predicting When Something Will Happen](https://towardsdatascience.com/discrete-time-to-event-modeling-predicting-when-something-will-happen/)
-  - <p>Part 1: The basics — discretization of time, censoring and the life table</p> <p>The post <a href="https://towardsdatascience.com/discrete-time-to-event-modeling-predicting-w...
-- [How to Make Claude Code Validate its own Work](https://towardsdatascience.com/how-to-make-claude-code-validate-its-own-work/)
-  - <p>Improve Claude Code performance by having it validate its own work</p> <p>The post <a href="https://towardsdatascience.com/how-to-make-claude-code-validate-its-own-work/">How...
-- [RAG Hallucinates — I Built a Self-Healing Layer That Fixes It in Real Time](https://towardsdatascience.com/rag-hallucinates-i-built-a-self-healing-layer-that-fixes-it-in-real-time/)
-  - <p>Your RAG system isn’t failing at retrieval — it’s failing at reasoning. This article shows how I built a lightweight self-healing layer that detects and corrects hallucinatio...
-- [Surviving High Uncertainty in Logistics with MARL](https://towardsdatascience.com/surviving-high-uncertainty-in-logistics-with-marl/)
-  - <p>Part 2. Building scale-invariant agents that seamlessly change contexts</p> <p>The post <a href="https://towardsdatascience.com/surviving-high-uncertainty-in-logistics-with-m...
-- [Single Agent vs Multi-Agent: When to Build a Multi-Agent System](https://towardsdatascience.com/single-agent-vs-multi-agent-when-to-build-a-multi-agent-system/)
-  - <p>A practical guide to understanding AI agent design, ReAct workflows, and when to scale from a single agent to a multi-agent system.</p> <p>The post <a href="https://towardsda...
+- [When the Uncertainty Is Bigger Than the Shock: Scenario Modelling for English Local Elections](https://towardsdatascience.com/when-the-uncertainty-is-bigger-than-the-shock-scenario-modelling-for-english-local-elections/)
+  - <p>A scenario analysis case study on calibrated uncertainty, historical error, and why some models are most useful when they refuse to forecast.</p> <p>The post <a href="https:/...
+- [Beyond Lists: Using Python Deque for Real-Time Sliding Windows](https://towardsdatascience.com/beyond-lists-using-python-deque-for-real-time-sliding-windows/)
+  - <p>Stop shifting elements in lists! Discover why collections.deque is the secret to high-performance sliding windows, thread-safe queues, and efficient data streams in your next...
+- [Timer-XL: A Long-Context Foundation Model for Time-Series Forecasting](https://towardsdatascience.com/timer-xl-a-long-context-foundation-model-for-time-series-forecasting/)
+  - <p>Exploring the inner workings of a decoder-only Transformer foundation model</p> <p>The post <a href="https://towardsdatascience.com/timer-xl-a-long-context-foundation-model-f...
+- [Why I Don’t Trust LLMs to Decide When the Weather Changed](https://towardsdatascience.com/why-i-dont-trust-llms-to-decide-when-the-weather-changed/)
+  - <p>A physicist's approach to building production-grade agents</p> <p>The post <a href="https://towardsdatascience.com/why-i-dont-trust-llms-to-decide-when-the-weather-changed/">...
+- [Deconstruct Any Metric with a Few Simple ‘What’ Questions](https://towardsdatascience.com/metric-presentation-101/)
+  - <p>What you see is rarely what you get with flashy dashboards and data storytelling</p> <p>The post <a href="https://towardsdatascience.com/metric-presentation-101/">Deconstruct...
 
 ## KDnuggets (data-analysis)
+- [Abacus AI Review: Features, AI Agents & Automation Explained (Honest Guide)](https://www.kdnuggets.com/2026/05/abacus/abacus-ai-review)
+  - A detailed Abacus AI review covering ChatLLM, Abacus AI Agent, Claw, automation, app building, image and video generation, pricing, pros, cons, and who should use it.
+- [How to Set Up Claude Code Channels Locally](https://www.kdnuggets.com/how-to-set-up-claude-code-channels-locally)
+  - Learn how to connect Claude Code to Discord locally, pair your account, control access, and keep the bot running reliably.
+- [7 OpenCode Plugins That Make AI Coding More Powerful](https://www.kdnuggets.com/7-opencode-plugins-that-make-ai-coding-more-powerful)
+  - Learn which seven OpenCode plugins add memory, search, Gemini, terminal control, analytics, and reusable skills to make AI coding workflows stronger.
 - [Baptists and Bootleggers: The Hidden Coalition Behind ‘Data-Driven’ Decisions](https://www.kdnuggets.com/baptists-and-bootleggers-the-hidden-coalition-behind-data-driven-decisions)
   - One is genuine curiosity. The other is someone who already knows what they want and went looking for a number to back it up.
 - [5 Fun Projects Using Claude Code](https://www.kdnuggets.com/5-fun-projects-using-claude-code)
   - Turn Claude Code into your AI coding partner with these 5 hands-on projects, from beginner-friendly builds to advanced agent workflows.
-- [Testing SQL Like a Software Engineer: Unit Testing, CI/CD, and Data Quality Automation](https://www.kdnuggets.com/testing-sql-like-a-software-engineer-unit-testing-ci-cd-and-data-quality-automation)
-  - How to turn an interview-style SQL query into a production-ready, testable, version-controlled workflow.
-- [How to Deploy Your First App on FastAPI Cloud](https://www.kdnuggets.com/how-to-deploy-your-first-app-on-fastapi-cloud)
-  - Learn how to build, test, deploy, and monitor your first FastAPI Cloud app, a simple live gold and silver dashboard.
-- [7 Practical Ways to Reduce Claude Code Token Usage](https://www.kdnuggets.com/7-practical-ways-to-reduce-claude-code-token-usage)
-  - Claude Code token costs usually come from bloated context, not just long prompts. These 7 practical tactics help reduce waste without hurting quality.
 
 ## OpenAI News (ai)
-- [GPT-5.5 Instant System Card](https://openai.com/index/gpt-5-5-instant-system-card)
+- [Introducing ChatGPT Futures: Class of 2026](https://openai.com/index/introducing-chatgpt-futures-class-of-2026)
+  - Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creat...
+- [Singular Bank helps bankers move fast with ChatGPT and Codex](https://openai.com/index/singular-bank)
+  - Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.
+- [Uber uses OpenAI to help people earn smarter and book faster](https://openai.com/index/uber)
+  - Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace.
+- [How frontier enterprises are building an AI advantage](https://openai.com/index/introducing-b2b-signals)
+  - OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.
 - [GPT-5.5 Instant: smarter, clearer, and more personalized](https://openai.com/index/gpt-5-5-instant)
   - GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.
-- [New ways to buy ChatGPT ads](https://openai.com/index/new-ways-to-buy-chatgpt-ads)
-  - OpenAI expands ChatGPT ads with a beta self-serve Ads Manager, CPC bidding, and enhanced measurement tools—built to protect privacy and keep conversations separate from ads.
-- [OpenAI and PwC collaborate to reimagine the office of the CFO](https://openai.com/index/openai-pwc-finance-collaboration)
-  - OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.
-- [How OpenAI delivers low-latency voice AI at scale](https://openai.com/index/delivering-low-latency-voice-ai-at-scale)
-  - How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.
 
 ## Google AI Blog (ai)
+- [5 gardening tips you can try right in Search](https://blog.google/products-and-platforms/products/search/gardening-tips/)
+  - An abstract background featuring soft, stippled illustrations of flowers and a butterfly in a bright palette of blue, green, and red. In the center of the image is a white circl...
 - [Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.](https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/)
   - <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp" />Google is partnering with XPRIZE and Range Me...
 - [The latest AI news we announced in April 2026](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/)
@@ -48,12 +51,10 @@ Updated: 2026-05-06 05:36 UTC
   - Gemini API
 - [Celebrating 20 years of Google Translate: Fun facts, tips and new features to try](https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/)
   - The Google Translate logo sits in the middle of colorful illustrated scenes, including people translating live conversations and a birthday cake topped by candles with the numer...
-- [Join the new AI Agents Vibe Coding Course from Google and Kaggle](https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/)
-  - A web next to a laptop
 
 ## Hugging Face Blog (llm)
+- [vLLM V0 to V1: Correctness Before Corrections in RL](https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections)
+- [Adding Benchmaxxer Repellant to the Open ASR Leaderboard](https://huggingface.co/blog/open-asr-leaderboard-private-data)
 - [Granite 4.1 LLMs: How They’re Built](https://huggingface.co/blog/ibm-granite/granite-4-1)
 - [DeepInfra on Hugging Face Inference Providers 🔥](https://huggingface.co/blog/inference-providers-deepinfra)
 - [Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents](https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence)
-- [How to build scalable web apps with OpenAI's Privacy Filter](https://huggingface.co/blog/openai-privacy-filter-web-apps)
-- [DeepSeek-V4: a million-token context that agents can actually use](https://huggingface.co/blog/deepseekv4)
