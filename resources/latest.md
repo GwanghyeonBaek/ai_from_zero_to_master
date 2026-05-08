@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-05-07 05:40 UTC
+Updated: 2026-05-08 05:11 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [The Joy of Typing](https://towardsdatascience.com/the-joy-of-typing/)
+  - <p>A practical guide to modern type annotations in Python for data science</p> <p>The post <a href="https://towardsdatascience.com/the-joy-of-typing/">The Joy of Typing</a> appe...
+- [Give Your AI Unlimited Updated Context](https://towardsdatascience.com/give-your-ai-unlimited-updated-context/)
+  - <p>The architecture behind a portable knowledge layer and the automation that keeps it alive.</p> <p>The post <a href="https://towardsdatascience.com/give-your-ai-unlimited-upda...
+- [How Major Reasoning Models Converge to the Same “Brain” as They Model Reality Increasingly Better](https://towardsdatascience.com/how-major-reasoning-models-converge-to-the-same-brain-as-they-model-reality-increasingly-better/)
+  - <p>Because there's only one reality to model!</p> <p>The post <a href="https://towardsdatascience.com/how-major-reasoning-models-converge-to-the-same-brain-as-they-model-reality...
+- [I Rewrote a Real Data Workflow in Polars. Pandas Didn’t Stand a Chance.](https://towardsdatascience.com/i-rewrote-a-real-data-workflow-in-polars-pandas-didnt-stand-a-chance/)
+  - <p>From 61 seconds to 0.20 seconds — and the mental model shift I didn't expect</p> <p>The post <a href="https://towardsdatascience.com/i-rewrote-a-real-data-workflow-in-polars-...
 - [When the Uncertainty Is Bigger Than the Shock: Scenario Modelling for English Local Elections](https://towardsdatascience.com/when-the-uncertainty-is-bigger-than-the-shock-scenario-modelling-for-english-local-elections/)
   - <p>A scenario analysis case study on calibrated uncertainty, historical error, and why some models are most useful when they refuse to forecast.</p> <p>The post <a href="https:/...
-- [Beyond Lists: Using Python Deque for Real-Time Sliding Windows](https://towardsdatascience.com/beyond-lists-using-python-deque-for-real-time-sliding-windows/)
-  - <p>Stop shifting elements in lists! Discover why collections.deque is the secret to high-performance sliding windows, thread-safe queues, and efficient data streams in your next...
-- [Timer-XL: A Long-Context Foundation Model for Time-Series Forecasting](https://towardsdatascience.com/timer-xl-a-long-context-foundation-model-for-time-series-forecasting/)
-  - <p>Exploring the inner workings of a decoder-only Transformer foundation model</p> <p>The post <a href="https://towardsdatascience.com/timer-xl-a-long-context-foundation-model-f...
-- [Why I Don’t Trust LLMs to Decide When the Weather Changed](https://towardsdatascience.com/why-i-dont-trust-llms-to-decide-when-the-weather-changed/)
-  - <p>A physicist's approach to building production-grade agents</p> <p>The post <a href="https://towardsdatascience.com/why-i-dont-trust-llms-to-decide-when-the-weather-changed/">...
-- [Deconstruct Any Metric with a Few Simple ‘What’ Questions](https://towardsdatascience.com/metric-presentation-101/)
-  - <p>What you see is rarely what you get with flashy dashboards and data storytelling</p> <p>The post <a href="https://towardsdatascience.com/metric-presentation-101/">Deconstruct...
 
 ## KDnuggets (data-analysis)
+- [Building Modern EDA Pipelines with Pingouin](https://www.kdnuggets.com/building-modern-eda-pipelines-with-pingouin)
+  - Learn how to build a holistic pipeline for rigorous, statistical EDA, validating several important data properties.
+- [7 Everyday Distributions Explained Simply](https://www.kdnuggets.com/7-everyday-distributions-explained-simply)
+  - This article is a quick, everyday tour of seven distributions you'll actually recognize once you know what to look for. No heavy math. No gatekeeping.
 - [Abacus AI Review: Features, AI Agents & Automation Explained (Honest Guide)](https://www.kdnuggets.com/2026/05/abacus/abacus-ai-review)
   - A detailed Abacus AI review covering ChatLLM, Abacus AI Agent, Claw, automation, app building, image and video generation, pricing, pros, cons, and who should use it.
 - [How to Set Up Claude Code Channels Locally](https://www.kdnuggets.com/how-to-set-up-claude-code-channels-locally)
   - Learn how to connect Claude Code to Discord locally, pair your account, control access, and keep the bot running reliably.
 - [7 OpenCode Plugins That Make AI Coding More Powerful](https://www.kdnuggets.com/7-opencode-plugins-that-make-ai-coding-more-powerful)
   - Learn which seven OpenCode plugins add memory, search, Gemini, terminal control, analytics, and reusable skills to make AI coding workflows stronger.
-- [Baptists and Bootleggers: The Hidden Coalition Behind ‘Data-Driven’ Decisions](https://www.kdnuggets.com/baptists-and-bootleggers-the-hidden-coalition-behind-data-driven-decisions)
-  - One is genuine curiosity. The other is someone who already knows what they want and went looking for a number to back it up.
-- [5 Fun Projects Using Claude Code](https://www.kdnuggets.com/5-fun-projects-using-claude-code)
-  - Turn Claude Code into your AI coding partner with these 5 hands-on projects, from beginner-friendly builds to advanced agent workflows.
 
 ## OpenAI News (ai)
-- [Introducing ChatGPT Futures: Class of 2026](https://openai.com/index/introducing-chatgpt-futures-class-of-2026)
-  - Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creat...
-- [Singular Bank helps bankers move fast with ChatGPT and Codex](https://openai.com/index/singular-bank)
-  - Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.
-- [Uber uses OpenAI to help people earn smarter and book faster](https://openai.com/index/uber)
-  - Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace.
-- [How frontier enterprises are building an AI advantage](https://openai.com/index/introducing-b2b-signals)
-  - OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.
-- [GPT-5.5 Instant: smarter, clearer, and more personalized](https://openai.com/index/gpt-5-5-instant)
-  - GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.
+- [Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber](https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber)
+  - OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.
+- [Parloa builds service agents customers want to talk to](https://openai.com/index/parloa)
+  - Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.
+- [Advancing voice intelligence with new models in the API](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api)
+  - Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.
+- [Introducing Trusted Contact in ChatGPT](https://openai.com/index/introducing-trusted-contact-in-chatgpt)
+  - Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.
+- [Testing ads in ChatGPT](https://openai.com/index/testing-ads-in-chatgpt)
+  - OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.
 
 ## Google AI Blog (ai)
 - [5 gardening tips you can try right in Search](https://blog.google/products-and-platforms/products/search/gardening-tips/)
