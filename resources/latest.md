@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-05-09 05:29 UTC
+Updated: 2026-05-10 05:45 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [The Must-Know Topics for an LLM Engineer](https://towardsdatascience.com/the-must-know-topics-for-an-llm-engineer/)
+  - <p>From tokenisation to evaluation : how modern language models actually work in practice</p> <p>The post <a href="https://towardsdatascience.com/the-must-know-topics-for-an-llm...
+- [RAG Is Blind to Time — I Built a Temporal Layer to Fix It in Production](https://towardsdatascience.com/rag-is-blind-to-time-i-built-a-temporal-layer-to-fix-it-in-production/)
+  - <p>Three weeks into testing, a learner told me my AI tutor gave her the wrong answer.</p> <p>Not obviously wrong — just outdated enough to mislead.</p> <p>That was the moment I ...
 - [From Data Scientist to AI Architect](https://towardsdatascience.com/from-data-scientist-to-ai-architect/)
   - <p>The end of model-centric thinking in data science</p> <p>The post <a href="https://towardsdatascience.com/from-data-scientist-to-ai-architect/">From Data Scientist to AI Arch...
 - [The AI Agent Security Surface: What Gets Exposed When You Add Tools and Memory](https://towardsdatascience.com/the-ai-agent-security-surface-what-gets-exposed-when-you-add-tools-and-memory/)
   - <p>Standard prompt attacks are merely the beginning. A structured framework to map and mitigate the backend attack vectors of agentic workflows. </p> <p>The post <a href="https:...
 - [When Customers Churn at Renewal: Was It the Price or the Project?](https://towardsdatascience.com/when-customers-churn-at-renewal-was-it-the-price-or-the-project/)
   - <p>A practitioner's guide to causal attribution when two churn drivers arrive at once.</p> <p>The post <a href="https://towardsdatascience.com/when-customers-churn-at-renewal-wa...
-- [Unified Agentic Memory Across Harnesses Using Hooks](https://towardsdatascience.com/unified-agentic-memory-across-harnesses-using-hooks/)
-  - <p>How hook implementation gives Claude Code, Codex, and Cursor persistent memory via Neo4j, without locking you into any one of them.</p> <p>The post <a href="https://towardsda...
-- [The Joy of Typing](https://towardsdatascience.com/the-joy-of-typing/)
-  - <p>A practical guide to modern type annotations in Python for data science</p> <p>The post <a href="https://towardsdatascience.com/the-joy-of-typing/">The Joy of Typing</a> appe...
 
 ## KDnuggets (data-analysis)
 - [Stop Wasting Tokens: A Smarter Alternative to JSON for LLM Pipelines](https://www.kdnuggets.com/stop-wasting-tokens-a-smarter-alternative-to-json-for-llm-pipelines)
@@ -53,7 +53,7 @@ Updated: 2026-05-09 05:29 UTC
   - Gemini API
 
 ## Hugging Face Blog (llm)
-- [CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models](https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b)
+- ["OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support"](https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper)
 - [EMO: Pretraining mixture of experts for emergent modularity](https://huggingface.co/blog/allenai/emo)
 - [vLLM V0 to V1: Correctness Before Corrections in RL](https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections)
 - [Adding Benchmaxxer Repellant to the Open ASR Leaderboard](https://huggingface.co/blog/open-asr-leaderboard-private-data)
