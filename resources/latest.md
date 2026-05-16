@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-05-15 06:03 UTC
+Updated: 2026-05-16 05:34 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [From Raw Data to Risk Classes](https://towardsdatascience.com/from-raw-data-to-risk-classes/)
+  - <p>A practical guide to categorization in credit scoring</p> <p>The post <a href="https://towardsdatascience.com/from-raw-data-to-risk-classes/">From Raw Data to Risk Classes</a...
+- [How I Continually Improve My Claude Code](https://towardsdatascience.com/how-i-continually-improve-my-claude-code/)
+  - <p>Learn how to make your Claude Code improve over time </p> <p>The post <a href="https://towardsdatascience.com/how-i-continually-improve-my-claude-code/">How I Continually Imp...
+- [Why My Coding Assistant Started Replying in Korean When I Typed Chinese](https://towardsdatascience.com/why-my-coding-assistant-started-replying-in-korean-when-i-typed-chinese/)
+  - <p>From a Chinese prompt to a Korean response: an embedding-space investigation into how code vocabulary reshapes language</p> <p>The post <a href="https://towardsdatascience.co...
+- [Stop Evaluating LLMs with “Vibe Checks”](https://towardsdatascience.com/stop-evaluating-llms-with-vibe-checks/)
+  - <p>How to build a decision-grade scorecard for AI agents</p> <p>The post <a href="https://towardsdatascience.com/stop-evaluating-llms-with-vibe-checks/">Stop Evaluating LLMs wit...
 - [The Next AI Bottleneck Isn’t the Model: It’s the Inference System](https://towardsdatascience.com/the-next-ai-bottleneck-isnt-the-model-its-the-inference-system/)
   - <p>Enterprise AI systems are entering a phase where inference design matters as much as model capability itself.</p> <p>The post <a href="https://towardsdatascience.com/the-next...
-- [The Counterintuitive Networking Decisions Behind OpenAI’s 131,000-GPU Training Fabric](https://towardsdatascience.com/the-counterintuitive-networking-decisions-behind-openais-131000-gpu-training-fabric/)
-  - <p>A critical analysis of MRC's three counterintuitive design decisions, the networking mathematics that make them work, and what they mean for the rest of the AI infrastructure...
-- [I Let CodeSpeak Take Over My Repository](https://towardsdatascience.com/i-let-codespeak-take-over-my-repository/)
-  - <p>What happened when I migrated a 10K+ line project into an AI-native workflow</p> <p>The post <a href="https://towardsdatascience.com/i-let-codespeak-take-over-my-repository/"...
-- [How to Write Robust Code with Claude Code](https://towardsdatascience.com/how-to-write-robust-code-with-claude-code/)
-  - <p>Improve the quality of Claude Code output. </p> <p>The post <a href="https://towardsdatascience.com/how-to-write-robust-code-with-claude-code/">How to Write Robust Code with ...
-- [I Built the Same B2B Document Extractor Twice: Rules vs. LLM](https://towardsdatascience.com/i-built-the-same-b2b-document-extractor-twice-rules-vs-llm/)
-  - <p>A practical comparison between rule-based PDF extraction using pytesseract and an LLM-based approach with Ollama and LLaMA 3, based on a realistic B2B order scenario.</p> <p>...
 
 ## KDnuggets (data-analysis)
+- [TurboQuant: Is the Compression and Performance Worth the Hype?](https://www.kdnuggets.com/turboquant-is-the-compression-and-performance-worth-the-hype)
+  - How does it boost efficiency without losing accuracy? Is it really worth the hype?
+- [5 Must-Know Python Concepts](https://www.kdnuggets.com/5-must-know-python-concepts)
+  - In this article, we will explore five fundamental concepts that every Python developer should have in their toolkit.
 - [Time-Series Feature Engineering with Python Itertools](https://www.kdnuggets.com/time-series-feature-engineering-with-python-itertools)
   - Learn how to use Python itertools to build efficient and scalable time series features.
 - [5 Small Language Models for Agentic Tool Calling](https://www.kdnuggets.com/5-small-language-models-for-agentic-tool-calling)
   - Here are 5 small language models that hare one important trait: they all support structured tool calling in a compact, open-weight package.
 - [How AI Agents Will Transform Data Science Work in 2026](https://www.kdnuggets.com/how-ai-agents-will-transform-data-science-work-in-2026)
   - Discover how AI agents will revolutionize data science in 2026, and learn why they won't replace you but will make you a faster, smarter analyst.
-- [10 GitHub Repositories to Master Self-Hosting](https://www.kdnuggets.com/10-github-repositories-to-master-self-hosting)
-  - Learn how modern infrastructure works through self-hosting: containers, reverse proxies, monitoring, backups, networking, and systems operations.
-- [Using Polars Instead of Pandas: Performance Deep Dive](https://www.kdnuggets.com/using-polars-instead-of-pandas-performance-deep-dive)
-  - In this article, we explore three real data problems using real questions where Polars outpaces Pandas on every metric.
 
 ## OpenAI News (ai)
+- [A new personal finance experience in ChatGPT](https://openai.com/index/personal-finance-chatgpt)
+  - Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your...
+- [Databricks brings GPT-5.5 to enterprise agent workflows](https://openai.com/index/databricks)
+  - Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.
 - [Sea's View on the Future of Agentic Software Development with Codex](https://openai.com/index/sea-david-chen)
   - Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.
 - [Work with Codex from anywhere](https://openai.com/index/work-with-codex-from-anywhere)
   - Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.
 - [Helping ChatGPT better recognize context in sensitive conversations](https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations)
   - Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.
-- [Building a safe, effective sandbox to enable Codex on Windows](https://openai.com/index/building-codex-windows-sandbox)
-  - Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.
-- [Our response to the TanStack npm supply chain attack](https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack)
-  - OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS ...
 
 ## Google AI Blog (ai)
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)
