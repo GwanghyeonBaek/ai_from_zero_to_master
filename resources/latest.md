@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-05-17 05:55 UTC
+Updated: 2026-05-18 06:33 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Pandas Isn’t Going Anywhere: Why It’s Still My Go-To for Data Wrangling](https://towardsdatascience.com/pandas-isnt-going-anywhere-why-its-still-my-go-to-for-data-wrangling/)
+  - <p>Billions of rows might be the exception, but for everything else, Pandas is still a highly reliable tool.</p> <p>The post <a href="https://towardsdatascience.com/pandas-isnt-...
+- [LLM Evals Are Based on Vibes — I Built the Missing Layer That Decides What Ships](https://towardsdatascience.com/llm-evals-are-based-on-vibes-i-built-the-missing-layer-that-decides-what-ships/)
+  - <p>Most LLM evaluation systems rely on vague scoring and human judgment disguised as metrics. I built a lightweight evaluation layer in pure Python that turns LLM outputs into r...
 - [From Data Analyst to Data Engineer: My 12-Month Self-Study Roadmap](https://towardsdatascience.com/from-data-analyst-to-data-engineer-my-12-month-self-study-roadmap/)
   - <p>The exact tools I'm learning, the projects I'm building, and the mistakes I'm already expecting to make</p> <p>The post <a href="https://towardsdatascience.com/from-data-anal...
 - [Recursive Language Models: An All-in-One Deep Dive](https://towardsdatascience.com/recursive-language-models-one-example-deep-dive-that-explains-everything/)
   - <p>Exactly how does it differ from ReAct, CodeAct, Self-Loops, and Subagents?</p> <p>The post <a href="https://towardsdatascience.com/recursive-language-models-one-example-deep-...
 - [From Raw Data to Risk Classes](https://towardsdatascience.com/from-raw-data-to-risk-classes/)
   - <p>A practical guide to categorization in credit scoring</p> <p>The post <a href="https://towardsdatascience.com/from-raw-data-to-risk-classes/">From Raw Data to Risk Classes</a...
-- [How I Continually Improve My Claude Code](https://towardsdatascience.com/how-i-continually-improve-my-claude-code/)
-  - <p>Learn how to make your Claude Code improve over time </p> <p>The post <a href="https://towardsdatascience.com/how-i-continually-improve-my-claude-code/">How I Continually Imp...
-- [Why My Coding Assistant Started Replying in Korean When I Typed Chinese](https://towardsdatascience.com/why-my-coding-assistant-started-replying-in-korean-when-i-typed-chinese/)
-  - <p>From a Chinese prompt to a Korean response: an embedding-space investigation into how code vocabulary reshapes language</p> <p>The post <a href="https://towardsdatascience.co...
 
 ## KDnuggets (data-analysis)
 - [TurboQuant: Is the Compression and Performance Worth the Hype?](https://www.kdnuggets.com/turboquant-is-the-compression-and-performance-worth-the-hype)
