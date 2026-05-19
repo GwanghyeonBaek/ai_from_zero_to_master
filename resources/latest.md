@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-05-18 06:33 UTC
+Updated: 2026-05-19 06:19 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Six Choices Every AI Engineer Has to Make (and Nobody Teaches)](https://towardsdatascience.com/six-choices-every-ai-engineer-has-to-make-and-nobody-teaches/)
+  - <p>The production trade-offs that only appear once your model is live.</p> <p>The post <a href="https://towardsdatascience.com/six-choices-every-ai-engineer-has-to-make-and-nobo...
+- [One Flexible Tool Beats a Hundred Dedicated Ones](https://towardsdatascience.com/one-flexible-tool-beats-a-hundred-dedicated-ones/)
+  - <p>Why MCP servers keep losing to CLIs once the agent gets a terminal</p> <p>The post <a href="https://towardsdatascience.com/one-flexible-tool-beats-a-hundred-dedicated-ones/">...
+- [Why Your AI Demo Will Die in Production](https://towardsdatascience.com/why-your-ai-demo-will-die-in-production/)
+  - <p>95% of enterprise AI pilots fail to launch. Why?</p> <p>The post <a href="https://towardsdatascience.com/why-your-ai-demo-will-die-in-production/">Why Your AI Demo Will Die i...
+- [How to Maximize OpenAI’s Codex](https://towardsdatascience.com/how-to-maximize-openais-codex/)
+  - <p>Learn how to get the most out of OpenAI's coding agent</p> <p>The post <a href="https://towardsdatascience.com/how-to-maximize-openais-codex/">How to Maximize OpenAI’s Codex<...
 - [Pandas Isn’t Going Anywhere: Why It’s Still My Go-To for Data Wrangling](https://towardsdatascience.com/pandas-isnt-going-anywhere-why-its-still-my-go-to-for-data-wrangling/)
   - <p>Billions of rows might be the exception, but for everything else, Pandas is still a highly reliable tool.</p> <p>The post <a href="https://towardsdatascience.com/pandas-isnt-...
-- [LLM Evals Are Based on Vibes — I Built the Missing Layer That Decides What Ships](https://towardsdatascience.com/llm-evals-are-based-on-vibes-i-built-the-missing-layer-that-decides-what-ships/)
-  - <p>Most LLM evaluation systems rely on vague scoring and human judgment disguised as metrics. I built a lightweight evaluation layer in pure Python that turns LLM outputs into r...
-- [From Data Analyst to Data Engineer: My 12-Month Self-Study Roadmap](https://towardsdatascience.com/from-data-analyst-to-data-engineer-my-12-month-self-study-roadmap/)
-  - <p>The exact tools I'm learning, the projects I'm building, and the mistakes I'm already expecting to make</p> <p>The post <a href="https://towardsdatascience.com/from-data-anal...
-- [Recursive Language Models: An All-in-One Deep Dive](https://towardsdatascience.com/recursive-language-models-one-example-deep-dive-that-explains-everything/)
-  - <p>Exactly how does it differ from ReAct, CodeAct, Self-Loops, and Subagents?</p> <p>The post <a href="https://towardsdatascience.com/recursive-language-models-one-example-deep-...
-- [From Raw Data to Risk Classes](https://towardsdatascience.com/from-raw-data-to-risk-classes/)
-  - <p>A practical guide to categorization in credit scoring</p> <p>The post <a href="https://towardsdatascience.com/from-raw-data-to-risk-classes/">From Raw Data to Risk Classes</a...
 
 ## KDnuggets (data-analysis)
+- [The Hidden Skill Gap: Why Knowing SQL + Python Isn’t Enough Anymore](https://www.kdnuggets.com/the-hidden-skill-gap-why-knowing-sql-python-isnt-enough-anymore)
+  - This article is about the gap between what candidates prepare for and what companies actually need right now.
+- [5 Cool Things I Did with Local Language Models](https://www.kdnuggets.com/5-cool-things-i-did-with-local-language-models)
+  - I have been running local models as part of my daily workflow for some time, and what surprised me most is how often local turned out to be the better choice, not a compromise.
 - [TurboQuant: Is the Compression and Performance Worth the Hype?](https://www.kdnuggets.com/turboquant-is-the-compression-and-performance-worth-the-hype)
   - How does it boost efficiency without losing accuracy? Is it really worth the hype?
 - [5 Must-Know Python Concepts](https://www.kdnuggets.com/5-must-know-python-concepts)
   - In this article, we will explore five fundamental concepts that every Python developer should have in their toolkit.
 - [Time-Series Feature Engineering with Python Itertools](https://www.kdnuggets.com/time-series-feature-engineering-with-python-itertools)
   - Learn how to use Python itertools to build efficient and scalable time series features.
-- [5 Small Language Models for Agentic Tool Calling](https://www.kdnuggets.com/5-small-language-models-for-agentic-tool-calling)
-  - Here are 5 small language models that hare one important trait: they all support structured tool calling in a compact, open-weight package.
-- [How AI Agents Will Transform Data Science Work in 2026](https://www.kdnuggets.com/how-ai-agents-will-transform-data-science-work-in-2026)
-  - Discover how AI agents will revolutionize data science in 2026, and learn why they won't replace you but will make you a faster, smarter analyst.
 
 ## OpenAI News (ai)
+- [OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments](https://openai.com/index/dell-codex-enterprise-partnership)
+  - OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.
 - [OpenAI and Malta partner to bring ChatGPT Plus to all citizens](https://openai.com/index/malta-chatgpt-plus-partnership)
   - OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.
-- [How business operations teams use Codex](https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex)
-  - See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.
 - [Databricks brings GPT-5.5 to enterprise agent workflows](https://openai.com/index/databricks)
   - Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.
-- [How data science teams use Codex](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex)
-  - See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.
-- [A new personal finance experience in ChatGPT](https://openai.com/index/personal-finance-chatgpt)
-  - Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your...
+- [How business operations teams use Codex](https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex)
+  - See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.
+- [How sales teams use Codex](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex)
+  - See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.
 
 ## Google AI Blog (ai)
 - [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/)
@@ -53,8 +53,8 @@ Updated: 2026-05-18 06:33 UTC
   - mp4 featuring an underwater video and a mobile AI video mockup.
 
 ## Hugging Face Blog (llm)
+- [Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation](https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation)
+- [PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend](https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers)
+- [The Open Agent Leaderboard](https://huggingface.co/blog/ibm-research/open-agent-leaderboard)
 - [Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality](https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2)
 - [Unlocking asynchronicity in continuous batching](https://huggingface.co/blog/continuous_async)
-- [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks)
-- [EMO: Pretraining mixture of experts for emergent modularity](https://huggingface.co/blog/allenai/emo)
-- [vLLM V0 to V1: Correctness Before Corrections in RL](https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections)
