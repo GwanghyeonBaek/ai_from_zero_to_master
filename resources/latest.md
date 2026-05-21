@@ -1,59 +1,59 @@
 # Latest Learning Resources
 
-Updated: 2026-05-20 06:18 UTC
+Updated: 2026-05-21 06:19 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Can LLMs Replace Survey Respondents?](https://towardsdatascience.com/can-llms-replace-survey-respondents/)
+  - <p>How unlearning fixes mode collapse in synthetic survey replies</p> <p>The post <a href="https://towardsdatascience.com/can-llms-replace-survey-respondents/">Can LLMs Replace ...
+- [Optimizing AI Agent Planning with Operations Research and Data Science](https://towardsdatascience.com/optimizing-ai-agent-planning-with-operations-research-and-data-science/)
+  - <p>AI agents can quickly become expensive without a clear strategy for planning, skill coverage, and budgets. This article shows how to use operations research and data science ...
+- [How to Safely Run Coding Agents](https://towardsdatascience.com/how-to-safely-run-coding-agents/)
+  - <p>Apply coding agents to your domain in a safe manner</p> <p>The post <a href="https://towardsdatascience.com/how-to-safely-run-coding-agents/">How to Safely Run Coding Agents<...
+- [From Possible to Probable AI Models](https://towardsdatascience.com/from-possible-to-probable-ai-models/)
+  - <p>The real challenge in building reliable AI</p> <p>The post <a href="https://towardsdatascience.com/from-possible-to-probable-ai-models/">From Possible to Probable AI Models</...
 - [Deploying a Multistage Multimodal Recommender System on Amazon Elastic Kubernetes Service](https://towardsdatascience.com/deploying-a-multistage-multimodal-recommender-system-on-amazon-eks-featuring-bloom-filters-feature-caching-and-contextual-recommendations/)
   - <p>A practical walkthrough of building and deploying a multistage, multimodal recommender system on Amazon EKS, covering data pipelines, model training, Bloom filters, feature c...
-- [Introduction to Lean for Programmers](https://towardsdatascience.com/introduction-to-lean-for-programmers/)
-  - <p>The syntax and semantics of mathematics</p> <p>The post <a href="https://towardsdatascience.com/introduction-to-lean-for-programmers/">Introduction to Lean for Programmers</a...
-- [Grounding LLMs with Fresh Web Data to Reduce Hallucinations](https://towardsdatascience.com/grounding-llms-with-fresh-web-data-to-reduce-hallucinations/)
-  - <p>Why production LLM systems need live web search to overcome knowledge cutoffs and stale training data</p> <p>The post <a href="https://towardsdatascience.com/grounding-llms-w...
-- [Proxy-Pointer RAG: Solving Entity and Relationship Sprawl in Large Knowledge Graphs](https://towardsdatascience.com/proxy-pointer-rag-solving-entity-and-relationship-sprawl-in-large-knowledge-graphs/)
-  - <p>A scalable semantic localization layer for entity and relationship reconciliation</p> <p>The post <a href="https://towardsdatascience.com/proxy-pointer-rag-solving-entity-and...
-- [Six Choices Every AI Engineer Has to Make (and Nobody Teaches)](https://towardsdatascience.com/six-choices-every-ai-engineer-has-to-make-and-nobody-teaches/)
-  - <p>The production trade-offs that only appear once your model is live.</p> <p>The post <a href="https://towardsdatascience.com/six-choices-every-ai-engineer-has-to-make-and-nobo...
 
 ## KDnuggets (data-analysis)
+- [Anonymizing Production Data for Data Science with Mimesis](https://www.kdnuggets.com/anonymizing-production-data-for-data-science-with-mimesis)
+  - Learn how to utilize Python's Mimesis library for anonymizing sensitive production data, based on a step-by-step example to try yourself.
+- [SQL Window Functions Beyond Basics: Solving Real Business Problems](https://www.kdnuggets.com/sql-window-functions-beyond-basics-solving-real-business-problems)
+  - You know window functions, but do you know how to use them to solve business problems? You will after you read this article.
+- [10 GitHub Repositories to Master Quant Trading](https://www.kdnuggets.com/10-github-repositories-to-master-quant-trading)
+  - From your first backtest to a real trading system, here are GitHub repos that can seriously level up your quant trading skills fast.
 - [How to Get the Most Out of Claude Cowork](https://www.kdnuggets.com/how-to-get-the-most-out-of-claude-cowork)
   - Cowork is an autonomous agent that lives inside the Claude Desktop app, which has direct access to a folder on your computer, and can plan, execute, and deliver real work.
 - [Top 10 Python Libraries for Data Engineering in 2026](https://www.kdnuggets.com/top-10-python-libraries-for-data-engineering-in-2026)
   - Want to level up your data engineering toolkit? Here are some Python libraries that'll make your pipelines faster, cleaner, and easier to maintain.
-- [The Hidden Skill Gap: Why Knowing SQL + Python Isn’t Enough Anymore](https://www.kdnuggets.com/the-hidden-skill-gap-why-knowing-sql-python-isnt-enough-anymore)
-  - This article is about the gap between what candidates prepare for and what companies actually need right now.
-- [5 Cool Things I Did with Local Language Models](https://www.kdnuggets.com/5-cool-things-i-did-with-local-language-models)
-  - I have been running local models as part of my daily workflow for some time, and what surprised me most is how often local turned out to be the better choice, not a compromise.
-- [TurboQuant: Is the Compression and Performance Worth the Hype?](https://www.kdnuggets.com/turboquant-is-the-compression-and-performance-worth-the-hype)
-  - How does it boost efficiency without losing accuracy? Is it really worth the hype?
 
 ## OpenAI News (ai)
+- [An OpenAI model has disproved a central conjecture in discrete geometry](https://openai.com/index/model-disproves-discrete-geometry-conjecture)
+  - An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.
+- [The next phase of OpenAI’s Education for Countries](https://openai.com/index/the-next-phase-of-education-for-countries)
+  - OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.
+- [How Ramp engineers accelerate code review with Codex](https://openai.com/index/ramp)
+  - How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.
 - [Introducing OpenAI for Singapore](https://openai.com/index/introducing-openai-for-singapore)
   - OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.
 - [Advancing content provenance for a safer, more transparent AI ecosystem](https://openai.com/index/advancing-content-provenance)
   - OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.
-- [OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments](https://openai.com/index/dell-codex-enterprise-partnership)
-  - OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.
-- [OpenAI and Malta partner to bring ChatGPT Plus to all citizens](https://openai.com/index/malta-chatgpt-plus-partnership)
-  - OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.
-- [Databricks brings GPT-5.5 to enterprise agent workflows](https://openai.com/index/databricks)
-  - Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.
 
 ## Google AI Blog (ai)
+- [We’re announcing new community investments in Missouri.](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/)
+  - <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MissouriSocial.max-600x600.format-webp.webp" />We’re helping build the state’s next-generation workforc...
+- [100 things we announced at I/O 2026](https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/)
+  - Image with the words "Ready, Set, I/O" and a colorful Gemini logo
+- [A new experiment brings better group meetings to Google Beam](https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/)
+  - A small group meeting featuring two in-room participants and three participants on-screen.
 - [I/O 2026](https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/)
   - <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Collection-Hero.gif" />At Google I/O 2026, we shared how we’re making AI more helpful for ever...
 - [How AI Mode is changing the way people search in the U.S.](https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/)
   - A graphic features the text "How people are using AI Mode in the U.S." surrounded by colorful, stylized illustrations of a pencil, planet, banana, gift box, cursor, gamepad, and...
-- [New ways to create and get things done in Google Workspace](https://blog.google/products-and-platforms/products/workspace/workspace-updates/)
-  - Google Workspace
-- [I/O 2026: Welcome to the agentic Gemini era](https://blog.google/innovation-and-ai/sundar-pichai-io-2026/)
-  - a series of colorful icons representing Google I/O against a black background
-- [Gemini 3.5: frontier intelligence with action](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/)
-  - Gemini 3.5 text and multi-colored star icon on an abstract blue background.
 
 ## Hugging Face Blog (llm)
-- [OlmoEarth v1.1: A more efficient family of models](https://huggingface.co/blog/allenai/olmoearth-v1-1)
+- [OlmoEarth v1.1: A more efficient family of Earth observation models](https://huggingface.co/blog/allenai/olmoearth-v1-1)
 - [Introducing the Ettin Reranker Family](https://huggingface.co/blog/ettin-reranker)
 - [Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation](https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation)
 - [PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend](https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers)
