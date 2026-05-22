@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-05-21 06:19 UTC
+Updated: 2026-05-22 06:18 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [LLM Themes Are Not Observations](https://towardsdatascience.com/llm-themes-are-not-observations/)
+  - <p>A practitioner's warning about generated variables in causal analysis</p> <p>The post <a href="https://towardsdatascience.com/llm-themes-are-not-observations/">LLM Themes Are...
+- [3 Claude Skills Every Data Scientist Needs in 2026](https://towardsdatascience.com/3-claude-skills-every-data-scientist-needs-in-2026/)
+  - <p>If you don't want to be left behind, start doing these things with Claude</p> <p>The post <a href="https://towardsdatascience.com/3-claude-skills-every-data-scientist-needs-i...
+- [Benders’ Decomposition 101: How to Crack Open a Stochastic Program That’s Too Big to Swallow Whole](https://towardsdatascience.com/benders-decomposition-101/)
+  - <p>Whenever you can rewrite an optimization problem so that fixing some variables makes the rest separable, you could try Benders.</p> <p>The post <a href="https://towardsdatasc...
+- [Prompt Engineering Isn’t Enough — I Built a Control Layer That Works in Production](https://towardsdatascience.com/prompt-engineering-isnt-enough-i-built-a-control-layer-that-works-in-production/)
+  - <p>Most LLM failures in production aren’t random — they’re predictable.<br /> I kept hitting broken JSON, silent failures, and outages that froze my entire app. Prompt engineeri...
 - [Can LLMs Replace Survey Respondents?](https://towardsdatascience.com/can-llms-replace-survey-respondents/)
   - <p>How unlearning fixes mode collapse in synthetic survey replies</p> <p>The post <a href="https://towardsdatascience.com/can-llms-replace-survey-respondents/">Can LLMs Replace ...
-- [Optimizing AI Agent Planning with Operations Research and Data Science](https://towardsdatascience.com/optimizing-ai-agent-planning-with-operations-research-and-data-science/)
-  - <p>AI agents can quickly become expensive without a clear strategy for planning, skill coverage, and budgets. This article shows how to use operations research and data science ...
-- [How to Safely Run Coding Agents](https://towardsdatascience.com/how-to-safely-run-coding-agents/)
-  - <p>Apply coding agents to your domain in a safe manner</p> <p>The post <a href="https://towardsdatascience.com/how-to-safely-run-coding-agents/">How to Safely Run Coding Agents<...
-- [From Possible to Probable AI Models](https://towardsdatascience.com/from-possible-to-probable-ai-models/)
-  - <p>The real challenge in building reliable AI</p> <p>The post <a href="https://towardsdatascience.com/from-possible-to-probable-ai-models/">From Possible to Probable AI Models</...
-- [Deploying a Multistage Multimodal Recommender System on Amazon Elastic Kubernetes Service](https://towardsdatascience.com/deploying-a-multistage-multimodal-recommender-system-on-amazon-eks-featuring-bloom-filters-feature-caching-and-contextual-recommendations/)
-  - <p>A practical walkthrough of building and deploying a multistage, multimodal recommender system on Amazon EKS, covering data pipelines, model training, Bloom filters, feature c...
 
 ## KDnuggets (data-analysis)
+- [System Design Interview Questions: A Handy Collection](https://www.kdnuggets.com/system-design-interview-questions-a-handy-collection)
+  - Ace system design interviews with 10 GitHub repositories packed with fundamentals, proven patterns, and real questions to help you design scalable systems with confidence.
+- [Best Small Language Models on Hugging Face Right Now!](https://www.kdnuggets.com/best-small-language-models-on-hugging-face-right-now)
+  - Take a curated look at the best small language models currently available on Hugging Face, what each one is actually good at, the benchmark numbers that back those claims up, an...
 - [Anonymizing Production Data for Data Science with Mimesis](https://www.kdnuggets.com/anonymizing-production-data-for-data-science-with-mimesis)
   - Learn how to utilize Python's Mimesis library for anonymizing sensitive production data, based on a step-by-step example to try yourself.
 - [SQL Window Functions Beyond Basics: Solving Real Business Problems](https://www.kdnuggets.com/sql-window-functions-beyond-basics-solving-real-business-problems)
   - You know window functions, but do you know how to use them to solve business problems? You will after you read this article.
 - [10 GitHub Repositories to Master Quant Trading](https://www.kdnuggets.com/10-github-repositories-to-master-quant-trading)
   - From your first backtest to a real trading system, here are GitHub repos that can seriously level up your quant trading skills fast.
-- [How to Get the Most Out of Claude Cowork](https://www.kdnuggets.com/how-to-get-the-most-out-of-claude-cowork)
-  - Cowork is an autonomous agent that lives inside the Claude Desktop app, which has direct access to a folder on your computer, and can plan, execute, and deliver real work.
-- [Top 10 Python Libraries for Data Engineering in 2026](https://www.kdnuggets.com/top-10-python-libraries-for-data-engineering-in-2026)
-  - Want to level up your data engineering toolkit? Here are some Python libraries that'll make your pipelines faster, cleaner, and easier to maintain.
 
 ## OpenAI News (ai)
-- [An OpenAI model has disproved a central conjecture in discrete geometry](https://openai.com/index/model-disproves-discrete-geometry-conjecture)
-  - An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.
-- [The next phase of OpenAI’s Education for Countries](https://openai.com/index/the-next-phase-of-education-for-countries)
-  - OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.
+- [AdventHealth advances whole-person care with OpenAI](https://openai.com/index/adventhealth)
+  - AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.
 - [How Ramp engineers accelerate code review with Codex](https://openai.com/index/ramp)
   - How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.
+- [The next phase of OpenAI’s Education for Countries](https://openai.com/index/the-next-phase-of-education-for-countries)
+  - OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.
+- [An OpenAI model has disproved a central conjecture in discrete geometry](https://openai.com/index/model-disproves-discrete-geometry-conjecture)
+  - An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.
 - [Introducing OpenAI for Singapore](https://openai.com/index/introducing-openai-for-singapore)
   - OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.
-- [Advancing content provenance for a safer, more transparent AI ecosystem](https://openai.com/index/advancing-content-provenance)
-  - OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.
 
 ## Google AI Blog (ai)
 - [We’re announcing new community investments in Missouri.](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/)
