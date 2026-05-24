@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-05-23 05:47 UTC
+Updated: 2026-05-24 06:10 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [How to Mathematically Choose the Optimal Bins for Your Histogram](https://towardsdatascience.com/fun-with-histograms-and-densities/)
+  - <p>Optimal Resolution in Histograms: A Rigorous Bayesian Approach to Density Fitting</p> <p>The post <a href="https://towardsdatascience.com/fun-with-histograms-and-densities/">...
+- [Beyond the Scroll: How Social Media Algorithms Shape Your Reality](https://towardsdatascience.com/beyond-the-scroll-how-social-media-algorithms-shape-your-reality/)
+  - <p>An intro to recommender systems</p> <p>The post <a href="https://towardsdatascience.com/beyond-the-scroll-how-social-media-algorithms-shape-your-reality/">Beyond the Scroll: ...
+- [From Prototype to Profit: Solving the Agentic Token-Burn Problem](https://towardsdatascience.com/from-prototype-to-profit-solving-the-agentic-token-burn-problem/)
+  - <p>Engineer token-efficient, self-adapting workflows for production</p> <p>The post <a href="https://towardsdatascience.com/from-prototype-to-profit-solving-the-agentic-token-bu...
 - [Hybrid AI: Combining Deterministic Analytics with LLM Reasoning](https://towardsdatascience.com/hybrid-ai-combining-deterministic-analytics-with-llm-reasoning/)
   - <p>How AI architecture prevents plausible but wrong analytics</p> <p>The post <a href="https://towardsdatascience.com/hybrid-ai-combining-deterministic-analytics-with-llm-reason...
 - [Enterprise Document Intelligence: A Series on Building RAG Brick by Brick, from Minimal to Corpus scale](https://towardsdatascience.com/document-intelligence-a-series-on-building-rag-brick-by-brick-from-minimal-to-corpus-scale/)
   - <p>For AI engineers who want to understand every step, not just call the library</p> <p>The post <a href="https://towardsdatascience.com/document-intelligence-a-series-on-buildi...
-- [The Hidden Bottleneck in Quantum Machine Learning: Getting Data into a Quantum Computer](https://towardsdatascience.com/the-hidden-bottleneck-in-quantum-machine-learning-getting-data-into-a-quantum-computer/)
-  - <p>Quantum Machine Learning promises access to exponentially large representational spaces, but before any computation can happen, classical data must first be embedded into qua...
-- [Lost in Translation: How AI Exposes the Rift Between Law and Logic](https://towardsdatascience.com/lost-in-translation-how-ai-exposes-the-rift-between-lw-and-logic/)
-  - <p>The tension between Legal and IT has always been frustrating but AI is about to make it worse, at scale. The answer is observable compliance: encoding legal intent directly i...
-- [LLM Themes Are Not Observations](https://towardsdatascience.com/llm-themes-are-not-observations/)
-  - <p>A practitioner's warning about generated variables in causal analysis</p> <p>The post <a href="https://towardsdatascience.com/llm-themes-are-not-observations/">LLM Themes Are...
 
 ## KDnuggets (data-analysis)
 - [Easy Agentic Tool Calling with Gemma 4](https://www.kdnuggets.com/easy-agentic-tool-calling-with-gemma-4)
