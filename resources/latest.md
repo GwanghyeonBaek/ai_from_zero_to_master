@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-05-24 06:10 UTC
+Updated: 2026-05-25 06:45 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [The Ultimate Beginners’ Guide to Building an AI Agent in Python](https://towardsdatascience.com/the-ultimate-beginners-guide-to-building-an-ai-agent-in-python/)
+  - <p>Simple step-by-step tutorial to building an AI agent in Python</p> <p>The post <a href="https://towardsdatascience.com/the-ultimate-beginners-guide-to-building-an-ai-agent-in...
+- [Beyond the Model: Why Data Scientists Must Embrace APIs and API Documentation](https://towardsdatascience.com/beyond-the-model-why-data-scientists-must-embrace-apis-and-api-documentation/)
+  - <p>Unlock the power of API for data-driven solutions</p> <p>The post <a href="https://towardsdatascience.com/beyond-the-model-why-data-scientists-must-embrace-apis-and-api-docum...
 - [How to Mathematically Choose the Optimal Bins for Your Histogram](https://towardsdatascience.com/fun-with-histograms-and-densities/)
   - <p>Optimal Resolution in Histograms: A Rigorous Bayesian Approach to Density Fitting</p> <p>The post <a href="https://towardsdatascience.com/fun-with-histograms-and-densities/">...
 - [Beyond the Scroll: How Social Media Algorithms Shape Your Reality](https://towardsdatascience.com/beyond-the-scroll-how-social-media-algorithms-shape-your-reality/)
   - <p>An intro to recommender systems</p> <p>The post <a href="https://towardsdatascience.com/beyond-the-scroll-how-social-media-algorithms-shape-your-reality/">Beyond the Scroll: ...
 - [From Prototype to Profit: Solving the Agentic Token-Burn Problem](https://towardsdatascience.com/from-prototype-to-profit-solving-the-agentic-token-burn-problem/)
   - <p>Engineer token-efficient, self-adapting workflows for production</p> <p>The post <a href="https://towardsdatascience.com/from-prototype-to-profit-solving-the-agentic-token-bu...
-- [Hybrid AI: Combining Deterministic Analytics with LLM Reasoning](https://towardsdatascience.com/hybrid-ai-combining-deterministic-analytics-with-llm-reasoning/)
-  - <p>How AI architecture prevents plausible but wrong analytics</p> <p>The post <a href="https://towardsdatascience.com/hybrid-ai-combining-deterministic-analytics-with-llm-reason...
-- [Enterprise Document Intelligence: A Series on Building RAG Brick by Brick, from Minimal to Corpus scale](https://towardsdatascience.com/document-intelligence-a-series-on-building-rag-brick-by-brick-from-minimal-to-corpus-scale/)
-  - <p>For AI engineers who want to understand every step, not just call the library</p> <p>The post <a href="https://towardsdatascience.com/document-intelligence-a-series-on-buildi...
 
 ## KDnuggets (data-analysis)
 - [Easy Agentic Tool Calling with Gemma 4](https://www.kdnuggets.com/easy-agentic-tool-calling-with-gemma-4)
