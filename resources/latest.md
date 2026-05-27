@@ -1,32 +1,32 @@
 # Latest Learning Resources
 
-Updated: 2026-05-26 06:16 UTC
+Updated: 2026-05-27 06:39 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [What Is a Data Agent?](https://towardsdatascience.com/what-is-a-data-agent/)
+  - <p>A simple explanation of what a data agent is and how it works</p> <p>The post <a href="https://towardsdatascience.com/what-is-a-data-agent/">What Is a Data Agent?</a> appeare...
+- [The AI Model Confidence Trap](https://towardsdatascience.com/the-ai-model-confidence-trap/)
+  - <p>Why your AI model can be wrong with 99% confidence</p> <p>The post <a href="https://towardsdatascience.com/the-ai-model-confidence-trap/">The AI Model Confidence Trap</a> app...
+- [Stop Using LLMs Like Giant Problem Solvers](https://towardsdatascience.com/stop-using-llms-like-giant-problem-solvers/)
+  - <p>How I turned 100 messy pdfs into structured insights by building a deterministic loop around agents</p> <p>The post <a href="https://towardsdatascience.com/stop-using-llms-li...
+- [The Domain Shift: Moving Data Governance from Product Triage to Infrastructure Investment](https://towardsdatascience.com/the-domain-shift-moving-data-governance-from-product-triage-to-infrastructure-investment/)
+  - <p>How shifting the operational focus from isolated data products to systemic domain architecture resolves technical bottlenecks and optimizes platform investment.</p> <p>The po...
 - [I Built My First ETL Pipeline as a Complete Beginner. Here’s How.](https://towardsdatascience.com/i-built-my-first-etl-pipeline-as-a-complete-beginner-heres-exactly-how/)
   - <p>A beginner's honest walkthrough of Extract, Transform, Load using the GitHub API</p> <p>The post <a href="https://towardsdatascience.com/i-built-my-first-etl-pipeline-as-a-co...
-- [Can AI Write Your Code?](https://towardsdatascience.com/can-ai-write-your-code/)
-  - <p>What a recent study on ChatGPT, Python, R, and Stata tells us about AI-assisted coding for causal inference</p> <p>The post <a href="https://towardsdatascience.com/can-ai-wri...
-- [From TF-IDF to Transformers: Implementing Four Generations of Semantic Search](https://towardsdatascience.com/from-tf-idf-to-transformers-implementing-four-generations-of-semantic-search/)
-  - <p>How did semantic search evolve from simple keyword matching into modern transformer-based language understanding? This hands-on article builds four generations of semantic se...
-- [Introducing the Agent Toolkit for Amazon Web Services](https://towardsdatascience.com/introducing-the-agent-toolkit-for-amazon-web-services/)
-  - <p>It’s like having your own personal expert AWS solutions architect and data engineer rolled into one.</p> <p>The post <a href="https://towardsdatascience.com/introducing-the-a...
-- [The Ultimate Beginners’ Guide to Building an AI Agent in Python](https://towardsdatascience.com/the-ultimate-beginners-guide-to-building-an-ai-agent-in-python/)
-  - <p>Simple step-by-step tutorial to building an AI agent in Python</p> <p>The post <a href="https://towardsdatascience.com/the-ultimate-beginners-guide-to-building-an-ai-agent-in...
 
 ## KDnuggets (data-analysis)
+- [Visual Debugging Tools for Machine Learning Workflows](https://www.kdnuggets.com/visual-debugging-tools-for-machine-learning-workflows)
+  - In this article, we cover three topics: what to visualize during training, the tools that provide those visualizations, and the methods to capture model computations directly us...
+- [Top 7 Python Libraries for Large-Scale Data Processing](https://www.kdnuggets.com/top-7-python-libraries-for-large-scale-data-processing)
+  - This article covers Python libraries that make large-scale data processing faster, more scalable, and easier to manage across modern data workflows.
 - [Auditing Model Bias with Balanced Datasets with Mimesis](https://www.kdnuggets.com/auditing-model-bias-with-balanced-datasets-with-mimesis)
   - Learn how to use Mimesis library to generate a balanced, counterfactual dataset that helps analyze potential bias in your models.
 - [5 More Must-Know Python Concepts](https://www.kdnuggets.com/5-more-must-know-python-concepts)
   - Let's take a look at five more fundamental concepts that every Python developer should have in their toolkit.
 - [Easy Agentic Tool Calling with Gemma 4](https://www.kdnuggets.com/easy-agentic-tool-calling-with-gemma-4)
   - In this tutorial, we will give Gemma 4 two new tools and watch the model decide, on its own, when to look around and when to compute.
-- [System Design Interview Questions: A Handy Collection](https://www.kdnuggets.com/system-design-interview-questions-a-handy-collection)
-  - Ace system design interviews with 10 GitHub repositories packed with fundamentals, proven patterns, and real questions to help you design scalable systems with confidence.
-- [Best Small Language Models on Hugging Face Right Now!](https://www.kdnuggets.com/best-small-language-models-on-hugging-face-right-now)
-  - Take a curated look at the best small language models currently available on Hugging Face, what each one is actually good at, the benchmark numbers that back those claims up, an...
 
 ## OpenAI News (ai)
 - [OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership](https://openai.com/index/grupo-folha-grupo-uol-partnership)
@@ -37,8 +37,8 @@ Updated: 2026-05-26 06:16 UTC
   - OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.
 - [AdventHealth advances whole-person care with OpenAI](https://openai.com/index/adventhealth)
   - AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.
-- [An OpenAI model has disproved a central conjecture in discrete geometry](https://openai.com/index/model-disproves-discrete-geometry-conjecture)
-  - An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.
+- [How Ramp engineers accelerate code review with Codex](https://openai.com/index/ramp)
+  - How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.
 
 ## Google AI Blog (ai)
 - [Catch up on the Dialogues stage at Google I/O 2026.](https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/)
