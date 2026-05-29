@@ -1,46 +1,48 @@
 # Latest Learning Resources
 
-Updated: 2026-05-28 06:21 UTC
+Updated: 2026-05-29 06:32 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [EmoNet: Speaker-Aware Transformers for Emotion Recognition — and What I’d Build Differently in 2026](https://towardsdatascience.com/emonet-speaker-aware-transformers-for-emotion-recognition-and-what-id-build-differently-in-2026/)
+  - <p>A retrospective on my MS thesis, the leaderboard it placed on, and the LLM shift that has reshaped the field since.</p> <p>The post <a href="https://towardsdatascience.com/em...
+- [The Infrastructure Behind Making Local LLM Agents Actually Useful](https://towardsdatascience.com/the-infrastructure-behind-making-local-llm-agents-actually-useful/)
+  - <p>Lessons from building a fast, reliable scientific agent with local open-weight models, vLLM, and long-context infrastructure</p> <p>The post <a href="https://towardsdatascien...
+- [Why AI Still Can’t Solve Your Real Mathematical Optimization Problem](https://towardsdatascience.com/why-ai-still-cant-solve-your-real-mathematical-optimization-problem-and-what-orpilot-does-differently/)
+  - <p>And what ORPilot does differently</p> <p>The post <a href="https://towardsdatascience.com/why-ai-still-cant-solve-your-real-mathematical-optimization-problem-and-what-orpilot...
+- [DiffuJudge-AV: A Diffusion-Inspired Framework for Calibrated AV Video Evaluation](https://towardsdatascience.com/diffujudge-av-a-diffusion-inspired-framework-for-calibrated-av-video-evaluation/)
+  - <p>A diffusion-inspired framework for stress-testing and denoising LLM-as-a-Judge pipelines, applied to safety-critical driving video.</p> <p>The post <a href="https://towardsda...
 - [How to Effectively Run Many Claude Code Sessions in Parallel](https://towardsdatascience.com/how-to-effectively-run-many-claude-code-sessions-in-parallel/)
   - <p>Keep an overview of all your coding agents that run in parallel</p> <p>The post <a href="https://towardsdatascience.com/how-to-effectively-run-many-claude-code-sessions-in-pa...
-- [Learning From Pairwise Preferences: An Introduction to the Bradley Terry Model](https://towardsdatascience.com/learning-from-pairwise-preferences-an-introduction-to-the-bradley-terry-model/)
-  - <p>How to Turn Simple Head-to-Head Choices Into Probabilistic Rankings</p> <p>The post <a href="https://towardsdatascience.com/learning-from-pairwise-preferences-an-introduction...
-- [Most AI Agents Fail in Production Because They’re Built Backwards](https://towardsdatascience.com/most-ai-agents-fail-in-production-because-theyre-built-backwards/)
-  - <p>Good models don't save bad architecture, and most teams learn that the hard way.</p> <p>The post <a href="https://towardsdatascience.com/most-ai-agents-fail-in-production-bec...
-- [They Requested It. I Built It. Nobody Ever Used It.](https://towardsdatascience.com/they-requested-it-i-built-it-nobody-ever-used-it/)
-  - <p>Why good data work gets ignored after delivery.</p> <p>The post <a href="https://towardsdatascience.com/they-requested-it-i-built-it-nobody-ever-used-it/">They Requested It. ...
-- [What Is a Data Agent?](https://towardsdatascience.com/what-is-a-data-agent/)
-  - <p>A simple explanation of what a data agent is and how it works</p> <p>The post <a href="https://towardsdatascience.com/what-is-a-data-agent/">What Is a Data Agent?</a> appeare...
 
 ## KDnuggets (data-analysis)
+- [Tweaking Local Language Model Settings with Ollama](https://www.kdnuggets.com/tweaking-local-language-model-settings-with-ollama)
+  - In this article, we will go deep under the hood of Ollama's configuration engine, exploring how to fine-tune local language model parameters.
+- [7 Real World AI Projects to Build in 2026 (with Guides)](https://www.kdnuggets.com/7-real-world-ai-projects-to-build-in-2026-with-guides)
+  - Explore seven practical AI projects that automate real workflows, including job search, web research, investment research, market trend analysis, invoice processing, chart digit...
 - [Pandas GroupBy Explained With Examples](https://www.kdnuggets.com/pandas-groupby-explained-with-examples)
   - Learn how to use Pandas GroupBy to summarize, compare, and analyze grouped data with simple, practical examples.
 - [5 Scipy.stats Tricks for Simulating ‘What If’ Scenarios](https://www.kdnuggets.com/5-scipy-stats-tricks-for-simulating-what-if-scenarios)
   - In this article, we will take a look under the hood of scipy.stats, exploring five essential tricks to design high-performance, rigorous simulations using only NumPy and SciPy.
 - [Visual Debugging Tools for Machine Learning Workflows](https://www.kdnuggets.com/visual-debugging-tools-for-machine-learning-workflows)
   - In this article, we cover three topics: what to visualize during training, the tools that provide those visualizations, and the methods to capture model computations directly us...
-- [Top 7 Python Libraries for Large-Scale Data Processing](https://www.kdnuggets.com/top-7-python-libraries-for-large-scale-data-processing)
-  - This article covers Python libraries that make large-scale data processing faster, more scalable, and easier to manage across modern data workflows.
-- [Auditing Model Bias with Balanced Datasets with Mimesis](https://www.kdnuggets.com/auditing-model-bias-with-balanced-datasets-with-mimesis)
-  - Learn how to use Mimesis library to generate a balanced, counterfactual dataset that helps analyze potential bias in your models.
 
 ## OpenAI News (ai)
+- [How Endava builds an agentic organization with Codex](https://openai.com/index/endava)
+  - Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.
+- [OpenAI’s Frontier Governance Framework](https://openai.com/index/openai-frontier-governance-framework)
+  - Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.
+- [MUFG aims to become AI-native with OpenAI](https://openai.com/index/mufg)
+  - MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.
 - [Cisco and OpenAI redefine enterprise engineering with Codex](https://openai.com/index/cisco)
   - Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.
 - [Building self-improving tax agents with Codex](https://openai.com/index/building-self-improving-tax-agents-with-codex)
   - See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.
-- [Election information and safeguards in 2026](https://openai.com/index/election-safeguards-2026)
-  - Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency
-- [Warp’s big bet on building open source with GPT-5.5](https://openai.com/index/warp)
-  - Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.
-- [OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership](https://openai.com/index/grupo-folha-grupo-uol-partnership)
-  - OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.
 
 ## Google AI Blog (ai)
+- [Catch up on 12 major I/O 2026 moments](https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/)
+  - The colorful I/O logo against a black background, surrounded by stills from the I/O keynote
 - [Catch up on the Dialogues stage at Google I/O 2026.](https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/)
   - Alphabet CEO Sundar Pichai in conversation on the I/O 2026 Dialogues stage
 - [We’re announcing new community investments in Missouri.](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/)
@@ -49,8 +51,6 @@ Updated: 2026-05-28 06:21 UTC
   - Image with the words "Ready, Set, I/O" and a colorful Gemini logo
 - [A new experiment brings better group meetings to Google Beam](https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/)
   - A small group meeting featuring two in-room participants and three participants on-screen.
-- [I/O 2026](https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/)
-  - <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Collection-Hero.gif" />At Google I/O 2026, we shared how we’re making AI more helpful for ever...
 
 ## Hugging Face Blog (llm)
 - [ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM](https://huggingface.co/blog/ibm-research/itbench-aa)
