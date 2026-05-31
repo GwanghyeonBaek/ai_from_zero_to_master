@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-05-30 05:55 UTC
+Updated: 2026-05-31 06:34 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Meta-Cognitive Regulation Might Be the Most Important AI Skill Nobody Is Talking About](https://towardsdatascience.com/meta-cognitive-regulation-might-be-the-most-important-ai-skill-nobody-is-talking-about/)
+  - <p>As AI gets smarter, the real differentiator may be how well humans regulate their own thinking.</p> <p>The post <a href="https://towardsdatascience.com/meta-cognitive-regulat...
+- [Embeddings Aren’t Magic: The Predictable Failure Modes of RAG Retrieval](https://towardsdatascience.com/embeddings-arent-magic-the-predictable-failure-modes-of-rag-retrieval-enterprise-document-intelligence-vol-1-2/)
+  - <p>Enterprise Document Intelligence [Vol. 1 #2] Why the same vector search that handles synonyms and paraphrase silently fails on negation, exact identifiers, and your company’s...
+- [Qdrant TurboQuant Explained: Is TurboQuant the Silver Bullet?](https://towardsdatascience.com/qdrant-turboquant-explained-is-turboquant-the-silver-bullet/)
+  - <p>Most engineers see quantization as shrinking vectors. TurboQuant asks a harder question: can you shrink them without breaking their geometry?</p> <p>The post <a href="https:/...
 - [Baseline Enterprise RAG, From PDF to Highlighted Answer](https://towardsdatascience.com/baseline-enterprise-rag-from-pdf-to-highlighted-answer-enterprise-document-intelligence-vol-1-1/)
   - <p>Enterprise Document Intelligence [Vol. 1 #1] The smallest version of RAG that actually works, on a real PDF, with grounded answers and the source lines highlighted.</p> <p>Th...
 - [RAG Is Burning Money — I Built a Cost Control Layer to Fix It](https://towardsdatascience.com/rag-is-burning-money-i-built-a-cost-control-layer-to-fix-it/)
   - <p>Most RAG systems are optimized for answer quality, not cost—and that blind spot gets expensive fast. In this article, I break down a production-ready cost control layer combi...
-- [Why Gradient Descent Became Stochastic](https://towardsdatascience.com/why-gradient-descent-became-stochastic/)
-  - <p>A step-by-step journey from calculus-based optimization to Stochastic Gradient Descent</p> <p>The post <a href="https://towardsdatascience.com/why-gradient-descent-became-sto...
-- [Explaining Lineage in DAX](https://towardsdatascience.com/explaining-lineage-in-dax/)
-  - <p>One of the most important concepts in DAX is lineage. It’s about the information on where something comes from. Let’s see what it is and how we can manipulate it.</p> <p>The ...
-- [Five Questions About Chronos-2, the Time Series Foundation Model](https://towardsdatascience.com/five-questions-about-chronos-2-the-time-series-foundation-model/)
-  - <p>Part 1: A practitioner's walkthrough of univariate, multivariate, covariate-informed, and cold-start forecasting.</p> <p>The post <a href="https://towardsdatascience.com/five...
 
 ## KDnuggets (data-analysis)
 - [Practical NLP in the Browser with Transformers.js](https://www.kdnuggets.com/practical-nlp-in-the-browser-with-transformers-js)
