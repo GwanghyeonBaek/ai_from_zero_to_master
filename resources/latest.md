@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-05-31 06:34 UTC
+Updated: 2026-06-01 07:21 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Solving a Murder Mystery Using Bayesian Inference](https://towardsdatascience.com/solving-a-murder-mystery-using-bayesian-inference/)
+  - <p>How Knives Out teaches Bayesian thinking (without you realizing it) </p> <p>The post <a href="https://towardsdatascience.com/solving-a-murder-mystery-using-bayesian-inference...
+- [Rerankers Aren’t Magic Either: When the Cross-Encoder Layer Is Worth the Cost](https://towardsdatascience.com/rerankers-arent-magic-either-when-the-cross-encoder-layer-is-worth-the-cost-enterprise-document-intelligence-vol-1-2bis/)
+  - <p>Enterprise Document Intelligence [Vol. 1 #2bis] Why stacking a reranker on top of weak retrieval doesn’t save it, what cross-encoders actually fix vs what they don’t, and whe...
+- [Proxy-Pointer RAG: Eliminating Wasteful Entity & Relations Extraction in Knowledge Graphs](https://towardsdatascience.com/proxy-pointer-rag-eliminating-wasteful-entity-relations-extraction-in-knowledge-graphs/)
+  - <p>Structure-guided NER optimization for enterprise GraphRAG systems</p> <p>The post <a href="https://towardsdatascience.com/proxy-pointer-rag-eliminating-wasteful-entity-relati...
 - [Meta-Cognitive Regulation Might Be the Most Important AI Skill Nobody Is Talking About](https://towardsdatascience.com/meta-cognitive-regulation-might-be-the-most-important-ai-skill-nobody-is-talking-about/)
   - <p>As AI gets smarter, the real differentiator may be how well humans regulate their own thinking.</p> <p>The post <a href="https://towardsdatascience.com/meta-cognitive-regulat...
 - [Embeddings Aren’t Magic: The Predictable Failure Modes of RAG Retrieval](https://towardsdatascience.com/embeddings-arent-magic-the-predictable-failure-modes-of-rag-retrieval-enterprise-document-intelligence-vol-1-2/)
   - <p>Enterprise Document Intelligence [Vol. 1 #2] Why the same vector search that handles synonyms and paraphrase silently fails on negation, exact identifiers, and your company’s...
-- [Qdrant TurboQuant Explained: Is TurboQuant the Silver Bullet?](https://towardsdatascience.com/qdrant-turboquant-explained-is-turboquant-the-silver-bullet/)
-  - <p>Most engineers see quantization as shrinking vectors. TurboQuant asks a harder question: can you shrink them without breaking their geometry?</p> <p>The post <a href="https:/...
-- [Baseline Enterprise RAG, From PDF to Highlighted Answer](https://towardsdatascience.com/baseline-enterprise-rag-from-pdf-to-highlighted-answer-enterprise-document-intelligence-vol-1-1/)
-  - <p>Enterprise Document Intelligence [Vol. 1 #1] The smallest version of RAG that actually works, on a real PDF, with grounded answers and the source lines highlighted.</p> <p>Th...
-- [RAG Is Burning Money — I Built a Cost Control Layer to Fix It](https://towardsdatascience.com/rag-is-burning-money-i-built-a-cost-control-layer-to-fix-it/)
-  - <p>Most RAG systems are optimized for answer quality, not cost—and that blind spot gets expensive fast. In this article, I break down a production-ready cost control layer combi...
 
 ## KDnuggets (data-analysis)
 - [Practical NLP in the Browser with Transformers.js](https://www.kdnuggets.com/practical-nlp-in-the-browser-with-transformers-js)
@@ -53,8 +53,8 @@ Updated: 2026-05-31 06:34 UTC
   - Alphabet CEO Sundar Pichai in conversation on the I/O 2026 Dialogues stage
 
 ## Hugging Face Blog (llm)
+- [Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action](https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai)
 - [Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler](https://huggingface.co/blog/torch-profiler)
 - [ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM](https://huggingface.co/blog/ibm-research/itbench-aa)
 - [Reachy Mini goes fully local](https://huggingface.co/blog/local-reachy-mini-conversation)
 - [Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL](https://huggingface.co/blog/delta-weight-sync)
-- [Harness, Scaffold, and the AI Agent Terms Worth Getting Right](https://huggingface.co/blog/agent-glossary)
