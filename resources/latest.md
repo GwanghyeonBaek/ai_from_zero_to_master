@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-06-02 06:55 UTC
+Updated: 2026-06-03 07:06 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Code Is Cheap. Engineering Judgement Is Now the Scarce Resource](https://towardsdatascience.com/code-is-cheap-engineering-judgement-is-now-the-scarce-resource/)
+  - <p>The barriers to building have collapsed. That shifts the bottleneck to ownership, validation, taste, and deciding what should actually exist</p> <p>The post <a href="https://...
+- [From Local App to Public Website in Minutes](https://towardsdatascience.com/from-local-app-to-public-website-in-minutes/)
+  - <p>Three free ways to quickly deploy a static web app that anyone can access</p> <p>The post <a href="https://towardsdatascience.com/from-local-app-to-public-website-in-minutes/...
+- [From Regex to Vision Models: Which RAG Technique Fits Which Problem](https://towardsdatascience.com/from-regex-to-vision-models-which-rag-technique-fits-which-problem/)
+  - <p>Enterprise Document Intelligence [Vol.1 #4] - A diagnostic across PDFs and questions, and a map of the techniques the rest of the series will cover</p> <p>The post <a href="h...
+- [Exploring Income Patterns with Python Pandas, Matplotlib, and Seaborn](https://towardsdatascience.com/from-raw-census-data-to-powerful-insights-exploring-income-patterns-with-pandas-matplotlib-seaborn/)
+  - <p>Exploratory data analysis on the US Census Dataset </p> <p>The post <a href="https://towardsdatascience.com/from-raw-census-data-to-powerful-insights-exploring-income-pattern...
 - [RAG Is Not Machine Learning, and the ML Toolkit Solves the Wrong Problem](https://towardsdatascience.com/rag-is-not-machine-learning-and-the-ml-toolkit-solves-the-wrong-problem/)
   - <p>Enterprise Document Intelligence [Vol.1 #3] - Why the ML toolkit (hyperparameter sweeps, train/test splits, explainability frameworks) solves the wrong problem, and what to u...
-- [How to Combine Claude Code and Codex for Maximum Coding Power](https://towardsdatascience.com/how-to-combining-claude-code-and-codex-for-max-coding-power/)
-  - <p>Get the most out of each coding model to have a very powerful coding setup </p> <p>The post <a href="https://towardsdatascience.com/how-to-combining-claude-code-and-codex-for...
-- [Ensuring Data Integrity with Cryptographic Hashing and the Ethereum Blockchain](https://towardsdatascience.com/ensuring-data-integrity-with-cryptographic-hashing-and-the-ethereum-blockchain/)
-  - <p>Applying blockchain primitives to dataset versioning, provenance, and integrity assurance</p> <p>The post <a href="https://towardsdatascience.com/ensuring-data-integrity-with...
-- [It’s the Lessons We Learned Along the Way. Or, Is It?](https://towardsdatascience.com/its-the-lessons-we-learned-along-the-way-or-is-it/)
-  - <p>Research projects in the age of AI</p> <p>The post <a href="https://towardsdatascience.com/its-the-lessons-we-learned-along-the-way-or-is-it/">It’s the Lessons We Learned Alo...
-- [Escaping the Valley of Choice in BI](https://towardsdatascience.com/escaping-the-valley-of-choice-in-bi-how-agentic-bi-will-kill-data-analysts/)
-  - <p>Why Agentic BI threatens an entire profession</p> <p>The post <a href="https://towardsdatascience.com/escaping-the-valley-of-choice-in-bi-how-agentic-bi-will-kill-data-analys...
 
 ## KDnuggets (data-analysis)
+- [A Gentle Primer on LLM Explainability](https://www.kdnuggets.com/a-gentle-primer-on-llm-explainability)
+  - This article discusses LLM explainability and outlines the advances, trends, and ongoing developments in this important field of study.
+- [10 GitHub Repositories for Modern Database Systems and Tools](https://www.kdnuggets.com/10-github-repositories-for-modern-database-systems-and-tools)
+  - Explore 10 top open-source GitHub repositories for modern databases, analytics, SQL, caching, monitoring, replication, PostgreSQL, SQLite, and AI agent memory.
 - [Mocking a Year of IoT Sensor Time Series Data with Mimesis](https://www.kdnuggets.com/mocking-a-year-of-iot-sensor-time-series-data-with-mimesis)
   - In this guide, you will learn the process of generating a year's worth of daily temperature readings, mimicking a seasonal curve that looks like real &mdash; all together with d...
 - [5 Must-Know Python Concepts for Data Scientists](https://www.kdnuggets.com/5-must-know-python-concepts-for-data-scientists)
   - In this article, we will dive deep into five must-know Python concepts that will help you transition from writing clunky, slow spaghetti code to constructing lightning-fast, pro...
 - [Practical NLP in the Browser with Transformers.js](https://www.kdnuggets.com/practical-nlp-in-the-browser-with-transformers-js)
   - This tutorial covers three NLP tasks: text classification, zero-shot labelling, and question answering using Transformers.js's pipeline() API.
-- [The ‘Entry-Level’ Gatekeeper: Auditing Job Descriptions with Textstat](https://www.kdnuggets.com/the-entry-level-gatekeeper-auditing-job-descriptions-with-textstat)
-  - This article shows how to use free, open-source tools like Python and its Textstat library to build a script that automates the process of capturing "gatekeeping language" in jo...
-- [Tweaking Local Language Model Settings with Ollama](https://www.kdnuggets.com/tweaking-local-language-model-settings-with-ollama)
-  - In this article, we will go deep under the hood of Ollama's configuration engine, exploring how to fine-tune local language model parameters.
 
 ## OpenAI News (ai)
+- [Travelers deploys AI-powered claims countrywide with OpenAI](https://openai.com/index/travelers)
+  - Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.
+- [Codex for every role, tool, and workflow](https://openai.com/index/codex-for-every-role-tool-workflow)
+  - Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.
+- [Advancing youth safety and opportunity through global leadership](https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership)
+  - OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.
+- [Codex is becoming a productivity tool for everyone](https://openai.com/index/codex-for-knowledge-work)
+  - The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.
 - [Our views on AI policy and political advocacy](https://openai.com/index/our-views-on-ai-policy-and-political-advocacy)
   - Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf.
-- [Building the infrastructure for the Intelligence Age in Michigan](https://openai.com/index/stargate-michigan-data-center)
-  - OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.
-- [OpenAI frontier models and Codex are now available on AWS](https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws)
-  - OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement w...
-- [Boston Children’s uses AI to unlock new diagnoses](https://openai.com/index/boston-childrens-hospital)
-  - Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.
-- [How Braintrust turns customer requests into code with Codex](https://openai.com/index/braintrust)
-  - How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.
 
 ## Google AI Blog (ai)
 - [How we used Gemini to build Google I/O 2026](https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/)
@@ -53,8 +53,8 @@ Updated: 2026-06-02 06:55 UTC
   - The colorful I/O logo against a black background, surrounded by stills from the I/O keynote
 
 ## Hugging Face Blog (llm)
+- [Holo3.1: Fast & Local Computer Use Agents](https://huggingface.co/blog/Hcompany/holo31)
 - [Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains](https://huggingface.co/blog/JetBrains/mellum2-launch)
 - [Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic](https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption)
 - [Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action](https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai)
 - [Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler](https://huggingface.co/blog/torch-profiler)
-- [Reachy Mini goes fully local](https://huggingface.co/blog/local-reachy-mini-conversation)
