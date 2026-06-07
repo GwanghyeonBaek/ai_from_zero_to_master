@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-06-06 06:01 UTC
+Updated: 2026-06-07 06:41 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Picking an Experimentation Platform: A Retrospective](https://towardsdatascience.com/picking-an-experimentation-platform-a-retrospective/)
+  - <p>My approach to guiding the choice between Eppo and Statsig, and the lessons learned</p> <p>The post <a href="https://towardsdatascience.com/picking-an-experimentation-platfor...
+- [Who Will Win the 2026 Soccer World Cup?](https://towardsdatascience.com/who-will-win-the-2026-soccer-world-cup/)
+  - <p>Building a forecast from Elo, Poisson, and 10,000 simulations</p> <p>The post <a href="https://towardsdatascience.com/who-will-win-the-2026-soccer-world-cup/">Who Will Win th...
+- [My SciPy ODE Solver Was Killing My Bayesian Inference: A Cosmologist’s Honest Account of Discovering Diffrax](https://towardsdatascience.com/my-scipy-ode-solver-was-killing-my-bayesian-inference-a-cosmologists-honest-account-of-discovering-diffrax/)
+  - <p>what it costs, what it gains and the three mistakes that I make</p> <p>The post <a href="https://towardsdatascience.com/my-scipy-ode-solver-was-killing-my-bayesian-inference-...
 - [My AI Couldn’t See My Files — I Built a Zero-Dependency MCP Server](https://towardsdatascience.com/my-ai-couldnt-see-my-files-i-built-a-zero-dependency-mcp-server/)
   - <p>I got tired of copying files into an AI chat just to get feedback. So I built a pure Python MCP server that gives AI tools direct access to my local project—no frameworks, no...
 - [The Fundamental Choice in Reinforcement Learning: On‑Policy vs. Off‑Policy](https://towardsdatascience.com/the-fundamental-choice-in-reinforcement-learning-on-policy-vs-off-policy/)
   - <p>How a simple choice shapes exploration, safety, and efficiency</p> <p>The post <a href="https://towardsdatascience.com/the-fundamental-choice-in-reinforcement-learning-on-pol...
-- [Automate Writing Your LLM Prompts](https://towardsdatascience.com/automate-writing-your-llm-prompts/)
-  - <p>Using DSPy to automatically create, evaluate, and optimize your prompts</p> <p>The post <a href="https://towardsdatascience.com/automate-writing-your-llm-prompts/">Automate W...
-- [How to Fine-Tune an SLM for Emotion Recognition](https://towardsdatascience.com/how-to-fine-tune-an-slm-for-emotion-recognition/)
-  - <p>Python tutorial for fine-tuning a Mistral Small 3.1 on an imbalanced training set to classify 15 emotions in social media communication</p> <p>The post <a href="https://towar...
-- [How to Navigate the Shift from Prompt-Based Tools to Workflow-Driven AI](https://towardsdatascience.com/how-to-navigate-the-shift-from-prompt-based-tools-to-workflow-driven-ai/)
-  - <p>Abacus.AI and the case for unified AI workflows</p> <p>The post <a href="https://towardsdatascience.com/how-to-navigate-the-shift-from-prompt-based-tools-to-workflow-driven-a...
 
 ## KDnuggets (data-analysis)
 - [A Deep Dive into Calibration of Language Models: Platt Scaling, Isotonic Regression, Temperature Scaling](https://www.kdnuggets.com/a-deep-dive-into-calibration-of-language-models-platt-scaling-isotonic-regression-temperature-scaling)
@@ -53,7 +53,7 @@ Updated: 2026-06-06 06:01 UTC
   - Gemini Omni & Gemini 3.5 hero
 
 ## Hugging Face Blog (llm)
-- [Thousand Token Wood: shipping a multi-agent economy on a 3B model](https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim)
+- [Five labs, five minds: building a multi-model finance drama on small models](https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2)
 - [Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI](https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety)
 - [EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios](https://huggingface.co/blog/ServiceNow-AI/eva-bench-data)
 - [Designing the hf CLI as an agent-optimized way to work with the Hub](https://huggingface.co/blog/hf-cli-for-agents)
