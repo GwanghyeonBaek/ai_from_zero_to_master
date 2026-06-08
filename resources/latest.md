@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-06-07 06:41 UTC
+Updated: 2026-06-08 07:01 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [We Should Train AI to Betray Its Users](https://towardsdatascience.com/we-should-train-ai-to-betray-its-users/)
+  - <p>Because the alternative is much too dangerous</p> <p>The post <a href="https://towardsdatascience.com/we-should-train-ai-to-betray-its-users/">We Should Train AI to Betray It...
+- [Building a Multi-Agent System in Python](https://towardsdatascience.com/building-a-multi-agent-system-in-python/)
+  - <p>An introduction to multi-agent systems</p> <p>The post <a href="https://towardsdatascience.com/building-a-multi-agent-system-in-python/">Building a Multi-Agent System in Pyth...
 - [Picking an Experimentation Platform: A Retrospective](https://towardsdatascience.com/picking-an-experimentation-platform-a-retrospective/)
   - <p>My approach to guiding the choice between Eppo and Statsig, and the lessons learned</p> <p>The post <a href="https://towardsdatascience.com/picking-an-experimentation-platfor...
 - [Who Will Win the 2026 Soccer World Cup?](https://towardsdatascience.com/who-will-win-the-2026-soccer-world-cup/)
   - <p>Building a forecast from Elo, Poisson, and 10,000 simulations</p> <p>The post <a href="https://towardsdatascience.com/who-will-win-the-2026-soccer-world-cup/">Who Will Win th...
 - [My SciPy ODE Solver Was Killing My Bayesian Inference: A Cosmologist’s Honest Account of Discovering Diffrax](https://towardsdatascience.com/my-scipy-ode-solver-was-killing-my-bayesian-inference-a-cosmologists-honest-account-of-discovering-diffrax/)
   - <p>what it costs, what it gains and the three mistakes that I make</p> <p>The post <a href="https://towardsdatascience.com/my-scipy-ode-solver-was-killing-my-bayesian-inference-...
-- [My AI Couldn’t See My Files — I Built a Zero-Dependency MCP Server](https://towardsdatascience.com/my-ai-couldnt-see-my-files-i-built-a-zero-dependency-mcp-server/)
-  - <p>I got tired of copying files into an AI chat just to get feedback. So I built a pure Python MCP server that gives AI tools direct access to my local project—no frameworks, no...
-- [The Fundamental Choice in Reinforcement Learning: On‑Policy vs. Off‑Policy](https://towardsdatascience.com/the-fundamental-choice-in-reinforcement-learning-on-policy-vs-off-policy/)
-  - <p>How a simple choice shapes exploration, safety, and efficiency</p> <p>The post <a href="https://towardsdatascience.com/the-fundamental-choice-in-reinforcement-learning-on-pol...
 
 ## KDnuggets (data-analysis)
 - [A Deep Dive into Calibration of Language Models: Platt Scaling, Isotonic Regression, Temperature Scaling](https://www.kdnuggets.com/a-deep-dive-into-calibration-of-language-models-platt-scaling-isotonic-regression-temperature-scaling)
@@ -53,7 +53,7 @@ Updated: 2026-06-07 06:41 UTC
   - Gemini Omni & Gemini 3.5 hero
 
 ## Hugging Face Blog (llm)
-- [Five labs, five minds: building a multi-model finance drama on small models](https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2)
+- [Amazing Digital Dentures (a failed project)](https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures)
 - [Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI](https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety)
 - [EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios](https://huggingface.co/blog/ServiceNow-AI/eva-bench-data)
 - [Designing the hf CLI as an agent-optimized way to work with the Hub](https://huggingface.co/blog/hf-cli-for-agents)
