@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-06-08 07:01 UTC
+Updated: 2026-06-09 06:18 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
-- [We Should Train AI to Betray Its Users](https://towardsdatascience.com/we-should-train-ai-to-betray-its-users/)
-  - <p>Because the alternative is much too dangerous</p> <p>The post <a href="https://towardsdatascience.com/we-should-train-ai-to-betray-its-users/">We Should Train AI to Betray It...
-- [Building a Multi-Agent System in Python](https://towardsdatascience.com/building-a-multi-agent-system-in-python/)
-  - <p>An introduction to multi-agent systems</p> <p>The post <a href="https://towardsdatascience.com/building-a-multi-agent-system-in-python/">Building a Multi-Agent System in Pyth...
-- [Picking an Experimentation Platform: A Retrospective](https://towardsdatascience.com/picking-an-experimentation-platform-a-retrospective/)
-  - <p>My approach to guiding the choice between Eppo and Statsig, and the lessons learned</p> <p>The post <a href="https://towardsdatascience.com/picking-an-experimentation-platfor...
-- [Who Will Win the 2026 Soccer World Cup?](https://towardsdatascience.com/who-will-win-the-2026-soccer-world-cup/)
-  - <p>Building a forecast from Elo, Poisson, and 10,000 simulations</p> <p>The post <a href="https://towardsdatascience.com/who-will-win-the-2026-soccer-world-cup/">Who Will Win th...
-- [My SciPy ODE Solver Was Killing My Bayesian Inference: A Cosmologist’s Honest Account of Discovering Diffrax](https://towardsdatascience.com/my-scipy-ode-solver-was-killing-my-bayesian-inference-a-cosmologists-honest-account-of-discovering-diffrax/)
-  - <p>what it costs, what it gains and the three mistakes that I make</p> <p>The post <a href="https://towardsdatascience.com/my-scipy-ode-solver-was-killing-my-bayesian-inference-...
+- [Can Machine Learning Predict the World Cup?](https://towardsdatascience.com/can-machine-learning-predict-the-world-cup/)
+  - <p>Building an ML football forecaster in R</p> <p>The post <a href="https://towardsdatascience.com/can-machine-learning-predict-the-world-cup/">Can Machine Learning Predict the ...
+- [Increase Recommendation Systems’ Precision with LLMs, Using Python](https://towardsdatascience.com/increase-recommendation-systems-precision-with-llm-using-python/)
+  - <p>This is how LLMs are used today to increase precision in recommendation systems</p> <p>The post <a href="https://towardsdatascience.com/increase-recommendation-systems-precis...
+- [How to Keep Quantum Information Alive for Machine Learning](https://towardsdatascience.com/how-to-keep-quantum-information-alive-for-machine-learning/)
+  - <p>Quantum Machine Learning promises powerful new ways of processing information, but quantum states are extraordinarily fragile. In this article, we explore why quantum informa...
+- [4 New Techniques to Maximize Claude Code](https://towardsdatascience.com/4-new-techniques-to-maximize-claude-code/)
+  - <p>Get the most out of Claude Code with these four techniques</p> <p>The post <a href="https://towardsdatascience.com/4-new-techniques-to-maximize-claude-code/">4 New Techniques...
+- [Sequential Fitting: A Different Perspective on the Spectral Bias of Neural Networks](https://towardsdatascience.com/sequential-fitting-a-different-perspective-on-the-spectral-bias-of-neural-networks/)
+  - <p>What Fourier analysis misses</p> <p>The post <a href="https://towardsdatascience.com/sequential-fitting-a-different-perspective-on-the-spectral-bias-of-neural-networks/">Sequ...
 
 ## KDnuggets (data-analysis)
+- [Why Do LLMs Corrupt Your Documents When You Delegate?](https://www.kdnuggets.com/why-do-llms-corrupt-your-documents-when-you-delegate)
+  - Analyzing several reasons why structural content decay may happen when asking LLMs to perform complex document editing for us.
+- [Anthropic’s Complete Guide to Claude Skills Building](https://www.kdnuggets.com/anthropics-complete-guide-to-claude-skills-building)
+  - This guide covers the complete picture: what skills are technically, how to plan and design them, the exact file structure and naming rules, how to write instructions that Claud...
+- [5 Must-Know Python Concepts for AI Engineers](https://www.kdnuggets.com/5-must-know-python-concepts-for-ai-engineers)
+  - In this article, we will explore five critical Python concepts that every AI engineer must know to build scalable, secure, and robust systems.
 - [A Deep Dive into Calibration of Language Models: Platt Scaling, Isotonic Regression, Temperature Scaling](https://www.kdnuggets.com/a-deep-dive-into-calibration-of-language-models-platt-scaling-isotonic-regression-temperature-scaling)
   - Discover three post-hoc methods for closing the gap between confidence and accuracy.
 - [3 SpaCy Tricks for Efficient Text Processing & Entity Recognition](https://www.kdnuggets.com/3-spacy-tricks-for-efficient-text-processing-entity-recognition)
   - In this article, we will explore three essential spaCy tricks that every developer should have in their toolkit to maximize processing speed and customize entity recognition.
-- [What the Agentic Era Means for Data Science](https://www.kdnuggets.com/what-the-agentic-era-means-for-data-science)
-  - Learn how AI agents are reshaping data science workflows and which skills practitioners need in 2026.
-- [7 Steps to Mastering Time Series Analysis with Python](https://www.kdnuggets.com/7-steps-to-mastering-time-series-analysis-with-python)
-  - This article breaks down 7 key steps to help you analyze and forecast time series data with Python.
-- [How to Write to Files in Python: A Beginner’s Guide](https://www.kdnuggets.com/how-to-write-to-files-in-python-a-beginners-guide)
-  - Learn how to write, append, and save text, CSV, and JSON files in Python using native file handling tools that work out of the box.
 
 ## OpenAI News (ai)
+- [Confidential submission of draft S-1 to the SEC](https://openai.com/index/openai-submits-confidential-s-1)
+  - OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.
+- [Built to benefit everyone: our plan](https://openai.com/index/built-to-benefit-everyone-our-plan)
+  - A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.
+- [Introducing the OpenAI Economic Research Exchange](https://openai.com/index/economic-research-exchange)
+  - OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.
 - [How Endava is redesigning software delivery around AI agents](https://openai.com/index/endava-frontiers)
   - Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.
 - [Dreaming: Better memory for a more helpful ChatGPT](https://openai.com/index/chatgpt-memory-dreaming)
   - ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.
-- [Biodefense in the Intelligence Age](https://openai.com/index/biodefense-in-the-intelligence-age)
-  - An action plan for AI-powered biological resilience
-- [Introducing new capabilities to GPT-Rosalind](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind)
-  - GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.
-- [How Wasmer used Codex to build a Node.js runtime for the edge](https://openai.com/index/wasmer)
-  - See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.
 
 ## Google AI Blog (ai)
 - [The latest AI news we announced in May 2026](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/)
@@ -53,7 +53,7 @@ Updated: 2026-06-08 07:01 UTC
   - Gemini Omni & Gemini 3.5 hero
 
 ## Hugging Face Blog (llm)
-- [Amazing Digital Dentures (a failed project)](https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures)
+- [The Open Source Community is backing OpenEnv for Agentic RL](https://huggingface.co/blog/openenv-agentic-rl)
 - [Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI](https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety)
 - [EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios](https://huggingface.co/blog/ServiceNow-AI/eva-bench-data)
 - [Designing the hf CLI as an agent-optimized way to work with the Hub](https://huggingface.co/blog/hf-cli-for-agents)
