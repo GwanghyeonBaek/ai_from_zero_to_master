@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-06-09 06:18 UTC
+Updated: 2026-06-10 06:40 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [10 Common RAG Mistakes We Keep Seeing in Production](https://towardsdatascience.com/10-common-rag-mistakes-we-keep-seeing-in-production/)
+  - <p>Enterprise Document Intelligence [Vol.1 #4bis] - A coauthor note on the brick-by-brick pitfalls that justified the four-brick split, before Part II walks the fixes</p> <p>The...
+- [The Hardware That Makes AI Possible](https://towardsdatascience.com/the-hardware-that-makes-ai-possible/)
+  - <p>CPUs, GPUs, TPUs, and NPUs</p> <p>The post <a href="https://towardsdatascience.com/the-hardware-that-makes-ai-possible/">The Hardware That Makes AI Possible</a> appeared firs...
+- [Prefill Once, Fan Out: KV Snapshot Sharing for Multi-Agent LLM Pipelines](https://towardsdatascience.com/kv-cache-reuse-for-multi-agent-llm-inference-i-built-a-c-orchestrator-so-my-gpu-would-stop-reading-the-same-document-twice/)
+  - <p>Stop re-computing the same context. Learn how to build a C++ runtime with copy-on-fork KV snapshots to eliminate redundant LLM prefills in multi-agent pipelines.</p> <p>The p...
+- [The Exact ML Project I’d Build to Get Hired in 2026](https://towardsdatascience.com/the-exact-ml-project-that-gets-you-hired-full-breakdown/)
+  - <p>Follow this framework to build a project that will impress hiring managers</p> <p>The post <a href="https://towardsdatascience.com/the-exact-ml-project-that-gets-you-hired-fu...
 - [Can Machine Learning Predict the World Cup?](https://towardsdatascience.com/can-machine-learning-predict-the-world-cup/)
   - <p>Building an ML football forecaster in R</p> <p>The post <a href="https://towardsdatascience.com/can-machine-learning-predict-the-world-cup/">Can Machine Learning Predict the ...
-- [Increase Recommendation Systems’ Precision with LLMs, Using Python](https://towardsdatascience.com/increase-recommendation-systems-precision-with-llm-using-python/)
-  - <p>This is how LLMs are used today to increase precision in recommendation systems</p> <p>The post <a href="https://towardsdatascience.com/increase-recommendation-systems-precis...
-- [How to Keep Quantum Information Alive for Machine Learning](https://towardsdatascience.com/how-to-keep-quantum-information-alive-for-machine-learning/)
-  - <p>Quantum Machine Learning promises powerful new ways of processing information, but quantum states are extraordinarily fragile. In this article, we explore why quantum informa...
-- [4 New Techniques to Maximize Claude Code](https://towardsdatascience.com/4-new-techniques-to-maximize-claude-code/)
-  - <p>Get the most out of Claude Code with these four techniques</p> <p>The post <a href="https://towardsdatascience.com/4-new-techniques-to-maximize-claude-code/">4 New Techniques...
-- [Sequential Fitting: A Different Perspective on the Spectral Bias of Neural Networks](https://towardsdatascience.com/sequential-fitting-a-different-perspective-on-the-spectral-bias-of-neural-networks/)
-  - <p>What Fourier analysis misses</p> <p>The post <a href="https://towardsdatascience.com/sequential-fitting-a-different-perspective-on-the-spectral-bias-of-neural-networks/">Sequ...
 
 ## KDnuggets (data-analysis)
+- [Best Free Image Generators on Hugging Face Right Now!](https://www.kdnuggets.com/best-free-image-generators-on-hugging-face-right-now)
+  - This article cuts through the 90,000 options to the seven models worth your time in 2026.
+- [10 GitHub Repositories for Web Development in Python](https://www.kdnuggets.com/10-github-repositories-for-web-development-in-python)
+  - Explore the best Python web development repositories for building APIs, full-stack web apps, dashboards, machine learning demos, internal tools, and interactive Python-based use...
 - [Why Do LLMs Corrupt Your Documents When You Delegate?](https://www.kdnuggets.com/why-do-llms-corrupt-your-documents-when-you-delegate)
   - Analyzing several reasons why structural content decay may happen when asking LLMs to perform complex document editing for us.
 - [Anthropic’s Complete Guide to Claude Skills Building](https://www.kdnuggets.com/anthropics-complete-guide-to-claude-skills-building)
   - This guide covers the complete picture: what skills are technically, how to plan and design them, the exact file structure and naming rules, how to write instructions that Claud...
 - [5 Must-Know Python Concepts for AI Engineers](https://www.kdnuggets.com/5-must-know-python-concepts-for-ai-engineers)
   - In this article, we will explore five critical Python concepts that every AI engineer must know to build scalable, secure, and robust systems.
-- [A Deep Dive into Calibration of Language Models: Platt Scaling, Isotonic Regression, Temperature Scaling](https://www.kdnuggets.com/a-deep-dive-into-calibration-of-language-models-platt-scaling-isotonic-regression-temperature-scaling)
-  - Discover three post-hoc methods for closing the gap between confidence and accuracy.
-- [3 SpaCy Tricks for Efficient Text Processing & Entity Recognition](https://www.kdnuggets.com/3-spacy-tricks-for-efficient-text-processing-entity-recognition)
-  - In this article, we will explore three essential spaCy tricks that every developer should have in their toolkit to maximize processing speed and customize entity recognition.
 
 ## OpenAI News (ai)
+- [How engineers at Nextdoor use Codex to build without limits](https://openai.com/index/nextdoor)
+  - How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.
+- [What Codex unlocks for Notion](https://openai.com/index/notion)
+  - How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.
+- [Industrial policy for the Intelligence Age](https://openai.com/index/industrial-policy-for-the-intelligence-age)
+  - Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced ...
 - [Confidential submission of draft S-1 to the SEC](https://openai.com/index/openai-submits-confidential-s-1)
   - OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.
 - [Built to benefit everyone: our plan](https://openai.com/index/built-to-benefit-everyone-our-plan)
   - A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.
-- [Introducing the OpenAI Economic Research Exchange](https://openai.com/index/economic-research-exchange)
-  - OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.
-- [How Endava is redesigning software delivery around AI agents](https://openai.com/index/endava-frontiers)
-  - Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.
-- [Dreaming: Better memory for a more helpful ChatGPT](https://openai.com/index/chatgpt-memory-dreaming)
-  - ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.
 
 ## Google AI Blog (ai)
 - [The latest AI news we announced in May 2026](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/)
@@ -53,8 +53,8 @@ Updated: 2026-06-09 06:18 UTC
   - Gemini Omni & Gemini 3.5 hero
 
 ## Hugging Face Blog (llm)
+- [Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech](https://huggingface.co/blog/ServiceNow-AI/code-switching)
+- [Introducing North Mini Code: Cohere’s First Model For Developers](https://huggingface.co/blog/CohereLabs/introducing-north-mini-code)
+- [How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces](https://huggingface.co/blog/mishig/spaces-agents-md)
+- [Migrating Your GitHub CI to Hugging Face Jobs](https://huggingface.co/blog/github-ci-hf-jobs)
 - [The Open Source Community is backing OpenEnv for Agentic RL](https://huggingface.co/blog/openenv-agentic-rl)
-- [Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI](https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety)
-- [EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios](https://huggingface.co/blog/ServiceNow-AI/eva-bench-data)
-- [Designing the hf CLI as an agent-optimized way to work with the Hub](https://huggingface.co/blog/hf-cli-for-agents)
-- [Direct Preference Optimization Beyond Chatbots](https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots)
