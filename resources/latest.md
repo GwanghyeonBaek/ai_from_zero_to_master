@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-06-10 06:40 UTC
+Updated: 2026-06-11 07:03 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
-- [10 Common RAG Mistakes We Keep Seeing in Production](https://towardsdatascience.com/10-common-rag-mistakes-we-keep-seeing-in-production/)
-  - <p>Enterprise Document Intelligence [Vol.1 #4bis] - A coauthor note on the brick-by-brick pitfalls that justified the four-brick split, before Part II walks the fixes</p> <p>The...
-- [The Hardware That Makes AI Possible](https://towardsdatascience.com/the-hardware-that-makes-ai-possible/)
-  - <p>CPUs, GPUs, TPUs, and NPUs</p> <p>The post <a href="https://towardsdatascience.com/the-hardware-that-makes-ai-possible/">The Hardware That Makes AI Possible</a> appeared firs...
-- [Prefill Once, Fan Out: KV Snapshot Sharing for Multi-Agent LLM Pipelines](https://towardsdatascience.com/kv-cache-reuse-for-multi-agent-llm-inference-i-built-a-c-orchestrator-so-my-gpu-would-stop-reading-the-same-document-twice/)
-  - <p>Stop re-computing the same context. Learn how to build a C++ runtime with copy-on-fork KV snapshots to eliminate redundant LLM prefills in multi-agent pipelines.</p> <p>The p...
-- [The Exact ML Project I’d Build to Get Hired in 2026](https://towardsdatascience.com/the-exact-ml-project-that-gets-you-hired-full-breakdown/)
-  - <p>Follow this framework to build a project that will impress hiring managers</p> <p>The post <a href="https://towardsdatascience.com/the-exact-ml-project-that-gets-you-hired-fu...
-- [Can Machine Learning Predict the World Cup?](https://towardsdatascience.com/can-machine-learning-predict-the-world-cup/)
-  - <p>Building an ML football forecaster in R</p> <p>The post <a href="https://towardsdatascience.com/can-machine-learning-predict-the-world-cup/">Can Machine Learning Predict the ...
+- [How to Refactor Code with Claude Code](https://towardsdatascience.com/how-to-refactor-code-with-claude-code/)
+  - <p>Improve coding agent productiveness with refactored code</p> <p>The post <a href="https://towardsdatascience.com/how-to-refactor-code-with-claude-code/">How to Refactor Code ...
+- [How to Train a Scoring Model in the Age of Artificial Intelligence](https://towardsdatascience.com/how-to-train-a-scoring-model-in-the-age-of-artificial-intelligence/)
+  - <p>A structured methodology for comparing candidate models, testing stability, and selecting a robust final score</p> <p>The post <a href="https://towardsdatascience.com/how-to-...
+- [Beyond extract_text: The Two Layers of a PDF That Drive RAG Quality](https://towardsdatascience.com/beyond-extract_text-the-two-layers-of-a-pdf-that-drive-rag-quality/)
+  - <p>Enterprise Document Intelligence [Vol.1 #5A] - Document signals (metadata, native TOC, source software) and page-level content (text vs scans, tables, images, columns, page p...
+- [Bayesian Networks and Markov Networks: An Intuitive Guide to Structured Uncertainty](https://towardsdatascience.com/bayesian-networks-and-markov-networks-an-intuitive-guide-to-structured-uncertainty/)
+  - <p>An intuitive introduction to reasoning with uncertainty, from directed Bayesian networks to undirected Markov networks and weighted logical rules.</p> <p>The post <a href="ht...
+- [Physical AI: What It Is and What It Is Not](https://towardsdatascience.com/physical-ai-what-it-is-and-what-it-is-not/)
+  - <p>A quick guide to separating Physical AI from world models, embodied AI, physics AI, and digital twins</p> <p>The post <a href="https://towardsdatascience.com/physical-ai-what...
 
 ## KDnuggets (data-analysis)
+- [Local Agentic Programming on the Cheap: Claude Code + Ollama + Gemma4](https://www.kdnuggets.com/local-agentic-programming-on-the-cheap-claude-code-ollama-gemma4)
+  - This article builds a full local agentic programming stack using Ollama, Gemma 4, and Claude Code.
+- [5 Useful Python Scripts to Automate Boring PDF Tasks](https://www.kdnuggets.com/5-useful-python-scripts-to-automate-boring-pdf-tasks)
+  - PDFs are used everywhere, and these five Python scripts help you automate the most common PDF tasks.
 - [Best Free Image Generators on Hugging Face Right Now!](https://www.kdnuggets.com/best-free-image-generators-on-hugging-face-right-now)
   - This article cuts through the 90,000 options to the seven models worth your time in 2026.
 - [10 GitHub Repositories for Web Development in Python](https://www.kdnuggets.com/10-github-repositories-for-web-development-in-python)
   - Explore the best Python web development repositories for building APIs, full-stack web apps, dashboards, machine learning demos, internal tools, and interactive Python-based use...
 - [Why Do LLMs Corrupt Your Documents When You Delegate?](https://www.kdnuggets.com/why-do-llms-corrupt-your-documents-when-you-delegate)
   - Analyzing several reasons why structural content decay may happen when asking LLMs to perform complex document editing for us.
-- [Anthropic’s Complete Guide to Claude Skills Building](https://www.kdnuggets.com/anthropics-complete-guide-to-claude-skills-building)
-  - This guide covers the complete picture: what skills are technically, how to plan and design them, the exact file structure and naming rules, how to write instructions that Claud...
-- [5 Must-Know Python Concepts for AI Engineers](https://www.kdnuggets.com/5-must-know-python-concepts-for-ai-engineers)
-  - In this article, we will explore five critical Python concepts that every AI engineer must know to build scalable, secure, and robust systems.
 
 ## OpenAI News (ai)
-- [How engineers at Nextdoor use Codex to build without limits](https://openai.com/index/nextdoor)
-  - How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.
-- [What Codex unlocks for Notion](https://openai.com/index/notion)
-  - How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.
-- [Industrial policy for the Intelligence Age](https://openai.com/index/industrial-policy-for-the-intelligence-age)
-  - Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced ...
-- [Confidential submission of draft S-1 to the SEC](https://openai.com/index/openai-submits-confidential-s-1)
-  - OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.
-- [Built to benefit everyone: our plan](https://openai.com/index/built-to-benefit-everyone-our-plan)
-  - A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.
+- [How an astrophysicist uses Codex to help simulate black holes](https://openai.com/index/using-codex-to-simulate-black-holes)
+  - Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.
+- [Supporting Europe’s work in ensuring a trustworthy AI ecosystem](https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem)
+  - OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.
+- [Access OpenAI models and Codex through your Oracle cloud commitment](https://openai.com/index/openai-on-oracle-cloud)
+  - Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.
+- [PRC-linked influence operations are targeting AI debates in the US](https://openai.com/index/prc-linked-influence-operations-ai-debates)
+  - A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.
+- [From data to decisions: how LSEG is scaling trusted AI](https://openai.com/index/lseg)
+  - See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.
 
 ## Google AI Blog (ai)
 - [The latest AI news we announced in May 2026](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/)
