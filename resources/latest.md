@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-06-13 06:31 UTC
+Updated: 2026-06-14 06:55 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Larger Context Windows Don’t Fix RAG — So I Built a System That Does](https://towardsdatascience.com/larger-context-windows-dont-fix-rag-so-i-built-a-system-that-does/)
+  - <p>Increasing context size in RAG systems doesn’t improve accuracy for aggregation tasks—it makes errors harder to detect. In this article, I benchmark retrieval-based pipelines...
+- [Parse PDFs for RAG Locally with Docling: Rich Tables, No Cloud Upload](https://towardsdatascience.com/parse-pdfs-for-rag-locally-with-docling-rich-tables-no-cloud-upload/)
+  - <p>Enterprise Document Intelligence [Vol.1 #5ter] - Table cells, OCR, captions, headings: cloud-grade structure, running on your own machine. No key, no per-page bill, nothing l...
+- [Solving the 3Blue1Brown String Probability Problem (Without AI)](https://towardsdatascience.com/solving-the-3blue1brown-string-probability-problem-without-ai/)
+  - <p>Let's practice data science thinking through a probability problem </p> <p>The post <a href="https://towardsdatascience.com/solving-the-3blue1brown-string-probability-problem...
 - [When PyMuPDF Can’t See the Table: Parse PDFs for RAG with Azure Layout](https://towardsdatascience.com/when-pymupdf-cant-see-the-table-parse-pdfs-for-rag-with-azure-layout/)
   - <p>Enterprise Document Intelligence [Vol.1 #5bis] - The same relational tables. Native table cells. OCR for scanned pages and images. Captions and headings without regex.</p> <p...
 - [Why Decade-Old Residual Connections Still Power All of AI (And Why That’s a Problem)](https://towardsdatascience.com/why-this-decade-old-idea-still-powers-all-of-ai-and-why-its-a-problem/)
   - <p>For nearly a decade, this part of neural networks barely changed. DeepSeek is trying to reinvent it.</p> <p>The post <a href="https://towardsdatascience.com/why-this-decade-o...
-- [A Harness for Every Task: Putting a Team of Claudes on One Job](https://towardsdatascience.com/a-harness-for-every-task-putting-a-team-of-claudes-on-one-job/)
-  - <p>Claude can now write its own harness on the fly, custom-built for the task at hand.</p> <p>The post <a href="https://towardsdatascience.com/a-harness-for-every-task-putting-a...
-- [I Thought Data Engineering Was Just Writing Scripts. I Was Wrong.](https://towardsdatascience.com/i-thought-data-engineering-was-just-writing-scripts-i-was-wrong/)
-  - <p>I tried to make my ETL pipeline production-ready. Three things broke. Each one taught me something scripting alone never could.</p> <p>The post <a href="https://towardsdatasc...
-- [Is Language Visual? An Experiment with Chinese Characters](https://towardsdatascience.com/is-language-visual-an-experiment-with-chinese-characters-2/)
-  - <p>A story about a broken printer, visual inductive bias, and why the race endedin a tie.</p> <p>The post <a href="https://towardsdatascience.com/is-language-visual-an-experimen...
 
 ## KDnuggets (data-analysis)
 - [Pairing Claude Code with Local Models](https://www.kdnuggets.com/pairing-claude-code-with-local-models)
@@ -33,12 +33,12 @@ Updated: 2026-06-13 06:31 UTC
   - OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.
 - [How Preply combines AI and human tutors to personalize learning](https://openai.com/index/preply)
   - Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.
-- [Supporting Europe’s work in ensuring a trustworthy AI ecosystem](https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem)
-  - OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.
-- [BBVA puts AI at the core of banking with OpenAI](https://openai.com/index/bbva)
-  - Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.
 - [OpenAI to acquire Ona](https://openai.com/index/openai-to-acquire-ona)
   - OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.
+- [How an astrophysicist uses Codex to help simulate black holes](https://openai.com/index/using-codex-to-simulate-black-holes)
+  - Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.
+- [BBVA puts AI at the core of banking with OpenAI](https://openai.com/index/bbva)
+  - Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.
 
 ## Google AI Blog (ai)
 - [Our new community investments in Virginia support local jobs and expand energy affordability.](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/)
