@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-06-14 06:55 UTC
+Updated: 2026-06-15 07:36 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [4 Lines You Should Include in Your Claude Skill](https://towardsdatascience.com/4-lines-you-must-include-in-your-claude-skill/)
+  - <p>Without these, Claude will be confidently wrong.</p> <p>The post <a href="https://towardsdatascience.com/4-lines-you-must-include-in-your-claude-skill/">4 Lines You Should In...
+- [Vision LLMs are PDF Parsers Too: Reading Charts and Diagrams for RAG](https://towardsdatascience.com/vision-llms-are-pdf-parsers-too-reading-charts-and-diagrams-for-rag/)
+  - <p>Enterprise Document Intelligence [Vol.1 #5quater] - The other parsers read the words on a page. A vision model also reads the pictures</p> <p>The post <a href="https://toward...
+- [GPU Time-Slicing for Concurrent LLM Agents on Kubernetes](https://towardsdatascience.com/gpu-time-slicing-for-concurrent-llm-agents-on-kubernetes/)
+  - <p>A systems-level deep dive into the hidden microarchitectural costs of Kubernetes GPU time-slicing, and what it actually costs to co-locate Agentic AI workloads.</p> <p>The po...
 - [Larger Context Windows Don’t Fix RAG — So I Built a System That Does](https://towardsdatascience.com/larger-context-windows-dont-fix-rag-so-i-built-a-system-that-does/)
   - <p>Increasing context size in RAG systems doesn’t improve accuracy for aggregation tasks—it makes errors harder to detect. In this article, I benchmark retrieval-based pipelines...
 - [Parse PDFs for RAG Locally with Docling: Rich Tables, No Cloud Upload](https://towardsdatascience.com/parse-pdfs-for-rag-locally-with-docling-rich-tables-no-cloud-upload/)
   - <p>Enterprise Document Intelligence [Vol.1 #5ter] - Table cells, OCR, captions, headings: cloud-grade structure, running on your own machine. No key, no per-page bill, nothing l...
-- [Solving the 3Blue1Brown String Probability Problem (Without AI)](https://towardsdatascience.com/solving-the-3blue1brown-string-probability-problem-without-ai/)
-  - <p>Let's practice data science thinking through a probability problem </p> <p>The post <a href="https://towardsdatascience.com/solving-the-3blue1brown-string-probability-problem...
-- [When PyMuPDF Can’t See the Table: Parse PDFs for RAG with Azure Layout](https://towardsdatascience.com/when-pymupdf-cant-see-the-table-parse-pdfs-for-rag-with-azure-layout/)
-  - <p>Enterprise Document Intelligence [Vol.1 #5bis] - The same relational tables. Native table cells. OCR for scanned pages and images. Captions and headings without regex.</p> <p...
-- [Why Decade-Old Residual Connections Still Power All of AI (And Why That’s a Problem)](https://towardsdatascience.com/why-this-decade-old-idea-still-powers-all-of-ai-and-why-its-a-problem/)
-  - <p>For nearly a decade, this part of neural networks barely changed. DeepSeek is trying to reinvent it.</p> <p>The post <a href="https://towardsdatascience.com/why-this-decade-o...
 
 ## KDnuggets (data-analysis)
 - [Pairing Claude Code with Local Models](https://www.kdnuggets.com/pairing-claude-code-with-local-models)
@@ -29,14 +29,14 @@ Updated: 2026-06-14 06:55 UTC
   - This article builds a full local agentic programming stack using Ollama, Gemma 4, and Claude Code.
 
 ## OpenAI News (ai)
+- [Introducing the OpenAI Partner Network](https://openai.com/index/introducing-openai-partner-network)
+  - OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.
 - [New OpenAI Academy courses for the next era of work](https://openai.com/index/academy-courses-applying-ai-at-work)
   - OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.
 - [How Preply combines AI and human tutors to personalize learning](https://openai.com/index/preply)
   - Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.
-- [OpenAI to acquire Ona](https://openai.com/index/openai-to-acquire-ona)
-  - OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.
-- [How an astrophysicist uses Codex to help simulate black holes](https://openai.com/index/using-codex-to-simulate-black-holes)
-  - Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.
+- [Supporting Europe’s work in ensuring a trustworthy AI ecosystem](https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem)
+  - OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.
 - [BBVA puts AI at the core of banking with OpenAI](https://openai.com/index/bbva)
   - Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.
 
@@ -55,6 +55,6 @@ Updated: 2026-06-14 06:55 UTC
 ## Hugging Face Blog (llm)
 - [olmo-eval: An evaluation workbench for the model development loop](https://huggingface.co/blog/allenai/olmo-eval)
 - [Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP](https://huggingface.co/blog/torch-mlp-fusion)
-- [Introducing North Mini Code: Cohere’s First Model For Developers](https://huggingface.co/blog/CohereLabs/introducing-north-mini-code)
 - [How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces](https://huggingface.co/blog/mishig/spaces-agents-md)
 - [Migrating Your GitHub CI to Hugging Face Jobs](https://huggingface.co/blog/github-ci-hf-jobs)
+- [The Open Source Community is backing OpenEnv for Agentic RL](https://huggingface.co/blog/openenv-agentic-rl)
