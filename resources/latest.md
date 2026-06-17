@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-06-16 07:41 UTC
+Updated: 2026-06-17 07:26 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Drilling Into AI’s Financial Sustainability](https://towardsdatascience.com/drilling-into-ais-financial-sustainability/)
+  - <p>Budgets for AI tokens can’t be infinite, no matter how much hyperscalers wish they were</p> <p>The post <a href="https://towardsdatascience.com/drilling-into-ais-financial-su...
+- [Run a Local LLM with OpenClaw on Your Mac Mini](https://towardsdatascience.com/run-a-local-llm-with-openclaw-on-your-mac-mini/)
+  - <p>Tired of your monthly API bill? Follow this tested guide to set up a high-performance local LLM on your Mac Mini without the headaches. </p> <p>The post <a href="https://towa...
+- [LLM Fallbacks Break Agent Pipelines — I Built the Missing Recovery Layer](https://towardsdatascience.com/llm-fallbacks-break-agent-pipelines-i-built-the-missing-recovery-layer/)
+  - <p>LLM rate limits don't just interrupt agent pipelines—they can silently corrupt structured outputs when fallback models receive incompatible payloads. I built a recovery layer...
+- [RAG Questions Need Parsing Too: Turn the User’s String Into Briefs for Retrieval and Generation](https://towardsdatascience.com/question-parsing-in-rag-structure-before-you-search/)
+  - <p>Enterprise Document Intelligence [Vol.1 #6a] - Why a user question deserves the same parsing as the document, and how it splits into a retrieval brief and a generation brief ...
 - [How to Effectively Align with Claude Code](https://towardsdatascience.com/how-to-effectively-align-with-claude-code/)
   - <p>Increase productivity with your LLMs</p> <p>The post <a href="https://towardsdatascience.com/how-to-effectively-align-with-claude-code/">How to Effectively Align with Claude ...
-- [The Protocol That Cleaned Up Our Agent Architecture](https://towardsdatascience.com/the-protocol-that-cleaned-up-our-agent-architecture/)
-  - <p>A detailed look at MCP that turned my scattered tool definitions into a stable, discoverable server</p> <p>The post <a href="https://towardsdatascience.com/the-protocol-that-...
-- [I Built 11 Models to Predict the 2026 World Cup. They Crown Four Different Champions.](https://towardsdatascience.com/i-built-11-models-to-predict-the-2026-world-cup-they-crown-four-different-champions/)
-  - <p>A single model hands you a single answer and no sense of how much it hinges on the dozens of choices buried inside it.</p> <p>The post <a href="https://towardsdatascience.com...
-- [The System Always Knows: Why Local Efficiency and System Performance Are Not the Same Problem](https://towardsdatascience.com/the-system-always-knows/)
-  - <p> How local optimization in last‑mile delivery can quietly break the system</p> <p>The post <a href="https://towardsdatascience.com/the-system-always-knows/">The System Always...
-- [4 Lines You Should Include in Your Claude Skill](https://towardsdatascience.com/4-lines-you-must-include-in-your-claude-skill/)
-  - <p>Without these, Claude will be confidently wrong.</p> <p>The post <a href="https://towardsdatascience.com/4-lines-you-must-include-in-your-claude-skill/">4 Lines You Should In...
 
 ## KDnuggets (data-analysis)
+- [The Roadmap to Becoming an LLM Engineer in 2026](https://www.kdnuggets.com/the-roadmap-to-becoming-an-llm-engineer-in-2026)
+  - A step-by-step path through the skills that turn a machine learning practitioner into someone who ships large language model applications.
+- [Stop Writing Loops in Pandas: 7 Faster Alternatives to Try](https://www.kdnuggets.com/stop-writing-loops-in-pandas-7-faster-alternatives-to-try)
+  - In this article, you will learn how to replace pandas loops with 7 faster methods for optimized data processing.
 - [Building Time-Series Machine Learning Models with sktime in Python](https://www.kdnuggets.com/building-time-series-machine-learning-models-with-sktime-in-python)
   - In this article, we’ll build time-series machine learning models in Python using sktime and explore its core data structures for forecasting workflows.
 - [3 Pandas Tricks for Data Cleaning & Preparation](https://www.kdnuggets.com/3-pandas-tricks-for-data-cleaning-preparation)
   - In this article, we will walk through three essential Pandas tricks to clean and prepare your data efficiently: declarative method chaining, memory and speed optimization via ca...
 - [Pairing Claude Code with Local Models](https://www.kdnuggets.com/pairing-claude-code-with-local-models)
   - Local models in 2026 are good enough. For the tasks Claude Code handles daily: code completion, refactoring, debugging, codebase explanation; a well-chosen quantized model runni...
-- [3 NumPy Tricks for Numerical Performance](https://www.kdnuggets.com/3-numpy-tricks-for-numerical-performance)
-  - In this article, we will cover three essential NumPy tricks to optimize your code: vectorization and broadcasting, in-place operations, and leveraging memory views instead of co...
-- [Feature Stores from Scratch: A Minimal Working Implementation](https://www.kdnuggets.com/feature-stores-from-scratch-a-minimal-working-implementation)
-  - Build the five components every feature store needs, then see where AI changes the design.
 
 ## OpenAI News (ai)
+- [Predicting model behavior before release by simulating deployment](https://openai.com/index/deployment-simulation)
+  - OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.
 - [Introducing the OpenAI Partner Network](https://openai.com/index/introducing-openai-partner-network)
   - OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.
 - [New OpenAI Academy courses for the next era of work](https://openai.com/index/academy-courses-applying-ai-at-work)
   - OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.
 - [How Preply combines AI and human tutors to personalize learning](https://openai.com/index/preply)
   - Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.
-- [OpenAI to acquire Ona](https://openai.com/index/openai-to-acquire-ona)
-  - OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.
-- [BBVA puts AI at the core of banking with OpenAI](https://openai.com/index/bbva)
-  - Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.
+- [How an astrophysicist uses Codex to help simulate black holes](https://openai.com/index/using-codex-to-simulate-black-holes)
+  - Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.
 
 ## Google AI Blog (ai)
 - [We’re strengthening our presence in Alabama through new investments and community support.](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/)
