@@ -1,22 +1,24 @@
 # Latest Learning Resources
 
-Updated: 2026-06-18 07:04 UTC
+Updated: 2026-06-19 07:25 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
-- [Your Churn Threshold Is a Pricing Decision](https://towardsdatascience.com/your-churn-threshold-is-a-pricing-decision/)
-  - <p>How unit economics should set your classification cutoff, and why they rarely do.</p> <p>The post <a href="https://towardsdatascience.com/your-churn-threshold-is-a-pricing-de...
-- [The Secret to Reproducible and Portable Optimization: ORPilot’s Intermediate Representation (IR)](https://towardsdatascience.com/the-secret-to-reproducible-and-portable-optimization-orpilots-intermediate-representation-ir/)
-  - <p>Why production-level AI optimization modeling agent needs reproducibility and portability, and how IR helps achieve them</p> <p>The post <a href="https://towardsdatascience.c...
-- [You Probably Don’t Need an Agent Framework](https://towardsdatascience.com/you-probably-dont-need-an-agent-framework/)
-  - <p>Most LLM applications need a clear workflow, not an autonomous agent. Here's how to build one in plain Python.</p> <p>The post <a href="https://towardsdatascience.com/you-pro...
-- [What the Question Parser Extracts from a User String: Keywords, Scope, Shape, Decomposition, Clarification](https://towardsdatascience.com/what-the-question-parser-extracts-from-a-user-string-keywords-scope-shape-decomposition-clarification/)
-  - <p>Enterprise Document Intelligence [Vol.1 #6b] - The five field families the parser reads straight from the user’s question, with the code that fills each one</p> <p>The post <...
-- [Drilling Into AI’s Financial Sustainability](https://towardsdatascience.com/drilling-into-ais-financial-sustainability/)
-  - <p>Budgets for AI tokens can’t be infinite, no matter how much hyperscalers wish they were</p> <p>The post <a href="https://towardsdatascience.com/drilling-into-ais-financial-su...
+- [Structured Outputs with LLMs: JSON Mode, Function Calling, and When to Use Each](https://towardsdatascience.com/structured-outputs-with-llms-json-mode-function-calling-and-when-to-use-each/)
+  - <p>Getting reliable, readable responses out of your LLM, and knowing which tool to reach for</p> <p>The post <a href="https://towardsdatascience.com/structured-outputs-with-llms...
+- [How Powerful is Claude Fable (Mythos) 5 for Coding?](https://towardsdatascience.com/how-powerful-is-claude-fable-mythos-5-for-coding/)
+  - <p>Learn about the upsides and downsides of Claude Fable 5</p> <p>The post <a href="https://towardsdatascience.com/how-powerful-is-claude-fable-mythos-5-for-coding/">How Powerfu...
+- [Proteins: A Mosaic Pattern to Rule Them All?](https://towardsdatascience.com/proteins-a-mosaic-pattern-to-rule-them-all/)
+  - <p>For decades, the existence of the hydrophobic core, a region in the 3D structure of proteins where hydrophobic amino acids reside together, has been considered a general prop...
+- [Dispatching the Parsed RAG Question: Chunk Strategy, Model Tier, Activations, Audit](https://towardsdatascience.com/dispatching-the-parsed-rag-question-chunk-strategy-model-tier-activations-audit/)
+  - <p>Enterprise Document Intelligence [Vol.1 #6c] - The decisions the parser makes on top of the user string, using the document’s profile: dispatch, activations, full schema, thr...
+- [The Power and Pitfalls of Vector-Based Image Search](https://towardsdatascience.com/the-power-and-pitfalls-of-vector-based-image-search/)
+  - <p>A hands-on guide to setting up image similarity search in Milvus, and why visual replication isn't always enough.</p> <p>The post <a href="https://towardsdatascience.com/the-...
 
 ## KDnuggets (data-analysis)
+- [Advanced Join Techniques: LATERAL Joins, Semi Joins, Anti Joins](https://www.kdnuggets.com/advanced-join-techniques-lateral-joins-semi-joins-anti-joins)
+  - LATERAL joins let a subquery in the FROM clause reference columns from earlier in the same FROM clause. Semi joins return rows where a match exists in another table, without dup...
 - [How (and Why) I Built an AI Assistant](https://www.kdnuggets.com/how-and-why-i-built-an-ai-assistant)
   - This article is an honest account of the process on why I built a custom AI assistant instead of just paying for one, what the architecture looks like, the actual code, what bro...
 - [5 Fun Projects Using OpenAI Codex](https://www.kdnuggets.com/5-fun-projects-using-openai-codex)
@@ -25,20 +27,18 @@ Updated: 2026-06-18 07:04 UTC
   - A step-by-step path through the skills that turn a machine learning practitioner into someone who ships large language model applications.
 - [Stop Writing Loops in Pandas: 7 Faster Alternatives to Try](https://www.kdnuggets.com/stop-writing-loops-in-pandas-7-faster-alternatives-to-try)
   - In this article, you will learn how to replace pandas loops with 7 faster methods for optimized data processing.
-- [Building Time-Series Machine Learning Models with sktime in Python](https://www.kdnuggets.com/building-time-series-machine-learning-models-with-sktime-in-python)
-  - In this article, we’ll build time-series machine learning models in Python using sktime and explore its core data structures for forecasting workflows.
 
 ## OpenAI News (ai)
+- [New usage analytics and updated spend controls for enterprises](https://openai.com/index/chatgpt-enterprise-spend-controls)
+  - OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.
+- [Improving health intelligence in ChatGPT](https://openai.com/index/improving-health-intelligence-in-chatgpt)
+  - Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.
+- [Using AI to help physicians diagnose rare genetic diseases affecting children](https://openai.com/index/diagnose-rare-childhood-diseases)
+  - Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.
 - [A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry](https://openai.com/index/ai-chemist-improves-reaction)
   - OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.
 - [Introducing LifeSciBench](https://openai.com/index/introducing-life-sci-bench)
   - Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.
-- [Predicting model behavior before release by simulating deployment](https://openai.com/index/deployment-simulation)
-  - OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.
-- [Introducing the OpenAI Partner Network](https://openai.com/index/introducing-openai-partner-network)
-  - OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.
-- [New OpenAI Academy courses for the next era of work](https://openai.com/index/academy-courses-applying-ai-at-work)
-  - OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.
 
 ## Google AI Blog (ai)
 - [New research shows how AMIE, our medical AI, could help manage health conditions.](https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/)
@@ -53,8 +53,8 @@ Updated: 2026-06-18 07:04 UTC
   - A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red strip...
 
 ## Hugging Face Blog (llm)
+- [MosaicLeaks: Can your research agent keep a secret?](https://huggingface.co/blog/ServiceNow/mosaicleaks)
+- [Beyond LoRA: Can you beat the most popular fine-tuning technique?](https://huggingface.co/blog/peft-beyond-lora)
+- [Is it agentic enough? Benchmarking open models on your own tooling](https://huggingface.co/blog/is-it-agentic-enough)
 - [MolmoMotion: Language-guided 3D motion forecasting](https://huggingface.co/blog/allenai/molmomotion)
 - [From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot](https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware)
-- [GLM-5.2: Built for Long-Horizon Tasks](https://huggingface.co/blog/zai-org/glm-52-blog)
-- [Agentic Resource Discovery: Let agents search](https://huggingface.co/blog/agentic-resource-discovery-launch)
-- [Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP](https://huggingface.co/blog/torch-mlp-fusion)
