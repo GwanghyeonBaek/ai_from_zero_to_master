@@ -1,32 +1,32 @@
 # Latest Learning Resources
 
-Updated: 2026-06-19 07:25 UTC
+Updated: 2026-06-20 06:39 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
-- [Structured Outputs with LLMs: JSON Mode, Function Calling, and When to Use Each](https://towardsdatascience.com/structured-outputs-with-llms-json-mode-function-calling-and-when-to-use-each/)
-  - <p>Getting reliable, readable responses out of your LLM, and knowing which tool to reach for</p> <p>The post <a href="https://towardsdatascience.com/structured-outputs-with-llms...
-- [How Powerful is Claude Fable (Mythos) 5 for Coding?](https://towardsdatascience.com/how-powerful-is-claude-fable-mythos-5-for-coding/)
-  - <p>Learn about the upsides and downsides of Claude Fable 5</p> <p>The post <a href="https://towardsdatascience.com/how-powerful-is-claude-fable-mythos-5-for-coding/">How Powerfu...
-- [Proteins: A Mosaic Pattern to Rule Them All?](https://towardsdatascience.com/proteins-a-mosaic-pattern-to-rule-them-all/)
-  - <p>For decades, the existence of the hydrophobic core, a region in the 3D structure of proteins where hydrophobic amino acids reside together, has been considered a general prop...
-- [Dispatching the Parsed RAG Question: Chunk Strategy, Model Tier, Activations, Audit](https://towardsdatascience.com/dispatching-the-parsed-rag-question-chunk-strategy-model-tier-activations-audit/)
-  - <p>Enterprise Document Intelligence [Vol.1 #6c] - The decisions the parser makes on top of the user string, using the document’s profile: dispatch, activations, full schema, thr...
-- [The Power and Pitfalls of Vector-Based Image Search](https://towardsdatascience.com/the-power-and-pitfalls-of-vector-based-image-search/)
-  - <p>A hands-on guide to setting up image similarity search in Milvus, and why visual replication isn't always enough.</p> <p>The post <a href="https://towardsdatascience.com/the-...
+- [Python 3.14 and its New JIT Compiler](https://towardsdatascience.com/python-3-14-and-its-new-jit-compiler/)
+  - <p>A technical overview and some benchmarks</p> <p>The post <a href="https://towardsdatascience.com/python-3-14-and-its-new-jit-compiler/">Python 3.14 and its New JIT Compiler</...
+- [Building a Custom GStreamer Plugin for NVIDIA DeepStream](https://towardsdatascience.com/building-a-custom-gstreamer-plugin-for-nvidia-deepstream/)
+  - <p>Why Custom Inference in DeepStream?</p> <p>The post <a href="https://towardsdatascience.com/building-a-custom-gstreamer-plugin-for-nvidia-deepstream/">Building a Custom GStre...
+- [I Tried to Schedule My ETL Pipeline. Here’s What I Didn’t Expect.](https://towardsdatascience.com/i-tried-to-schedule-my-etl-pipeline-heres-what-i-didnt-expect/)
+  - <p>What I thought was a scheduling problem turned out to be a portability problem first</p> <p>The post <a href="https://towardsdatascience.com/i-tried-to-schedule-my-etl-pipeli...
+- [Parse Scanned PDFs for RAG with EasyOCR: Free OCR Gives You Words, Not a Document](https://towardsdatascience.com/parse-scanned-pdfs-for-rag-with-easyocr-free-ocr-gives-you-words-not-a-document/)
+  - <p>Enterprise Document Intelligence [Vol.1 #5quinquies] - Same 1974 scanned PDF, two engines. EasyOCR recovers text. Docling recovers text + sections + figures. The structural g...
+- [GPU-Resident Top-K for Agentic RAG: I Built a CUDA Kernel So My Retrieval Step Would Stop Bouncing Off the GPU](https://towardsdatascience.com/gpu-resident-top-k-for-agentic-rag-i-built-a-cuda-kernel-so-my-retrieval-step-would-stop-bouncing-off-the-gpu/)
+  - <p>The PCIe transfer latency is silently bottlenecking your agentic inference. Here is how building a custom device-resident vector search kernel bypasses the CPU to unlock dete...
 
 ## KDnuggets (data-analysis)
+- [Loss Function Explained For Noobs (How Models Know They Are Wrong)](https://www.kdnuggets.com/noob-series-loss-function-explained-how-models-know-they-are-wrong)
+  - This is a simple guide to understanding loss functions in machine learning and how models learn from their mistakes.
+- [Practical SQL Tricks Every Data Scientist Should Know](https://www.kdnuggets.com/practical-sql-tricks-every-data-scientist-should-know)
+  - In this article, we’ll cover essential SQL patterns and workflows that make everyday data analysis cleaner, faster, and easier to scale.
+- [Python Dictionary Tips and Tricks You Should Always Remember](https://www.kdnuggets.com/python-dictionary-tips-and-tricks-you-should-always-remember)
+  - Master these tips, and your dictionary code will become shorter, safer, and easier to read.
 - [Advanced Join Techniques: LATERAL Joins, Semi Joins, Anti Joins](https://www.kdnuggets.com/advanced-join-techniques-lateral-joins-semi-joins-anti-joins)
   - LATERAL joins let a subquery in the FROM clause reference columns from earlier in the same FROM clause. Semi joins return rows where a match exists in another table, without dup...
 - [How (and Why) I Built an AI Assistant](https://www.kdnuggets.com/how-and-why-i-built-an-ai-assistant)
   - This article is an honest account of the process on why I built a custom AI assistant instead of just paying for one, what the architecture looks like, the actual code, what bro...
-- [5 Fun Projects Using OpenAI Codex](https://www.kdnuggets.com/5-fun-projects-using-openai-codex)
-  - Learn Codex by building small and practical projects step by step.
-- [The Roadmap to Becoming an LLM Engineer in 2026](https://www.kdnuggets.com/the-roadmap-to-becoming-an-llm-engineer-in-2026)
-  - A step-by-step path through the skills that turn a machine learning practitioner into someone who ships large language model applications.
-- [Stop Writing Loops in Pandas: 7 Faster Alternatives to Try](https://www.kdnuggets.com/stop-writing-loops-in-pandas-7-faster-alternatives-to-try)
-  - In this article, you will learn how to replace pandas loops with 7 faster methods for optimized data processing.
 
 ## OpenAI News (ai)
 - [New usage analytics and updated spend controls for enterprises](https://openai.com/index/chatgpt-enterprise-spend-controls)
