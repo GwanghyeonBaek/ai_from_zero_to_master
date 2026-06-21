@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-06-20 06:39 UTC
+Updated: 2026-06-21 07:05 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [7 Crucial Barriers Between Data Teams and Self-Healing Data Architecture](https://towardsdatascience.com/7-crucial-barriers-between-data-teams-and-self-healing-data-architecture/)
+  - <p>What data teams need to build with AI to make self-healing data architecture a practical reality</p> <p>The post <a href="https://towardsdatascience.com/7-crucial-barriers-be...
+- [Making a PDF’s Images Searchable for RAG, Without Paying to Read Them All](https://towardsdatascience.com/making-a-pdfs-images-searchable-for-rag-without-paying-to-read-them-all/)
+  - <p>Enterprise Document Intelligence [Vol.1 #5sexies] - image_df tells you where every picture is. Turning the few that matter into searchable text is a separate, cost-ordered jo...
+- [Materialized Lake Views in Microsoft Fabric: When Your Medallion Fits in a SELECT Statement](https://towardsdatascience.com/materialized-lake-views-in-microsoft-fabric-when-your-medallion-fits-in-a-select-statement/)
+  - <p>Five surfaces collapsed into one declarative layer. Here's the full story of Materialized Lake Views in Microsoft Fabric - from syntax to the new GA capabilities</p> <p>The p...
 - [Python 3.14 and its New JIT Compiler](https://towardsdatascience.com/python-3-14-and-its-new-jit-compiler/)
   - <p>A technical overview and some benchmarks</p> <p>The post <a href="https://towardsdatascience.com/python-3-14-and-its-new-jit-compiler/">Python 3.14 and its New JIT Compiler</...
 - [Building a Custom GStreamer Plugin for NVIDIA DeepStream](https://towardsdatascience.com/building-a-custom-gstreamer-plugin-for-nvidia-deepstream/)
   - <p>Why Custom Inference in DeepStream?</p> <p>The post <a href="https://towardsdatascience.com/building-a-custom-gstreamer-plugin-for-nvidia-deepstream/">Building a Custom GStre...
-- [I Tried to Schedule My ETL Pipeline. Here’s What I Didn’t Expect.](https://towardsdatascience.com/i-tried-to-schedule-my-etl-pipeline-heres-what-i-didnt-expect/)
-  - <p>What I thought was a scheduling problem turned out to be a portability problem first</p> <p>The post <a href="https://towardsdatascience.com/i-tried-to-schedule-my-etl-pipeli...
-- [Parse Scanned PDFs for RAG with EasyOCR: Free OCR Gives You Words, Not a Document](https://towardsdatascience.com/parse-scanned-pdfs-for-rag-with-easyocr-free-ocr-gives-you-words-not-a-document/)
-  - <p>Enterprise Document Intelligence [Vol.1 #5quinquies] - Same 1974 scanned PDF, two engines. EasyOCR recovers text. Docling recovers text + sections + figures. The structural g...
-- [GPU-Resident Top-K for Agentic RAG: I Built a CUDA Kernel So My Retrieval Step Would Stop Bouncing Off the GPU](https://towardsdatascience.com/gpu-resident-top-k-for-agentic-rag-i-built-a-cuda-kernel-so-my-retrieval-step-would-stop-bouncing-off-the-gpu/)
-  - <p>The PCIe transfer latency is silently bottlenecking your agentic inference. Here is how building a custom device-resident vector search kernel bypasses the CPU to unlock dete...
 
 ## KDnuggets (data-analysis)
 - [Loss Function Explained For Noobs (How Models Know They Are Wrong)](https://www.kdnuggets.com/noob-series-loss-function-explained-how-models-know-they-are-wrong)
