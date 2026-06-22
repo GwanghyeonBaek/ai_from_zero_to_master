@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-06-21 07:05 UTC
+Updated: 2026-06-22 07:39 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Tool Calling, Explained: How AI Agents Decide What to Do Next](https://towardsdatascience.com/tool-calling-explained-how-ai-agents-decide-what-to-do-next/)
+  - <p>Understanding ow LLMs interact with the world around them, from returning data to taking action</p> <p>The post <a href="https://towardsdatascience.com/tool-calling-explained...
+- [Reconstructing the Table of Contents a PDF Forgot to Ship, So RAG Can Scope by Section](https://towardsdatascience.com/reconstructing-the-table-of-contents-a-pdf-forgot-to-ship-so-rag-can-scope-by-section/)
+  - <p>Enterprise Document Intelligence [Vol.1 #5septies] - When a PDF prints a contents page but exposes no outline, two ways to turn it back into structure, plus the page-alignmen...
+- [What Are the Possibilities to Build Date Tables in Self-Service Environments?](https://towardsdatascience.com/what-are-the-possibilities-to-build-date-tables-in-self-service-environments/)
+  - <p>For years, I created date tables with DAX code whenever I didn’t have a way to create them upstream of the data flow. Now I've realised there's another way to do it. Let’s se...
 - [7 Crucial Barriers Between Data Teams and Self-Healing Data Architecture](https://towardsdatascience.com/7-crucial-barriers-between-data-teams-and-self-healing-data-architecture/)
   - <p>What data teams need to build with AI to make self-healing data architecture a practical reality</p> <p>The post <a href="https://towardsdatascience.com/7-crucial-barriers-be...
 - [Making a PDF’s Images Searchable for RAG, Without Paying to Read Them All](https://towardsdatascience.com/making-a-pdfs-images-searchable-for-rag-without-paying-to-read-them-all/)
   - <p>Enterprise Document Intelligence [Vol.1 #5sexies] - image_df tells you where every picture is. Turning the few that matter into searchable text is a separate, cost-ordered jo...
-- [Materialized Lake Views in Microsoft Fabric: When Your Medallion Fits in a SELECT Statement](https://towardsdatascience.com/materialized-lake-views-in-microsoft-fabric-when-your-medallion-fits-in-a-select-statement/)
-  - <p>Five surfaces collapsed into one declarative layer. Here's the full story of Materialized Lake Views in Microsoft Fabric - from syntax to the new GA capabilities</p> <p>The p...
-- [Python 3.14 and its New JIT Compiler](https://towardsdatascience.com/python-3-14-and-its-new-jit-compiler/)
-  - <p>A technical overview and some benchmarks</p> <p>The post <a href="https://towardsdatascience.com/python-3-14-and-its-new-jit-compiler/">Python 3.14 and its New JIT Compiler</...
-- [Building a Custom GStreamer Plugin for NVIDIA DeepStream](https://towardsdatascience.com/building-a-custom-gstreamer-plugin-for-nvidia-deepstream/)
-  - <p>Why Custom Inference in DeepStream?</p> <p>The post <a href="https://towardsdatascience.com/building-a-custom-gstreamer-plugin-for-nvidia-deepstream/">Building a Custom GStre...
 
 ## KDnuggets (data-analysis)
 - [Loss Function Explained For Noobs (How Models Know They Are Wrong)](https://www.kdnuggets.com/noob-series-loss-function-explained-how-models-know-they-are-wrong)
@@ -29,6 +29,8 @@ Updated: 2026-06-21 07:05 UTC
   - This article is an honest account of the process on why I built a custom AI assistant instead of just paying for one, what the architecture looks like, the actual code, what bro...
 
 ## OpenAI News (ai)
+- [Samsung Electronics brings ChatGPT and Codex to employees](https://openai.com/index/samsung-electronics-chatgpt-codex-deployment)
+  - Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.
 - [New usage analytics and updated spend controls for enterprises](https://openai.com/index/chatgpt-enterprise-spend-controls)
   - OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.
 - [Improving health intelligence in ChatGPT](https://openai.com/index/improving-health-intelligence-in-chatgpt)
@@ -37,8 +39,6 @@ Updated: 2026-06-21 07:05 UTC
   - Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.
 - [A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry](https://openai.com/index/ai-chemist-improves-reaction)
   - OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.
-- [Introducing LifeSciBench](https://openai.com/index/introducing-life-sci-bench)
-  - Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.
 
 ## Google AI Blog (ai)
 - [New research shows how AMIE, our medical AI, could help manage health conditions.](https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/)
