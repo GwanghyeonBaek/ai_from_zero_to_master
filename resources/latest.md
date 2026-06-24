@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-06-23 06:18 UTC
+Updated: 2026-06-24 06:15 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
-- [Encoding Categorical Data for Outlier Detection](https://towardsdatascience.com/encoding-categorical-data-for-outlier-detection/)
-  - <p>Why one-hot encoding isn’t always the best approach, and alternative encodings</p> <p>The post <a href="https://towardsdatascience.com/encoding-categorical-data-for-outlier-d...
-- [How to Use Claude Code in Your Browser](https://towardsdatascience.com/how-to-use-claude-code-in-your-browser/)
-  - <p>Learn how to apply coding agents to verify work in your browser. </p> <p>The post <a href="https://towardsdatascience.com/how-to-use-claude-code-in-your-browser/">How to Use ...
-- [When RAG Users Ask Vague Questions: Clarify Once, Learn the Default](https://towardsdatascience.com/when-rag-users-ask-vague-questions-clarify-once-learn-the-default/)
-  - <p>Enterprise Document Intelligence [Vol.1 #6bis] - Ask one focused clarification, learn the default from the answer, stay silent next time</p> <p>The post <a href="https://towa...
-- [Neural Networks, Explained for Beginners: Start Here If They’ve Confused You](https://towardsdatascience.com/neural-networks-explained-for-beginners-start-here-if-theyve-confused-you/)
-  - <p>The intuition behind neural networks and why they need activation functions.</p> <p>The post <a href="https://towardsdatascience.com/neural-networks-explained-for-beginners-s...
-- [Tool Calling, Explained: How AI Agents Decide What to Do Next](https://towardsdatascience.com/tool-calling-explained-how-ai-agents-decide-what-to-do-next/)
-  - <p>Understanding how LLMs interact with the world around them, from returning data to taking action</p> <p>The post <a href="https://towardsdatascience.com/tool-calling-explaine...
+- [How to Create Powerful Loops in Claude Code](https://towardsdatascience.com/how-to-create-powerful-loops-in-claude-code/)
+  - <p>Learn about the concept of loops to power your coding agents. </p> <p>The post <a href="https://towardsdatascience.com/how-to-create-powerful-loops-in-claude-code/">How to Cr...
+- [I Spent an Hour on a Data Preprocessing Task Before Asking Gemini](https://towardsdatascience.com/i-spent-an-hour-on-a-data-preprocessing-task-before-asking-gemini/)
+  - <p>How Gemini solved my Pandas problem in seconds, and why data science fundamentals still matter to spot suboptimal solutions</p> <p>The post <a href="https://towardsdatascienc...
+- [Retrieval Is Filtering, Not Search: A Mental Model for Enterprise RAG](https://towardsdatascience.com/retrieval-is-filtering-not-search-a-mental-model-for-enterprise-rag/)
+  - <p>Enterprise Document Intelligence [Vol.1 #7A] - Stop searching strings. Filter line_df and toc_df. Pick anchors small, expand context large</p> <p>The post <a href="https://to...
+- [The Era of No-Code AI: What You Need to Know](https://towardsdatascience.com/the-era-of-no-code-ai-what-you-need-to-know/)
+  - <p>If you are a programmer and you don't feel "special" anymore, you are not alone</p> <p>The post <a href="https://towardsdatascience.com/the-era-of-no-code-ai-what-you-need-to...
+- [Build Your Own Local AI Coding Agent with Gemma 4 and OpenCode](https://towardsdatascience.com/build-your-own-local-ai-coding-agent-with-gemma-4-and-opencode-2/)
+  - <p>From installing Ollama to launching OpenCode with a local model, step by step.</p> <p>The post <a href="https://towardsdatascience.com/build-your-own-local-ai-coding-agent-wi...
 
 ## KDnuggets (data-analysis)
+- [The Math Skills Every Aspiring Data Scientist Needs to Master Before Writing a Single Line of Code](https://www.kdnuggets.com/20206/06/deasilex/the-math-skills-every-aspiring-data-scientist-needs-to-master-before-writing-a-single-line-of-code)
+  - This article breaks down each essential math discipline, explains its role in data science, and maps out an efficient learning path you can start today.
+- [Here’s Why WebMCP is Exciting](https://www.kdnuggets.com/heres-why-webmcp-is-exciting)
+  - WebMCP is an open web standard that lets websites expose structured, callable tools directly to browser-based agents. Find out what makes it exciting.
+- [5 Essential Approaches to Robust Outlier Detection](https://www.kdnuggets.com/5-essential-approaches-to-robust-outlier-detection)
+  - Outliers can easily ruin the performance of any predictive analysis models you build: robustly detecting and handling them is crucial in any data project. This article lists and...
 - [ChatLLM by Abacus AI Review: A Multi-Model AI Workspace Built for Daily Work](https://www.kdnuggets.com/2026/06/abacus/abacus-ai-chatllm-review)
   - An in-depth review of ChatLLM by Abacus AI, covering supported AI models, AI agents, coding tools, integrations, pricing, usage limits, and how it compares to ChatGPT.
 - [Here’s What Everyone Gets Wrong About Agentic AI](https://www.kdnuggets.com/heres-what-everyone-gets-wrong-about-agentic-ai)
   - Agentic AI is not failing because the technology is bad. It is failing because of five specific misconceptions that teams carry into their first deployments and each one is corr...
-- [3 NLTK Tricks for Advanced Text Preprocessing & Linguistic Analysis](https://www.kdnuggets.com/3-nltk-tricks-for-advanced-text-preprocessing-linguistic-analysis)
-  - In this article, we will walk through three essential NLTK tricks to elevate your text preprocessing: preserving phrase integrity with the MWETokenizer, context-aware lemmatizat...
-- [Loss Function Explained For Noobs (How Models Know They Are Wrong)](https://www.kdnuggets.com/noob-series-loss-function-explained-how-models-know-they-are-wrong)
-  - This is a simple guide to understanding loss functions in machine learning and how models learn from their mistakes.
-- [Practical SQL Tricks Every Data Scientist Should Know](https://www.kdnuggets.com/practical-sql-tricks-every-data-scientist-should-know)
-  - In this article, we’ll cover essential SQL patterns and workflows that make everyday data analysis cleaner, faster, and easier to scale.
 
 ## OpenAI News (ai)
+- [Helping build shared standards for advanced AI](https://openai.com/index/helping-build-shared-standards-for-advanced-ai)
+  - OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.
+- [How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery](https://openai.com/index/gpt-5-immunology-mystery)
+  - GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.
+- [How Omio is building the future of conversational travel](https://openai.com/index/omio)
+  - Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.
 - [Daybreak: Tools for securing every organization in the world](https://openai.com/index/daybreak-securing-the-world)
   - OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.
 - [Patch the Planet: a Daybreak initiative to support open source maintainers](https://openai.com/index/patch-the-planet)
   - OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.
-- [Codex-maxxing for long-running work](https://openai.com/index/codex-maxxing-long-running-work)
-  - Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.
-- [Samsung Electronics brings ChatGPT and Codex to employees](https://openai.com/index/samsung-electronics-chatgpt-codex-deployment)
-  - Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.
-- [New usage analytics and updated spend controls for enterprises](https://openai.com/index/chatgpt-enterprise-spend-controls)
-  - OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.
 
 ## Google AI Blog (ai)
 - [New research shows how AMIE, our medical AI, could help manage health conditions.](https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/)
@@ -53,8 +53,8 @@ Updated: 2026-06-23 06:18 UTC
   - A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red strip...
 
 ## Hugging Face Blog (llm)
+- [Build real agentic apps using CUGA: two dozen working examples on a lightweight harness](https://huggingface.co/blog/ibm-research/cuga-apps)
+- [Shipping huggingface_hub every week with AI, open tools, and a human in the loop](https://huggingface.co/blog/huggingface-hub-release-ci)
+- [Experimenting with the proposed Cross-Origin Storage API in Transformers.js](https://huggingface.co/blog/cross-origin-storage)
 - [PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters](https://huggingface.co/blog/PaddlePaddle/pp-ocrv6)
-- [MosaicLeaks: Can your research agent keep a secret?](https://huggingface.co/blog/ServiceNow/mosaicleaks)
-- [Beyond LoRA: Can you beat the most popular fine-tuning technique?](https://huggingface.co/blog/peft-beyond-lora)
-- [Is it agentic enough? Benchmarking open models on your own tooling](https://huggingface.co/blog/is-it-agentic-enough)
-- [MolmoMotion: Language-guided 3D motion forecasting](https://huggingface.co/blog/allenai/molmomotion)
+- [We got local models to triage the OpenClaw repo for FREE!*](https://huggingface.co/blog/local-models-pr-triage)
