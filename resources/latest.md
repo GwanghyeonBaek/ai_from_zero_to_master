@@ -1,22 +1,24 @@
 # Latest Learning Resources
 
-Updated: 2026-06-24 06:15 UTC
+Updated: 2026-06-25 06:18 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
-- [How to Create Powerful Loops in Claude Code](https://towardsdatascience.com/how-to-create-powerful-loops-in-claude-code/)
-  - <p>Learn about the concept of loops to power your coding agents. </p> <p>The post <a href="https://towardsdatascience.com/how-to-create-powerful-loops-in-claude-code/">How to Cr...
-- [I Spent an Hour on a Data Preprocessing Task Before Asking Gemini](https://towardsdatascience.com/i-spent-an-hour-on-a-data-preprocessing-task-before-asking-gemini/)
-  - <p>How Gemini solved my Pandas problem in seconds, and why data science fundamentals still matter to spot suboptimal solutions</p> <p>The post <a href="https://towardsdatascienc...
-- [Retrieval Is Filtering, Not Search: A Mental Model for Enterprise RAG](https://towardsdatascience.com/retrieval-is-filtering-not-search-a-mental-model-for-enterprise-rag/)
-  - <p>Enterprise Document Intelligence [Vol.1 #7A] - Stop searching strings. Filter line_df and toc_df. Pick anchors small, expand context large</p> <p>The post <a href="https://to...
-- [The Era of No-Code AI: What You Need to Know](https://towardsdatascience.com/the-era-of-no-code-ai-what-you-need-to-know/)
-  - <p>If you are a programmer and you don't feel "special" anymore, you are not alone</p> <p>The post <a href="https://towardsdatascience.com/the-era-of-no-code-ai-what-you-need-to...
-- [Build Your Own Local AI Coding Agent with Gemma 4 and OpenCode](https://towardsdatascience.com/build-your-own-local-ai-coding-agent-with-gemma-4-and-opencode-2/)
-  - <p>From installing Ollama to launching OpenCode with a local model, step by step.</p> <p>The post <a href="https://towardsdatascience.com/build-your-own-local-ai-coding-agent-wi...
+- [How to Build a Credit Scoring Grid From a Logistic Regression Model](https://towardsdatascience.com/how-to-build-a-credit-scoring-grid-from-a-logistic-regression-model/)
+  - <p>Turning model coefficients into a 0–1000 score, with risk classes and stability checks</p> <p>The post <a href="https://towardsdatascience.com/how-to-build-a-credit-scoring-g...
+- [Your First Task as a Data Engineer in a New Company? Make the ETL Pipeline Testable](https://towardsdatascience.com/your-first-task-as-a-data-engineer-in-a-new-company-make-the-etl-pipeline-testable/)
+  - <p>A practical data engineering onboarding workflow for environment setup, automated testing, and AI-assisted development.</p> <p>The post <a href="https://towardsdatascience.co...
+- [A Three-Phase Factual Recall Circuit in Gemma-2B and Gemma-12B-IT](https://towardsdatascience.com/a-three-phase-factual-recall-circuit-in-gemma-2b-and-gemma-12b-it/)
+  - <p>Activation patching reveals how facts are stored, routed, and read out across transformer layers, and why the residual stream does most of the work</p> <p>The post <a href="h...
+- [Why I Stopped Using One Agent and Built a Multi-Agent Pipeline Instead](https://towardsdatascience.com/why-i-stopped-using-one-agent-and-built-a-multi-agent-pipeline-instead/)
+  - <p>A practical walkthrough using text-to-SQL as the example</p> <p>The post <a href="https://towardsdatascience.com/why-i-stopped-using-one-agent-and-built-a-multi-agent-pipelin...
+- [Anchor Detection for RAG: Parallel Detectors, Then One LLM Call at the End](https://towardsdatascience.com/anchor-detection-for-rag-parallel-detectors-then-one-llm-call-at-the-end/)
+  - <p>Enterprise Document Intelligence [Vol.1 #7B] - Retrieval is filtering on structured tables: keywords first, TOC second, embeddings last</p> <p>The post <a href="https://towar...
 
 ## KDnuggets (data-analysis)
+- [Top 7 Coding Models You Can Run Locally in 2026](https://www.kdnuggets.com/top-7-coding-models-you-can-run-locally-in-2026)
+  - Explore the best local coding models for private AI coding, fast GGUF inference, agentic workflows, multimodal development, and running powerful open models on your own GPU.
 - [The Math Skills Every Aspiring Data Scientist Needs to Master Before Writing a Single Line of Code](https://www.kdnuggets.com/20206/06/deasilex/the-math-skills-every-aspiring-data-scientist-needs-to-master-before-writing-a-single-line-of-code)
   - This article breaks down each essential math discipline, explains its role in data science, and maps out an efficient learning path you can start today.
 - [Here’s Why WebMCP is Exciting](https://www.kdnuggets.com/heres-why-webmcp-is-exciting)
@@ -25,10 +27,10 @@ Updated: 2026-06-24 06:15 UTC
   - Outliers can easily ruin the performance of any predictive analysis models you build: robustly detecting and handling them is crucial in any data project. This article lists and...
 - [ChatLLM by Abacus AI Review: A Multi-Model AI Workspace Built for Daily Work](https://www.kdnuggets.com/2026/06/abacus/abacus-ai-chatllm-review)
   - An in-depth review of ChatLLM by Abacus AI, covering supported AI models, AI agents, coding tools, integrations, pricing, usage limits, and how it compares to ChatGPT.
-- [Here’s What Everyone Gets Wrong About Agentic AI](https://www.kdnuggets.com/heres-what-everyone-gets-wrong-about-agentic-ai)
-  - Agentic AI is not failing because the technology is bad. It is failing because of five specific misconceptions that teams carry into their first deployments and each one is corr...
 
 ## OpenAI News (ai)
+- [OpenAI and Broadcom unveil LLM-optimized inference chip](https://openai.com/index/openai-broadcom-jalapeno-inference-chip)
+  - OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.
 - [Helping build shared standards for advanced AI](https://openai.com/index/helping-build-shared-standards-for-advanced-ai)
   - OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.
 - [How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery](https://openai.com/index/gpt-5-immunology-mystery)
@@ -37,8 +39,6 @@ Updated: 2026-06-24 06:15 UTC
   - Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.
 - [Daybreak: Tools for securing every organization in the world](https://openai.com/index/daybreak-securing-the-world)
   - OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.
-- [Patch the Planet: a Daybreak initiative to support open source maintainers](https://openai.com/index/patch-the-planet)
-  - OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.
 
 ## Google AI Blog (ai)
 - [New research shows how AMIE, our medical AI, could help manage health conditions.](https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/)
@@ -53,8 +53,8 @@ Updated: 2026-06-24 06:15 UTC
   - A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red strip...
 
 ## Hugging Face Blog (llm)
+- [Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel](https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel)
+- [Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World](https://huggingface.co/blog/ffasr-leaderboard)
 - [Build real agentic apps using CUGA: two dozen working examples on a lightweight harness](https://huggingface.co/blog/ibm-research/cuga-apps)
 - [Shipping huggingface_hub every week with AI, open tools, and a human in the loop](https://huggingface.co/blog/huggingface-hub-release-ci)
 - [Experimenting with the proposed Cross-Origin Storage API in Transformers.js](https://huggingface.co/blog/cross-origin-storage)
-- [PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters](https://huggingface.co/blog/PaddlePaddle/pp-ocrv6)
-- [We got local models to triage the OpenClaw repo for FREE!*](https://huggingface.co/blog/local-models-pr-triage)
