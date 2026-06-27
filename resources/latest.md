@@ -1,34 +1,36 @@
 # Latest Learning Resources
 
-Updated: 2026-06-26 06:19 UTC
+Updated: 2026-06-27 06:00 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [From Local LLM to Tool-Using Agent](https://towardsdatascience.com/from-local-llm-to-tool-using-agent/)
+  - <p>Using Gemma 4, Ollama, OpenAI Agents SDK, and Tavily MCP to build a lightweight research agent</p> <p>The post <a href="https://towardsdatascience.com/from-local-llm-to-tool-...
+- [Water Cooler Small Talk, Ep. 11: Overfitting in RAG evaluation](https://towardsdatascience.com/water-cooler-small-talk-ep-11-overfitting-in-rag-evaluation/)
+  - <p>Why memorizing for the exam doesn't mean you understand the subject</p> <p>The post <a href="https://towardsdatascience.com/water-cooler-small-talk-ep-11-overfitting-in-rag-e...
+- [Amplify the Expert: A Philosophy for Building Enterprise RAG](https://towardsdatascience.com/amplify-the-expert-a-philosophy-for-building-enterprise-rag/)
+  - <p>Enterprise Document Intelligence [Vol.1 #M1] - The thesis behind every architectural choice in this series</p> <p>The post <a href="https://towardsdatascience.com/amplify-the...
+- [How to Ace Data and ML Behavioural Interviews](https://towardsdatascience.com/how-to-ace-data-ml-behavioural-interviews/)
+  - <p>How to smash through data / ML behavioural interviews</p> <p>The post <a href="https://towardsdatascience.com/how-to-ace-data-ml-behavioural-interviews/">How to Ace Data and ...
 - [Vector RAG Isn’t Enough — I Built a Context Graph Layer for Multi-Agent Memory](https://towardsdatascience.com/vector-rag-isnt-enough-i-built-a-context-graph-layer-for-multi-agent-memory/)
   - <p>I benchmarked raw chat history, vector-only RAG, and a context graph on the same multi-agent conversations. The results exposed a surprising weakness in relational retrieval....
-- [The Hot Path Belongs to GBDTs, Agents Own the Cold Path: A Payment-Fraud Benchmark](https://towardsdatascience.com/the-hot-path-belongs-to-gbdts-agents-own-the-cold-path-a-payment-fraud-benchmark/)
-  - <p>A reproducible benchmark on latency, cost, and reproducibility, and where agents actually earn their keep.</p> <p>The post <a href="https://towardsdatascience.com/the-hot-pat...
-- [Beyond the Straight Line: Choosing Between OLS, Interaction Terms, and Tweedie Regression](https://towardsdatascience.com/beyond-the-straight-line-choosing-between-ols-interaction-terms-and-tweedie-regression/)
-  - <p>Whether you should stick to a classic Ordinary Least Squares regression, introduce interaction terms, or pivot to a Tweedie distribution depends entirely on how your data han...
-- [3 Agents. 3 LLMs. 1 Aging GPU: Engineering Parallel Inference on Bare Metal](https://towardsdatascience.com/3-agents-3-llms-1-aging-gpu-engineering-parallel-inference-on-bare-metal/)
-  - <p>Beat the 8GB VRAM limit. Learn how to run three different LLMs on a single 8GB GPU using C++ layer multiplexing and admission control.</p> <p>The post <a href="https://toward...
-- [An LLM as arbiter in RAG retrieval: picking the right candidate with reasons](https://towardsdatascience.com/letting-an-llm-pick-the-right-rag-page-the-arbiter-pattern-at-the-end-of-retrieval/)
-  - <p>Enterprise Document Intelligence [Vol.1 #7C] - One LLM call ranks the candidates with reasons. The output is one typed object your auditor can defend</p> <p>The post <a href=...
 
 ## KDnuggets (data-analysis)
+- [Fine-tuning Language Models on Apple Silicon with MLX](https://www.kdnuggets.com/fine-tuning-language-models-on-apple-silicon-with-mlx)
+  - Fine-tune open language models locally on your Mac using MLX. No cloud GPUs or costs required.
+- [5 Agentic Workflows to Automate Your Data Science Pipeline](https://www.kdnuggets.com/5-agentic-workflows-to-automate-your-data-science-pipeline)
+  - This article covers five concrete agentic workflows, one for each major stage of a data science pipeline.
 - [Using Gemini to Create Google Sheets](https://www.kdnuggets.com/using-gemini-to-create-google-sheets)
   - In this tutorial, we will show you how to use Gemini to create Google Sheets, build a useful table, generate formulas, analyze data, and improve the spreadsheet with follow-up p...
 - [5 Open Source Omni AI Models That Handle Text, Images, Audio, and Video](https://www.kdnuggets.com/5-open-source-omni-ai-models-that-handle-text-images-audio-and-video)
   - Take a practical look at multimodal, any-to-any systems for vision-language reasoning, speech interaction, document intelligence, real-time assistants, local deployment.
 - [The Roadmap to Becoming an AI Architect in 2026](https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-architect-in-2026)
   - Follow this step-by-step path through the design, decision-making, and leadership skills that move an engineer into the architect's seat.
-- [Top 7 Coding Models You Can Run Locally in 2026](https://www.kdnuggets.com/top-7-coding-models-you-can-run-locally-in-2026)
-  - Explore the best local coding models for private AI coding, fast GGUF inference, agentic workflows, multimodal development, and running powerful open models on your own GPU.
-- [The Math Skills Every Aspiring Data Scientist Needs to Master Before Writing a Single Line of Code](https://www.kdnuggets.com/20206/06/deasilex/the-math-skills-every-aspiring-data-scientist-needs-to-master-before-writing-a-single-line-of-code)
-  - This article breaks down each essential math discipline, explains its role in data science, and maps out an efficient learning path you can start today.
 
 ## OpenAI News (ai)
+- [Previewing GPT-5.6 Sol: a next-generation model](https://openai.com/index/previewing-gpt-5-6-sol)
+  - OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.
 - [How agents are transforming work](https://openai.com/index/how-agents-are-transforming-work)
   - A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.
 - [OpenAI and Broadcom unveil LLM-optimized inference chip](https://openai.com/index/openai-broadcom-jalapeno-inference-chip)
@@ -37,8 +39,6 @@ Updated: 2026-06-26 06:19 UTC
   - OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.
 - [How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery](https://openai.com/index/gpt-5-immunology-mystery)
   - GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.
-- [How Omio is building the future of conversational travel](https://openai.com/index/omio)
-  - Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.
 
 ## Google AI Blog (ai)
 - [Our latest Google Finance upgrades, including a new app](https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/)
