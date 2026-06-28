@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-06-27 06:00 UTC
+Updated: 2026-06-28 06:36 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [We Built a Routing Layer to Cut Our AI Costs. It Broke the Product.](https://towardsdatascience.com/we-built-a-routing-layer-to-cut-our-ai-costs-it-broke-the-product/)
+  - <p>A team cut their AI inference bill by more than half. Three months later, customer satisfaction was dropping and the cost savings were tied to the quality loss. Cost-optimiza...
+- [How to Build a Powerful LLM Knowledge Base](https://towardsdatascience.com/how-to-build-a-powerful-llm-knowledge-base/)
+  - <p>Use coding agents to power your knowledge base</p> <p>The post <a href="https://towardsdatascience.com/how-to-build-a-powerful-llm-knowledge-base/">How to Build a Powerful LL...
 - [From Local LLM to Tool-Using Agent](https://towardsdatascience.com/from-local-llm-to-tool-using-agent/)
   - <p>Using Gemma 4, Ollama, OpenAI Agents SDK, and Tavily MCP to build a lightweight research agent</p> <p>The post <a href="https://towardsdatascience.com/from-local-llm-to-tool-...
 - [Water Cooler Small Talk, Ep. 11: Overfitting in RAG evaluation](https://towardsdatascience.com/water-cooler-small-talk-ep-11-overfitting-in-rag-evaluation/)
   - <p>Why memorizing for the exam doesn't mean you understand the subject</p> <p>The post <a href="https://towardsdatascience.com/water-cooler-small-talk-ep-11-overfitting-in-rag-e...
 - [Amplify the Expert: A Philosophy for Building Enterprise RAG](https://towardsdatascience.com/amplify-the-expert-a-philosophy-for-building-enterprise-rag/)
   - <p>Enterprise Document Intelligence [Vol.1 #M1] - The thesis behind every architectural choice in this series</p> <p>The post <a href="https://towardsdatascience.com/amplify-the...
-- [How to Ace Data and ML Behavioural Interviews](https://towardsdatascience.com/how-to-ace-data-ml-behavioural-interviews/)
-  - <p>How to smash through data / ML behavioural interviews</p> <p>The post <a href="https://towardsdatascience.com/how-to-ace-data-ml-behavioural-interviews/">How to Ace Data and ...
-- [Vector RAG Isn’t Enough — I Built a Context Graph Layer for Multi-Agent Memory](https://towardsdatascience.com/vector-rag-isnt-enough-i-built-a-context-graph-layer-for-multi-agent-memory/)
-  - <p>I benchmarked raw chat history, vector-only RAG, and a context graph on the same multi-agent conversations. The results exposed a surprising weakness in relational retrieval....
 
 ## KDnuggets (data-analysis)
 - [Fine-tuning Language Models on Apple Silicon with MLX](https://www.kdnuggets.com/fine-tuning-language-models-on-apple-silicon-with-mlx)
