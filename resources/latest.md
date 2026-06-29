@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-06-28 06:36 UTC
+Updated: 2026-06-29 07:03 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Tail Control: The Counterintuitive Engineering of Reliable Agentic Workflows](https://towardsdatascience.com/tail-control-the-counterintuitive-engineering-of-reliable-agentic-workflows/)
+  - <p>Behind a customer's API, a high-quality answer isn't enough. It has to be usable, which means on time. Delivering that consistently is a problem about variance, not speed, an...
+- [I Pitted XGBoost Against Logistic Regression on 358 Matches. The Boring Model Won.](https://towardsdatascience.com/i-pitted-xgboost-against-logistic-regression-on-358-matches-the-boring-model-won/)
+  - <p>A concrete bias–variance lesson: why the smallest model had the best cross-validated fit, and how to know when to reach for the big hammer.</p> <p>The post <a href="https://t...
 - [We Built a Routing Layer to Cut Our AI Costs. It Broke the Product.](https://towardsdatascience.com/we-built-a-routing-layer-to-cut-our-ai-costs-it-broke-the-product/)
   - <p>A team cut their AI inference bill by more than half. Three months later, customer satisfaction was dropping and the cost savings were tied to the quality loss. Cost-optimiza...
 - [How to Build a Powerful LLM Knowledge Base](https://towardsdatascience.com/how-to-build-a-powerful-llm-knowledge-base/)
   - <p>Use coding agents to power your knowledge base</p> <p>The post <a href="https://towardsdatascience.com/how-to-build-a-powerful-llm-knowledge-base/">How to Build a Powerful LL...
 - [From Local LLM to Tool-Using Agent](https://towardsdatascience.com/from-local-llm-to-tool-using-agent/)
   - <p>Using Gemma 4, Ollama, OpenAI Agents SDK, and Tavily MCP to build a lightweight research agent</p> <p>The post <a href="https://towardsdatascience.com/from-local-llm-to-tool-...
-- [Water Cooler Small Talk, Ep. 11: Overfitting in RAG evaluation](https://towardsdatascience.com/water-cooler-small-talk-ep-11-overfitting-in-rag-evaluation/)
-  - <p>Why memorizing for the exam doesn't mean you understand the subject</p> <p>The post <a href="https://towardsdatascience.com/water-cooler-small-talk-ep-11-overfitting-in-rag-e...
-- [Amplify the Expert: A Philosophy for Building Enterprise RAG](https://towardsdatascience.com/amplify-the-expert-a-philosophy-for-building-enterprise-rag/)
-  - <p>Enterprise Document Intelligence [Vol.1 #M1] - The thesis behind every architectural choice in this series</p> <p>The post <a href="https://towardsdatascience.com/amplify-the...
 
 ## KDnuggets (data-analysis)
 - [Fine-tuning Language Models on Apple Silicon with MLX](https://www.kdnuggets.com/fine-tuning-language-models-on-apple-silicon-with-mlx)
@@ -29,6 +29,8 @@ Updated: 2026-06-28 06:36 UTC
   - Follow this step-by-step path through the design, decision-making, and leadership skills that move an engineer into the architect's seat.
 
 ## OpenAI News (ai)
+- [HP Inc. launches Frontier strategic partnership with OpenAI](https://openai.com/index/hp-frontier-partnership)
+  - HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.
 - [Previewing GPT-5.6 Sol: a next-generation model](https://openai.com/index/previewing-gpt-5-6-sol)
   - OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.
 - [How agents are transforming work](https://openai.com/index/how-agents-are-transforming-work)
@@ -37,8 +39,6 @@ Updated: 2026-06-28 06:36 UTC
   - OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.
 - [Helping build shared standards for advanced AI](https://openai.com/index/helping-build-shared-standards-for-advanced-ai)
   - OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.
-- [How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery](https://openai.com/index/gpt-5-immunology-mystery)
-  - GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.
 
 ## Google AI Blog (ai)
 - [Our latest Google Finance upgrades, including a new app](https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/)
