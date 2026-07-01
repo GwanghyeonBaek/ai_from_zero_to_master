@@ -1,44 +1,43 @@
 # Latest Learning Resources
 
-Updated: 2026-06-30 06:31 UTC
+Updated: 2026-07-01 06:43 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Context Engineering for RAG : The Four Typed Inputs Behind Every RAG Answer](https://towardsdatascience.com/context-engineering-for-rag-the-four-typed-inputs-behind-every-rag-answer/)
+  - <p>Enterprise Document Intelligence [Vol.1 #7bis] - Tobi Lütke and Andrej Karpathy named the practice in 2025. For a single document, each brick emits typed pieces that converge...
+- [Surviving the Data Science Behavioral Interview](https://towardsdatascience.com/surviving-the-data-science-behavioral-interview/)
+  - <p>In the age of AI, standing out here means a lot more than ever. Here are three tips to walk into your next interview with confidence.</p> <p>The post <a href="https://towards...
+- [How to Maximize Codex Exec Command](https://towardsdatascience.com/how-to-maximize-codex-exec-command/)
+  - <p>Build a more powerful coding agent setup with a model ensemble</p> <p>The post <a href="https://towardsdatascience.com/how-to-maximize-codex-exec-command/">How to Maximize Co...
+- [Stop Choosing Between Local and Cloud LLMs: A Field Guide to Hybrid Patterns](https://towardsdatascience.com/stop-choosing-between-local-and-cloud-llms-a-field-guide-to-hybrid-patterns/)
+  - <p>A hands-on walkthrough of a hybrid local-cloud workflow using Gemma 4 and GPT-5.4, with reasoning and structured outputs</p> <p>The post <a href="https://towardsdatascience.c...
 - [How Far Can Classical NLP Go? From Bag-of-Words to Stacking on Spooky Author Identification](https://towardsdatascience.com/how-far-can-classical-nlp-go-from-bag-of-words-to-stacking-on-spooky-author-identification/)
   - <p>An end-to-end classical NLP experiment on Kaggle’s Spooky Author Identification task: from Vowpal Wabbit and TF-IDF/NB-SVM baselines to a tuned stacked ensemble, with a compa...
-- [Prompt Engineering Fails Quietly — Prompt Regression Is Why](https://towardsdatascience.com/prompt-engineering-fails-quietly-prompt-regression-is-why/)
-  - <p>Small prompt changes can silently break critical behavior in production. This article introduces a practical framework to detect hidden regressions before users notice.</p> <...
-- [I Completed Five Years in Analytics Consulting: 5 Lessons That Changed How I Work](https://towardsdatascience.com/i-completed-five-years-in-analytics-consulting-5-lessons-that-changed-how-i-work/)
-  - <p>The tools I use for analytics and reporting have changed more than I expected, yet my questions for any analytics project haven't moved much.</p> <p>The post <a href="https:/...
-- [How to Choose Between Small and Frontier Models](https://towardsdatascience.com/how-to-choose-between-small-and-frontier-models/)
-  - <p>The rise of small language models</p> <p>The post <a href="https://towardsdatascience.com/how-to-choose-between-small-and-frontier-models/">How to Choose Between Small and Fr...
-- [Tail Control: The Counterintuitive Engineering of Reliable Agentic Workflows](https://towardsdatascience.com/tail-control-the-counterintuitive-engineering-of-reliable-agentic-workflows/)
-  - <p>Behind a customer's API, a high-quality answer isn't enough. It has to be usable, which means on time. Delivering that consistently is a problem about variance, not speed, an...
 
 ## KDnuggets (data-analysis)
+- [Building Local AI Systems: Qwen3.6 + MCPs](https://www.kdnuggets.com/building-local-ai-systems-qwen3-6-mcps)
+  - Define a tool once as an MCP server and any MCP-compatible client, any model, any framework, can discover and call it with zero custom integration code per model.
+- [7 Real-World Python Projects You Can Build in 2026 (With Guides)](https://www.kdnuggets.com/7-real-world-python-projects-you-can-build-in-2026-with-guides)
+  - Check out this practical list of Python projects covering AI automation, machine learning, APIs, dashboards, data analysis, and portfolio-ready apps, with guides, demos, reposit...
 - [Your RAG Pipeline Is Probably Useless. Here’s a Better Alternative](https://www.kdnuggets.com/your-rag-pipeline-is-probably-useless-heres-a-better-alternative)
   - Learn what to reach for when retrieval-augmented generation fails in production.
 - [5 AI Coding Subscription Plans That Give Developers the Best Value](https://www.kdnuggets.com/5-ai-coding-subscription-plans-that-give-developers-the-best-value)
   - This is an opinion-based look at the AI coding subscription plans that I think give developers the best value for their money, from token and usage-based plans to full coding-ag...
 - [Fine-tuning Language Models on Apple Silicon with MLX](https://www.kdnuggets.com/fine-tuning-language-models-on-apple-silicon-with-mlx)
   - Fine-tune open language models locally on your Mac using MLX. No cloud GPUs or costs required.
-- [5 Agentic Workflows to Automate Your Data Science Pipeline](https://www.kdnuggets.com/5-agentic-workflows-to-automate-your-data-science-pipeline)
-  - This article covers five concrete agentic workflows, one for each major stage of a data science pipeline.
-- [Using Gemini to Create Google Sheets](https://www.kdnuggets.com/using-gemini-to-create-google-sheets)
-  - In this tutorial, we will show you how to use Gemini to create Google Sheets, build a useful table, generate formulas, analyze data, and improve the spreadsheet with follow-up p...
 
 ## OpenAI News (ai)
+- [How ChatGPT adoption has expanded](https://openai.com/index/how-chatgpt-adoption-has-expanded)
+  - New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.
+- [Introducing GeneBench-Pro](https://openai.com/index/introducing-genebench-pro)
+  - Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.
+- [Core dump epidemiology: fixing an 18-year-old bug](https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug)
+  - OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.
+- [Inside Genebench-Pro](https://openai.com/index/genebench-pro/case-studies)
 - [Mapping Europe’s AI Workforce Opportunity](https://openai.com/index/mapping-ai-jobs-transition-eu)
   - A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.
-- [HP Inc. launches Frontier strategic partnership with OpenAI](https://openai.com/index/hp-frontier-partnership)
-  - HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.
-- [Previewing GPT-5.6 Sol: a next-generation model](https://openai.com/index/previewing-gpt-5-6-sol)
-  - OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.
-- [How agents are transforming work](https://openai.com/index/how-agents-are-transforming-work)
-  - A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.
-- [OpenAI and Broadcom unveil LLM-optimized inference chip](https://openai.com/index/openai-broadcom-jalapeno-inference-chip)
-  - OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.
 
 ## Google AI Blog (ai)
 - [Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers](https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/)
@@ -53,8 +52,8 @@ Updated: 2026-06-30 06:31 UTC
   - Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…
 
 ## Hugging Face Blog (llm)
+- [ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration](https://huggingface.co/blog/ibm-research/scarfbench)
+- [Why Specialization Is Inevitable](https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable)
+- [Featuring Every Eval Ever Results on Hugging Face Model Pages](https://huggingface.co/blog/eee-community-evals)
 - [DiScoFormer: One transformer for density and score, across distributions](https://huggingface.co/blog/allenai/discoformer)
 - [Run a vLLM Server on HF Jobs in One Command](https://huggingface.co/blog/vllm-jobs)
-- [Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel](https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel)
-- [Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World](https://huggingface.co/blog/ffasr-leaderboard)
-- [Build real agentic apps using CUGA: two dozen working examples on a lightweight harness](https://huggingface.co/blog/ibm-research/cuga-apps)
