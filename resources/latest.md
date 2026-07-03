@@ -1,32 +1,32 @@
 # Latest Learning Resources
 
-Updated: 2026-07-02 06:08 UTC
+Updated: 2026-07-03 06:02 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Tokenminning: How to Get More from Your Chatbot for Less](https://towardsdatascience.com/tokenminning-how-to-get-more-from-your-chatbot-for-less/)
+  - <p>Tokenmaxxing is out. Real patterns for reducing costs without sacrificing AI effectiveness</p> <p>The post <a href="https://towardsdatascience.com/tokenminning-how-to-get-mor...
+- [Design Loops, Not Prompts](https://towardsdatascience.com/design-loops-not-prompts/)
+  - <p>But don't let the model check itself</p> <p>The post <a href="https://towardsdatascience.com/design-loops-not-prompts/">Design Loops, Not Prompts</a> appeared first on <a hre...
+- [Time-Series LLMs, Explained with t0-alpha](https://towardsdatascience.com/time-series-llms-explained-with-t0-alpha/)
+  - <p>t0-alpha is a decoder-style patch transformer for probabilistic time-series forecasting. Raw series are split into 32-step patches, embedded, processed through causal time-at...
+- [The Untaught Lessons of RAG Question Parsing: Structure Before You Search](https://towardsdatascience.com/the-untaught-lessons-of-rag-question-parsing-structure-before-you-search/)
+  - <p>Enterprise Document Intelligence [Vol.1 #6ter] - Six positions on the question-parsing brick that contradict the mainstream RAG playbook</p> <p>The post <a href="https://towa...
 - [Why Powerful ML Is Deceptively Easy — Part 2](https://towardsdatascience.com/why-powerful-ml-is-deceptively-easy-part-2/)
   - <p>The next leakage problem is not only temporal. It is spatial, structural, and coverage-related. AI-generated illustration created with DALL·E</p> <p>The post <a href="https:/...
-- [Persistent Latent Memory for Multi-Hop LLM Agents: How a 6G Handover Paper Closes the Agent Cold-Start](https://towardsdatascience.com/persistent-latent-memory-for-multi-hop-llm-agents-how-a-6g-handover-paper-closes-the-agent-cold-start/)
-  - <p>Every hand-off in your multi-agent pipeline is an expensive tokenization round-trip. Discover how Inductive Latent Context Persistence (ILCP) transfers a compressed hidden st...
-- [What Can We Do When Memory Becomes the New Bottleneck in Data Engineering?](https://towardsdatascience.com/when-memory-becomes-the-new-bottleneck-in-data-engineering-what-can-we-do/)
-  - <p>How Pandas chunking, Dask, and Polars help process millions of records when adding more compute isn't an option.</p> <p>The post <a href="https://towardsdatascience.com/when-...
-- [Build and Run Your Own AI Agent in the Cloud](https://towardsdatascience.com/build-and-run-your-own-ai-agent-in-the-cloud/)
-  - <p>Build and deploy an agent on AWS with Strands and AgentCore</p> <p>The post <a href="https://towardsdatascience.com/build-and-run-your-own-ai-agent-in-the-cloud/">Build and R...
-- [Context Engineering for RAG : The Four Typed Inputs Behind Every RAG Answer](https://towardsdatascience.com/context-engineering-for-rag-the-four-typed-inputs-behind-every-rag-answer/)
-  - <p>Enterprise Document Intelligence [Vol.1 #7bis] - Tobi Lütke and Andrej Karpathy named the practice in 2025. For a single document, each brick emits typed pieces that converge...
 
 ## KDnuggets (data-analysis)
+- [10 Agentic AI Frameworks You Should Know in 2026](https://www.kdnuggets.com/10-agentic-ai-frameworks-you-should-know-in-2026)
+  - LangGraph, CrewAI, OpenAI Agents SDK, Google ADK, Mastra, and more. If you're building AI agents in 2026, these are the frameworks worth paying attention to before starting your...
+- [Humanity’s Last Exam is a Distraction](https://www.kdnuggets.com/humanitys-last-exam-is-a-distraction)
+  - This article takes a gentle dive into the ultimate AI systems evaluation benchmark, outlining why it was created, curating diverse opinions from groups of experts in the field a...
 - [5 AI Coding Platforms to Build Apps Without the Headache](https://www.kdnuggets.com/5-ai-coding-platforms-to-build-apps-without-the-headache)
   - Explore the best AI coding platforms, no-code app builders, and vibe coding tools that help beginners and developers build, test, and deploy full-stack apps using simple prompts.
 - [Building Local AI Systems: Qwen3.6 + MCPs](https://www.kdnuggets.com/building-local-ai-systems-qwen3-6-mcps)
   - Define a tool once as an MCP server and any MCP-compatible client, any model, any framework, can discover and call it with zero custom integration code per model.
 - [7 Real-World Python Projects You Can Build in 2026 (With Guides)](https://www.kdnuggets.com/7-real-world-python-projects-you-can-build-in-2026-with-guides)
   - Check out this practical list of Python projects covering AI automation, machine learning, APIs, dashboards, data analysis, and portfolio-ready apps, with guides, demos, reposit...
-- [Your RAG Pipeline Is Probably Useless. Here’s a Better Alternative](https://www.kdnuggets.com/your-rag-pipeline-is-probably-useless-heres-a-better-alternative)
-  - Learn what to reach for when retrieval-augmented generation fails in production.
-- [5 AI Coding Subscription Plans That Give Developers the Best Value](https://www.kdnuggets.com/5-ai-coding-subscription-plans-that-give-developers-the-best-value)
-  - This is an opinion-based look at the AI coding subscription plans that I think give developers the best value for their money, from token and usage-based plans to full coding-ag...
 
 ## OpenAI News (ai)
 - [How ChatGPT adoption has expanded](https://openai.com/index/how-chatgpt-adoption-has-expanded)
