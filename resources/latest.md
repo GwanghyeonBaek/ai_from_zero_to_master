@@ -1,22 +1,24 @@
 # Latest Learning Resources
 
-Updated: 2026-07-03 06:02 UTC
+Updated: 2026-07-04 05:54 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [AI Agents Explained: What Is a ReAct Loop and How Does It Work?](https://towardsdatascience.com/ai-agents-explained-what-is-a-react-loop-and-how-does-it-work/)
+  - <p>How agents reason, act, and observe their way to a final answer, one step at a time</p> <p>The post <a href="https://towardsdatascience.com/ai-agents-explained-what-is-a-reac...
+- [Long Context vs. Short Context Model: When Does a Long Context Model Win?](https://towardsdatascience.com/long-context-vs-short-context-model-when-does-a-long-context-model-win/)
+  - <p>Balancing context capability against cost, speed, and data</p> <p>The post <a href="https://towardsdatascience.com/long-context-vs-short-context-model-when-does-a-long-contex...
+- [LLM Wikis Are Over-Engineered — I Replaced Mine With a Pure Python Compiler](https://towardsdatascience.com/llm-wikis-are-over-engineered-i-replaced-mine-with-a-pure-python-compiler/)
+  - <p>Most "LLM wikis" use agents, embeddings, and repeated model calls to organize local notes. I built a deterministic alternative: a pure Python compiler that turns messy markdo...
+- [The Untaught Lessons of RAG Retrieval: Cosine Is Not the Foundation](https://towardsdatascience.com/the-untaught-lessons-of-rag-retrieval-cosine-is-not-the-foundation/)
+  - <p>Enterprise Document Intelligence [Vol.1 #7ter] - Six positions on the retrieval brick that contradict the cosine-first reflex of mainstream RAG</p> <p>The post <a href="https...
 - [Tokenminning: How to Get More from Your Chatbot for Less](https://towardsdatascience.com/tokenminning-how-to-get-more-from-your-chatbot-for-less/)
   - <p>Tokenmaxxing is out. Real patterns for reducing costs without sacrificing AI effectiveness</p> <p>The post <a href="https://towardsdatascience.com/tokenminning-how-to-get-mor...
-- [Design Loops, Not Prompts](https://towardsdatascience.com/design-loops-not-prompts/)
-  - <p>But don't let the model check itself</p> <p>The post <a href="https://towardsdatascience.com/design-loops-not-prompts/">Design Loops, Not Prompts</a> appeared first on <a hre...
-- [Time-Series LLMs, Explained with t0-alpha](https://towardsdatascience.com/time-series-llms-explained-with-t0-alpha/)
-  - <p>t0-alpha is a decoder-style patch transformer for probabilistic time-series forecasting. Raw series are split into 32-step patches, embedded, processed through causal time-at...
-- [The Untaught Lessons of RAG Question Parsing: Structure Before You Search](https://towardsdatascience.com/the-untaught-lessons-of-rag-question-parsing-structure-before-you-search/)
-  - <p>Enterprise Document Intelligence [Vol.1 #6ter] - Six positions on the question-parsing brick that contradict the mainstream RAG playbook</p> <p>The post <a href="https://towa...
-- [Why Powerful ML Is Deceptively Easy — Part 2](https://towardsdatascience.com/why-powerful-ml-is-deceptively-easy-part-2/)
-  - <p>The next leakage problem is not only temporal. It is spatial, structural, and coverage-related. AI-generated illustration created with DALL·E</p> <p>The post <a href="https:/...
 
 ## KDnuggets (data-analysis)
+- [Getting Started with the Claude API in Python](https://www.kdnuggets.com/getting-started-with-the-claude-api-in-python)
+  - In this article, you'll learn how to use the Claude API in Python, make your first request, and handle responses with the official SDK.
 - [10 Agentic AI Frameworks You Should Know in 2026](https://www.kdnuggets.com/10-agentic-ai-frameworks-you-should-know-in-2026)
   - LangGraph, CrewAI, OpenAI Agents SDK, Google ADK, Mastra, and more. If you're building AI agents in 2026, these are the frameworks worth paying attention to before starting your...
 - [Humanity’s Last Exam is a Distraction](https://www.kdnuggets.com/humanitys-last-exam-is-a-distraction)
@@ -25,8 +27,6 @@ Updated: 2026-07-03 06:02 UTC
   - Explore the best AI coding platforms, no-code app builders, and vibe coding tools that help beginners and developers build, test, and deploy full-stack apps using simple prompts.
 - [Building Local AI Systems: Qwen3.6 + MCPs](https://www.kdnuggets.com/building-local-ai-systems-qwen3-6-mcps)
   - Define a tool once as an MCP server and any MCP-compatible client, any model, any framework, can discover and call it with zero custom integration code per model.
-- [7 Real-World Python Projects You Can Build in 2026 (With Guides)](https://www.kdnuggets.com/7-real-world-python-projects-you-can-build-in-2026-with-guides)
-  - Check out this practical list of Python projects covering AI automation, machine learning, APIs, dashboards, data analysis, and portfolio-ready apps, with guides, demos, reposit...
 
 ## OpenAI News (ai)
 - [How ChatGPT adoption has expanded](https://openai.com/index/how-chatgpt-adoption-has-expanded)
