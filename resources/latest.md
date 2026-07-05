@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-07-04 05:54 UTC
+Updated: 2026-07-05 06:14 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Setting Up Your Own Large Language Model](https://towardsdatascience.com/setting-up-your-own-large-language-model/)
+  - <p>Still a long way to go, but the future is promising</p> <p>The post <a href="https://towardsdatascience.com/setting-up-your-own-large-language-model/">Setting Up Your Own Lar...
+- [Stop Returning Text from RAG: The Typed Answer Contract That Prevents Hallucination](https://towardsdatascience.com/stop-returning-text-from-rag-the-typed-answer-contract-that-prevents-hallucination/)
+  - <p>Enterprise Document Intelligence [Vol.1 #8A] - The schema is the contract: every field is a question the pipeline asks the model, and every answer is checkable</p> <p>The pos...
 - [AI Agents Explained: What Is a ReAct Loop and How Does It Work?](https://towardsdatascience.com/ai-agents-explained-what-is-a-react-loop-and-how-does-it-work/)
   - <p>How agents reason, act, and observe their way to a final answer, one step at a time</p> <p>The post <a href="https://towardsdatascience.com/ai-agents-explained-what-is-a-reac...
 - [Long Context vs. Short Context Model: When Does a Long Context Model Win?](https://towardsdatascience.com/long-context-vs-short-context-model-when-does-a-long-context-model-win/)
   - <p>Balancing context capability against cost, speed, and data</p> <p>The post <a href="https://towardsdatascience.com/long-context-vs-short-context-model-when-does-a-long-contex...
 - [LLM Wikis Are Over-Engineered — I Replaced Mine With a Pure Python Compiler](https://towardsdatascience.com/llm-wikis-are-over-engineered-i-replaced-mine-with-a-pure-python-compiler/)
   - <p>Most "LLM wikis" use agents, embeddings, and repeated model calls to organize local notes. I built a deterministic alternative: a pure Python compiler that turns messy markdo...
-- [The Untaught Lessons of RAG Retrieval: Cosine Is Not the Foundation](https://towardsdatascience.com/the-untaught-lessons-of-rag-retrieval-cosine-is-not-the-foundation/)
-  - <p>Enterprise Document Intelligence [Vol.1 #7ter] - Six positions on the retrieval brick that contradict the cosine-first reflex of mainstream RAG</p> <p>The post <a href="https...
-- [Tokenminning: How to Get More from Your Chatbot for Less](https://towardsdatascience.com/tokenminning-how-to-get-more-from-your-chatbot-for-less/)
-  - <p>Tokenmaxxing is out. Real patterns for reducing costs without sacrificing AI effectiveness</p> <p>The post <a href="https://towardsdatascience.com/tokenminning-how-to-get-mor...
 
 ## KDnuggets (data-analysis)
 - [Getting Started with the Claude API in Python](https://www.kdnuggets.com/getting-started-with-the-claude-api-in-python)
