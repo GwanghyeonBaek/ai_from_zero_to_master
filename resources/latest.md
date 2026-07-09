@@ -1,22 +1,24 @@
 # Latest Learning Resources
 
-Updated: 2026-07-08 05:30 UTC
+Updated: 2026-07-09 06:14 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [The Real Challenge Limiting AI Models Today](https://towardsdatascience.com/the-real-challenge-limiting-ai-models-today/)
+  - <p>Hint: it is not GPU speed!</p> <p>The post <a href="https://towardsdatascience.com/the-real-challenge-limiting-ai-models-today/">The Real Challenge Limiting AI Models Today</...
+- [Redesign Work Before You Add More AI Agents](https://towardsdatascience.com/redesign-work-before-you-add-more-ai-agents/)
+  - <p>Map AI value, design workflows, redefine talent, upgrade the executive team, and measure the business impact.</p> <p>The post <a href="https://towardsdatascience.com/redesign...
+- [Inside the Subspace Where Spurious Correlations Are Born](https://towardsdatascience.com/inside-the-subspace-where-spurious-correlations-are-born/)
+  - <p>Why small samples can produce large correlations by chance, and why large does not always mean meaningful</p> <p>The post <a href="https://towardsdatascience.com/inside-the-s...
+- [The Threshold Is a Price, Not a Percentage](https://towardsdatascience.com/the-threshold-is-a-price-not-a-percentage/)
+  - <p>How to decide when an AI agent should act on its own by using cost asymmetry instead of a fixed confidence cutoff</p> <p>The post <a href="https://towardsdatascience.com/the-...
 - [Information Theory and Ensemble Models](https://towardsdatascience.com/information-theory-and-ensemble-models-ded31db10d8/)
   - <p>How should we ensemble time-series forecasts better?</p> <p>The post <a href="https://towardsdatascience.com/information-theory-and-ensemble-models-ded31db10d8/">Information ...
-- [Granger Causal Networks and Indirect Feedback](https://towardsdatascience.com/granger-causal-networks-and-indirect-feedback-676549ba99e/)
-  - <p>A non-parametric variable selection for Structural VARs</p> <p>The post <a href="https://towardsdatascience.com/granger-causal-networks-and-indirect-feedback-676549ba99e/">Gr...
-- [Measuring Structure Stability of Econometric Models](https://towardsdatascience.com/measuring-structure-stability-of-econometric-models-d8eb3a56e1bd/)
-  - <p>The simplest most important idea for time series forecasting</p> <p>The post <a href="https://towardsdatascience.com/measuring-structure-stability-of-econometric-models-d8eb3...
-- [A Production RAG Pipeline for PDFs: Relational Parsing, TOC Retrieval, Typed Answers](https://towardsdatascience.com/a-production-rag-pipeline-for-pdfs-relational-parsing-toc-retrieval-typed-answers/)
-  - <p>Enterprise Document Intelligence [Vol.1 #9A] - Same paper, same question as Article 1. One upgraded contract per brick: document parsing, question parsing, retrieval, generat...
-- [Proxy-Pointer RAG: Temporal Reasoning Without Semantic Precompilation](https://towardsdatascience.com/proxy-pointer-rag-temporal-reasoning-without-semantic-precompilation/)
-  - <p>A technical comparison of Proxy-Pointer and LLM-Wiki</p> <p>The post <a href="https://towardsdatascience.com/proxy-pointer-rag-temporal-reasoning-without-semantic-precompilat...
 
 ## KDnuggets (data-analysis)
+- [How to Clean Messy CSV Files with Python: A Beginner’s Guide](https://www.kdnuggets.com/how-to-clean-messy-csv-files-with-python-a-beginners-guide)
+  - Learn how to clean CSV files with pandas by handling missing values, duplicate rows, messy text, wrong data types, mixed date formats, invalid emails, and currency values.
 - [SQL vs Pandas vs AI Agents: Which Solves Analytics Problems Best?](https://www.kdnuggets.com/sql-vs-pandas-vs-ai-agents-which-solves-analytics-problems-best)
   - Same three analytics problems, three tools, eight dimensions, measured with real execution times and real agent prompts.
 - [Zero-Shot Local Document Parsing with Gemma 4: Treating PDFs as Images](https://www.kdnuggets.com/zero-shot-local-document-parsing-with-gemma-4-treating-pdfs-as-images)
@@ -25,20 +27,18 @@ Updated: 2026-07-08 05:30 UTC
   - A model is almost never 100% sure of anything. These 10 probability concepts explain how it makes decisions anyway.
 - [Data Scientists Are Becoming AI Managers, Not Model Builders](https://www.kdnuggets.com/data-scientists-are-becoming-ai-managers-not-model-builders)
   - The role is shifting from building models to managing them.
-- [Getting Started with Hugging Face ML Intern: Your First ML Agent](https://www.kdnuggets.com/getting-started-with-hugging-face-ml-intern-your-first-ml-agent)
-  - You describe the model. It writes the code, runs the training, and ships the checkpoint. Welcome to ML Intern.
 
 ## OpenAI News (ai)
+- [Our approach to government and national security partnerships](https://openai.com/index/government-national-security-partnerships)
+  - Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.
+- [Separating signal from noise in coding evaluations](https://openai.com/index/separating-signal-from-noise-coding-evaluations)
+  - A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.
+- [Helping K–12 educators build practical AI skills](https://openai.com/index/k-12-educators-practical-skills)
+  - OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.
+- [Introducing GPT-Live](https://openai.com/index/introducing-gpt-live)
+  - A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.
 - [Australian Payments Plus moves faster with ChatGPT and Codex](https://openai.com/index/australian-payments-plus)
   - See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.
-- [MUFG aims to become AI-native with OpenAI](https://openai.com/index/mufg)
-  - MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.
-- [How ChatGPT adoption has expanded](https://openai.com/index/how-chatgpt-adoption-has-expanded)
-  - New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.
-- [Core dump epidemiology: fixing an 18-year-old bug](https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug)
-  - OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.
-- [Introducing GeneBench-Pro](https://openai.com/index/introducing-genebench-pro)
-  - Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.
 
 ## Google AI Blog (ai)
 - [Expanding Managed Agents in Gemini API: background tasks, remote MCP and more](https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/)
@@ -53,8 +53,8 @@ Updated: 2026-07-08 05:30 UTC
   - An illustration depicting a full-stack AI infrastructure against a dark background
 
 ## Hugging Face Blog (llm)
+- [Data for Agents](https://huggingface.co/blog/nvidia/open-data-for-agents)
+- [Native-speed vLLM transformers modeling backend](https://huggingface.co/blog/native-speed-vllm-transformers-backend)
 - [From Hugging Face to Amazon SageMaker Studio in one click](https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio)
 - [Hugging Face Models on Foundry Managed Compute](https://huggingface.co/blog/microsoft/foundry-managed-compute)
 - [Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot](https://huggingface.co/blog/skypilot-hf-storage)
-- [LeRobot v0.6.0: Imagine, Evaluate, Improve](https://huggingface.co/blog/lerobot-release-v060)
-- [PRX Part 4: Our Data Strategy](https://huggingface.co/blog/Photoroom/prx-part4-data)
