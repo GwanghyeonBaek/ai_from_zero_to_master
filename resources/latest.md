@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-07-11 05:21 UTC
+Updated: 2026-07-12 05:37 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Long Context Isn’t Free — I Built a Safe Prompt-Pruning Layer That Makes LLM Systems Work](https://towardsdatascience.com/long-context-isnt-free-i-built-a-safe-prompt-pruning-layer-that-makes-llm-systems-work/)
+  - <p>LLMs don’t fail because they forget—they fail because they remember too much. As conversations grow, prompts accumulate redundant and low-value tokens, driving up cost and la...
+- [That Is Embarrassing: Why Frontier AI Still Makes Things Up, and What to Do About It](https://towardsdatascience.com/that-is-embarrassing-why-frontier-ai-still-makes-things-up-and-what-to-do-about-it/)
+  - <p>The best AI models still hallucinate. These hallucinations are sometimes funny, and sometimes cause actual damage. In this post we will consider recent tales of AI hallucinat...
 - [I Built My Second ETL Pipeline. This Time, I Started Thinking Like a Data Engineer](https://towardsdatascience.com/i-built-my-second-etl-pipeline-this-time-i-started-thinking-like-a-data-engineer/)
   - <p>Building a production-ready RSS pipeline with Python, Docker, PostgreSQL, and Kestra</p> <p>The post <a href="https://towardsdatascience.com/i-built-my-second-etl-pipeline-th...
 - [PySpark for Beginners: Building Intermediate-Level Skills](https://towardsdatascience.com/pyspark-for-beginners-building-intermediate-level-skills/)
   - <p>A practical next step into partitions, shuffles, joins, caching, and execution plans.</p> <p>The post <a href="https://towardsdatascience.com/pyspark-for-beginners-building-i...
 - [RAG Was Always a Temporary Workaround. What is Next?](https://towardsdatascience.com/rag-was-always-a-temporary-workaround-what-is-next/)
   - <p>Vector databases are a temporary bridge. Discover why the next AI infrastructure revolution relies on persistent neural state and strict latency budgets, not on vector databa...
-- [The Big Con of Agentic AI](https://towardsdatascience.com/the-big-con-of-agentic-ai/)
-  - <p>What our over-dependence on external consulting teaches us about delegating our minds to machines</p> <p>The post <a href="https://towardsdatascience.com/the-big-con-of-agent...
-- [Behind the Scenes of Distributed Training and Why Your GPU Wiring Matters as Much as Your Strategy](https://towardsdatascience.com/behind-the-scenes-of-distributed-training-why-your-gpu-wiring-matters-as-much-as-your-strategy/)
-  - <p>A measured look at distributed training, from DDP and FSDP to the ZeRO stages in between, and why the wiring between your GPUs matters as much as the strategy you choose</p> ...
 
 ## KDnuggets (data-analysis)
 - [Fine-Tuning Explained for Noobs (How Pretrained Models Learn New Skills)](https://www.kdnuggets.com/fine-tuning-explained-for-noobs-how-pretrained-models-learn-new-skills)
