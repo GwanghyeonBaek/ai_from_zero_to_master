@@ -1,60 +1,60 @@
 # Latest Learning Resources
 
-Updated: 2026-07-16 05:18 UTC
+Updated: 2026-07-17 05:21 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Prepare These 5 Assets Before Your AI Agents Take On More Work](https://towardsdatascience.com/prepare-these-5-assets-before-your-ai-agents-take-on-more-work/)
+  - <p>How to define recurring work, give AI the right context, explain what high-quality work looks like, and decide where human judgment is still needed.</p> <p>The post <a href="...
+- [Context Engineering for RAG Question Parsing: From a Raw Question to Typed Fields That Steer Retrieval and Generation](https://towardsdatascience.com/context-engineering-for-rag-question-parsing-from-a-raw-question-to-typed-fields-that-steer-retrieval-and-generation/)
+  - <p>Enterprise Document Intelligence [Vol.1 #6quater] - Question parsing takes one messy string and writes four typed pieces, each read by a different downstream call</p> <p>The ...
+- [How to Get the Most Out of Claude Fable 5](https://towardsdatascience.com/how-to-get-the-most-out-of-claude-fable-5/)
+  - <p>Maximize your Claude Fable 5 usage</p> <p>The post <a href="https://towardsdatascience.com/how-to-get-the-most-out-of-claude-fable-5/">How to Get the Most Out of Claude Fable...
+- [Why Your Betas Explode: The Hidden Geometry of Multicollinearity](https://towardsdatascience.com/why-your-betas-explode-the-hidden-geometry-of-multicollinearity/)
+  - <p>Why your regression coefficients keep changing, and what geometry has to do with it.</p> <p>The post <a href="https://towardsdatascience.com/why-your-betas-explode-the-hidden...
 - [Don’t Let Claude Grade Its Own Homework](https://towardsdatascience.com/dont-let-claude-gaslight-you/)
   - <p>Cross-provider PR review with Codex in GitHub Actions, and why a second opinion from a different lab beats any self-review</p> <p>The post <a href="https://towardsdatascience...
-- [Building Trustworthy Production RAG Systems Through Continuous Evaluation](https://towardsdatascience.com/building-trustworthy-production-rag-systems-through-continuous-evaluation/)
-  - <p>A practical guide to building an evaluation workflow that catches retrieval failures, hallucinations, and performance drift before they reach users</p> <p>The post <a href="h...
-- [How I Mastered Data Structures and Algorithms for ML (In 6 Weeks)](https://towardsdatascience.com/how-i-mastered-data-structures-algorithms-for-ml-in-6-weeks/)
-  - <p>The strategies, questions, and process I used to ace coding interviews.</p> <p>The post <a href="https://towardsdatascience.com/how-i-mastered-data-structures-algorithms-for-...
-- [Most RAG Hallucinations Are Retrieval Failures: How the Retrieval Brick Decides What the Model Can Invent](https://towardsdatascience.com/most-rag-hallucinations-are-retrieval-failures-how-the-retrieval-brick-decides-what-the-model-can-invent/)
-  - <p>Enterprise Document Intelligence [Vol.1 #7quinquies] - Hallucination is usually garbage-in. Fix retrieval, and the model has nothing left to make up</p> <p>The post <a href="...
-- [How I’m Making Sure My Analytics Career Doesn’t Get Eaten by AI](https://towardsdatascience.com/how-im-making-sure-my-analytics-career-doesnt-get-eaten-by-ai/)
-  - <p>The analytics career I signed up for five years ago doesn't exist anymore, and honestly, I am fine with that.</p> <p>The post <a href="https://towardsdatascience.com/how-im-m...
 
 ## KDnuggets (data-analysis)
+- [Working with Pi Coding Agents](https://www.kdnuggets.com/working-with-pi-coding-agents)
+  - The most interesting thing about Pi isn't any single feature; it's that the project treats "what we didn't build" as documentation worth writing, which is rare enough on its own...
+- [10 YouTube Channels Keeping You Ahead in AI](https://www.kdnuggets.com/10-youtube-channels-keeping-you-ahead-in-ai)
+  - Explore 10 YouTube channels for AI engineers covering paper breakdowns, coding tutorials, and industry analysis.
 - [Stop Using If-Else Chains: Use the Registry Pattern in Python Instead](https://www.kdnuggets.com/stop-using-if-else-chains-use-the-registry-pattern-in-python-instead)
   - Learn a cleaner, more extensible way to dispatch logic in Python.
 - [7 Python Frameworks for Orchestrating Local AI Agents](https://www.kdnuggets.com/7-python-frameworks-for-orchestrating-local-ai-agents)
   - This article contains seven Python tools that engineers are actually using in 2026 to build, coordinate, and run agents on local infrastructure.
 - [Getting Started with Conductor for Gemini CLI](https://www.kdnuggets.com/getting-started-with-conductor-for-gemini-cli)
   - Conductor is a Gemini CLI extension built to fix your context problems. Learn all about it here.
-- [12 Ways to Reduce LLM Latency and Inference Costs in Production](https://www.kdnuggets.com/12-ways-to-reduce-llm-latency-and-inference-costs-in-production)
-  - Scaling LLMs isn’t about adding GPUs. It’s about removing wasted work from every request.
-- [Structured Language Model Generation with Outlines](https://www.kdnuggets.com/structured-language-model-generation-with-outlines)
-  - Outlines is an open-source library that introduces deterministic certainty into LLMs' output generation process for better, more reliable generation of structured outputs.
 
 ## OpenAI News (ai)
+- [Why teens deserve access to safe AI](https://openai.com/index/why-teens-deserve-access-safe-ai)
+  - Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.
+- [How Cars24 scales conversations and builds faster with OpenAI](https://openai.com/index/cars24)
+  - Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.
 - [The US is advancing AI safety through state and federal action](https://openai.com/index/advancing-ai-safety-through-state-and-federal-action)
   - OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.
 - [GPT-Red: Unlocking Self-Improvement for Robustness](https://openai.com/index/unlocking-self-improvement-gpt-red)
   - Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.
 - [How to manage AI investments in the agentic era](https://openai.com/index/managing-ai-investments-in-agentic-era)
   - Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.
-- [How sales teams use ChatGPT Work](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex)
-  - See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.
-- [How data science teams use ChatGPT Work](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex)
-  - See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.
 
 ## Google AI Blog (ai)
+- [Connect more of your apps to Search](https://blog.google/products-and-platforms/products/search/connected-apps/)
+  - Connected apps rendering
+- [Create, edit and star in videos with two Google Vids updates](https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/)
+  - Text "Gemini Omni and Personal Avatars in Google Vids" surrounded by various images
 - [Celebrating 25 years of visual search innovation](https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/)
   - Google Images logo surrounded by illustrations of people searching for different images
 - [Expanding Managed Agents in Gemini API: background tasks, remote MCP and more](https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/)
   - Managed agents feature bundle launch
 - [The latest AI news we announced in June 2026](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/)
   - June Pixel Drop hero
-- [New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.](https://blog.google/products-and-platforms/products/education/nyc-ai-summit/)
-  - <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp" />Google, the New York Jobs CEO Council and Urban Assembly...
-- [Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers](https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/)
-  - Four illustrated characters representing different professional roles, including a scientist, technician, explorer, and observer.
 
 ## Hugging Face Blog (llm)
+- [NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval](https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb)
+- [Newer Models, Same Advantage](https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages)
+- [Security incident disclosure — July 2026](https://huggingface.co/blog/security-incident-july-2026)
 - [What building Shippy taught us about building agents](https://huggingface.co/blog/allenai/shippy-tech-blog)
 - [Model Routing Is Simple. Until It Isn’t.](https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt)
-- [Welcome Inkling by Thinking Machines](https://huggingface.co/blog/thinkingmachines-inkling)
-- [Introducing Real World VoiceEQ: Measuring the human quality of voice AI](https://huggingface.co/blog/real-world-voiceeq)
-- [Profiling in PyTorch (Part 3): Attention is all you profile](https://huggingface.co/blog/torch-attention-profile)
