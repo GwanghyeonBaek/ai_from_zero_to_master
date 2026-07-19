@@ -1,22 +1,24 @@
 # Latest Learning Resources
 
-Updated: 2026-07-18 05:04 UTC
+Updated: 2026-07-19 05:31 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Many Companies Use AI. Few Know How to Build an AI-Native Enterprise Data Platform.](https://towardsdatascience.com/many-companies-use-ai-few-know-how-to-build-an-ai-native-enterprise-data-platform/)
+  - <p>A practical enterprise AI architecture with data agents, AI-powered QA, and AI governance.</p> <p>The post <a href="https://towardsdatascience.com/many-companies-use-ai-few-k...
+- [Loop Engineering with Adaptive PDF Parsing: Start Cheap, Pay for a Heavier Parser Only When the Page Needs It](https://towardsdatascience.com/loop-engineering-with-adaptive-pdf-parsing-start-cheap-pay-for-a-heavier-parser-only-when-the-page-needs-it/)
+  - <p>Enterprise Document Intelligence [Vol.1 #10A] - The escalation cascade and the free, deterministic checks that flag a failed parse before you pay for a deeper one</p> <p>The ...
+- [How to Improve Customer Retention in FinTech](https://towardsdatascience.com/how-to-improve-customer-retention-in-digital-banking/)
+  - <p>A practical guide to combining pre-churn scoring with uplift modelling for smarter retention.</p> <p>The post <a href="https://towardsdatascience.com/how-to-improve-customer-...
 - [How to Work Effectively with GPT-5.6](https://towardsdatascience.com/how-to-work-effectively-with-gpt-5-6/)
   - <p>Maximize the latest OpenAI model</p> <p>The post <a href="https://towardsdatascience.com/how-to-work-effectively-with-gpt-5-6/">How to Work Effectively with GPT-5.6</a> appea...
 - [Using Classical ML to Empower AI Agents](https://towardsdatascience.com/using-classical-ml-to-empower-ai-agents/)
   - <p>On the value of building on existing foundations</p> <p>The post <a href="https://towardsdatascience.com/using-classical-ml-to-empower-ai-agents/">Using Classical ML to Empow...
-- [Context Engineering Isn’t Enough — A Loop Engineering Experiment With No LLM Inside the Loop](https://towardsdatascience.com/context-engineering-isnt-enough-a-loop-engineering-experiment-with-no-llm-inside-the-loop/)
-  - <p>Everyone is talking about loop engineering, but most discussions assume an LLM sits at the center of the loop. I wanted to isolate the architecture itself. So I built a deter...
-- [Analog AI Is Back, But Can It Survive Its Own Noise?](https://towardsdatascience.com/analog-ai-is-back-can-it-survive-its-own-noise/)
-  - <p>AI's energy crisis is reviving an old idea: computing with physics instead of digital logic. Here's how analog chips actually work, why noise nearly killed the idea once alre...
-- [One RAG Pipeline, Four Very Different PDFs: Same Four Bricks, Every Answer Typed and Cited](https://towardsdatascience.com/one-rag-pipeline-four-very-different-pdfs-same-four-bricks-every-answer-typed-and-cited/)
-  - <p>Enterprise Document Intelligence [Vol.1 #9B] - One call wires the four upgraded bricks together, run on a paper, a NIST standard, and a report with a broken TOC</p> <p>The po...
 
 ## KDnuggets (data-analysis)
+- [KDnuggets Weekly Roundup: Week of July 13, 2026](https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-13)
+  - Stop Using If-Else Chains: Use the Registry Pattern in Python Instead • 5 Real-World SQL Projects to Build Your Data Portfolio • 10 YouTube Channels Keeping You Ahead in AI • St...
 - [Git Worktrees for AI Development](https://www.kdnuggets.com/git-worktrees-for-ai-development)
   - A Git worktree is a separate directory checked out from the same repository. You can have as many as you need, each on its own branch, all coexisting simultaneously on your file...
 - [5 FREE Resources on Agentic AI](https://www.kdnuggets.com/5-free-resources-on-agentic-ai)
@@ -25,8 +27,6 @@ Updated: 2026-07-18 05:04 UTC
   - The most interesting thing about Pi isn't any single feature; it's that the project treats "what we didn't build" as documentation worth writing, which is rare enough on its own...
 - [10 YouTube Channels Keeping You Ahead in AI](https://www.kdnuggets.com/10-youtube-channels-keeping-you-ahead-in-ai)
   - Explore 10 YouTube channels for AI engineers covering paper breakdowns, coding tutorials, and industry analysis.
-- [Stop Using If-Else Chains: Use the Registry Pattern in Python Instead](https://www.kdnuggets.com/stop-using-if-else-chains-use-the-registry-pattern-in-python-instead)
-  - Learn a cleaner, more extensible way to dispatch logic in Python.
 
 ## OpenAI News (ai)
 - [A scorecard for the AI age](https://openai.com/index/a-scorecard-for-the-ai-age)
