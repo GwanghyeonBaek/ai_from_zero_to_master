@@ -1,22 +1,24 @@
 # Latest Learning Resources
 
-Updated: 2026-07-19 05:31 UTC
+Updated: 2026-07-20 05:48 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Backpropagation Explained for Beginners (Part 1): Building the Intuition](https://towardsdatascience.com/backpropagation-explained-for-beginners-part-1-building-the-intuition/)
+  - <p>Let's discover how neural networks learn, step by step</p> <p>The post <a href="https://towardsdatascience.com/backpropagation-explained-for-beginners-part-1-building-the-int...
+- [Loop Engineering for RAG Question Parsing: The Small Loop That Runs Before Retrieval](https://towardsdatascience.com/loop-engineering-for-rag-question-parsing-the-small-loop-that-runs-before-retrieval/)
+  - <p>Enterprise Document Intelligence [Vol.1 #6quinquies] - Prompt engineering, then context engineering, then loop engineering. On the question side, the loop is small by design:...
+- [Your AI Agent Passed Every Eval. Finance Still Killed It.](https://towardsdatascience.com/your-ai-agent-passed-every-eval-finance-still-killed-it/)
+  - <p>An AI agent passed every metric in the eval harness I published, then the CFO killed it — its successful resolutions cost more than the humans it replaced.<br /> The one metr...
 - [Many Companies Use AI. Few Know How to Build an AI-Native Enterprise Data Platform.](https://towardsdatascience.com/many-companies-use-ai-few-know-how-to-build-an-ai-native-enterprise-data-platform/)
   - <p>A practical enterprise AI architecture with data agents, AI-powered QA, and AI governance.</p> <p>The post <a href="https://towardsdatascience.com/many-companies-use-ai-few-k...
 - [Loop Engineering with Adaptive PDF Parsing: Start Cheap, Pay for a Heavier Parser Only When the Page Needs It](https://towardsdatascience.com/loop-engineering-with-adaptive-pdf-parsing-start-cheap-pay-for-a-heavier-parser-only-when-the-page-needs-it/)
   - <p>Enterprise Document Intelligence [Vol.1 #10A] - The escalation cascade and the free, deterministic checks that flag a failed parse before you pay for a deeper one</p> <p>The ...
-- [How to Improve Customer Retention in FinTech](https://towardsdatascience.com/how-to-improve-customer-retention-in-digital-banking/)
-  - <p>A practical guide to combining pre-churn scoring with uplift modelling for smarter retention.</p> <p>The post <a href="https://towardsdatascience.com/how-to-improve-customer-...
-- [How to Work Effectively with GPT-5.6](https://towardsdatascience.com/how-to-work-effectively-with-gpt-5-6/)
-  - <p>Maximize the latest OpenAI model</p> <p>The post <a href="https://towardsdatascience.com/how-to-work-effectively-with-gpt-5-6/">How to Work Effectively with GPT-5.6</a> appea...
-- [Using Classical ML to Empower AI Agents](https://towardsdatascience.com/using-classical-ml-to-empower-ai-agents/)
-  - <p>On the value of building on existing foundations</p> <p>The post <a href="https://towardsdatascience.com/using-classical-ml-to-empower-ai-agents/">Using Classical ML to Empow...
 
 ## KDnuggets (data-analysis)
+- [Could Your AI Systems Already Be High-Risk Under the EU AI Act?](https://www.kdnuggets.com/2026/07/airia/could-your-ai-systems-already-be-high-risk-under-the-eu-ai-act)
+  - Access the on-demand webinar to understand what the latest guidance means for your AI governance program and what your organization should do next.
 - [KDnuggets Weekly Roundup: Week of July 13, 2026](https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-13)
   - Stop Using If-Else Chains: Use the Registry Pattern in Python Instead • 5 Real-World SQL Projects to Build Your Data Portfolio • 10 YouTube Channels Keeping You Ahead in AI • St...
 - [Git Worktrees for AI Development](https://www.kdnuggets.com/git-worktrees-for-ai-development)
@@ -25,8 +27,6 @@ Updated: 2026-07-19 05:31 UTC
   - Here are 5 curated resources to help you progress your agentic AI learning for FREE.
 - [Working with Pi Coding Agents](https://www.kdnuggets.com/working-with-pi-coding-agents)
   - The most interesting thing about Pi isn't any single feature; it's that the project treats "what we didn't build" as documentation worth writing, which is rare enough on its own...
-- [10 YouTube Channels Keeping You Ahead in AI](https://www.kdnuggets.com/10-youtube-channels-keeping-you-ahead-in-ai)
-  - Explore 10 YouTube channels for AI engineers covering paper breakdowns, coding tutorials, and industry analysis.
 
 ## OpenAI News (ai)
 - [A scorecard for the AI age](https://openai.com/index/a-scorecard-for-the-ai-age)
