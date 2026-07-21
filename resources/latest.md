@@ -1,34 +1,36 @@
 # Latest Learning Resources
 
-Updated: 2026-07-20 05:48 UTC
+Updated: 2026-07-21 05:29 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [How to Run Claude Code Agents for 24+ Hours](https://towardsdatascience.com/how-to-run-claude-code-agents-for-24-hours/)
+  - <p>Apply long-running coding agents to become a more productive engineer</p> <p>The post <a href="https://towardsdatascience.com/how-to-run-claude-code-agents-for-24-hours/">How...
+- [Loop Engineering with Adaptive Parsing in Action: Parsing Flat Tables with Azure and Figures with a Vision LLM](https://towardsdatascience.com/loop-engineering-with-adaptive-parsing-in-action-parsing-flat-tables-with-azure-and-figures-with-a-vision-llm/)
+  - <p>Enterprise Document Intelligence [Vol.1 #10B] - The LLM as last line of defence, then two real escalations walked end to end: a flat table to Azure, a figure to a vision mode...
+- [Water Cooler Small Talk, Ep. 12: Byzantine Fault Tolerance](https://towardsdatascience.com/water-cooler-small-talk-ep-12-byzantine-fault-tolerance/)
+  - <p>How do you make decisions when you can't trust anyone in the room?</p> <p>The post <a href="https://towardsdatascience.com/water-cooler-small-talk-ep-12-byzantine-fault-toler...
+- [Automatically Assign a Category to Uncategorized Rows in Power Query and DAX](https://towardsdatascience.com/automatically-assign-a-category-to-uncategorised-rows-in-power-query-and-dax/)
+  - <p>Having categorized data is everything in reporting. Uncategorized data cannot be grouped and aggregated. But sometimes we must assign a category to uncategorized data accordi...
 - [Backpropagation Explained for Beginners (Part 1): Building the Intuition](https://towardsdatascience.com/backpropagation-explained-for-beginners-part-1-building-the-intuition/)
   - <p>Let's discover how neural networks learn, step by step</p> <p>The post <a href="https://towardsdatascience.com/backpropagation-explained-for-beginners-part-1-building-the-int...
-- [Loop Engineering for RAG Question Parsing: The Small Loop That Runs Before Retrieval](https://towardsdatascience.com/loop-engineering-for-rag-question-parsing-the-small-loop-that-runs-before-retrieval/)
-  - <p>Enterprise Document Intelligence [Vol.1 #6quinquies] - Prompt engineering, then context engineering, then loop engineering. On the question side, the loop is small by design:...
-- [Your AI Agent Passed Every Eval. Finance Still Killed It.](https://towardsdatascience.com/your-ai-agent-passed-every-eval-finance-still-killed-it/)
-  - <p>An AI agent passed every metric in the eval harness I published, then the CFO killed it — its successful resolutions cost more than the humans it replaced.<br /> The one metr...
-- [Many Companies Use AI. Few Know How to Build an AI-Native Enterprise Data Platform.](https://towardsdatascience.com/many-companies-use-ai-few-know-how-to-build-an-ai-native-enterprise-data-platform/)
-  - <p>A practical enterprise AI architecture with data agents, AI-powered QA, and AI governance.</p> <p>The post <a href="https://towardsdatascience.com/many-companies-use-ai-few-k...
-- [Loop Engineering with Adaptive PDF Parsing: Start Cheap, Pay for a Heavier Parser Only When the Page Needs It](https://towardsdatascience.com/loop-engineering-with-adaptive-pdf-parsing-start-cheap-pay-for-a-heavier-parser-only-when-the-page-needs-it/)
-  - <p>Enterprise Document Intelligence [Vol.1 #10A] - The escalation cascade and the free, deterministic checks that flag a failed parse before you pay for a deeper one</p> <p>The ...
 
 ## KDnuggets (data-analysis)
+- [A Beginner’s Guide to Setting Up Claude Code for High Performance Agentic Programming](https://www.kdnuggets.com/a-beginners-guide-to-setting-up-claude-code-for-high-performance-agentic-programming)
+  - This article walks through the actual configuration, permissions, hooks, and command habits that separate a fresh install from a setup that holds up under real, sustained agenti...
+- [Top 5 MCP Servers for High-Performance Agentic Development](https://www.kdnuggets.com/top-5-mcp-servers-for-high-performance-agentic-development)
+  - Here are five that are genuinely worth wiring into a high-performance agent development setup, chosen for what they do to an agent's actual capability rather than their star count.
 - [Could Your AI Systems Already Be High-Risk Under the EU AI Act?](https://www.kdnuggets.com/2026/07/airia/could-your-ai-systems-already-be-high-risk-under-the-eu-ai-act)
   - Access the on-demand webinar to understand what the latest guidance means for your AI governance program and what your organization should do next.
 - [KDnuggets Weekly Roundup: Week of July 13, 2026](https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-13)
   - Stop Using If-Else Chains: Use the Registry Pattern in Python Instead • 5 Real-World SQL Projects to Build Your Data Portfolio • 10 YouTube Channels Keeping You Ahead in AI • St...
 - [Git Worktrees for AI Development](https://www.kdnuggets.com/git-worktrees-for-ai-development)
   - A Git worktree is a separate directory checked out from the same repository. You can have as many as you need, each on its own branch, all coexisting simultaneously on your file...
-- [5 FREE Resources on Agentic AI](https://www.kdnuggets.com/5-free-resources-on-agentic-ai)
-  - Here are 5 curated resources to help you progress your agentic AI learning for FREE.
-- [Working with Pi Coding Agents](https://www.kdnuggets.com/working-with-pi-coding-agents)
-  - The most interesting thing about Pi isn't any single feature; it's that the project treats "what we didn't build" as documentation worth writing, which is rare enough on its own...
 
 ## OpenAI News (ai)
+- [Safety and alignment in an era of long-horizon models](https://openai.com/index/safety-alignment-long-horizon-models)
+  - OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.
 - [A scorecard for the AI age](https://openai.com/index/a-scorecard-for-the-ai-age)
   - Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.
 - [Why teens deserve access to safe AI](https://openai.com/index/why-teens-deserve-access-safe-ai)
@@ -37,8 +39,6 @@ Updated: 2026-07-20 05:48 UTC
   - Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.
 - [The US is advancing AI safety through state and federal action](https://openai.com/index/advancing-ai-safety-through-state-and-federal-action)
   - OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.
-- [GPT-Red: Unlocking Self-Improvement for Robustness](https://openai.com/index/unlocking-self-improvement-gpt-red)
-  - Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.
 
 ## Google AI Blog (ai)
 - [Connect more of your apps to Search](https://blog.google/products-and-platforms/products/search/connected-apps/)
@@ -53,7 +53,7 @@ Updated: 2026-07-20 05:48 UTC
   - June Pixel Drop hero
 
 ## Hugging Face Blog (llm)
-- [Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers](https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel)
+- [Introducing Cosmos 3 Edge](https://huggingface.co/blog/nvidia/cosmos3edge)
 - [Newer Models, Same Advantage](https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages)
 - [Security incident disclosure — July 2026](https://huggingface.co/blog/security-incident-july-2026)
 - [What building Shippy taught us about building agents](https://huggingface.co/blog/allenai/shippy-tech-blog)
