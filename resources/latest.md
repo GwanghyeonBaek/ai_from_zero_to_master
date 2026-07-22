@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-07-21 05:29 UTC
+Updated: 2026-07-22 05:28 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Prompt Engineering Isn’t Enough: How Four Bricks of Context Engineering Stop RAG Hallucinations](https://towardsdatascience.com/prompt-engineering-isnt-enough-how-four-bricks-of-context-engineering-stop-rag-hallucinations/)
+  - <p>Enterprise Document Intelligence [Vol.1 #9bis] - Your RAG isn’t hallucinating, it’s answering the wrong context faithfully. On real NIST and World Bank documents, watch each ...
+- [I Tried Fine-Tuning a Robot AI Model on Colab. Here Is What Worked](https://towardsdatascience.com/i-tried-fine-tuning-a-robot-ai-model-on-colab-here-is-what-worked/)
+  - <p>A reproducible 100-step LoRA fine-tuning run for OpenVLA, with dataset checks, Colab setup, training metrics, and W&#038;B evidence.</p> <p>The post <a href="https://towardsd...
+- [How Much of a Data Science Workflow Can Run on a GPU Today? Part 1: Accelerating Data Preparation](https://towardsdatascience.com/how-much-of-a-data-science-workflow-can-run-on-a-gpu-today-part-1-accelerating-data-preparation/)
+  - <p>Exploring GPU acceleration with cuDF, cudf.pandas, and the Polars GPU Engine</p> <p>The post <a href="https://towardsdatascience.com/how-much-of-a-data-science-workflow-can-r...
+- [Are Your ML Experiments a Mess? Here’s the Fix](https://towardsdatascience.com/your-ml-experiments-are-a-mess-heres-the-fix/)
+  - <p>A hands-on guide to tracking experiments, logging models, and reproducing results with ML Flow.</p> <p>The post <a href="https://towardsdatascience.com/your-ml-experiments-ar...
 - [How to Run Claude Code Agents for 24+ Hours](https://towardsdatascience.com/how-to-run-claude-code-agents-for-24-hours/)
   - <p>Apply long-running coding agents to become a more productive engineer</p> <p>The post <a href="https://towardsdatascience.com/how-to-run-claude-code-agents-for-24-hours/">How...
-- [Loop Engineering with Adaptive Parsing in Action: Parsing Flat Tables with Azure and Figures with a Vision LLM](https://towardsdatascience.com/loop-engineering-with-adaptive-parsing-in-action-parsing-flat-tables-with-azure-and-figures-with-a-vision-llm/)
-  - <p>Enterprise Document Intelligence [Vol.1 #10B] - The LLM as last line of defence, then two real escalations walked end to end: a flat table to Azure, a figure to a vision mode...
-- [Water Cooler Small Talk, Ep. 12: Byzantine Fault Tolerance](https://towardsdatascience.com/water-cooler-small-talk-ep-12-byzantine-fault-tolerance/)
-  - <p>How do you make decisions when you can't trust anyone in the room?</p> <p>The post <a href="https://towardsdatascience.com/water-cooler-small-talk-ep-12-byzantine-fault-toler...
-- [Automatically Assign a Category to Uncategorized Rows in Power Query and DAX](https://towardsdatascience.com/automatically-assign-a-category-to-uncategorised-rows-in-power-query-and-dax/)
-  - <p>Having categorized data is everything in reporting. Uncategorized data cannot be grouped and aggregated. But sometimes we must assign a category to uncategorized data accordi...
-- [Backpropagation Explained for Beginners (Part 1): Building the Intuition](https://towardsdatascience.com/backpropagation-explained-for-beginners-part-1-building-the-intuition/)
-  - <p>Let's discover how neural networks learn, step by step</p> <p>The post <a href="https://towardsdatascience.com/backpropagation-explained-for-beginners-part-1-building-the-int...
 
 ## KDnuggets (data-analysis)
+- [Run the Mythos Enhanced Coding Model Locally with llama.cpp and Pi](https://www.kdnuggets.com/run-the-mythos-enhanced-coding-model-locally-with-llama-cpp-and-pi)
+  - Run Qwythos-9B-Claude-Mythos-5-1M locally with llama.cpp, connect it to Pi coding agent, and build fast local coding workflows using MTP speculative decoding and an OpenAI-compa...
+- [5 Free Courses to Go From AI Beginner to Practitioner](https://www.kdnuggets.com/5-free-courses-to-go-from-ai-beginner-to-practitioner)
+  - Follow this free five-course roadmap to build real AI skills, from classical algorithms to training LLMs from scratch.
 - [A Beginner’s Guide to Setting Up Claude Code for High Performance Agentic Programming](https://www.kdnuggets.com/a-beginners-guide-to-setting-up-claude-code-for-high-performance-agentic-programming)
   - This article walks through the actual configuration, permissions, hooks, and command habits that separate a fresh install from a setup that holds up under real, sustained agenti...
 - [Top 5 MCP Servers for High-Performance Agentic Development](https://www.kdnuggets.com/top-5-mcp-servers-for-high-performance-agentic-development)
   - Here are five that are genuinely worth wiring into a high-performance agent development setup, chosen for what they do to an agent's actual capability rather than their star count.
 - [Could Your AI Systems Already Be High-Risk Under the EU AI Act?](https://www.kdnuggets.com/2026/07/airia/could-your-ai-systems-already-be-high-risk-under-the-eu-ai-act)
   - Access the on-demand webinar to understand what the latest guidance means for your AI governance program and what your organization should do next.
-- [KDnuggets Weekly Roundup: Week of July 13, 2026](https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-13)
-  - Stop Using If-Else Chains: Use the Registry Pattern in Python Instead • 5 Real-World SQL Projects to Build Your Data Portfolio • 10 YouTube Channels Keeping You Ahead in AI • St...
-- [Git Worktrees for AI Development](https://www.kdnuggets.com/git-worktrees-for-ai-development)
-  - A Git worktree is a separate directory checked out from the same repository. You can have as many as you need, each on its own branch, all coexisting simultaneously on your file...
 
 ## OpenAI News (ai)
+- [Introducing the ChatGPT for small business program](https://openai.com/index/introducing-chatgpt-small-business-program)
+  - OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.
+- [OpenAI and Hugging Face partner to address security incident during model evaluation](https://openai.com/index/hugging-face-model-evaluation-security-incident)
+  - OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.
+- [David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC](https://openai.com/index/david-velez-robin-vince-join-openai-boards)
+  - David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.
 - [Safety and alignment in an era of long-horizon models](https://openai.com/index/safety-alignment-long-horizon-models)
   - OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.
 - [A scorecard for the AI age](https://openai.com/index/a-scorecard-for-the-ai-age)
   - Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.
-- [Why teens deserve access to safe AI](https://openai.com/index/why-teens-deserve-access-safe-ai)
-  - Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.
-- [How Cars24 scales conversations and builds faster with OpenAI](https://openai.com/index/cars24)
-  - Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.
-- [The US is advancing AI safety through state and federal action](https://openai.com/index/advancing-ai-safety-through-state-and-federal-action)
-  - OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.
 
 ## Google AI Blog (ai)
 - [Connect more of your apps to Search](https://blog.google/products-and-platforms/products/search/connected-apps/)
@@ -53,8 +53,8 @@ Updated: 2026-07-21 05:29 UTC
   - June Pixel Drop hero
 
 ## Hugging Face Blog (llm)
-- [Introducing Cosmos 3 Edge](https://huggingface.co/blog/nvidia/cosmos3edge)
+- [The State of Simulation for Physical AI: An Overview](https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai)
+- [Grabette: an open system to record robot-manipulation data](https://huggingface.co/blog/grabette)
 - [Newer Models, Same Advantage](https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages)
 - [Security incident disclosure — July 2026](https://huggingface.co/blog/security-incident-july-2026)
 - [What building Shippy taught us about building agents](https://huggingface.co/blog/allenai/shippy-tech-blog)
-- [Model Routing Is Simple. Until It Isn’t.](https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt)
