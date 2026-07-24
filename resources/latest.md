@@ -1,34 +1,36 @@
 # Latest Learning Resources
 
-Updated: 2026-07-23 05:33 UTC
+Updated: 2026-07-24 05:29 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [When Data Science Makes Us Sad: The Story of an Overbooked Flight](https://towardsdatascience.com/when-data-science-makes-us-sad-the-story-of-an-overbooked-flight/)
+  - <p>$8 million vs $5k + Potentially Going Viral</p> <p>The post <a href="https://towardsdatascience.com/when-data-science-makes-us-sad-the-story-of-an-overbooked-flight/">When Da...
+- [Most RAG Hallucinations Are Extraction Errors: Seven Patterns for a Typed Generation Contract](https://towardsdatascience.com/most-rag-hallucinations-are-extraction-errors-seven-patterns-for-a-typed-generation-contract/)
+  - <p>Enterprise Document Intelligence [Vol.1 #8ter] - Naming the RAG error correctly matters: model reads the context, so a wrong answer is an extraction error, not a hallucinatio...
+- [Lessons Learned After 8.5 Years of ML](https://towardsdatascience.com/lessons-learned-after-8-5-years-of-ml/)
+  - <p>Patience, Optimism, Discipline, Projects, Teams</p> <p>The post <a href="https://towardsdatascience.com/lessons-learned-after-8-5-years-of-ml/">Lessons Learned After 8.5 Year...
+- [Why Adding More AI Agents Made Our System Slower](https://towardsdatascience.com/why-adding-more-ai-agents-made-our-system-slower/)
+  - <p>The hidden cost of asynchronous systems, how tiny CPU tasks quietly became our biggest bottleneck while scaling hundreds of LLM agents.</p> <p>The post <a href="https://towar...
 - [Loop Engineering for RAG Generation: Iterate top-k One at a Time](https://towardsdatascience.com/loop-engineering-for-rag-generation-when-top-1-is-enough-when-you-need-top-k/)
   - <p>Enterprise Document Intelligence [Vol.1 #8bis] - Two regimes for sending retrieved candidates to the generation brick, the sufficiency signal that picks between them, and the...
-- [How To Build Your Own LLM Runtime From Scratch](https://towardsdatascience.com/how-to-build-your-own-llm-runtime-from-scratch/)
-  - <p>If you have ever wanted to actually build an LLM inference runtime yourself — pack your own weights, own every barrier, capture your own CUDA graphs — this is what that journ...
-- [Build an LLM Agent That Can Write and Run Code](https://towardsdatascience.com/build-an-llm-agent-that-can-write-and-run-code/)
-  - <p>A hands-on walkthrough of code execution with the OpenAI Agents SDK and Docker</p> <p>The post <a href="https://towardsdatascience.com/build-an-llm-agent-that-can-write-and-r...
-- [Detecting Vulnerabilities in Agent Skills with SkillSpector: From Green Checkmark to Real Security Judgment](https://towardsdatascience.com/from-green-checkmark-to-real-judgment-auditing-ai-agent-skills-with-skillspector/)
-  - <p>Static analysis nailed the malicious skill and over-flagged the useful one. The gap between those results is where human judgement actually earns its keep.</p> <p>The post <a...
-- [Prompt Engineering Isn’t Enough: How Four Bricks of Context Engineering Stop RAG Hallucinations](https://towardsdatascience.com/prompt-engineering-isnt-enough-how-four-bricks-of-context-engineering-stop-rag-hallucinations/)
-  - <p>Enterprise Document Intelligence [Vol.1 #9bis] - Your RAG isn’t hallucinating, it’s answering the wrong context faithfully. On real NIST and World Bank documents, watch each ...
 
 ## KDnuggets (data-analysis)
+- [Getting Started with OmniVoice-Studio](https://www.kdnuggets.com/getting-started-with-omnivoice-studio)
+  - OmniVoice Studio is built on a premise that everything runs on your hardware. Voice cloning, video dubbing, real-time dictation, voice design, all of it local, all of it free fo...
+- [7 Best Claude Code Alternatives for CLI Agentic Coding](https://www.kdnuggets.com/7-best-claude-code-alternatives-for-cli-agentic-coding)
+  - Discover seven cheaper, faster Claude Code alternatives for CLI agentic coding, with open-source tools, local models, MCP support, and better context control.
 - [Kaggle + Google’s Free 5-Day Agentic AI Course](https://www.kdnuggets.com/kaggle-googles-free-5-day-agentic-ai-course)
   - Google and Kaggle's 5-Day AI agents course is now freely available to everyone.
 - [10 Newsletters Keeping You Ahead in AI](https://www.kdnuggets.com/10-newsletters-keeping-you-ahead-in-ai)
   - Cut through AI noise with 10 curated newsletters covering daily news, technical research, policy, and builder tools.
 - [Run the Mythos Enhanced Coding Model Locally with llama.cpp and Pi](https://www.kdnuggets.com/run-the-mythos-enhanced-coding-model-locally-with-llama-cpp-and-pi)
   - Run Qwythos-9B-Claude-Mythos-5-1M locally with llama.cpp, connect it to Pi coding agent, and build fast local coding workflows using MTP speculative decoding and an OpenAI-compa...
-- [5 Free Courses to Go From AI Beginner to Practitioner](https://www.kdnuggets.com/5-free-courses-to-go-from-ai-beginner-to-practitioner)
-  - Follow this free five-course roadmap to build real AI skills, from classical algorithms to training LLMs from scratch.
-- [A Beginner’s Guide to Setting Up Claude Code for High Performance Agentic Programming](https://www.kdnuggets.com/a-beginners-guide-to-setting-up-claude-code-for-high-performance-agentic-programming)
-  - This article walks through the actual configuration, permissions, hooks, and command habits that separate a fresh install from a setup that holds up under real, sustained agenti...
 
 ## OpenAI News (ai)
+- [Launching Health in ChatGPT](https://openai.com/index/health-in-chatgpt)
+  - Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.
 - [Building AI infrastructure with the Effingham County community](https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community)
   - OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.
 - [How news organizations are using AI to advance their vital missions](https://openai.com/index/how-news-organizations-are-using-ai)
@@ -37,8 +39,6 @@ Updated: 2026-07-23 05:33 UTC
   - OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.
 - [Introducing OpenAI Presence](https://openai.com/index/introducing-openai-presence)
   - Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.
-- [NTT DATA Group cuts incident analysis to 30 minutes with Codex](https://openai.com/index/ntt-data)
-  - NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.
 
 ## Google AI Blog (ai)
 - [3 Google updates from Galaxy Unpacked 2026](https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/)
@@ -53,8 +53,8 @@ Updated: 2026-07-23 05:33 UTC
   - Managed agents feature bundle launch
 
 ## Hugging Face Blog (llm)
+- [Bringing Nunchaku 4-bit Diffusion Inference to Diffusers](https://huggingface.co/blog/nunchaku-diffusers)
 - [The State of Simulation for Physical AI: An Overview](https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai)
 - [Grabette: an open system to record robot-manipulation data](https://huggingface.co/blog/grabette)
 - [Newer Models, Same Advantage](https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages)
 - [Security incident disclosure — July 2026](https://huggingface.co/blog/security-incident-july-2026)
-- [What building Shippy taught us about building agents](https://huggingface.co/blog/allenai/shippy-tech-blog)
