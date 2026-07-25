@@ -1,32 +1,32 @@
 # Latest Learning Resources
 
-Updated: 2026-07-24 05:29 UTC
+Updated: 2026-07-25 05:23 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Tabular LLMs: An Introduction to the Foundation Models That Predict Your Spreadsheet](https://towardsdatascience.com/tabular-llms-an-introduction-to-the-foundation-models-that-predict-your-spreadsheet/)
+  - <p>Tabular foundation models predict the missing column of any spreadsheet zero-shot, the way an LLM completes text — and on the TabArena benchmark they now sit above fully tune...
+- [Build and Run an Intelligent Document Processing (IDP) System in the Cloud](https://towardsdatascience.com/build-and-run-an-intelligent-document-processing-idp-system-in-the-cloud/)
+  - <p>Automating the classification and extraction of PII from emails using AWS</p> <p>The post <a href="https://towardsdatascience.com/build-and-run-an-intelligent-document-proces...
+- [Loop Engineering for RAG Generation: An LLM Cascade from a Cheap Local Model Up to a Hosted Flagship](https://towardsdatascience.com/loop-engineering-for-rag-generation-an-llm-cascade-from-a-cheap-local-model-up-to-a-hosted-flagship/)
+  - <p>Enterprise Document Intelligence [Vol.1 #8quater] - Two angles on the cascade, cost and a validation loop, backed by a real sweep of twenty local models against a hosted flag...
+- [Context Windows Forget What Matters — I Built a Usage-Reinforced Decay Engine for AI Agent Memory](https://towardsdatascience.com/context-windows-forget-what-matters-i-used-a-140-year-old-psychology-paper-to-fix-ai-memory/)
+  - <p>Most AI memory systems keep the newest information—not the most important. Here's how I used the Ebbinghaus forgetting curve to build a better memory engine for LLMs.</p> <p>...
 - [When Data Science Makes Us Sad: The Story of an Overbooked Flight](https://towardsdatascience.com/when-data-science-makes-us-sad-the-story-of-an-overbooked-flight/)
   - <p>$8 million vs $5k + Potentially Going Viral</p> <p>The post <a href="https://towardsdatascience.com/when-data-science-makes-us-sad-the-story-of-an-overbooked-flight/">When Da...
-- [Most RAG Hallucinations Are Extraction Errors: Seven Patterns for a Typed Generation Contract](https://towardsdatascience.com/most-rag-hallucinations-are-extraction-errors-seven-patterns-for-a-typed-generation-contract/)
-  - <p>Enterprise Document Intelligence [Vol.1 #8ter] - Naming the RAG error correctly matters: model reads the context, so a wrong answer is an extraction error, not a hallucinatio...
-- [Lessons Learned After 8.5 Years of ML](https://towardsdatascience.com/lessons-learned-after-8-5-years-of-ml/)
-  - <p>Patience, Optimism, Discipline, Projects, Teams</p> <p>The post <a href="https://towardsdatascience.com/lessons-learned-after-8-5-years-of-ml/">Lessons Learned After 8.5 Year...
-- [Why Adding More AI Agents Made Our System Slower](https://towardsdatascience.com/why-adding-more-ai-agents-made-our-system-slower/)
-  - <p>The hidden cost of asynchronous systems, how tiny CPU tasks quietly became our biggest bottleneck while scaling hundreds of LLM agents.</p> <p>The post <a href="https://towar...
-- [Loop Engineering for RAG Generation: Iterate top-k One at a Time](https://towardsdatascience.com/loop-engineering-for-rag-generation-when-top-1-is-enough-when-you-need-top-k/)
-  - <p>Enterprise Document Intelligence [Vol.1 #8bis] - Two regimes for sending retrieved candidates to the generation brick, the sufficiency signal that picks between them, and the...
 
 ## KDnuggets (data-analysis)
+- [Language Model Hallucination Evaluation with GraphEval](https://www.kdnuggets.com/language-model-hallucination-evaluation-with-grapheval)
+  - Turning the key principles and methodological stages of GraphEval into a simulated practical scenario to better understand its usefulness and key implications in understanding a...
+- [5 Key Concepts Behind Agentic AI Every Engineer Must Understand](https://www.kdnuggets.com/5-key-concepts-behind-agentic-ai-every-engineer-must-understand)
+  - This article walks through and explains the five ideas that actually hold agentic systems together.
 - [Getting Started with OmniVoice-Studio](https://www.kdnuggets.com/getting-started-with-omnivoice-studio)
   - OmniVoice Studio is built on a premise that everything runs on your hardware. Voice cloning, video dubbing, real-time dictation, voice design, all of it local, all of it free fo...
 - [7 Best Claude Code Alternatives for CLI Agentic Coding](https://www.kdnuggets.com/7-best-claude-code-alternatives-for-cli-agentic-coding)
   - Discover seven cheaper, faster Claude Code alternatives for CLI agentic coding, with open-source tools, local models, MCP support, and better context control.
 - [Kaggle + Google’s Free 5-Day Agentic AI Course](https://www.kdnuggets.com/kaggle-googles-free-5-day-agentic-ai-course)
   - Google and Kaggle's 5-Day AI agents course is now freely available to everyone.
-- [10 Newsletters Keeping You Ahead in AI](https://www.kdnuggets.com/10-newsletters-keeping-you-ahead-in-ai)
-  - Cut through AI noise with 10 curated newsletters covering daily news, technical research, policy, and builder tools.
-- [Run the Mythos Enhanced Coding Model Locally with llama.cpp and Pi](https://www.kdnuggets.com/run-the-mythos-enhanced-coding-model-locally-with-llama-cpp-and-pi)
-  - Run Qwythos-9B-Claude-Mythos-5-1M locally with llama.cpp, connect it to Pi coding agent, and build fast local coding workflows using MTP speculative decoding and an OpenAI-compa...
 
 ## OpenAI News (ai)
 - [Launching Health in ChatGPT](https://openai.com/index/health-in-chatgpt)
