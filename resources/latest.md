@@ -1,34 +1,36 @@
 # Latest Learning Resources
 
-Updated: 2026-07-27 05:59 UTC
+Updated: 2026-07-28 05:24 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [“Los Movimientos”: The Routing Problem That Nearly Broke My Spirit](https://towardsdatascience.com/los-movimientos-the-routing-problem-that-nearly-broke-my-spirit-2/)
+  - <p>Using mathematical optimization to solve a pickup-and-delivery problem with time windows.</p> <p>The post <a href="https://towardsdatascience.com/los-movimientos-the-routing-...
+- [Reducing Human Annotation with ML Active Learning](https://towardsdatascience.com/reducing-human-annotation-with-ml-active-learning/)
+  - <p>In a world where human time is expensive, learn how to use it only when really necessary</p> <p>The post <a href="https://towardsdatascience.com/reducing-human-annotation-wit...
+- [The Most Beautiful Statistic: The History and the Science of the Humble Mean](https://towardsdatascience.com/the-most-beautiful-statistic-the-history-and-the-science-of-the-humble-mean/)
+  - <p>The mean keeps making its usefulness felt in all sorts of situations, often in truly non-obvious ways</p> <p>The post <a href="https://towardsdatascience.com/the-most-beautif...
+- [How I Reproduced BM25, Dense Retrieval, and SPLADE on a 16GB MacBook](https://towardsdatascience.com/how-i-reproduced-bm25-dense-retrieval-and-splade-on-a-16gb-macbook/)
+  - <p>A practical reproduction of three retrieval baselines, including the crashes, fixes, and score checks that matter for RAG systems.</p> <p>The post <a href="https://towardsdat...
 - [How to Efficiently Prompt Claude Code](https://towardsdatascience.com/how-to-efficiently-prompt-claude-code/)
   - <p>Maximize your efficiency with Claude Code</p> <p>The post <a href="https://towardsdatascience.com/how-to-efficiently-prompt-claude-code/">How to Efficiently Prompt Claude Cod...
-- [How to Give an LLM Agent a Browser](https://towardsdatascience.com/giving-an-llm-agent-a-browser/)
-  - <p>Building a browser-use agent with OpenAI Agents SDK and Playwright MCP</p> <p>The post <a href="https://towardsdatascience.com/giving-an-llm-agent-a-browser/">How to Give an ...
-- [How to Optimize Vector Search When RAM Gets Too Expensive: On-Disk vs. In-Memory ANN Indexes](https://towardsdatascience.com/optimizing-vector-search-on-disk-vs-in-memory-ann-indexes-when-ram-gets-too-expensive/)
-  - <p>Architecting cost-effective infrastructure by navigating the latency and storage trade-offs of HNSW, SPANN, and DiskANN</p> <p>The post <a href="https://towardsdatascience.co...
-- [The Fluid Simulator That Doesn’t Solve the Fluid Equations](https://towardsdatascience.com/the-fluid-simulator-that-doesnt-solve-the-fluid-equations/)
-  - <p>I generated a Kármán vortex street without solving a single fluid equation. Here's how the Lattice Boltzmann Method gets there instead, derived from first principles, impleme...
-- [Tabular LLMs: An Introduction to the Foundation Models That Predict Your Spreadsheet](https://towardsdatascience.com/tabular-llms-an-introduction-to-the-foundation-models-that-predict-your-spreadsheet/)
-  - <p>Tabular foundation models predict the missing column of any spreadsheet zero-shot, the way an LLM completes text — and on the TabArena benchmark they now sit above fully tune...
 
 ## KDnuggets (data-analysis)
+- [Is KimiClaw a Useful Tool?](https://www.kdnuggets.com/is-kimiclaw-a-useful-tool)
+  - Compare KimiClaw's cloud-hosted AI agent platform against self-hosted OpenClaw across setup, privacy, and automation capabilities.
+- [7 Steps to Building and Deploying Your First Autonomous Agent](https://www.kdnuggets.com/7-steps-to-building-and-deploying-your-first-autonomous-agent)
+  - This article shows you up all the steps in building and deploying your first autonomous AI agents from start to finish.
 - [KDnuggets Weekly Roundup: Week of July 20, 2026](https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-20)
   - Top 5 MCP Servers for High Performance Agentic Development • 10 Newsletters Keeping You Ahead in AI • Kaggle + Google’s Free 5-Day Agentic AI Course • Language Model Hallucinati...
 - [Language Model Hallucination Evaluation with GraphEval](https://www.kdnuggets.com/language-model-hallucination-evaluation-with-grapheval)
   - Turning the key principles and methodological stages of GraphEval into a simulated practical scenario to better understand its usefulness and key implications in understanding a...
 - [5 Key Concepts Behind Agentic AI Every Engineer Must Understand](https://www.kdnuggets.com/5-key-concepts-behind-agentic-ai-every-engineer-must-understand)
   - This article walks through and explains the five ideas that actually hold agentic systems together.
-- [Getting Started with OmniVoice-Studio](https://www.kdnuggets.com/getting-started-with-omnivoice-studio)
-  - OmniVoice Studio is built on a premise that everything runs on your hardware. Voice cloning, video dubbing, real-time dictation, voice design, all of it local, all of it free fo...
-- [7 Best Claude Code Alternatives for CLI Agentic Coding](https://www.kdnuggets.com/7-best-claude-code-alternatives-for-cli-agentic-coding)
-  - Discover seven cheaper, faster Claude Code alternatives for CLI agentic coding, with open-source tools, local models, MCP support, and better context control.
 
 ## OpenAI News (ai)
+- [How AI is expanding what people do at work](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work)
+  - New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.
 - [Launching Health in ChatGPT](https://openai.com/index/health-in-chatgpt)
   - Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.
 - [Building AI infrastructure with the Effingham County community](https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community)
@@ -37,8 +39,6 @@ Updated: 2026-07-27 05:59 UTC
   - News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.
 - [Advancing the next era of national science](https://openai.com/index/advancing-the-next-era-of-national-science)
   - OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.
-- [Introducing OpenAI Presence](https://openai.com/index/introducing-openai-presence)
-  - Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.
 
 ## Google AI Blog (ai)
 - [3 Google updates from Galaxy Unpacked 2026](https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/)
@@ -53,8 +53,8 @@ Updated: 2026-07-27 05:59 UTC
   - Managed agents feature bundle launch
 
 ## Hugging Face Blog (llm)
+- [NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics](https://huggingface.co/blog/nvidia/cosmos-h-dreams)
 - [Bringing Nunchaku 4-bit Diffusion Inference to Diffusers](https://huggingface.co/blog/nunchaku-diffusers)
-- [The State of Simulation for Physical AI: An Overview](https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai)
 - [Grabette: an open system to record robot-manipulation data](https://huggingface.co/blog/grabette)
 - [Newer Models, Same Advantage](https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages)
 - [Security incident disclosure — July 2026](https://huggingface.co/blog/security-incident-july-2026)
