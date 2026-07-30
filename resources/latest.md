@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-07-29 05:30 UTC
+Updated: 2026-07-30 05:16 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Prompt Engineering Is Solved—Prompt Management Isn’t](https://towardsdatascience.com/prompt-engineering-is-solved-prompt-management-isnt/)
+  - <p>Prompt engineering helps you write better prompts—but it doesn’t help you change them safely. This article explores a common production failure where a simple variable rename...
+- [Why Your Best Predictive Model Gives the Wrong Treatment Effect](https://towardsdatascience.com/why-your-best-predictive-model-gives-the-wrong-treatment-effect/)
+  - <p>Why prediction-driven variable selection misses confounders and how Bayesian Adjustment for Confounding attempts to fix it.</p> <p>The post <a href="https://towardsdatascienc...
+- [Los Movimientos, Part II: Solving Large Pickup-and-Delivery Problems with Adaptive Large Neighborhood Search](https://towardsdatascience.com/los-movimientos-part-ii-solving-large-pickup-and-delivery-problems-with-adaptive-large-neighborhood-search/)
+  - <p>Building an ALNS heuristic in Python for vehicle routing, time windows, capacity constraints, and mandatory driver breaks.</p> <p>The post <a href="https://towardsdatascience...
+- [Avoiding Entity Key Drift in a Data Lake: Step 1, Normalization](https://towardsdatascience.com/avoiding-entity-key-drift-in-a-data-lake-step-1-normalization/)
+  - <p>This is the opening piece of a four-part deep dive series, on building a high-frequency streaming pipeline against a live public API. The data source is openSenseMap, a citiz...
 - [How Much Does a Local LLM Actually Cost to Run? I Measured Every Watt on Apple Silicon](https://towardsdatascience.com/how-much-does-a-local-llm-actually-cost-to-run-i-measured-every-watt-on-apple-silicon/)
   - <p>Five models, sustained generation, real wall-socket energy at $0.31/kWh — and the surprise the RTX-3090 numbers predicted, only bigger.</p> <p>The post <a href="https://towar...
-- [MCP Explained: How Modern AI Agents Connect to the Real World](https://towardsdatascience.com/mcp-explained-how-modern-ai-agents-connect-to-the-real-world/)
-  - <p>from custom integrations to a universal standard for tool access</p> <p>The post <a href="https://towardsdatascience.com/mcp-explained-how-modern-ai-agents-connect-to-the-rea...
-- [Don’t Just “Throw Adam at It”: Misunderstanding Adam Will Cost You](https://towardsdatascience.com/dont-just-throw-adam-at-it-misunderstanding-adam-will-cost-you/)
-  - <p>You "vibe coded" the import. Understand Adam's optimization dynamics, why it fails spectacularly, and how to fix it.</p> <p>The post <a href="https://towardsdatascience.com/d...
-- [Backpropagation Explained for Beginners (Part 2): There Has to Be a Better Way](https://towardsdatascience.com/backpropagation-explained-for-beginners-part-2-there-has-to-be-a-better-way/)
-  - <p>The idea that makes backpropagation possible.</p> <p>The post <a href="https://towardsdatascience.com/backpropagation-explained-for-beginners-part-2-there-has-to-be-a-better-...
-- [“Los Movimientos”: The Routing Problem That Nearly Broke My Spirit](https://towardsdatascience.com/los-movimientos-the-routing-problem-that-nearly-broke-my-spirit-2/)
-  - <p>Using mathematical optimization to solve a pickup-and-delivery problem with time windows.</p> <p>The post <a href="https://towardsdatascience.com/los-movimientos-the-routing-...
 
 ## KDnuggets (data-analysis)
+- [What Professionals Should Know About Data Science and AI, According to Harvard Business School Online](https://www.kdnuggets.com/what-professionals-should-know-about-data-science-and-ai-according-to-harvard-business-school-online)
+  - Learn why clear business goals, data quality, simple models, careful validation, realistic costs, and human judgment matter more than chasing the latest technology.
+- [5 Must-Read Resources for Mastering Small Language Models](https://www.kdnuggets.com/5-must-read-resources-for-mastering-small-language-models)
+  - Five resources covering SLM architecture, fine-tuning, agentic workflows, and local deployment for data professionals.
 - [An Introductory Guide to Practical Constraint Decoding](https://www.kdnuggets.com/an-introductory-guide-to-practical-constraint-decoding)
   - With this introductory guide to practical constraint decoding, you'll no longer need to beg your model to "output valid JSON without including any markdown."
 - [5 Best AI Tools for Data Analysis You Should Try in 2026](https://www.kdnuggets.com/5-best-ai-tools-for-data-analysis-you-should-try-in-2026)
   - Discover five of the best AI tools for data analysis that can clean data, write code, create visualizations, and generate insights faster.
 - [Is KimiClaw a Useful Tool?](https://www.kdnuggets.com/is-kimiclaw-a-useful-tool)
   - Compare KimiClaw's cloud-hosted AI agent platform against self-hosted OpenClaw across setup, privacy, and automation capabilities.
-- [7 Steps to Building and Deploying Your First Autonomous Agent](https://www.kdnuggets.com/7-steps-to-building-and-deploying-your-first-autonomous-agent)
-  - This article shows you up all the steps in building and deploying your first autonomous AI agents from start to finish.
-- [KDnuggets Weekly Roundup: Week of July 20, 2026](https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-20)
-  - Top 5 MCP Servers for High Performance Agentic Development • 10 Newsletters Keeping You Ahead in AI • Kaggle + Google’s Free 5-Day Agentic AI Course • Language Model Hallucinati...
 
 ## OpenAI News (ai)
+- [How enabling two settings tripled our scores on the ARC-AGI-3 benchmark](https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores)
+  - How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.
+- [Accelerating scientific discovery with ChatGPT for Academic Researchers](https://openai.com/index/chatgpt-for-academic-researchers)
+  - OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.
+- [How GPT-5.6 fuses frontier intelligence with frontier efficiency](https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency)
+  - GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.
 - [Scientific computing in the age of agentic AI](https://openai.com/index/scientific-computing-agentic-ai)
   - A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.
 - [How AI is expanding what people do at work](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work)
   - New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.
-- [Launching Health in ChatGPT](https://openai.com/index/health-in-chatgpt)
-  - Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.
-- [Building AI infrastructure with the Effingham County community](https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community)
-  - OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.
-- [How news organizations are using AI to advance their vital missions](https://openai.com/index/how-news-organizations-are-using-ai)
-  - News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.
 
 ## Google AI Blog (ai)
 - [Gemini API Managed Agents: 3.6 Flash, hooks, and more](https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/)
