@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-08-02 05:35 UTC
+Updated: 2026-08-03 05:51 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [How to Apply Coding Agents to Non-Programming Tasks](https://towardsdatascience.com/how-to-apply-coding-agents-to-non-programming-tasks/)
+  - <p>Perform non-programming tasks with coding agents</p> <p>The post <a href="https://towardsdatascience.com/how-to-apply-coding-agents-to-non-programming-tasks/">How to Apply Co...
+- [I Replaced a 15-Minute Booking Process with a LangGraph AI Agent](https://towardsdatascience.com/i-replaced-a-15-minute-booking-process-with-a-langgraph-ai-agent/)
+  - <p>A step-by-step guide to building, running, and monitoring a stateful customer support agent using Python, LangGraph, and Langfuse.</p> <p>The post <a href="https://towardsdat...
 - [Coding Agents Don’t Need Bigger Context Windows — They Need a Context Compiler](https://towardsdatascience.com/coding-agents-dont-need-bigger-context-windows-they-need-a-context-compiler/)
   - <p>Most coding agents treat prompt construction like retrieval: gather more files, add more context, hope the model figures it out. But that approach breaks down fast. As contex...
 - [Put the Agent Inside the Workflow](https://towardsdatascience.com/put-the-agent-inside-the-workflow/)
   - <p>A hybrid LLM application pattern that combines a predefined workflow with adaptive agent behavior</p> <p>The post <a href="https://towardsdatascience.com/put-the-agent-inside...
 - [The 3× Token Bill We Didn’t See Coming](https://towardsdatascience.com/the-3x-token-bill-we-didnt-see-coming/)
   - <p>How a seemingly harmless move to a multi-agent architecture quietly tripled our LLM costs and what actually fixed it.</p> <p>The post <a href="https://towardsdatascience.com/...
-- [When the Code Becomes the CEO: Why Your Next Manager Might Be a Decentralized Agentic Loop](https://towardsdatascience.com/when-the-code-becomes-the-ceo-why-your-next-manager-might-be-a-decentralized-agentic-loop/)
-  - <p>In five to ten years, the sharpest manager in your company might not be human, might not sleep, and might exist entirely in shared GPU memory. This is the systems-level view ...
-- [How to Debug AI Coding Agents When They Change the Wrong Thing](https://towardsdatascience.com/how-to-debug-ai-coding-agents-when-they-change-the-wrong-thing/)
-  - <p>A practical tutorial for recording model tool requests, real function results, patches, checks, screenshots, and a saved run log.</p> <p>The post <a href="https://towardsdata...
 
 ## KDnuggets (data-analysis)
 - [KDnuggets Weekly Roundup: Build and Deploy Your First Autonomous Agent • 7 Machine Learning Algorithms That Still Matter](https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-27)
