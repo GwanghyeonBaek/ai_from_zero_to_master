@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-08-03 05:51 UTC
+Updated: 2026-08-04 05:23 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Prompt, Context, Loop: The Three Engineering Layers Every RAG System Is Built On](https://towardsdatascience.com/prompt-context-loop-the-three-engineering-layers-every-rag-system-is-built-on/)
+  - <p>Enterprise Document Intelligence [Vol.1 #M2] - Every RAG system is built in three engineering layers stacked on one LLM call: prompt (the call itself), context (what fills th...
+- [How to Build CLI Agents with Python & Ollama](https://towardsdatascience.com/cli-agents-with-python-ollama/)
+  - <p>Create a local CLI Agent from scratch completely for free</p> <p>The post <a href="https://towardsdatascience.com/cli-agents-with-python-ollama/">How to Build CLI Agents with...
+- [The AI Was the Easy Part: What Is a Forward-Deployed Engineer in a Supply Chain?](https://towardsdatascience.com/the-ai-was-the-easy-part-what-is-a-forward-deployed-engineer-in-a-supply-chain/)
+  - <p>What actually makes a Forward Deployed Engineer, told through one supply chain project.</p> <p>The post <a href="https://towardsdatascience.com/the-ai-was-the-easy-part-what-...
+- [How Claude Help Me Build My $200k+ ML Resume](https://towardsdatascience.com/how-claude-help-me-build-my-200k-ml-resume/)
+  - <p>How use Claude to craft an outstanding resume that lands offers</p> <p>The post <a href="https://towardsdatascience.com/how-claude-help-me-build-my-200k-ml-resume/">How Claud...
 - [How to Apply Coding Agents to Non-Programming Tasks](https://towardsdatascience.com/how-to-apply-coding-agents-to-non-programming-tasks/)
   - <p>Perform non-programming tasks with coding agents</p> <p>The post <a href="https://towardsdatascience.com/how-to-apply-coding-agents-to-non-programming-tasks/">How to Apply Co...
-- [I Replaced a 15-Minute Booking Process with a LangGraph AI Agent](https://towardsdatascience.com/i-replaced-a-15-minute-booking-process-with-a-langgraph-ai-agent/)
-  - <p>A step-by-step guide to building, running, and monitoring a stateful customer support agent using Python, LangGraph, and Langfuse.</p> <p>The post <a href="https://towardsdat...
-- [Coding Agents Don’t Need Bigger Context Windows — They Need a Context Compiler](https://towardsdatascience.com/coding-agents-dont-need-bigger-context-windows-they-need-a-context-compiler/)
-  - <p>Most coding agents treat prompt construction like retrieval: gather more files, add more context, hope the model figures it out. But that approach breaks down fast. As contex...
-- [Put the Agent Inside the Workflow](https://towardsdatascience.com/put-the-agent-inside-the-workflow/)
-  - <p>A hybrid LLM application pattern that combines a predefined workflow with adaptive agent behavior</p> <p>The post <a href="https://towardsdatascience.com/put-the-agent-inside...
-- [The 3× Token Bill We Didn’t See Coming](https://towardsdatascience.com/the-3x-token-bill-we-didnt-see-coming/)
-  - <p>How a seemingly harmless move to a multi-agent architecture quietly tripled our LLM costs and what actually fixed it.</p> <p>The post <a href="https://towardsdatascience.com/...
 
 ## KDnuggets (data-analysis)
+- [Does MiniMax Agent Actually Make Work Easier?](https://www.kdnuggets.com/does-minimax-agent-actually-make-work-easier)
+  - Read about MiniMax's own architecture, and see how it runs a real task against the actual API. Learn the pieces of the MiniMax story that weren't covered in the launch post.
+- [A Guide to Saving Token Usage with Multi-Agent AI](https://www.kdnuggets.com/a-guide-to-saving-token-usage-with-multi-agent-ai)
+  - Scaling up and streamlining a multi-agent architecture doesn't necessarily entail escalated costs if you know how to properly implement these four strategies for saving token us...
 - [KDnuggets Weekly Roundup: Build and Deploy Your First Autonomous Agent • 7 Machine Learning Algorithms That Still Matter](https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-27)
   - A Beginner's Guide to Working with Claude Design • 5 Best AI Tools for Data Analysis You Should Try in 2026 • 5 Books That Will Deepen Your Understanding of Large Language Model...
 - [Building Voice-Controlled AI Agents](https://www.kdnuggets.com/building-voice-controlled-ai-agents)
   - Building a voice-controlled AI agents isn't hard, this article breaks the pipeline into its real components: streaming speech recognition, turn detection, streaming generation, ...
 - [5 Books That Will Deepen Your Understanding of Large Language Models](https://www.kdnuggets.com/5-books-that-will-deepen-your-understanding-of-large-language-models)
   - Check out these five books on building, fine-tuning, and deploying large language models.
-- [A Beginner’s Guide to Working with Claude Design](https://www.kdnuggets.com/a-beginners-guide-to-working-with-claude-design)
-  - Claude Design is a research preview under Anthropic Labs, powered by Claude Opus' vision capability, generating interactive prototypes with working navigation, embedded video, v...
-- [7 Machine Learning Algorithms That Still Matter](https://www.kdnuggets.com/7-machine-learning-algorithms-that-still-matter)
-  - Discover 7 essential machine learning algorithms that every data scientist should know before reaching for LLMs and generative AI, with simple explanations and practical Python ...
 
 ## OpenAI News (ai)
+- [How we built a realtime system for responsive voice AI in six months](https://openai.com/index/continuous-voice-interaction-with-gpt-live)
+  - GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.
+- [Circles powers telco personalization with OpenAI technology](https://openai.com/index/circles)
+  - Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.
 - [Ten advances in mathematics and theoretical computer science](https://openai.com/index/ten-advances-in-mathematics)
   - OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.
 - [Advancing responsible AI across Europe](https://openai.com/index/advancing-responsible-ai-across-europe)
   - OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.
 - [Building abundant intelligence](https://openai.com/index/building-abundant-intelligence)
   - A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.
-- [Univé builds an AI-ready workforce](https://openai.com/index/unive)
-  - See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.
-- [Disrupting a Criminal Scam Operation](https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation)
-  - OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.
 
 ## Google AI Blog (ai)
 - [Gemini API Managed Agents: 3.6 Flash, hooks, and more](https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/)
