@@ -1,32 +1,32 @@
 # Latest Learning Resources
 
-Updated: 2026-08-05 05:23 UTC
+Updated: 2026-08-06 05:25 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [How a Frontier Model Gets Built, Read from the Kimi K3 Report](https://towardsdatascience.com/how-a-frontier-model-gets-built-read-from-the-kimi-k3-report/)
+  - <p>An open, 2.8-trillion-parameter model shipped with 47 pages of its own recipe. Reading it tells you what building a frontier model now involves, and how little of it is the m...
+- [Introduction to Semi-Supervised Learning](https://towardsdatascience.com/introduction-to-semi-supervised-learning/)
+  - <p>A primer about Semi-Supervised Learning, the approaches taken with different algorithms and the limitations of using unlabelled data.</p> <p>The post <a href="https://towards...
+- [Is This Slop? Detecting AI-Generated Content Without a Model](https://towardsdatascience.com/is-this-slop-detecting-ai-generated-content-without-a-model-2/)
+  - <p>Research-backed cues to detect LLM-generated text along with the mathematical intuition as to 'why'</p> <p>The post <a href="https://towardsdatascience.com/is-this-slop-detec...
+- [Building Document Structure with Loop Engineering: Recovering a PDF’s Outline from Body Typography for RAG](https://towardsdatascience.com/building-document-structure-with-loop-engineering-recovering-a-pdfs-outline-from-body-typography-for-rag/)
+  - <p>Enterprise Document Intelligence [Vol.1 #5octies] - Rules propose, LLM validates: six deterministic signals on span-level typography surface heading candidates, one bounded l...
 - [The Medallion Data Architecture: An Introduction](https://towardsdatascience.com/the-medallion-data-architecture/)
   - <p>A practical guide to Bronze, Silver and Gold, with a working Python and DuckDB example</p> <p>The post <a href="https://towardsdatascience.com/the-medallion-data-architecture...
-- [How to Get More Statistical Power from Fewer Research Participants](https://towardsdatascience.com/increasing-statistical-power-with-more-problems/)
-  - <p>An online simulation and a novel method for increasing power</p> <p>The post <a href="https://towardsdatascience.com/increasing-statistical-power-with-more-problems/">How to ...
-- [Are Home Teams Favoured by Referees in Football/Soccer?](https://towardsdatascience.com/are-home-teams-favoured-by-referees-in-football-soccer/)
-  - <p>Data Storytelling Series, Chapter 1</p> <p>The post <a href="https://towardsdatascience.com/are-home-teams-favoured-by-referees-in-football-soccer/">Are Home Teams Favoured b...
-- [Using Agents as Tools](https://towardsdatascience.com/using-agents-as-tools/)
-  - <p>Building manager–specialist workflows with the OpenAI Agents SDK</p> <p>The post <a href="https://towardsdatascience.com/using-agents-as-tools/">Using Agents as Tools</a> app...
-- [Prompt, Context, Loop: The Three Engineering Layers Every RAG System Is Built On](https://towardsdatascience.com/prompt-context-loop-the-three-engineering-layers-every-rag-system-is-built-on/)
-  - <p>Enterprise Document Intelligence [Vol.1 #M2] - Every RAG system is built in three engineering layers stacked on one LLM call: prompt (the call itself), context (what fills th...
 
 ## KDnuggets (data-analysis)
+- [Getting Started with GitHub Agentic Workflows](https://www.kdnuggets.com/getting-started-with-github-agentic-workflows)
+  - GitHub Agentic Workflows are in public preview. Find out all about them here.
+- [Turn Any CSV into an Executive Report with Python and AI](https://www.kdnuggets.com/turn-any-csv-into-an-executive-report-with-python-and-ai)
+  - Learn to implement a repeatable pipeline that cleans a CSV, finds the story, and writes it up.
 - [Honest Abacus AI Review: ChatLLM, DeepAgent, AI Studio & More](https://www.kdnuggets.com/2026/08/abacus/honest-abacus-ai-review)
   - The All-In-One AI Powerhouse: A Comprehensive Review of Abacus AI’s Full Ecosystem An in-depth look at how the platform integrates 100+ AI models, autonomous agents, and a compl...
 - [I Replaced Pip, Virtualenv, and Poetry With uv: Here’s Why](https://www.kdnuggets.com/i-replaced-pip-virtualenv-and-poetry-with-uv-heres-why)
   - uv is making my life easier by giving me one fast tool for package installation, virtual environments, lock files, Python versions, and running project commands.
 - [7 Approaches to Reduce Inference Latency in Your LLM Workflows](https://www.kdnuggets.com/7-approaches-to-reduce-inference-latency-in-your-llm-workflows)
   - From quantization to speculative decoding, here are seven engineering strategies to ship faster, more responsive generative AI applications in production.
-- [Does MiniMax Agent Actually Make Work Easier?](https://www.kdnuggets.com/does-minimax-agent-actually-make-work-easier)
-  - Read about MiniMax's own architecture, and see how it runs a real task against the actual API. Learn the pieces of the MiniMax story that weren't covered in the launch post.
-- [A Guide to Saving Token Usage with Multi-Agent AI](https://www.kdnuggets.com/a-guide-to-saving-token-usage-with-multi-agent-ai)
-  - Scaling up and streamlining a multi-agent architecture doesn't necessarily entail escalated costs if you know how to properly implement these four strategies for saving token us...
 
 ## OpenAI News (ai)
 - [Third-party cyber evaluations involving OpenAI models](https://openai.com/index/third-party-cyber-evaluations-involving-openai-models)
