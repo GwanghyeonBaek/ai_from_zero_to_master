@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-08-08 03:42 UTC
+Updated: 2026-08-09 03:51 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Before Q, K, and V: Reconstructing the Transformer](https://towardsdatascience.com/before-q-k-and-v-reconstructing-the-transformer/)
+  - <p>Many Transformer explainers start with the finished architecture. We ask why it looks the way it does.</p> <p>The post <a href="https://towardsdatascience.com/before-q-k-and-...
+- [Building a Streamlit UI for My LangGraph AI Agent](https://towardsdatascience.com/building-a-streamlit-ui-for-my-langgraph-ai-agent/)
+  - <p>Building a production-ready web interface for a stateful LangGraph agent</p> <p>The post <a href="https://towardsdatascience.com/building-a-streamlit-ui-for-my-langgraph-ai-a...
 - [Matplotlib vs Plotly: Which Python Chart Tool Should You Choose?](https://towardsdatascience.com/matplotlib-vs-plotly-which-python-chart-tool-should-you-choose/)
   - <p>From Static Plots to Interactive Data Exploration</p> <p>The post <a href="https://towardsdatascience.com/matplotlib-vs-plotly-which-python-chart-tool-should-you-choose/">Mat...
 - [Loop Engineering for Listing Questions: When the Answer Is Every Passage, Not the Top One](https://towardsdatascience.com/loop-engineering-for-listing-questions-when-the-answer-is-every-passage-not-the-top-one/)
   - <p>Enterprise Document Intelligence [Vol.1 #12] - The category of question most RAG pipelines silently fail on, and the pipeline shape that handles them</p> <p>The post <a href=...
 - [The Problem with pandas Isn’t Performance. It’s Cognitive Overhead.](https://towardsdatascience.com/the-problem-with-pandas-isnt-performance-its-cognitive-overhead/)
   - <p>Faster dataframe engines are nice, but they don't reduce the amount of syntax an analyst has to hold in their head.</p> <p>The post <a href="https://towardsdatascience.com/th...
-- [My Fall-Detection Model Scored 94%, and It Was Lying to Me](https://towardsdatascience.com/my-fall-detection-model-scored-94-and-it-was-lying-to-me/)
-  - <p>How a single evaluation choice inflated my results by 25 points, and what rebuilding honestly taught me about ML systems people might depend on</p> <p>The post <a href="https...
-- [I Built an AI Data Agent Which Can Query Data and Answer Business Questions. Here’s How.](https://towardsdatascience.com/i-built-an-ai-data-agent-which-can-query-data-and-answer-business-questions-heres-how/)
-  - <p>A step-by-step guide to building a data agent and conversational interface that let business users to explore data in natural language without SQL</p> <p>The post <a href="ht...
 
 ## KDnuggets (data-analysis)
 - [Small Language Models with Hugging Face transformers Library + smolLM3](https://www.kdnuggets.com/small-language-models-with-hugging-face-transformers-library-smollm3)
