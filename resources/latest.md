@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-08-09 03:51 UTC
+Updated: 2026-08-10 04:05 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [I Thought Loading Data Was the Finish Line. It Was the Starting Point.](https://towardsdatascience.com/i-thought-loading-data-was-the-finish-line-it-was-the-starting-point/)
+  - <p>Building my first dbt models and learning what “analysis-ready” data actually means</p> <p>The post <a href="https://towardsdatascience.com/i-thought-loading-data-was-the-fin...
+- [How to Implement Structured Output with Local LLMs](https://towardsdatascience.com/structured-output-with-local-llms/)
+  - <p>Why use it? How to implement it? What can we do when it fails?</p> <p>The post <a href="https://towardsdatascience.com/structured-output-with-local-llms/">How to Implement St...
 - [Before Q, K, and V: Reconstructing the Transformer](https://towardsdatascience.com/before-q-k-and-v-reconstructing-the-transformer/)
   - <p>Many Transformer explainers start with the finished architecture. We ask why it looks the way it does.</p> <p>The post <a href="https://towardsdatascience.com/before-q-k-and-...
 - [Building a Streamlit UI for My LangGraph AI Agent](https://towardsdatascience.com/building-a-streamlit-ui-for-my-langgraph-ai-agent/)
   - <p>Building a production-ready web interface for a stateful LangGraph agent</p> <p>The post <a href="https://towardsdatascience.com/building-a-streamlit-ui-for-my-langgraph-ai-a...
 - [Matplotlib vs Plotly: Which Python Chart Tool Should You Choose?](https://towardsdatascience.com/matplotlib-vs-plotly-which-python-chart-tool-should-you-choose/)
   - <p>From Static Plots to Interactive Data Exploration</p> <p>The post <a href="https://towardsdatascience.com/matplotlib-vs-plotly-which-python-chart-tool-should-you-choose/">Mat...
-- [Loop Engineering for Listing Questions: When the Answer Is Every Passage, Not the Top One](https://towardsdatascience.com/loop-engineering-for-listing-questions-when-the-answer-is-every-passage-not-the-top-one/)
-  - <p>Enterprise Document Intelligence [Vol.1 #12] - The category of question most RAG pipelines silently fail on, and the pipeline shape that handles them</p> <p>The post <a href=...
-- [The Problem with pandas Isn’t Performance. It’s Cognitive Overhead.](https://towardsdatascience.com/the-problem-with-pandas-isnt-performance-its-cognitive-overhead/)
-  - <p>Faster dataframe engines are nice, but they don't reduce the amount of syntax an analyst has to hold in their head.</p> <p>The post <a href="https://towardsdatascience.com/th...
 
 ## KDnuggets (data-analysis)
 - [Small Language Models with Hugging Face transformers Library + smolLM3](https://www.kdnuggets.com/small-language-models-with-hugging-face-transformers-library-smollm3)
