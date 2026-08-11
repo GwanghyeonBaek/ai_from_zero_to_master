@@ -1,46 +1,48 @@
 # Latest Learning Resources
 
-Updated: 2026-08-10 04:05 UTC
+Updated: 2026-08-11 03:53 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [How to Effectively Deploy Code With Claude Code](https://towardsdatascience.com/how-to-effectively-deploy-code-with-claude-code/)
+  - <p>Learn how to optimize your CI/CD pipeline for coding agents</p> <p>The post <a href="https://towardsdatascience.com/how-to-effectively-deploy-code-with-claude-code/">How to E...
+- [Building an Agent-Ready Data Warehouse: What Traditional Architectures Do Wrong](https://towardsdatascience.com/building-an-agent-ready-data-warehouse-what-traditional-architectures-do-wrong/)
+  - <p>Giving an AI agent access to a data warehouse doesn't automatically make it agent-ready. The real challenge lies in teaching the agent what the data means and when it's relia...
+- [Variational Autoencoders (VAEs) Explained: From Theory to ELBO and the Reparameterization Trick](https://towardsdatascience.com/variational-autoencoders-vaes-explained-from-theory-to-elbo-and-the-reparameterization-trick/)
+  - <p>A clear, math-first walkthrough of how VAEs learn to generate new data</p> <p>The post <a href="https://towardsdatascience.com/variational-autoencoders-vaes-explained-from-th...
+- [SPP-Net Paper Walkthrough: Breaking the Fixed-Size Constraint](https://towardsdatascience.com/spp-net-paper-walkthrough-breaking-the-fixed-size-constraint/)
+  - <p>Learn how Spatial Pyramid Pooling enables CNNs to handle any image size, with a from-scratch PyTorch implementation</p> <p>The post <a href="https://towardsdatascience.com/sp...
 - [I Thought Loading Data Was the Finish Line. It Was the Starting Point.](https://towardsdatascience.com/i-thought-loading-data-was-the-finish-line-it-was-the-starting-point/)
   - <p>Building my first dbt models and learning what “analysis-ready” data actually means</p> <p>The post <a href="https://towardsdatascience.com/i-thought-loading-data-was-the-fin...
-- [How to Implement Structured Output with Local LLMs](https://towardsdatascience.com/structured-output-with-local-llms/)
-  - <p>Why use it? How to implement it? What can we do when it fails?</p> <p>The post <a href="https://towardsdatascience.com/structured-output-with-local-llms/">How to Implement St...
-- [Before Q, K, and V: Reconstructing the Transformer](https://towardsdatascience.com/before-q-k-and-v-reconstructing-the-transformer/)
-  - <p>Many Transformer explainers start with the finished architecture. We ask why it looks the way it does.</p> <p>The post <a href="https://towardsdatascience.com/before-q-k-and-...
-- [Building a Streamlit UI for My LangGraph AI Agent](https://towardsdatascience.com/building-a-streamlit-ui-for-my-langgraph-ai-agent/)
-  - <p>Building a production-ready web interface for a stateful LangGraph agent</p> <p>The post <a href="https://towardsdatascience.com/building-a-streamlit-ui-for-my-langgraph-ai-a...
-- [Matplotlib vs Plotly: Which Python Chart Tool Should You Choose?](https://towardsdatascience.com/matplotlib-vs-plotly-which-python-chart-tool-should-you-choose/)
-  - <p>From Static Plots to Interactive Data Exploration</p> <p>The post <a href="https://towardsdatascience.com/matplotlib-vs-plotly-which-python-chart-tool-should-you-choose/">Mat...
 
 ## KDnuggets (data-analysis)
+- [New Free eBook: Understanding Agentic AI, an Executive Briefing](https://www.kdnuggets.com/new-free-ebook-understanding-agentic-ai-an-executive-briefing)
+  - Written for CEOs, CTOs, CIOs, and technology executives, our new free ebook "Understanding Agentic AI: An Executive Briefing" walks through the components every real agentic sys...
+- [Specification Engineering: The New Skill After Prompt Engineering](https://www.kdnuggets.com/specification-engineering-the-new-skill-after-prompt-engineering)
+  - Prompt engineering taught us how to ask better questions. Specification engineering teaches us how to define better work.
+- [Top 10 AI Influencers of 2026](https://www.kdnuggets.com/top-10-ai-influencers-of-2026)
+  - Ten AI influencers who are actually shaping 2026, from safe superintelligence to AI-native search. Here is who to follow and why.
 - [Small Language Models with Hugging Face transformers Library + smolLM3](https://www.kdnuggets.com/small-language-models-with-hugging-face-transformers-library-smollm3)
   - Running a 70B model in production is expensive, and for many tasks, unnecessary. If you're building a focused pipeline, a well-trained 3B model will match or beat the 70B on you...
 - [5 Free Courses to Learn Modern AI and LLMs](https://www.kdnuggets.com/5-free-courses-to-learn-modern-ai-and-llms)
   - Learn how to use generative AI at work, build RAG and agentic apps, fine-tune models, work with the Hugging Face ecosystem, and prototype AI products with hands-on resources.
-- [Beyond Bots: Rethinking AI Support with a Hybrid AI Architecture](https://www.kdnuggets.com/beyond-bots-rethinking-ai-support-with-a-hybrid-ai-architecture)
-  - Learn how blending RAG and fine-tuning creates more effective AI support experiences.
-- [The Minimal AI Engineer Toolkit for 2026](https://www.kdnuggets.com/the-minimal-ai-engineer-toolkit-for-2026)
-  - Discover the six essential tools AI engineers need in 2026 to build and deploy production-grade autonomous systems.
-- [7 Best Web Crawling Tools and APIs in 2026](https://www.kdnuggets.com/7-best-web-crawling-tools-and-apis-in-2026)
-  - Learn about the best web crawling tools for collecting website content, crawling subpages, generating clean web data, and powering AI agents.
 
 ## OpenAI News (ai)
-- [Responding to the next frontier of critical cyber capabilities](https://openai.com/index/responding-next-frontier-critical-cyber-capabilities)
-  - OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.
-- [How HSP GRUPPE builds AI capabilities for tax advisory](https://openai.com/index/hsp-gruppe)
-  - Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.
-- [Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users](https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt)
-  - ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.
-- [Working with the American Psychological Association on youth mental health and AI](https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai)
-  - OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.
-- [From asking to doing: How the world is putting ChatGPT to work](https://openai.com/index/how-the-world-is-putting-chatgpt-to-work)
-  - New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.
+- [OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas](https://openai.com/index/responsible-ai-infrastructure-texas)
+  - OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.
+- [Model ML completes finance work more efficiently with GPT-5.6 Sol](https://openai.com/index/model-ml)
+  - Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.
+- [What building an AI-native finance function taught me](https://openai.com/index/building-an-ai-native-finance-function)
+  - OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.
+- [Expanding Daybreak as the Cyber Defense Window Narrows](https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows)
+  - Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.
+- [Putting frontier cyber models in more trusted hands](https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands)
+  - Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.
 
 ## Google AI Blog (ai)
+- [Evolve your marketing with new AI tools](https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/)
+  - Advisor UI in Google Ads and Google Analytics
 - [The latest AI news we announced in July 2026](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/)
   - July AI recap header
 - [Inside our 353,000-person vibe coding course](https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/)
@@ -49,12 +51,10 @@ Updated: 2026-08-10 04:05 UTC
   - Managed Agents Gemini 3.6 Flash, Hooks and Triggers
 - [5 ways AI Mode in Search helps you enjoy the real world](https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/)
   - Illustration of a black magnifying glass in a white circle on green grass surrounded by items related to fun activities like tennis and games
-- [5 ways to host the ultimate dinner party with Google Search](https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/)
-  - An illustrated black magnifying glass with a sparkle in a white circle surrounded by a dinner party tablescape
 
 ## Hugging Face Blog (llm)
+- [Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS](https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents)
+- [Making Knowledge Distillation Cheap Enough to Run at Scale](https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation)
+- [Meta is back with Muse Glimmer: local, agentic, multimodal, and open source](https://huggingface.co/blog/muse-glimmer)
 - [TutorMoments: Do AI tutors know when to help and when to hold back?](https://huggingface.co/blog/allenai/tutormoments)
 - [Baseten on Hugging Face Inference Providers 🔥](https://huggingface.co/blog/baseten)
-- [Deploy local agents everywhere with LFM2.5-2.6B](https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b)
-- [GPU Management: Why Idle GPUs Are the New Grounded Aircraft](https://huggingface.co/blog/Dharma-AI/gpu-management)
-- [NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics](https://huggingface.co/blog/nvidia/cosmos-h-dreams)
