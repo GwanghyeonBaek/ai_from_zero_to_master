@@ -1,32 +1,32 @@
 # Latest Learning Resources
 
-Updated: 2026-08-14 04:16 UTC
+Updated: 2026-08-15 03:02 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [A Day in the Life of a Data Scientist in 2026](https://towardsdatascience.com/a-day-in-the-life-of-a-data-scientist-in-2026/)
+  - <p>How AI has massively changed my day-to-day workflow</p> <p>The post <a href="https://towardsdatascience.com/a-day-in-the-life-of-a-data-scientist-in-2026/">A Day in the Life ...
+- [RAG Workflow and Loop Engineering: The Dispatcher That Decides When to Loop and When to Stop](https://towardsdatascience.com/rag-workflow-and-loop-engineering-the-dispatcher-that-decides-when-to-loop-and-when-to-stop/)
+  - <p>Enterprise Document Intelligence [Vol.1 #13] - Putting the patterns together, and why this is what “agentic RAG” should look like</p> <p>The post <a href="https://towardsdata...
+- [My Model Was Cheating on Its Own Test](https://towardsdatascience.com/my-model-was-cheating-on-its-own-test/)
+  - <p>A preprocessing pipeline let my car price model peek at the test set before the exam, and the twelve points of R squared it cheated its way to</p> <p>The post <a href="https:...
+- [I Made an LLM Lay Siege to My Minecraft House](https://towardsdatascience.com/i-made-an-llm-lay-siege-to-my-minecraft-house/)
+  - <p>Can a language model do live adversarial level design? Yes, emphasis on the adversarial part</p> <p>The post <a href="https://towardsdatascience.com/i-made-an-llm-lay-siege-t...
 - [How to Utilize OKF Efficiently to Enable Knowledge Exchange Among LLMs](https://towardsdatascience.com/how-to-utilize-okf-efficiently-to-enable-knowledge-exchange-among-llms/)
   - <p>Google's Open Knowledge Format (OKF) is a Markdown+YAML skeleton for sharing knowledge between humans and AI agents. This post reuses that skeleton for a very specific job — ...
-- [Cut an Enterprise RAG Pipeline’s Latency and Cost by Calling the LLM Less, Not by Buying a Faster Model](https://towardsdatascience.com/cut-an-enterprise-rag-pipelines-latency-and-cost-by-calling-the-llm-less-not-by-buying-a-faster-model/)
-  - <p>Enterprise Document Intelligence [Vol.1 #9ter] - The pipeline from Article 9 calls a model at several steps to be sure it is right. On easy questions that is needless latency...
-- [How to Orchestrate a Fleet of OpenClaw Bots](https://towardsdatascience.com/how-to-orchestrate-a-fleet-of-openclaw-bots/)
-  - <p>Learn how to run OpenClaw bots for increased productivity</p> <p>The post <a href="https://towardsdatascience.com/how-to-orchestrate-a-fleet-of-openclaw-bots/">How to Orchest...
-- [LangChain vs LangGraph: 4 Key Differences and When to Use Each](https://towardsdatascience.com/langchain-vs-langgraph-4-key-differences-and-when-to-use-each/)
-  - <p>A practical guide to choose the proper tool for your agentic workflows and systems</p> <p>The post <a href="https://towardsdatascience.com/langchain-vs-langgraph-4-key-differ...
-- [Before Full Agentic RAG: Know How You Decide, and the Parsing Methods You Pick From](https://towardsdatascience.com/before-full-agentic-rag-know-how-you-decide-and-the-parsing-methods-you-pick-from/)
-  - <p>Enterprise Document Intelligence [Vol.1 #5nonies] - Nature, plan, execute, synthesize: closing brick 1 with a dispatcher that reads each PDF’s nature and picks the method tha...
 
 ## KDnuggets (data-analysis)
+- [How to Build a Simple AI Web Scraper with Python](https://www.kdnuggets.com/how-to-build-a-simple-ai-web-scraper-with-python)
+  - Turn any webpage into a lightweight LLM-powered QA engine by cleaning HTML, converting content to Markdown, and returning focused answers while reducing token usage.
+- [5 Fun Agentic AI Papers to Read](https://www.kdnuggets.com/5-fun-agentic-ai-papers-to-read)
+  - If you read only five papers on AI agents, make them these.
 - [Building a Streaming Local AI Agent](https://www.kdnuggets.com/building-a-streaming-local-ai-agent)
   - Streaming gets used in two different ways when people talk about AI agents. Straighten out your understanding here.
 - [Constraining Output Space for SLM Narrow Automation Optimization](https://www.kdnuggets.com/constraining-output-space-small-language-model-narrow-automation-optimization)
   - This article will kick off a series on narrow automation optimization for SLMs, and as the first entry will cover one of the more most useful techniques for doing so: constraini...
 - [Building an End-to-End Data Science Portfolio Project](https://www.kdnuggets.com/building-an-end-to-end-data-science-portfolio-project)
   - Most portfolios stop at a notebook. Take yours all the way.
-- [5 Easy Ways to Install Python on Windows](https://www.kdnuggets.com/5-easy-ways-to-install-python-on-windows)
-  - Learn how to install Python on Windows using the Python Install Manager, WinGet, uv, Miniconda, or the official Python installer, and choose the best setup for beginners and Pyt...
-- [The Ultimate Guide to Contributing to Open Source Projects](https://www.kdnuggets.com/the-ultimate-guide-to-contributing-to-open-source-projects)
-  - This guide walks through what contributing to open source projects actually covers, how to pick a project that will actually respond to you, the exact git mechanics, and more.
 
 ## OpenAI News (ai)
 - [The builder’s guide to GPT‑5.6](https://openai.com/index/builders-guide-to-gpt-5-6)
@@ -53,8 +53,8 @@ Updated: 2026-08-14 04:16 UTC
   - Illustrations of a laptop, an AI spark, messages, code, and a 3-D cube
 
 ## Hugging Face Blog (llm)
+- [State of Open Models: Summer 2026 Observations](https://huggingface.co/blog/state-of-open-models-summer-2026)
 - [Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets](https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop)
 - [What We Learned by Reproducing 2,200 papers from ICML](https://huggingface.co/blog/icml-2026-open-reproductions)
 - [Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis](https://huggingface.co/blog/allenai/olmoearth-embeddings)
 - [LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge](https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b)
-- [Thinking of ACE? We Can Do It with Fewer Tokens](https://huggingface.co/blog/ibm-research/altk-evolve-sldd)
