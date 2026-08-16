@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-08-15 03:02 UTC
+Updated: 2026-08-16 03:11 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Mathematical Experiments Are Becoming Abundant Through Human-Machine Teaming](https://towardsdatascience.com/mathematical-experiments-are-becoming-abundant-through-human-machine-teaming/)
+  - <p>Two open problems, exact-arithmetic checking and a proof assistant, over a single weekend.</p> <p>The post <a href="https://towardsdatascience.com/mathematical-experiments-ar...
+- [How to Shine as a Data Scientist in the Vibe Coding Era](https://towardsdatascience.com/how-to-shine-in-the-vibe-coding-era-as-a-data-scientist/)
+  - <p>Here's how to be the Data Scientist who thrives in a world where coding is a commodity. </p> <p>The post <a href="https://towardsdatascience.com/how-to-shine-in-the-vibe-codi...
 - [A Day in the Life of a Data Scientist in 2026](https://towardsdatascience.com/a-day-in-the-life-of-a-data-scientist-in-2026/)
   - <p>How AI has massively changed my day-to-day workflow</p> <p>The post <a href="https://towardsdatascience.com/a-day-in-the-life-of-a-data-scientist-in-2026/">A Day in the Life ...
 - [RAG Workflow and Loop Engineering: The Dispatcher That Decides When to Loop and When to Stop](https://towardsdatascience.com/rag-workflow-and-loop-engineering-the-dispatcher-that-decides-when-to-loop-and-when-to-stop/)
   - <p>Enterprise Document Intelligence [Vol.1 #13] - Putting the patterns together, and why this is what “agentic RAG” should look like</p> <p>The post <a href="https://towardsdata...
 - [My Model Was Cheating on Its Own Test](https://towardsdatascience.com/my-model-was-cheating-on-its-own-test/)
   - <p>A preprocessing pipeline let my car price model peek at the test set before the exam, and the twelve points of R squared it cheated its way to</p> <p>The post <a href="https:...
-- [I Made an LLM Lay Siege to My Minecraft House](https://towardsdatascience.com/i-made-an-llm-lay-siege-to-my-minecraft-house/)
-  - <p>Can a language model do live adversarial level design? Yes, emphasis on the adversarial part</p> <p>The post <a href="https://towardsdatascience.com/i-made-an-llm-lay-siege-t...
-- [How to Utilize OKF Efficiently to Enable Knowledge Exchange Among LLMs](https://towardsdatascience.com/how-to-utilize-okf-efficiently-to-enable-knowledge-exchange-among-llms/)
-  - <p>Google's Open Knowledge Format (OKF) is a Markdown+YAML skeleton for sharing knowledge between humans and AI agents. This post reuses that skeleton for a very specific job — ...
 
 ## KDnuggets (data-analysis)
 - [How to Build a Simple AI Web Scraper with Python](https://www.kdnuggets.com/how-to-build-a-simple-ai-web-scraper-with-python)
