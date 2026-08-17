@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-08-16 03:11 UTC
+Updated: 2026-08-17 03:11 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Designing a Persistent Knowledge Layer That Refuses to Guess](https://towardsdatascience.com/designing-a-persistent-knowledge-layer-that-refuses-to-guess/)
+  - <p>RAG Retrieves, It Never Remembers. A vendor-neutral blueprint for applications that accumulate understanding. Includes a complete Azure-native implementation (Microsoft Found...
+- [Running SQL Concurrently Across Three Remote DuckDB Servers with Quack](https://towardsdatascience.com/running-sql-concurrently-across-three-remote-duckdb-servers-with-quack/)
+  - <p>A small experiment in remote SQL execution</p> <p>The post <a href="https://towardsdatascience.com/running-sql-concurrently-across-three-remote-duckdb-servers-with-quack/">Ru...
 - [Mathematical Experiments Are Becoming Abundant Through Human-Machine Teaming](https://towardsdatascience.com/mathematical-experiments-are-becoming-abundant-through-human-machine-teaming/)
   - <p>Two open problems, exact-arithmetic checking and a proof assistant, over a single weekend.</p> <p>The post <a href="https://towardsdatascience.com/mathematical-experiments-ar...
 - [How to Shine as a Data Scientist in the Vibe Coding Era](https://towardsdatascience.com/how-to-shine-in-the-vibe-coding-era-as-a-data-scientist/)
   - <p>Here's how to be the Data Scientist who thrives in a world where coding is a commodity. </p> <p>The post <a href="https://towardsdatascience.com/how-to-shine-in-the-vibe-codi...
 - [A Day in the Life of a Data Scientist in 2026](https://towardsdatascience.com/a-day-in-the-life-of-a-data-scientist-in-2026/)
   - <p>How AI has massively changed my day-to-day workflow</p> <p>The post <a href="https://towardsdatascience.com/a-day-in-the-life-of-a-data-scientist-in-2026/">A Day in the Life ...
-- [RAG Workflow and Loop Engineering: The Dispatcher That Decides When to Loop and When to Stop](https://towardsdatascience.com/rag-workflow-and-loop-engineering-the-dispatcher-that-decides-when-to-loop-and-when-to-stop/)
-  - <p>Enterprise Document Intelligence [Vol.1 #13] - Putting the patterns together, and why this is what “agentic RAG” should look like</p> <p>The post <a href="https://towardsdata...
-- [My Model Was Cheating on Its Own Test](https://towardsdatascience.com/my-model-was-cheating-on-its-own-test/)
-  - <p>A preprocessing pipeline let my car price model peek at the test set before the exam, and the twelve points of R squared it cheated its way to</p> <p>The post <a href="https:...
 
 ## KDnuggets (data-analysis)
 - [How to Build a Simple AI Web Scraper with Python](https://www.kdnuggets.com/how-to-build-a-simple-ai-web-scraper-with-python)
