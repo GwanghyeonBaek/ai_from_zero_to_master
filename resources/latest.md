@@ -1,32 +1,32 @@
 # Latest Learning Resources
 
-Updated: 2026-08-21 03:14 UTC
+Updated: 2026-08-22 03:05 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
-- [How to Effectively Align Your Intent with Claude Code](https://towardsdatascience.com/how-to-effectively-align-your-intents-with-claude-code/)
-  - <p>Improve your proficiency with Claude Code.</p> <p>The post <a href="https://towardsdatascience.com/how-to-effectively-align-your-intents-with-claude-code/">How to Effectively...
-- [The LLM Judge That Kept Agreeing With Itself](https://towardsdatascience.com/the-llm-judge-that-kept-agreeing-with-itself/)
-  - <p>What a production incident taught me about trusting a model to judge another model's work</p> <p>The post <a href="https://towardsdatascience.com/the-llm-judge-that-kept-agre...
-- [Three Kinds of RAG Corpus, and What It Costs to Build for the Wrong One](https://towardsdatascience.com/three-kinds-of-rag-corpus-and-what-it-costs-to-build-for-the-wrong-one/)
-  - <p>Enterprise Document Intelligence [Vol.1 #14A] - Three questions tell you which shape a document collection has, and each shape wants a different architecture</p> <p>The post ...
-- [How to Fine-Tune an LLM: An End-to-End Guide](https://towardsdatascience.com/how-to-fine-tune-an-llm-an-end-to-end-guide/)
-  - <p>A hands-on guide to fine-tuning LLMs for the real world</p> <p>The post <a href="https://towardsdatascience.com/how-to-fine-tune-an-llm-an-end-to-end-guide/">How to Fine-Tune...
-- [Making the Knowledge Layer a Graph You Actually Traverse](https://towardsdatascience.com/making-the-knowledge-layer-a-graph-you-actually-traverse/)
-  - <p>Why retrieval quality should be a property of the system, not of the question's wording? Rebuilding knowledge layer with graph traversal on every query, bitemporal edges, and...
+- [Running Codex as a Headless Agent](https://towardsdatascience.com/running-codex-as-a-headless-agent/)
+  - <p>Turning Codex from an interactive assistant into a programmable automation component</p> <p>The post <a href="https://towardsdatascience.com/running-codex-as-a-headless-agent...
+- [Estimating from No Data: Deriving a Continuous Score from Categories](https://towardsdatascience.com/estimating-from-no-data-deriving-a-continuous-score-from-categories-2/)
+  - <p>A walkthrough of and the maths behind using low-capacity networks to acquire fine-grained scoring when only categorical labelling is available for training</p> <p>The post <a...
+- [Retrieve One Row from a Table, Not the Whole Table: Row-Level Chunks for RAG](https://towardsdatascience.com/retrieve-one-row-from-a-table-not-the-whole-table-row-level-chunks-for-rag/)
+  - <p>Enterprise Document Intelligence [Vol.1 #7sexies] - The unit of retrieval doesn’t have to be a page or a paragraph. When the corpus carries tables, each body row with its col...
+- [The Types of Dimensions in a Star Schema, and How to Use Them](https://towardsdatascience.com/what-are-the-types-of-dimensions-in-a-star-schema-and-how-to-use-them/)
+  - <p>Dimensions are one of the two main object types in dimensional modelling. But what are the different types of dimensions? And how can you use them?</p> <p>The post <a href="h...
+- [Bayesian Guardrails for AI Decisions: Measuring Uncertainty Before Automating Decisions](https://towardsdatascience.com/bayesian-guardrails-for-ai-decisions-measuring-uncertainty-before-automating-decisions/)
+  - <p>AI systems should not automate a decision simply because they can provide a prediction. A decision system should consider how uncertain the prediction is and defer if a mista...
 
 ## KDnuggets (data-analysis)
+- [Run Muse Glimmer for Local Vibe Coding with llama.cpp, DFlash, and Pi](https://www.kdnuggets.com/run-muse-glimmer-for-local-vibe-coding-with-llama-cpp-dflash-and-pi)
+  - Run Muse Glimmer locally on an RTX 3090 GPU using llama.cpp, DFlash speculative decoding, and Pi for fast, private, agentic AI coding.
+- [5 Real-World Use Cases for AI Agents Transforming Industries](https://www.kdnuggets.com/5-real-world-use-cases-for-ai-agents-transforming-industries)
+  - See how AI agents are autonomously handling support, coding, supply chains, healthcare, and fraud detection today.
 - [How to Build a Career in AI: 3 Distinct Pathways](https://www.kdnuggets.com/how-to-build-a-career-in-ai-3-distinct-pathways)
   - Three orientations, three different skill maps, and how to find the one that fits where you actually stand.
 - [Top 10 Open-Source Benchmarks for AI Coding Agents in 2026](https://www.kdnuggets.com/top-10-open-source-benchmarks-for-ai-coding-agents-in-2026)
   - SWE-bench, Terminal-Bench, SlopCodeBench, ProgramBench, and more. Explore the top 10 open-source benchmarks for evaluating AI coding agents.
 - [How to Answer AI System Design Interview Questions](https://www.kdnuggets.com/how-to-answer-ai-system-design-interview-questions)
   - The interview moved from Design YouTube to Design ChatGPT. Here's the framework.
-- [5 Tools for Building and Deploying AI Agents in Production](https://www.kdnuggets.com/5-tools-for-building-and-deploying-ai-agents-in-production)
-  - This article walks through five tools, one for each layer of the stack from building the agent's logic to running all of it at scale.
-- [Run Qwen3.8-27B as a Local AI Coding Agent in Just 3 Commands](https://www.kdnuggets.com/run-qwen3-8-27b-as-a-local-ai-coding-agent-in-just-3-commands)
-  - Download Ollama, pull and serve Qwen3.8-27B, and launch it with OpenCode using just three command lines.
 
 ## OpenAI News (ai)
 - [Introducing AI Futures](https://openai.com/index/introducing-ai-futures)
@@ -53,8 +53,8 @@ Updated: 2026-08-21 03:14 UTC
   - Advisor UI in Google Ads and Google Analytics
 
 ## Hugging Face Blog (llm)
+- [Measuring benchmark optimization in speech recognition](https://huggingface.co/blog/asr-benchmark-optimization)
 - [Up to 3.2x Faster Inference with LFM2.5-DSpark](https://huggingface.co/blog/LiquidAI/lfm25-dspark)
 - [How Much Memory Does Your Agent Actually Need?](https://huggingface.co/blog/ibm-research/altk-evolve-hmm)
 - [Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers](https://huggingface.co/blog/multi-vector-encoder)
 - [Same Cluster, 33 Points More Utilization: What Changed Was the Order](https://huggingface.co/blog/Dharma-AI/gpu-management-pt2)
-- [State of Open Models: Summer 2026 Observations](https://huggingface.co/blog/state-of-open-models-summer-2026)
