@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-08-22 03:05 UTC
+Updated: 2026-08-23 03:13 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Building a Proper Backend for My LangGraph AI Agent](https://towardsdatascience.com/building-a-proper-backend-for-my-langgraph-ai-agent/)
+  - <p>Turning a demo agent into something that can keep real booking data</p> <p>The post <a href="https://towardsdatascience.com/building-a-proper-backend-for-my-langgraph-ai-agen...
+- [Multi-Document RAG: A Folder of Unrelated PDFs Is One Long Document with a Nested Outline](https://towardsdatascience.com/multi-document-rag-a-folder-of-unrelated-pdfs-is-one-long-document-with-a-nested-outline/)
+  - <p>Enterprise Document Intelligence [Vol.1 #14B] - No shared fields means no index to build. One summary line per file plus each file’s own table of contents, and retrieval rout...
+- [Why We Fine-Tuned SigLip (And Why That’s Not Always the Right Call)](https://towardsdatascience.com/why-we-fine-tuned-siglip-and-why-thats-not-always-the-right-call/)
+  - <p>LoRA fine-tuning solved our under-labeling problem. Whether it makes sense for you depends on three questions. </p> <p>The post <a href="https://towardsdatascience.com/why-we...
 - [Running Codex as a Headless Agent](https://towardsdatascience.com/running-codex-as-a-headless-agent/)
   - <p>Turning Codex from an interactive assistant into a programmable automation component</p> <p>The post <a href="https://towardsdatascience.com/running-codex-as-a-headless-agent...
 - [Estimating from No Data: Deriving a Continuous Score from Categories](https://towardsdatascience.com/estimating-from-no-data-deriving-a-continuous-score-from-categories-2/)
   - <p>A walkthrough of and the maths behind using low-capacity networks to acquire fine-grained scoring when only categorical labelling is available for training</p> <p>The post <a...
-- [Retrieve One Row from a Table, Not the Whole Table: Row-Level Chunks for RAG](https://towardsdatascience.com/retrieve-one-row-from-a-table-not-the-whole-table-row-level-chunks-for-rag/)
-  - <p>Enterprise Document Intelligence [Vol.1 #7sexies] - The unit of retrieval doesn’t have to be a page or a paragraph. When the corpus carries tables, each body row with its col...
-- [The Types of Dimensions in a Star Schema, and How to Use Them](https://towardsdatascience.com/what-are-the-types-of-dimensions-in-a-star-schema-and-how-to-use-them/)
-  - <p>Dimensions are one of the two main object types in dimensional modelling. But what are the different types of dimensions? And how can you use them?</p> <p>The post <a href="h...
-- [Bayesian Guardrails for AI Decisions: Measuring Uncertainty Before Automating Decisions](https://towardsdatascience.com/bayesian-guardrails-for-ai-decisions-measuring-uncertainty-before-automating-decisions/)
-  - <p>AI systems should not automate a decision simply because they can provide a prediction. A decision system should consider how uncertain the prediction is and defer if a mista...
 
 ## KDnuggets (data-analysis)
 - [Run Muse Glimmer for Local Vibe Coding with llama.cpp, DFlash, and Pi](https://www.kdnuggets.com/run-muse-glimmer-for-local-vibe-coding-with-llama-cpp-dflash-and-pi)
