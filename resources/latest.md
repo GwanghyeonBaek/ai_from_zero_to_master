@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-08-23 03:13 UTC
+Updated: 2026-08-24 03:15 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Survival Analysis and the Cox Proportional Hazards Model: A Beginner-Friendly Guide](https://towardsdatascience.com/a-first-look-at-survival-analysis-and-the-cox-model/)
+  - <p>From Kaplan-Meier curves to hazard ratios with runnable Python Code throughout</p> <p>The post <a href="https://towardsdatascience.com/a-first-look-at-survival-analysis-and-t...
+- [Parse the Folder, Not Just the PDFs: The Relational Tables RAG Needs on a Case File](https://towardsdatascience.com/parse-the-folder-not-just-the-pdfs-the-relational-tables-rag-needs-on-a-case-file/)
+  - <p>Enterprise Document Intelligence [Vol.1 #14D] - The index lists what the case type demands before any folder is opened, and the two questions worth building for are not retri...
+- [Bug Detection Blind Spots in AI Coding Harnesses (GStack and Beyond)](https://towardsdatascience.com/bug-detection-blind-spots-in-ai-coding-harnesses-gstack-and-beyond/)
+  - <p>28 debugging experiments reveal that AI struggles less with complexity than with missing information.</p> <p>The post <a href="https://towardsdatascience.com/bug-detection-bl...
 - [Building a Proper Backend for My LangGraph AI Agent](https://towardsdatascience.com/building-a-proper-backend-for-my-langgraph-ai-agent/)
   - <p>Turning a demo agent into something that can keep real booking data</p> <p>The post <a href="https://towardsdatascience.com/building-a-proper-backend-for-my-langgraph-ai-agen...
 - [Multi-Document RAG: A Folder of Unrelated PDFs Is One Long Document with a Nested Outline](https://towardsdatascience.com/multi-document-rag-a-folder-of-unrelated-pdfs-is-one-long-document-with-a-nested-outline/)
   - <p>Enterprise Document Intelligence [Vol.1 #14B] - No shared fields means no index to build. One summary line per file plus each file’s own table of contents, and retrieval rout...
-- [Why We Fine-Tuned SigLip (And Why That’s Not Always the Right Call)](https://towardsdatascience.com/why-we-fine-tuned-siglip-and-why-thats-not-always-the-right-call/)
-  - <p>LoRA fine-tuning solved our under-labeling problem. Whether it makes sense for you depends on three questions. </p> <p>The post <a href="https://towardsdatascience.com/why-we...
-- [Running Codex as a Headless Agent](https://towardsdatascience.com/running-codex-as-a-headless-agent/)
-  - <p>Turning Codex from an interactive assistant into a programmable automation component</p> <p>The post <a href="https://towardsdatascience.com/running-codex-as-a-headless-agent...
-- [Estimating from No Data: Deriving a Continuous Score from Categories](https://towardsdatascience.com/estimating-from-no-data-deriving-a-continuous-score-from-categories-2/)
-  - <p>A walkthrough of and the maths behind using low-capacity networks to acquire fine-grained scoring when only categorical labelling is available for training</p> <p>The post <a...
 
 ## KDnuggets (data-analysis)
 - [Run Muse Glimmer for Local Vibe Coding with llama.cpp, DFlash, and Pi](https://www.kdnuggets.com/run-muse-glimmer-for-local-vibe-coding-with-llama-cpp-dflash-and-pi)
