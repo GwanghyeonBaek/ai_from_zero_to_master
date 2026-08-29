@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-08-28 14:19 UTC
+Updated: 2026-08-29 09:00 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Human-in-the-Loop Without Killing Throughput](https://towardsdatascience.com/human-in-the-loop-without-killing-throughput/)
+  - <p>How we stopped reviewing every agent action and started routing human attention where it actually mattered</p> <p>The post <a href="https://towardsdatascience.com/human-in-th...
+- [From One Agent to a Team: Understanding Codex Subagents](https://towardsdatascience.com/from-one-agent-to-a-team-understanding-codex-subagents/)
+  - <p>A hands-on guide to defining specialist agents and coordinating their work in the Codex CLI</p> <p>The post <a href="https://towardsdatascience.com/from-one-agent-to-a-team-u...
+- [Connecting My LangGraph AI Agent to Postgres](https://towardsdatascience.com/connecting-my-langgraph-ai-agent-to-postgres/)
+  - <p>How to run the backend locally with Docker or in the cloud</p> <p>The post <a href="https://towardsdatascience.com/connecting-my-langgraph-ai-agent-to-postgres/">Connecting M...
 - [Why Claude Code Time Estimates Are Poor](https://towardsdatascience.com/why-claude-code-time-estimates-are-poor/)
   - <p>Be a better communicator with LLM programming</p> <p>The post <a href="https://towardsdatascience.com/why-claude-code-time-estimates-are-poor/">Why Claude Code Time Estimates...
 - [The Sigmoid Function: From 'e' to Neural Networks](https://towardsdatascience.com/the-sigmoid-function-from-e-to-neural-networks/)
   - <p>We use the equation all the time. But where did it actually come from?</p> <p>The post <a href="https://towardsdatascience.com/the-sigmoid-function-from-e-to-neural-networks/...
-- [I Trained Six Models for Fraud Detection, and the Best One Isn't in Production](https://towardsdatascience.com/i-trained-six-models-for-fraud-detection-and-the-best-one-isnt-in-production/)
-  - <p>What a final-year project taught me about the gap between evaluation metrics and production decisions</p> <p>The post <a href="https://towardsdatascience.com/i-trained-six-mo...
-- [Agentic AI Is Rewriting The Analytics Stack But There's One Skill It Still Can't Touch](https://towardsdatascience.com/agentic-ai-is-rewriting-the-analytics-stack-but-theres-one-skill-it-still-cant-touch/)
-  - <p>As AI handles more of the execution, what work should belong to agents vs humans and why does that distinction matter?</p> <p>The post <a href="https://towardsdatascience.com...
-- [How to Work with AI Coding Agents](https://towardsdatascience.com/how-to-work-with-ai-coding-agents/)
-  - <p>A practical guide to getting better code, not just more code</p> <p>The post <a href="https://towardsdatascience.com/how-to-work-with-ai-coding-agents/">How to Work with AI C...
 
 ## KDnuggets (data-analysis)
 - [The Local AI Stack for Productive SLMs](https://www.kdnuggets.com/the-local-ai-stack-for-productive-slms)
@@ -29,14 +29,14 @@ Updated: 2026-08-28 14:19 UTC
   - Everyone's using AI coding agents. Here's how to make yours actually useful.
 
 ## OpenAI News (ai)
+- [Our decision on Cursor following its acquisition by SpaceX](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex)
+  - Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.
 - [Supporting Thailand’s next generation of AI startups](https://openai.com/index/supporting-next-generation-ai-startups-thailand)
   - OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.
 - [Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training](https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training)
   - A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.
 - [Expanding OpenAI’s presence in Brazil](https://openai.com/index/expanding-our-presence-in-brazil)
   - OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.
-- [Bringing ChatGPT for Teachers to more U.S. school districts](https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts)
-  - ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.
 - [Learning never stops: How AI makes learning continuous](https://openai.com/index/learning-never-stops)
   - OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.
 
@@ -53,8 +53,8 @@ Updated: 2026-08-28 14:19 UTC
   - The video shows Sheets canvas in action.
 
 ## Hugging Face Blog (llm)
+- [The Open ASR Leaderboard Adds Its First Global South Language](https://huggingface.co/blog/open-asr-leaderboard-global-south)
 - [Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers](https://huggingface.co/blog/train-multi-vector-encoder)
 - [Granite 4.2 LLMs: How They're Built](https://huggingface.co/blog/ibm-granite/granite-4-2)
 - [Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original](https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing)
 - [Wire It, Run It, Deploy It: AI Workflows in Gradio](https://huggingface.co/blog/gradio-workflow-guide)
-- [How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code](https://huggingface.co/blog/pwc-search)
