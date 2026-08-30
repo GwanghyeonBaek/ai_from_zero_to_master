@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-08-29 09:00 UTC
+Updated: 2026-08-30 08:17 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [4 Claude Skills Every Data Scientist Needs in 2026](https://towardsdatascience.com/4-claude-skills-every-data-scientist-needs-in-2026/)
+  - <p>Four skills worth adding to your workflow today if you don't want to be left behind</p> <p>The post <a href="https://towardsdatascience.com/4-claude-skills-every-data-scienti...
+- [When to Use Claude Code and When to Use Codex](https://towardsdatascience.com/when-to-use-claude-code-and-when-to-use-codex/)
+  - <p>Learn where which coding agent is best</p> <p>The post <a href="https://towardsdatascience.com/when-to-use-claude-code-and-when-to-use-codex/">When to Use Claude Code and Whe...
+- [RAG Is Not the Whole Toolkit: The NLP Techniques Real Problems Still Need](https://towardsdatascience.com/rag-is-not-the-whole-toolkit-the-nlp-techniques-real-problems-still-need/)
+  - <p>Enterprise Document Intelligence [Vol.1 #B00] - Retrieval answers one kind of question. Classifying a request, matching free text to a reference list, reading a table, cleani...
 - [Human-in-the-Loop Without Killing Throughput](https://towardsdatascience.com/human-in-the-loop-without-killing-throughput/)
   - <p>How we stopped reviewing every agent action and started routing human attention where it actually mattered</p> <p>The post <a href="https://towardsdatascience.com/human-in-th...
 - [From One Agent to a Team: Understanding Codex Subagents](https://towardsdatascience.com/from-one-agent-to-a-team-understanding-codex-subagents/)
   - <p>A hands-on guide to defining specialist agents and coordinating their work in the Codex CLI</p> <p>The post <a href="https://towardsdatascience.com/from-one-agent-to-a-team-u...
-- [Connecting My LangGraph AI Agent to Postgres](https://towardsdatascience.com/connecting-my-langgraph-ai-agent-to-postgres/)
-  - <p>How to run the backend locally with Docker or in the cloud</p> <p>The post <a href="https://towardsdatascience.com/connecting-my-langgraph-ai-agent-to-postgres/">Connecting M...
-- [Why Claude Code Time Estimates Are Poor](https://towardsdatascience.com/why-claude-code-time-estimates-are-poor/)
-  - <p>Be a better communicator with LLM programming</p> <p>The post <a href="https://towardsdatascience.com/why-claude-code-time-estimates-are-poor/">Why Claude Code Time Estimates...
-- [The Sigmoid Function: From 'e' to Neural Networks](https://towardsdatascience.com/the-sigmoid-function-from-e-to-neural-networks/)
-  - <p>We use the equation all the time. But where did it actually come from?</p> <p>The post <a href="https://towardsdatascience.com/the-sigmoid-function-from-e-to-neural-networks/...
 
 ## KDnuggets (data-analysis)
 - [The Local AI Stack for Productive SLMs](https://www.kdnuggets.com/the-local-ai-stack-for-productive-slms)
