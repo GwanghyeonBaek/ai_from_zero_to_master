@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-08-30 08:17 UTC
+Updated: 2026-08-31 08:37 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [8 Tips for Writing Effective Agent Instructions](https://towardsdatascience.com/8-tips-for-writing-effective-agent-instructions/)
+  - <p>Quick and simple tips to help you write better agent instructions</p> <p>The post <a href="https://towardsdatascience.com/8-tips-for-writing-effective-agent-instructions/">8 ...
+- [Context Engineering Is Changing. Here’s What It Means for Data Scientists](https://towardsdatascience.com/context-engineering-is-changing-heres-what-it-means-for-data-scientists/)
+  - <p>How to apply the latest context engineering guidelines to your day-to-day data science work</p> <p>The post <a href="https://towardsdatascience.com/context-engineering-is-cha...
+- [Noisy Text in RAG: Typos, OCR, and the Gap Classical Spell-Check Leaves](https://towardsdatascience.com/noisy-text-in-rag-typos-ocr-and-the-gap-classical-spell-check-leaves/)
+  - <p>Enterprise Document Intelligence [Vol.1 #B1] - Three sources of one problem. User typos, fast-typing transcription noise, OCR character errors. Classical spell-check handles ...
 - [4 Claude Skills Every Data Scientist Needs in 2026](https://towardsdatascience.com/4-claude-skills-every-data-scientist-needs-in-2026/)
   - <p>Four skills worth adding to your workflow today if you don't want to be left behind</p> <p>The post <a href="https://towardsdatascience.com/4-claude-skills-every-data-scienti...
 - [When to Use Claude Code and When to Use Codex](https://towardsdatascience.com/when-to-use-claude-code-and-when-to-use-codex/)
   - <p>Learn where which coding agent is best</p> <p>The post <a href="https://towardsdatascience.com/when-to-use-claude-code-and-when-to-use-codex/">When to Use Claude Code and Whe...
-- [RAG Is Not the Whole Toolkit: The NLP Techniques Real Problems Still Need](https://towardsdatascience.com/rag-is-not-the-whole-toolkit-the-nlp-techniques-real-problems-still-need/)
-  - <p>Enterprise Document Intelligence [Vol.1 #B00] - Retrieval answers one kind of question. Classifying a request, matching free text to a reference list, reading a table, cleani...
-- [Human-in-the-Loop Without Killing Throughput](https://towardsdatascience.com/human-in-the-loop-without-killing-throughput/)
-  - <p>How we stopped reviewing every agent action and started routing human attention where it actually mattered</p> <p>The post <a href="https://towardsdatascience.com/human-in-th...
-- [From One Agent to a Team: Understanding Codex Subagents](https://towardsdatascience.com/from-one-agent-to-a-team-understanding-codex-subagents/)
-  - <p>A hands-on guide to defining specialist agents and coordinating their work in the Codex CLI</p> <p>The post <a href="https://towardsdatascience.com/from-one-agent-to-a-team-u...
 
 ## KDnuggets (data-analysis)
 - [The Local AI Stack for Productive SLMs](https://www.kdnuggets.com/the-local-ai-stack-for-productive-slms)
