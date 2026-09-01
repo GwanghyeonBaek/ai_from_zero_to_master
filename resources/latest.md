@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-08-31 08:37 UTC
+Updated: 2026-09-01 07:47 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Your LLM Can Return Perfect JSON and Still Be Wrong](https://towardsdatascience.com/your-llm-can-return-perfect-json-and-still-be-wrong/)
+  - <p>What I learned after thinking more carefully about Structured Outputs on messy, incomplete data</p> <p>The post <a href="https://towardsdatascience.com/your-llm-can-return-pe...
+- [FAQ as RAG: When You Get to Design the Corpus](https://towardsdatascience.com/faq-as-rag-when-you-get-to-design-the-corpus/)
+  - <p>Enterprise Document Intelligence [Vol.1 #B2] - The FAQ inverts every brick of the standard RAG pipeline. Parsing is trivial, retrieval doubles as a cache, and few-shot prompt...
+- [Why RAG Complexity Should Be Earned](https://towardsdatascience.com/why-rag-complexity-should-be-earned/)
+  - <p>A framework for building RAG pipelines that introduces complexity in response to observed failure modes, from lexical and hybrid search to reranking and agentic information s...
+- [AgentOps Is Not MLOps: What Breaks in Your Monitoring Stack When Agents Go to Production](https://towardsdatascience.com/agentops-is-not-mlops-what-breaks-in-your-monitoring-stack-when-agents-go-to-production/)
+  - <p>The five MLOps monitoring assumptions agents break, and which inherited signals now pass failed runs as healthy.</p> <p>The post <a href="https://towardsdatascience.com/agent...
 - [8 Tips for Writing Effective Agent Instructions](https://towardsdatascience.com/8-tips-for-writing-effective-agent-instructions/)
   - <p>Quick and simple tips to help you write better agent instructions</p> <p>The post <a href="https://towardsdatascience.com/8-tips-for-writing-effective-agent-instructions/">8 ...
-- [Context Engineering Is Changing. Here’s What It Means for Data Scientists](https://towardsdatascience.com/context-engineering-is-changing-heres-what-it-means-for-data-scientists/)
-  - <p>How to apply the latest context engineering guidelines to your day-to-day data science work</p> <p>The post <a href="https://towardsdatascience.com/context-engineering-is-cha...
-- [Noisy Text in RAG: Typos, OCR, and the Gap Classical Spell-Check Leaves](https://towardsdatascience.com/noisy-text-in-rag-typos-ocr-and-the-gap-classical-spell-check-leaves/)
-  - <p>Enterprise Document Intelligence [Vol.1 #B1] - Three sources of one problem. User typos, fast-typing transcription noise, OCR character errors. Classical spell-check handles ...
-- [4 Claude Skills Every Data Scientist Needs in 2026](https://towardsdatascience.com/4-claude-skills-every-data-scientist-needs-in-2026/)
-  - <p>Four skills worth adding to your workflow today if you don't want to be left behind</p> <p>The post <a href="https://towardsdatascience.com/4-claude-skills-every-data-scienti...
-- [When to Use Claude Code and When to Use Codex](https://towardsdatascience.com/when-to-use-claude-code-and-when-to-use-codex/)
-  - <p>Learn where which coding agent is best</p> <p>The post <a href="https://towardsdatascience.com/when-to-use-claude-code-and-when-to-use-codex/">When to Use Claude Code and Whe...
 
 ## KDnuggets (data-analysis)
+- [Speed Up LLM Inference with DSpark Speculative Decoding](https://www.kdnuggets.com/speed-up-llm-inference-with-dspark-speculative-decoding)
+  - Learn how DSpark speculative decoding can improve local LLM generation speed using the same GPU, with Qwen3-8B, llama.cpp, and CUDA.
+- [7 Python Mistakes Beginners Make (And What to Do Instead)](https://www.kdnuggets.com/7-python-mistakes-beginners-make-and-what-to-do-instead)
+  - It's about the mistakes that make a running program wrong. Below are seven of them. For each one you get the hidden cause, plus the first thing worth checking.
 - [The Local AI Stack for Productive SLMs](https://www.kdnuggets.com/the-local-ai-stack-for-productive-slms)
   - A practical framework for choosing the right tools at each layer of your local AI setup, from model serving to context retrieval.
 - [Quantization and Pruning Methods to Make Your LLM Leaner](https://www.kdnuggets.com/quantization-and-pruning-methods-to-make-your-llm-leaner)
   - This article walks through what each technique actually does, why skipping them costs real money and real latency, and then gets hands-on with five specific methods people are r...
 - [What We Can Learn From Google Engineers’ Indispensible Prompts](https://www.kdnuggets.com/what-we-can-learn-from-google-engineers-indispensible-prompts)
   - Hey, Google Engineers: What prompt do you personally refuse to work without, and why?
-- [Understanding the Impact of AI on Job Markets](https://www.kdnuggets.com/understanding-the-impact-of-ai-on-job-markets)
-  - Explore five distinct ways AI is reshaping jobs, from automating routine tasks to thinning entry-level hiring.
-- [10 Rules for Getting Better Results from AI Coding Agents](https://www.kdnuggets.com/10-rules-for-getting-better-results-from-ai-coding-agents)
-  - Everyone's using AI coding agents. Here's how to make yours actually useful.
 
 ## OpenAI News (ai)
+- [OpenAI supports California’s bill to advance youth AI safety](https://openai.com/index/supporting-california-bill-advance-ai-youth-safety)
+  - OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.
+- [Polimill builds Japan's next-generation public AI infrastructure](https://openai.com/index/polimill)
+  - Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.
+- [A milestone in expanding access to AI](https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads)
+  - ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.
 - [Our decision on Cursor following its acquisition by SpaceX](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex)
   - Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.
 - [Supporting Thailand’s next generation of AI startups](https://openai.com/index/supporting-next-generation-ai-startups-thailand)
   - OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.
-- [Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training](https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training)
-  - A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.
-- [Expanding OpenAI’s presence in Brazil](https://openai.com/index/expanding-our-presence-in-brazil)
-  - OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.
-- [Learning never stops: How AI makes learning continuous](https://openai.com/index/learning-never-stops)
-  - OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.
 
 ## Google AI Blog (ai)
 - [3 new ways to plan and book travel in Search](https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/)
