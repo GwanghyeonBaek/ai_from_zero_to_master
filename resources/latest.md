@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-09-03 07:08 UTC
+Updated: 2026-09-04 07:12 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [My Model Worked Perfectly. Then I Tried to Make It Useful.](https://towardsdatascience.com/my-model-worked-perfectly-then-i-tried-to-make-it-useful/)
+  - <p>Turning a trained churn classifier into a FastAPI service that other software can actually call.</p> <p>The post <a href="https://towardsdatascience.com/my-model-worked-perfe...
+- [Tables in PDFs for RAG: Don’t Flatten the Grid](https://towardsdatascience.com/tables-in-pdfs-for-rag-dont-flatten-the-grid/)
+  - <p>Enterprise Document Intelligence [Vol.1 #B4] - A diagnostic and five composable operations, not a decision tree</p> <p>The post <a href="https://towardsdatascience.com/tables...
+- [Changing One Prompt Can Affect 50 Others — I Built a Prompt Dependency Graph to Find What Needs Retesting](https://towardsdatascience.com/changing-one-prompt-can-affect-50-others-i-built-a-prompt-dependency-graph-to-find-what-needs-retesting/)
+  - <p>I built a prompt dependency graph that separates everything a component can reach from the smaller set that actually needs targeted evaluation.</p> <p>The post <a href="https...
+- [How to Solve the Right Problem in the Age of Agentic AI](https://towardsdatascience.com/how-to-solve-the-right-problem-in-the-age-of-agentic-ai/)
+  - <p>A practical framework for reducing uncertainty before agents accelerate implementation</p> <p>The post <a href="https://towardsdatascience.com/how-to-solve-the-right-problem-...
 - [Avoiding Entity Key Drift in a Data Lake: Step 2, When Fuzzy Matching Stops Working](https://towardsdatascience.com/avoiding-entity-key-drift-in-a-data-lake-step-2-when-fuzzy-matching-stops-working/)
   - <p>I built a matcher meant to finish the cleanup that normalization left behind. Testing it against real data showed that no version of it could be made safe. What follows is th...
-- [A RAG That Says “Not in This Document” Has to Show Four Kinds of Evidence](https://towardsdatascience.com/a-rag-that-says-not-in-this-document-has-to-show-four-kinds-of-evidence/)
-  - <p>Enterprise Document Intelligence [Vol.1 #B3] - A confident wrong answer is a bug. A bare “no answer” with no justification is almost as bad. Each of the four bricks has one p...
-- [Graph Neural Networks: GCN, MPNN, and GAT, Explained Simply](https://towardsdatascience.com/graph-neural-networks-gcn-mpnn-and-gat-explained-simply/)
-  - <p>A visual guide to how graph neural networks work under the hood</p> <p>The post <a href="https://towardsdatascience.com/graph-neural-networks-gcn-mpnn-and-gat-explained-simpl...
-- [A Practical Introduction to PySpark Window Functions](https://towardsdatascience.com/a-practical-introduction-to-pyspark-window-functions/)
-  - <p>Why the standard groupBy function isn’t enough</p> <p>The post <a href="https://towardsdatascience.com/a-practical-introduction-to-pyspark-window-functions/">A Practical Intr...
-- [Your JSON Is Valid but Your Data Is Wrong: Five Failure Modes LLM Structured Outputs Won't Catch](https://towardsdatascience.com/your-json-is-valid-but-your-data-is-wrong-five-failure-modes-llm-structured-outputs-wont-catch/)
-  - <p>Five failure modes that survive constrained decoding, and why your schema validator will never catch them.</p> <p>The post <a href="https://towardsdatascience.com/your-json-i...
 
 ## KDnuggets (data-analysis)
+- [I Asked ChatGPT to Analyze 3 Datasets. It Made the Same Mistakes Every Time](https://www.kdnuggets.com/i-asked-chatgpt-to-analyze-3-datasets-it-made-the-same-mistakes-every-time)
+  - The review pass fixed a row count and approved two wrong conclusions.
+- [5 Free Courses to Go From LLM Beginner to Practitioner](https://www.kdnuggets.com/5-free-courses-to-go-from-llm-beginner-to-practitioner)
+  - A curated, linear pipeline of high-signal free resources that takes you from backpropagation basics to deploying production-grade LLM applications.
 - [Quantifying User Behavior Patterns to Build Better Predictive Features](https://www.kdnuggets.com/quantifying-user-behavior-patterns-to-build-better-predictive-features)
   - Simply knowing that a 35-year-old male in Seattle clicked 12 times last month tells you almost nothing about his intent.
 - [This Python Library Can Run Pandas Workloads Up to 20x Faster](https://www.kdnuggets.com/this-python-library-can-run-pandas-workloads-up-to-20x-faster)
   - Discover how FireDucks can speed up pandas workloads with lazy execution, compiler optimization, and multithreaded processing, delivering up to 20x faster DataFrame performance ...
 - [5 Real-World Applications of Agentic AI in Enterprise Automation](https://www.kdnuggets.com/5-real-world-applications-of-agentic-ai-in-enterprise-automation)
   - Deploy agentic AI across SRE, finance, legal, migration, and security with deterministic safety constraints.
-- [Free Transcription with Speakr](https://www.kdnuggets.com/free-transcription-with-speakr)
-  - How to set up, use, and get the most out of a private, self-hosted transcription platform with full control over where your audio goes
-- [7 Common Python Mistakes to Avoid in AI Workflows](https://www.kdnuggets.com/7-common-python-mistakes-to-avoid-in-ai-workflows)
-  - A clean run proves the process executed. It says nothing about what the pipeline learned, from which rows, in what state, or whether the saved result can be trusted anywhere else.
 
 ## OpenAI News (ai)
+- [Daybreak for Frontline Defenders: $1B to protect essential services](https://openai.com/index/daybreak-for-frontline-defenders)
+  - OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.
+- [Legora reviewed 41 documents in minutes with GPT-6 Astra](https://openai.com/index/legora-financial-statement-review-with-astra)
+  - Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.
+- [Playco cut manual fixes 50% prototyping games with GPT-6 Astra](https://openai.com/index/playco-game-prototyping-with-astra)
+  - Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.
+- [Safety overview: GPT-6 Astra](https://openai.com/index/safety-overview-gpt-6-astra)
+  - GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.
 - [ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT](https://openai.com/index/atv-big-air-tour)
   - ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.
-- [How AI-native companies turn workflows into operating capability](https://openai.com/index/ai-native-company-workflows)
-  - Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.
-- [Path to Astra: critical capabilities and frontier safeguards](https://openai.com/index/path-to-astra)
-  - Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.
-- [Healthcare organizations can now connect EHR and additional industry data to ChatGPT](https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources)
-  - ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.
-- [How law firm Gilbert + Tobin governs and scales AI with OpenAI](https://openai.com/index/gilbert-tobin)
-  - See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.
 
 ## Google AI Blog (ai)
 - [Proactive cyber defense for governments and enterprises](https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/)
@@ -53,8 +53,8 @@ Updated: 2026-09-03 07:08 UTC
   - Illustration of ombre rainbow furniture items like a sofa, lamp, and chair against a purple background
 
 ## Hugging Face Blog (llm)
+- [NeoMME: an efficient Multimodal-native and Multilingual Encoder](https://huggingface.co/blog/Hcompany/neomme)
+- [Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps](https://huggingface.co/blog/grpo-with-trl-ifstruct)
+- [Give Your Coding Agents a Memory You Own](https://huggingface.co/blog/funes)
+- [Training a coding model to paint watercolours with TRL and OpenEnv](https://huggingface.co/blog/train-to-paint-with-code)
 - [Real-Time Intelligence with IBM Time Series Models on Confluent](https://huggingface.co/blog/ibm-research/real-time-intelligence)
-- [BenchMIRT: What are LLM benchmarks actually measuring?](https://huggingface.co/blog/allenai/benchmirt)
-- [Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI](https://huggingface.co/blog/webgpu-kernels)
-- [The Open ASR Leaderboard Adds Its First Global South Language](https://huggingface.co/blog/open-asr-leaderboard-global-south)
-- [Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers](https://huggingface.co/blog/train-multi-vector-encoder)
