@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-09-04 07:12 UTC
+Updated: 2026-09-05 06:55 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Optimal Traffic Allocation Under Heterogeneous Variant Cost](https://towardsdatascience.com/optimal-traffic-allocation-under-heterogeneous-variant-cost/)
+  - <p>Why the default 50/50 split is the wrong move when your treatment is more expensive than your control, and how cost-based sampling weights fix it</p> <p>The post <a href="htt...
+- [Disaggregation Is a Thousand-GPU Problem](https://towardsdatascience.com/disaggregation-is-a-thousand-gpu-problem/)
+  - <p>Three conditions that must hold before splitting prefill from decode pays off, and why chunked prefill is the right default below that threshold.</p> <p>The post <a href="htt...
+- [The Power BI Developer's Survival Guide to Microsoft Fabric](https://towardsdatascience.com/the-power-bi-developers-survival-guide-to-microsoft-fabric/)
+  - <p>Power BI Premium is gone. Microsoft Fabric took its place. Here's what actually changed for you, what didn't, and where to start — without the panic.</p> <p>The post <a href=...
+- [How to Run 10+ Claude Code Sessions Without a Powerful Computer](https://towardsdatascience.com/how-to-run-10-claude-code-sessions-without-a-powerful-computer/)
+  - <p>Learn how to run a lot of parallel coding agents without expensive, powerful hardware at home</p> <p>The post <a href="https://towardsdatascience.com/how-to-run-10-claude-cod...
 - [My Model Worked Perfectly. Then I Tried to Make It Useful.](https://towardsdatascience.com/my-model-worked-perfectly-then-i-tried-to-make-it-useful/)
   - <p>Turning a trained churn classifier into a FastAPI service that other software can actually call.</p> <p>The post <a href="https://towardsdatascience.com/my-model-worked-perfe...
-- [Tables in PDFs for RAG: Don’t Flatten the Grid](https://towardsdatascience.com/tables-in-pdfs-for-rag-dont-flatten-the-grid/)
-  - <p>Enterprise Document Intelligence [Vol.1 #B4] - A diagnostic and five composable operations, not a decision tree</p> <p>The post <a href="https://towardsdatascience.com/tables...
-- [Changing One Prompt Can Affect 50 Others — I Built a Prompt Dependency Graph to Find What Needs Retesting](https://towardsdatascience.com/changing-one-prompt-can-affect-50-others-i-built-a-prompt-dependency-graph-to-find-what-needs-retesting/)
-  - <p>I built a prompt dependency graph that separates everything a component can reach from the smaller set that actually needs targeted evaluation.</p> <p>The post <a href="https...
-- [How to Solve the Right Problem in the Age of Agentic AI](https://towardsdatascience.com/how-to-solve-the-right-problem-in-the-age-of-agentic-ai/)
-  - <p>A practical framework for reducing uncertainty before agents accelerate implementation</p> <p>The post <a href="https://towardsdatascience.com/how-to-solve-the-right-problem-...
-- [Avoiding Entity Key Drift in a Data Lake: Step 2, When Fuzzy Matching Stops Working](https://towardsdatascience.com/avoiding-entity-key-drift-in-a-data-lake-step-2-when-fuzzy-matching-stops-working/)
-  - <p>I built a matcher meant to finish the cleanup that normalization left behind. Testing it against real data showed that no version of it could be made safe. What follows is th...
 
 ## KDnuggets (data-analysis)
+- [Switchyard: NVIDIA’s Open Source Routing Library](https://www.kdnuggets.com/switchyard-nvidias-open-source-routing-library)
+  - Stop sending every AI request to your most expensive model. See how intelligent routing can cut cost and latency without sacrificing much quality.
+- [5 Free LLM API Providers You Can Use in 2026](https://www.kdnuggets.com/5-free-llm-api-providers-you-can-use-in-2026)
+  - Explore five free AI API providers for accessing large language models, fast inference, multimodal AI, and agentic applications without paying for API usage.
 - [I Asked ChatGPT to Analyze 3 Datasets. It Made the Same Mistakes Every Time](https://www.kdnuggets.com/i-asked-chatgpt-to-analyze-3-datasets-it-made-the-same-mistakes-every-time)
   - The review pass fixed a row count and approved two wrong conclusions.
 - [5 Free Courses to Go From LLM Beginner to Practitioner](https://www.kdnuggets.com/5-free-courses-to-go-from-llm-beginner-to-practitioner)
   - A curated, linear pipeline of high-signal free resources that takes you from backpropagation basics to deploying production-grade LLM applications.
 - [Quantifying User Behavior Patterns to Build Better Predictive Features](https://www.kdnuggets.com/quantifying-user-behavior-patterns-to-build-better-predictive-features)
   - Simply knowing that a 35-year-old male in Seattle clicked 12 times last month tells you almost nothing about his intent.
-- [This Python Library Can Run Pandas Workloads Up to 20x Faster](https://www.kdnuggets.com/this-python-library-can-run-pandas-workloads-up-to-20x-faster)
-  - Discover how FireDucks can speed up pandas workloads with lazy execution, compiler optimization, and multithreaded processing, delivering up to 20x faster DataFrame performance ...
-- [5 Real-World Applications of Agentic AI in Enterprise Automation](https://www.kdnuggets.com/5-real-world-applications-of-agentic-ai-in-enterprise-automation)
-  - Deploy agentic AI across SRE, finance, legal, migration, and security with deterministic safety constraints.
 
 ## OpenAI News (ai)
 - [Daybreak for Frontline Defenders: $1B to protect essential services](https://openai.com/index/daybreak-for-frontline-defenders)
   - OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.
-- [Legora reviewed 41 documents in minutes with GPT-6 Astra](https://openai.com/index/legora-financial-statement-review-with-astra)
-  - Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.
 - [Playco cut manual fixes 50% prototyping games with GPT-6 Astra](https://openai.com/index/playco-game-prototyping-with-astra)
   - Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.
+- [Legora reviewed 41 documents in minutes with GPT-6 Astra](https://openai.com/index/legora-financial-statement-review-with-astra)
+  - Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.
+- [GPT-6 Astra: A new generation of intelligence](https://openai.com/index/gpt-6-astra)
+  - Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.
 - [Safety overview: GPT-6 Astra](https://openai.com/index/safety-overview-gpt-6-astra)
   - GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.
-- [ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT](https://openai.com/index/atv-big-air-tour)
-  - ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.
 
 ## Google AI Blog (ai)
 - [Proactive cyber defense for governments and enterprises](https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/)
