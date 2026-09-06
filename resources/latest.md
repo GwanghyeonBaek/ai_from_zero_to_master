@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-09-05 06:55 UTC
+Updated: 2026-09-06 07:06 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Why Transformers Need Positional Encoding For Time Series: A Visual Guide](https://towardsdatascience.com/why-transformers-need-positional-encoding-for-time-series-a-visual-guide/)
+  - <p>From scalar observations to self-attention, and how positional information restores sequence order</p> <p>The post <a href="https://towardsdatascience.com/why-transformers-ne...
+- [Dynamical System Transfer Learning with Reduced Order Models](https://towardsdatascience.com/dynamical-system-transfer-learning-with-reduced-order-models/)
+  - <p>Improving reinforcement learning for complex physics</p> <p>The post <a href="https://towardsdatascience.com/dynamical-system-transfer-learning-with-reduced-order-models/">Dy...
 - [Optimal Traffic Allocation Under Heterogeneous Variant Cost](https://towardsdatascience.com/optimal-traffic-allocation-under-heterogeneous-variant-cost/)
   - <p>Why the default 50/50 split is the wrong move when your treatment is more expensive than your control, and how cost-based sampling weights fix it</p> <p>The post <a href="htt...
 - [Disaggregation Is a Thousand-GPU Problem](https://towardsdatascience.com/disaggregation-is-a-thousand-gpu-problem/)
   - <p>Three conditions that must hold before splitting prefill from decode pays off, and why chunked prefill is the right default below that threshold.</p> <p>The post <a href="htt...
 - [The Power BI Developer's Survival Guide to Microsoft Fabric](https://towardsdatascience.com/the-power-bi-developers-survival-guide-to-microsoft-fabric/)
   - <p>Power BI Premium is gone. Microsoft Fabric took its place. Here's what actually changed for you, what didn't, and where to start — without the panic.</p> <p>The post <a href=...
-- [How to Run 10+ Claude Code Sessions Without a Powerful Computer](https://towardsdatascience.com/how-to-run-10-claude-code-sessions-without-a-powerful-computer/)
-  - <p>Learn how to run a lot of parallel coding agents without expensive, powerful hardware at home</p> <p>The post <a href="https://towardsdatascience.com/how-to-run-10-claude-cod...
-- [My Model Worked Perfectly. Then I Tried to Make It Useful.](https://towardsdatascience.com/my-model-worked-perfectly-then-i-tried-to-make-it-useful/)
-  - <p>Turning a trained churn classifier into a FastAPI service that other software can actually call.</p> <p>The post <a href="https://towardsdatascience.com/my-model-worked-perfe...
 
 ## KDnuggets (data-analysis)
 - [Switchyard: NVIDIA’s Open Source Routing Library](https://www.kdnuggets.com/switchyard-nvidias-open-source-routing-library)
