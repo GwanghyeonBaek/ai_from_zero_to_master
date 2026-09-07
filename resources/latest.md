@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-09-06 07:06 UTC
+Updated: 2026-09-07 07:17 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Text Watermarking in Python: Catch Whoever Copies Your Writing](https://towardsdatascience.com/text-watermarking-in-python-catch-whoever-copies-your-writing/)
+  - <p>AI companies quietly watermark billions of words a day. Here’s how to apply the same three families of techniques to your own writing—and what real experiments reveal about w...
+- [Linear Discriminant Analysis (LDA) in Real-Life: Dimensionality Reduction in a Real-Estate Dataset](https://towardsdatascience.com/linear-discriminant-analysis-lda-in-real-life-dimensionality-reduction-in-a-real-estate-dataset/)
+  - <p>Using LDA for dimensionality reduction in classification problems</p> <p>The post <a href="https://towardsdatascience.com/linear-discriminant-analysis-lda-in-real-life-dimens...
 - [Why Transformers Need Positional Encoding For Time Series: A Visual Guide](https://towardsdatascience.com/why-transformers-need-positional-encoding-for-time-series-a-visual-guide/)
   - <p>From scalar observations to self-attention, and how positional information restores sequence order</p> <p>The post <a href="https://towardsdatascience.com/why-transformers-ne...
 - [Dynamical System Transfer Learning with Reduced Order Models](https://towardsdatascience.com/dynamical-system-transfer-learning-with-reduced-order-models/)
   - <p>Improving reinforcement learning for complex physics</p> <p>The post <a href="https://towardsdatascience.com/dynamical-system-transfer-learning-with-reduced-order-models/">Dy...
 - [Optimal Traffic Allocation Under Heterogeneous Variant Cost](https://towardsdatascience.com/optimal-traffic-allocation-under-heterogeneous-variant-cost/)
   - <p>Why the default 50/50 split is the wrong move when your treatment is more expensive than your control, and how cost-based sampling weights fix it</p> <p>The post <a href="htt...
-- [Disaggregation Is a Thousand-GPU Problem](https://towardsdatascience.com/disaggregation-is-a-thousand-gpu-problem/)
-  - <p>Three conditions that must hold before splitting prefill from decode pays off, and why chunked prefill is the right default below that threshold.</p> <p>The post <a href="htt...
-- [The Power BI Developer's Survival Guide to Microsoft Fabric](https://towardsdatascience.com/the-power-bi-developers-survival-guide-to-microsoft-fabric/)
-  - <p>Power BI Premium is gone. Microsoft Fabric took its place. Here's what actually changed for you, what didn't, and where to start — without the panic.</p> <p>The post <a href=...
 
 ## KDnuggets (data-analysis)
 - [Switchyard: NVIDIA’s Open Source Routing Library](https://www.kdnuggets.com/switchyard-nvidias-open-source-routing-library)
@@ -29,16 +29,16 @@ Updated: 2026-09-06 07:06 UTC
   - Simply knowing that a 35-year-old male in Seattle clicked 12 times last month tells you almost nothing about his intent.
 
 ## OpenAI News (ai)
+- [An Alien Mind](https://openai.com/index/an-alien-mind)
+  - Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.
+- [Research acceleration: The view inside OpenAI](https://openai.com/index/research-acceleration-view-inside-openai)
+  - Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.
 - [Daybreak for Frontline Defenders: $1B to protect essential services](https://openai.com/index/daybreak-for-frontline-defenders)
   - OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.
-- [Playco cut manual fixes 50% prototyping games with GPT-6 Astra](https://openai.com/index/playco-game-prototyping-with-astra)
-  - Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.
 - [Legora reviewed 41 documents in minutes with GPT-6 Astra](https://openai.com/index/legora-financial-statement-review-with-astra)
   - Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.
-- [GPT-6 Astra: A new generation of intelligence](https://openai.com/index/gpt-6-astra)
-  - Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.
-- [Safety overview: GPT-6 Astra](https://openai.com/index/safety-overview-gpt-6-astra)
-  - GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.
+- [Playco cut manual fixes 50% prototyping games with GPT-6 Astra](https://openai.com/index/playco-game-prototyping-with-astra)
+  - Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.
 
 ## Google AI Blog (ai)
 - [Proactive cyber defense for governments and enterprises](https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/)
