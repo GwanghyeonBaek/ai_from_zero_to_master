@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-09-07 07:17 UTC
+Updated: 2026-09-08 07:13 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [I Vibe-Coded an App in Just Two Hours (And Regretted It the Next Day)](https://towardsdatascience.com/i-vibe-coded-an-app-in-just-two-hours-and-regretted-it-the-next-day/)
+  - <p>I saved my day with a mere $52 bill. But you don't have to repeat my mistake.</p> <p>The post <a href="https://towardsdatascience.com/i-vibe-coded-an-app-in-just-two-hours-an...
+- [Why Most Multi-Agent Systems Fail Even When Evaluation Passes](https://towardsdatascience.com/why-most-multi-agent-systems-fail-even-when-evaluation-passes/)
+  - <p>How to catch a payload that looks correct but isn't, using a watchdog pattern with working Python.</p> <p>The post <a href="https://towardsdatascience.com/why-most-multi-agen...
 - [Text Watermarking in Python: Catch Whoever Copies Your Writing](https://towardsdatascience.com/text-watermarking-in-python-catch-whoever-copies-your-writing/)
   - <p>AI companies quietly watermark billions of words a day. Here’s how to apply the same three families of techniques to your own writing—and what real experiments reveal about w...
 - [Linear Discriminant Analysis (LDA) in Real-Life: Dimensionality Reduction in a Real-Estate Dataset](https://towardsdatascience.com/linear-discriminant-analysis-lda-in-real-life-dimensionality-reduction-in-a-real-estate-dataset/)
   - <p>Using LDA for dimensionality reduction in classification problems</p> <p>The post <a href="https://towardsdatascience.com/linear-discriminant-analysis-lda-in-real-life-dimens...
 - [Why Transformers Need Positional Encoding For Time Series: A Visual Guide](https://towardsdatascience.com/why-transformers-need-positional-encoding-for-time-series-a-visual-guide/)
   - <p>From scalar observations to self-attention, and how positional information restores sequence order</p> <p>The post <a href="https://towardsdatascience.com/why-transformers-ne...
-- [Dynamical System Transfer Learning with Reduced Order Models](https://towardsdatascience.com/dynamical-system-transfer-learning-with-reduced-order-models/)
-  - <p>Improving reinforcement learning for complex physics</p> <p>The post <a href="https://towardsdatascience.com/dynamical-system-transfer-learning-with-reduced-order-models/">Dy...
-- [Optimal Traffic Allocation Under Heterogeneous Variant Cost](https://towardsdatascience.com/optimal-traffic-allocation-under-heterogeneous-variant-cost/)
-  - <p>Why the default 50/50 split is the wrong move when your treatment is more expensive than your control, and how cost-based sampling weights fix it</p> <p>The post <a href="htt...
 
 ## KDnuggets (data-analysis)
 - [Switchyard: NVIDIA’s Open Source Routing Library](https://www.kdnuggets.com/switchyard-nvidias-open-source-routing-library)
@@ -29,6 +29,8 @@ Updated: 2026-09-07 07:17 UTC
   - Simply knowing that a 35-year-old male in Seattle clicked 12 times last month tells you almost nothing about his intent.
 
 ## OpenAI News (ai)
+- [Supporting independent journalism in Ukraine](https://openai.com/index/supporting-independent-journalism-in-ukraine)
+  - OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.
 - [An Alien Mind](https://openai.com/index/an-alien-mind)
   - Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.
 - [Research acceleration: The view inside OpenAI](https://openai.com/index/research-acceleration-view-inside-openai)
@@ -37,8 +39,6 @@ Updated: 2026-09-07 07:17 UTC
   - OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.
 - [Legora reviewed 41 documents in minutes with GPT-6 Astra](https://openai.com/index/legora-financial-statement-review-with-astra)
   - Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.
-- [Playco cut manual fixes 50% prototyping games with GPT-6 Astra](https://openai.com/index/playco-game-prototyping-with-astra)
-  - Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.
 
 ## Google AI Blog (ai)
 - [Proactive cyber defense for governments and enterprises](https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/)
