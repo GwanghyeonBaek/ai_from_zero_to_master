@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-09-11 07:15 UTC
+Updated: 2026-09-12 07:08 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Coding Agents Don't Need Longer History — They Need Intent Continuity](https://towardsdatascience.com/coding-agents-dont-need-longer-history-they-need-intent-continuity/)
+  - <p>I built a system that automatically discovers, verifies, and applies relevant requirements from earlier interactions without asking the user where they came from.</p> <p>The ...
+- [Software Design in the Age of AI](https://towardsdatascience.com/software-design-in-the-age-of-ai/)
+  - <p>Why AI coding makes software design more important</p> <p>The post <a href="https://towardsdatascience.com/software-design-in-the-age-of-ai/">Software Design in the Age of AI...
+- [The 95% Illusion: Why Your Confidence Interval Isn't What You Think It Is](https://towardsdatascience.com/the-95-illusion-why-your-confidence-interval-isnt-what-you-think-it-is/)
+  - <p>Frequentist confidence intervals and Bayesian credible intervals answer different questions, and confusing them can distort product decisions</p> <p>The post <a href="https:/...
+- [Demystifying Anthropic's J-Space: A Mathematical Primer](https://towardsdatascience.com/demystifying-anthropics-j-space-a-mathematical-primer/)
+  - <p>Clarifying the math behind Anthropic’s representation workspace</p> <p>The post <a href="https://towardsdatascience.com/demystifying-anthropics-j-space-a-mathematical-primer/...
 - [How to 5x Your Communication Effectiveness with Claude Code](https://towardsdatascience.com/how-to-5x-your-communication-effectiveness-with-claude-code/)
   - <p>Better understand the intent of your coding agents</p> <p>The post <a href="https://towardsdatascience.com/how-to-5x-your-communication-effectiveness-with-claude-code/">How t...
-- [What SHAP Can't Explain About Agentic AI Fraud](https://towardsdatascience.com/what-shap-cant-explain-about-agentic-ai-fraud/)
-  - <p>Why autonomous agents expose a new explainability problem in fraud detection</p> <p>The post <a href="https://towardsdatascience.com/what-shap-cant-explain-about-agentic-ai-f...
-- [Optimizing LLM Inference Costs in Multi-Agent Systems with Adaptive Model Routing](https://towardsdatascience.com/optimizing-llm-inference-costs-in-multi-agent-systems-with-adaptive-model-routing/)
-  - <p>Moving from static model assignment to intelligent, task-level LLM selection.</p> <p>The post <a href="https://towardsdatascience.com/optimizing-llm-inference-costs-in-multi-...
-- [Who Questions What Works: When Should We Retest Our Assumptions?](https://towardsdatascience.com/who-questions-what-works-when-should-we-retest-our-assumptions/)
-  - <p>A model is only as reliable as the assumptions behind it</p> <p>The post <a href="https://towardsdatascience.com/who-questions-what-works-when-should-we-retest-our-assumption...
-- [Getting started with dbt](https://towardsdatascience.com/getting-started-with-dbt/)
-  - <p>A practical guide to building, testing, and documenting SQL transformations</p> <p>The post <a href="https://towardsdatascience.com/getting-started-with-dbt/">Getting started...
 
 ## KDnuggets (data-analysis)
+- [From Spaghetti Code to Clean Python: A Beginner’s Guide](https://www.kdnuggets.com/from-spaghetti-code-to-clean-python-a-beginners-guide)
+  - Learn how to refactor messy Python code into clean, maintainable functions.
+- [5 Python Techniques for Efficient Resource Orchestration](https://www.kdnuggets.com/5-python-techniques-for-efficient-resource-orchestration)
+  - This article explains 5 Python techniques for efficient resource orchestration and sticks to what's stable today, 3.11 and later for the core techniques, with one 3.14-specific ...
 - [A Candid Abacus AI Review: The All-in-One AI Platform for Professionals & Enterprises](https://www.kdnuggets.com/2026/09/abacus/abacus-ai-candid-review/)
   - If you’re paying for ChatGPT, Claude, and another AI tool simultaneously, this review is for you. It covers what an AI platform like Abacus AI actually includes, how the credit ...
 - [Feature Engineering in Scikit-Learn: A KDnuggets Cheat Sheet](https://www.kdnuggets.com/feature-engineering-in-scikit-learn-a-kdnuggets-cheat-sheet)
   - Once feature engineering lives inside a <code>Pipeline</code>, each step is fitted on training data only, and the model is scored what it actually earned. And that is the idea b...
 - [7 Steps to Become a Forward Deployed Engineer in 2026](https://www.kdnuggets.com/7-steps-to-become-a-forward-deployed-engineer-in-2026)
   - FDEs are becoming some of the most in-demand engineers in AI. Here’s the 7-step roadmap to becoming one in 2026.
-- [5 Useful Python Scripts to Automate CSV Processing](https://www.kdnuggets.com/5-useful-python-scripts-to-automate-csv-processing)
-  - Automate common CSV tasks with these 5 Python scripts for cleaning, validating, transforming, and processing CSV files using the standard library.
-- [Build an AI Data Analyst That Thinks Like a Senior Analyst](https://www.kdnuggets.com/build-an-ai-data-analyst-that-thinks-like-a-senior-analyst)
-  - A six-stage pipeline that checks its numbers before calling anything an answer.
 
 ## OpenAI News (ai)
+- [Perplexity trusts GPT-6 Astra with end-to-end systems](https://openai.com/index/perplexity-improving-accuracy-with-astra)
+  - Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.
+- [Rapidly scaling online storage to serve over 1 billion ChatGPT users](https://openai.com/index/scaling-storage-one-billion-users-part-one)
+  - Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.
+- [Cognition helps Devin test its own work with GPT‑6 Astra](https://openai.com/index/cognition-devin-testing-with-astra)
+  - GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.
 - [How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules](https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials)
   - César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.
 - [Now everyone can put data to work](https://openai.com/index/put-data-to-work)
   - Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.
-- [Introducing ChatGPT for Financial Services](https://openai.com/index/introducing-chatgpt-financial-services)
-  - Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.
-- [Expanding AI access and cyber defense for federal, state, local, and tribal governments](https://openai.com/index/expanding-ai-access-us-government)
-  - OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.
-- [Introducing the Agents API](https://openai.com/index/introducing-the-agents-api)
-  - Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.
 
 ## Google AI Blog (ai)
 - [3 ways to prep for your next big race with Search](https://blog.google/products-and-platforms/products/search/running-race-training-tips/)
