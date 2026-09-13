@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-09-12 07:08 UTC
+Updated: 2026-09-13 07:26 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [One Capital Letter Was Silently Breaking My AI Support Bot, and It Wasn't in the New Model](https://towardsdatascience.com/one-capital-letter-was-silently-breaking-my-ai-support-bot-and-it-wasnt-in-the-new-model/)
+  - <p>A real Weave project that regression-tests three OpenAI models against the exact reply format your app depends on.</p> <p>The post <a href="https://towardsdatascience.com/one...
+- [Stop Managing Alarms: An Incident-First Blueprint for Telecom AIOps](https://towardsdatascience.com/stop-managing-alarms-an-incident-first-blueprint-for-telecom-aiops/)
+  - <p>What large operators can teach us about turning alert fatigue into faster, safer service assurance</p> <p>The post <a href="https://towardsdatascience.com/stop-managing-alarm...
 - [Coding Agents Don't Need Longer History — They Need Intent Continuity](https://towardsdatascience.com/coding-agents-dont-need-longer-history-they-need-intent-continuity/)
   - <p>I built a system that automatically discovers, verifies, and applies relevant requirements from earlier interactions without asking the user where they came from.</p> <p>The ...
 - [Software Design in the Age of AI](https://towardsdatascience.com/software-design-in-the-age-of-ai/)
   - <p>Why AI coding makes software design more important</p> <p>The post <a href="https://towardsdatascience.com/software-design-in-the-age-of-ai/">Software Design in the Age of AI...
 - [The 95% Illusion: Why Your Confidence Interval Isn't What You Think It Is](https://towardsdatascience.com/the-95-illusion-why-your-confidence-interval-isnt-what-you-think-it-is/)
   - <p>Frequentist confidence intervals and Bayesian credible intervals answer different questions, and confusing them can distort product decisions</p> <p>The post <a href="https:/...
-- [Demystifying Anthropic's J-Space: A Mathematical Primer](https://towardsdatascience.com/demystifying-anthropics-j-space-a-mathematical-primer/)
-  - <p>Clarifying the math behind Anthropic’s representation workspace</p> <p>The post <a href="https://towardsdatascience.com/demystifying-anthropics-j-space-a-mathematical-primer/...
-- [How to 5x Your Communication Effectiveness with Claude Code](https://towardsdatascience.com/how-to-5x-your-communication-effectiveness-with-claude-code/)
-  - <p>Better understand the intent of your coding agents</p> <p>The post <a href="https://towardsdatascience.com/how-to-5x-your-communication-effectiveness-with-claude-code/">How t...
 
 ## KDnuggets (data-analysis)
 - [From Spaghetti Code to Clean Python: A Beginner’s Guide](https://www.kdnuggets.com/from-spaghetti-code-to-clean-python-a-beginners-guide)
