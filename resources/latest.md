@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-09-19 07:18 UTC
+Updated: 2026-09-20 07:43 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [One Vendor, Four Spellings: How Deterministic Stages Beat Similarity Scores](https://towardsdatascience.com/one-vendor-four-spellings-how-deterministic-stages-beat-similarity-scores/)
+  - <p>Deduplicating a 10,000-row supplier list in Python, where the hard part is deciding what a similarity score of 91 means</p> <p>The post <a href="https://towardsdatascience.co...
+- [AI Made Me 5x Faster. It Also Made Me 5x Worse at My Job.](https://towardsdatascience.com/ai-made-me-5x-faster-it-also-made-me-5x-worse-at-my-job/)
+  - <p>One near miss, four months of running agents, and the question almost nobody is asking: what are you supposed to do while the AI writes the code?</p> <p>The post <a href="htt...
 - [Coding Agents Keep Shipping Silent Failures — Here Is How to Catch Them](https://towardsdatascience.com/coding-agents-keep-shipping-silent-failures-here-is-how-to-catch-them/)
   - <p>How to verify your app aligns with your intent without ever reading a line of generated code.</p> <p>The post <a href="https://towardsdatascience.com/coding-agents-keep-shipp...
 - [We Pinned Our Model Version to Stay Safe. The Provider Deprecated It Anyway.](https://towardsdatascience.com/we-pinned-our-model-version-to-stay-safe-the-provider-deprecated-it-anyway/)
   - <p>The recurring cost of production AI is not inference. It is re-qualification: the eval reruns, prompt retuning, and regression testing you owe every time a model changes unde...
 - [Starting a Career in Data Science in the Age of AI](https://towardsdatascience.com/starting-a-career-in-data-science-in-the-age-of-ai/)
   - <p>How do you set yourself up for a career that will stand the test of time when things are changing so fast?</p> <p>The post <a href="https://towardsdatascience.com/starting-a-...
-- [Multi-Agent Coding Isn’t Enough — Agents Need a Commitment Layer](https://towardsdatascience.com/multi-agent-coding-isnt-enough-agents-need-a-commitment-layer/)
-  - <p>Multi-agent coding systems don't necessarily fail because agents can't communicate. They can fail because important commitments made in conversation have nowhere to live afte...
-- [Building a Data Lakehouse with DuckDB and DuckLake](https://towardsdatascience.com/building-a-data-lakehouse-with-duckdb-and-ducklake/)
-  - <p>Starting with a local Parquet file, then joining it to data stored in the cloud</p> <p>The post <a href="https://towardsdatascience.com/building-a-data-lakehouse-with-duckdb-...
 
 ## KDnuggets (data-analysis)
 - [Reusing the Prompt Prefix with a Key-Value Cache for SLM Optimization](https://www.kdnuggets.com/reusing-the-prompt-prefix-with-a-key-value-cache-for-slm-optimization)
