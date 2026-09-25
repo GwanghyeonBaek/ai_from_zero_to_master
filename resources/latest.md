@@ -1,32 +1,32 @@
 # Latest Learning Resources
 
-Updated: 2026-09-24 07:34 UTC
+Updated: 2026-09-25 07:45 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [How to Maximize Your Coding Agent Subscriptions](https://towardsdatascience.com/how-to-maximize-your-coding-agent-subscriptions/)
+  - <p>Get more out of your coding agent subscriptions</p> <p>The post <a href="https://towardsdatascience.com/how-to-maximize-your-coding-agent-subscriptions/">How to Maximize Your...
+- [Beyond RAGs: Building Actually Truthful AI Harnesses](https://towardsdatascience.com/beyond-rags-building-actually-truthful-ai-harnesses/)
+  - <p>Retrieval is not evidence. How to build AI that proves its own claims.</p> <p>The post <a href="https://towardsdatascience.com/beyond-rags-building-actually-truthful-ai-harne...
+- [Towards Spec-Driven Test Automation: Part 1](https://towardsdatascience.com/towards-spec-driven-test-automation-part-1/)
+  - <p>Why a green test suite can mean nothing</p> <p>The post <a href="https://towardsdatascience.com/towards-spec-driven-test-automation-part-1/">Towards Spec-Driven Test Automati...
+- [When the Correct Answer Is Nothing, What Does Your Pipeline Return?](https://towardsdatascience.com/when-the-correct-answer-is-nothing-what-does-your-pipeline-return/)
+  - <p>The reliability mechanisms we add to LLM pipelines are often the ones that make them confidently wrong.</p> <p>The post <a href="https://towardsdatascience.com/when-the-corre...
 - [I Trained a Tiny Network to Compress Data. It Drew a Pentagon.](https://towardsdatascience.com/i-trained-a-tiny-network-to-compress-data-it-drew-a-pentagon/)
   - <p>Reproducing Anthropic's &quot;Toy Models of Superposition&quot; from scratch in NumPy, with hand-derived gradients and no borrowed numbers.</p> <p>The post <a href="https://t...
-- [From Words to Vectors: What Happens in Between?](https://towardsdatascience.com/from-words-to-vectors-what-happens-in-between/)
-  - <p>A Journey through TF-IDF, vector space, and text classification</p> <p>The post <a href="https://towardsdatascience.com/from-words-to-vectors-what-happens-in-between/">From W...
-- [How GRPO Trains Small Language Models with Verifiable Rewards](https://towardsdatascience.com/how-grpo-trains-small-language-models-with-verifiable-rewards/)
-  - <p>The mechanics behind local reasoning experiments with Unsloth and why the reward function matters as much as the model.</p> <p>The post <a href="https://towardsdatascience.co...
-- [How to Make Your First World Model from Scratch](https://towardsdatascience.com/how-to-make-your-first-world-model-from-scratch/)
-  - <p>A beginner-friendly guide to building a world model in Python, letting it daydream its way through CartPole, and accurately measuring when the illusion collapses.</p> <p>The ...
-- [Break Your Own RAG Pipeline Before Users Do](https://towardsdatascience.com/break-your-own-rag-pipeline-before-users-do/)
-  - <p>A small adversarial test set that catches the retrieval failures your evaluation set never will</p> <p>The post <a href="https://towardsdatascience.com/break-your-own-rag-pip...
 
 ## KDnuggets (data-analysis)
+- [MCP Explained in 5 Minutes](https://www.kdnuggets.com/mcp-explained-in-5-minutes)
+  - A visual guide to MCP that explains how it works, how to use it with Claude Code, Tavily, GitHub, and Playwright, and what is new through simple diagrams that make the whole con...
+- [What I’ve Learned About DeepSeek Harness](https://www.kdnuggets.com/what-ive-learned-about-deepseek-harness)
+  - KDnuggets team member Shittu Olumide tested out DeepSeek Harness. Here's what he found.
 - [Everything Claude Opus 5.5 Actually Ships With](https://www.kdnuggets.com/everything-claude-opus-5-5-actually-ships-with)
   - This article pulls together every verifiable number and detail from Anthropic's announcement, the platform documentation, the system card, and independent coverage, so you have ...
 - [Why Most Data Science Notebooks Die After Day One: How to Build Ones That Survive](https://www.kdnuggets.com/why-most-data-science-notebooks-die-after-day-one-how-to-build-ones-that-survive)
   - Six habits that keep a notebook runnable after you close the laptop.
 - [High-Performance Data Processing with Polars: A KDnuggets Cheat Sheet](https://www.kdnuggets.com/high-performance-data-processing-with-polars-a-cheat-sheet)
   - Polars is a DataFrame library written in Rust on the Apache Arrow memory format, and the speed comes less from the language than from the model. The model? Describe your work as...
-- [Bravely AI Browsing with Leo](https://www.kdnuggets.com/bravely-ai-browsing-with-leo)
-  - Learn about private AI browsing for data professionals.
-- [7 Open-Source Alternatives to ChatGPT You Can Run Locally](https://www.kdnuggets.com/7-open-source-alternatives-to-chatgpt-you-can-run-locally)
-  - Explore seven open-source ChatGPT alternatives, from lightweight local chat interfaces and document assistants to agent platforms, multi-user setups, and complete self-hosted AI...
 
 ## OpenAI News (ai)
 - [Two years of OpenAI Academy](https://openai.com/index/two-years-of-openai-academy)
@@ -53,8 +53,8 @@ Updated: 2026-09-24 07:34 UTC
   - <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Health_Header.gif" />Explore this collection to see how experts and local leaders are using AI...
 
 ## Hugging Face Blog (llm)
+- [Accelerating vision-language models with LFM2.5-VL-DSpark](https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark)
 - [How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows](https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp)
 - [How UK AISI and EvalEval Are Making Benchmark Results Reproducible](https://huggingface.co/blog/evaleval-aisi)
 - [Transformers now runs llama.cpp quants](https://huggingface.co/blog/transformers-llama-cpp-quants)
 - [Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community](https://huggingface.co/blog/omlx)
-- [Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem](https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an)
