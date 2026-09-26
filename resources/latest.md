@@ -1,34 +1,36 @@
 # Latest Learning Resources
 
-Updated: 2026-09-25 07:45 UTC
+Updated: 2026-09-26 07:38 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [10 Things I’m Learning Beyond AI to Become More Technologically Fluent](https://towardsdatascience.com/10-things-im-learning-beyond-ai-to-become-more-technologically-fluent/)
+  - <p>Part 1: Understanding the technologies shaping our future</p> <p>The post <a href="https://towardsdatascience.com/10-things-im-learning-beyond-ai-to-become-more-technological...
+- [Your Model's MSE Is Lying to You: Part II](https://towardsdatascience.com/your-models-mse-is-lying-to-you-part-ii/)
+  - <p>Autoregressive rollout and uncertainty propagation. Second in a series on probabilistic forecasting for physical signals.</p> <p>The post <a href="https://towardsdatascience....
+- [RAG Isn't an Agent — I Built the Layer Between Retrieval and Action](https://towardsdatascience.com/rag-isnt-an-agent-i-built-the-layer-between-retrieval-and-action/)
+  - <p>RAG retrieves. Agents act. I built both separately, connected them explicitly, and ran the same nine tasks through all three systems.</p> <p>The post <a href="https://towards...
+- [Jev vs. LLMs: When AI Moves from Generation to Decision-Making](https://towardsdatascience.com/jev-vs-llms-when-ai-moves-from-generation-to-decision-making/)
+  - <p>I tested TypeSafe AI’s Jev on 3,080 classification tasks to see how its accuracy, latency, calibration, and confidence compare with LLMs — and whether it works as a practical...
 - [How to Maximize Your Coding Agent Subscriptions](https://towardsdatascience.com/how-to-maximize-your-coding-agent-subscriptions/)
   - <p>Get more out of your coding agent subscriptions</p> <p>The post <a href="https://towardsdatascience.com/how-to-maximize-your-coding-agent-subscriptions/">How to Maximize Your...
-- [Beyond RAGs: Building Actually Truthful AI Harnesses](https://towardsdatascience.com/beyond-rags-building-actually-truthful-ai-harnesses/)
-  - <p>Retrieval is not evidence. How to build AI that proves its own claims.</p> <p>The post <a href="https://towardsdatascience.com/beyond-rags-building-actually-truthful-ai-harne...
-- [Towards Spec-Driven Test Automation: Part 1](https://towardsdatascience.com/towards-spec-driven-test-automation-part-1/)
-  - <p>Why a green test suite can mean nothing</p> <p>The post <a href="https://towardsdatascience.com/towards-spec-driven-test-automation-part-1/">Towards Spec-Driven Test Automati...
-- [When the Correct Answer Is Nothing, What Does Your Pipeline Return?](https://towardsdatascience.com/when-the-correct-answer-is-nothing-what-does-your-pipeline-return/)
-  - <p>The reliability mechanisms we add to LLM pipelines are often the ones that make them confidently wrong.</p> <p>The post <a href="https://towardsdatascience.com/when-the-corre...
-- [I Trained a Tiny Network to Compress Data. It Drew a Pentagon.](https://towardsdatascience.com/i-trained-a-tiny-network-to-compress-data-it-drew-a-pentagon/)
-  - <p>Reproducing Anthropic's &quot;Toy Models of Superposition&quot; from scratch in NumPy, with hand-derived gradients and no borrowed numbers.</p> <p>The post <a href="https://t...
 
 ## KDnuggets (data-analysis)
+- [Batching by Length Instead of Looping Item by Item for SLM Optimization](https://www.kdnuggets.com/batching-by-length-instead-of-looping-item-by-item-for-slm-optimization)
+  - We finish off our short series on SLM optimization with the third entry, focused on batching by length instead of looping item by item.
+- [7 Advanced Python Tricks to Level Up Your Coding Skills](https://www.kdnuggets.com/7-advanced-python-tricks-to-level-up-your-coding-skills)
+  - Leveling up rarely means new syntax. It means learning what the language already promised you.
 - [MCP Explained in 5 Minutes](https://www.kdnuggets.com/mcp-explained-in-5-minutes)
   - A visual guide to MCP that explains how it works, how to use it with Claude Code, Tavily, GitHub, and Playwright, and what is new through simple diagrams that make the whole con...
 - [What I’ve Learned About DeepSeek Harness](https://www.kdnuggets.com/what-ive-learned-about-deepseek-harness)
   - KDnuggets team member Shittu Olumide tested out DeepSeek Harness. Here's what he found.
 - [Everything Claude Opus 5.5 Actually Ships With](https://www.kdnuggets.com/everything-claude-opus-5-5-actually-ships-with)
   - This article pulls together every verifiable number and detail from Anthropic's announcement, the platform documentation, the system card, and independent coverage, so you have ...
-- [Why Most Data Science Notebooks Die After Day One: How to Build Ones That Survive](https://www.kdnuggets.com/why-most-data-science-notebooks-die-after-day-one-how-to-build-ones-that-survive)
-  - Six habits that keep a notebook runnable after you close the laptop.
-- [High-Performance Data Processing with Polars: A KDnuggets Cheat Sheet](https://www.kdnuggets.com/high-performance-data-processing-with-polars-a-cheat-sheet)
-  - Polars is a DataFrame library written in Rust on the Apache Arrow memory format, and the speed comes less from the language than from the model. The model? Describe your work as...
 
 ## OpenAI News (ai)
+- [Proaction boosts sales 60% and saves 75+ hours with Codex](https://openai.com/index/proaction)
+  - With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.
 - [Two years of OpenAI Academy](https://openai.com/index/two-years-of-openai-academy)
   - Marking two years of OpenAI Academy and bringing AI skills to even more communities.
 - [OpenAI extends cyber access to Ukraine for civilian defense](https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense)
@@ -37,8 +39,6 @@ Updated: 2026-09-25 07:45 UTC
   - OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.
 - [Harvey turns legal context into stronger drafts with GPT-6 Astra](https://openai.com/index/harvey-from-context-to-confidence-with-astra)
   - GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.
-- [How invideo improves color grading 3x with GPT‑6 Astra](https://openai.com/index/invideo-builds-with-gpt-6-astra)
-  - With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.
 
 ## Google AI Blog (ai)
 - [Google Beam expands with new regions, partners, and customers](https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/)
