@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-09-26 07:38 UTC
+Updated: 2026-09-27 08:06 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [AI Slop Is Already in Your Training Dataset. I Tested Three Ways to Spot It.](https://towardsdatascience.com/ai-slop-is-now-in-your-training-dataset-i-tested-three-ways-to-spot-it/)
+  - <p>My AI detectors flagged many genuine reviews, and filtering them made the sentiment model less accurate.</p> <p>The post <a href="https://towardsdatascience.com/ai-slop-is-no...
+- [Your LLM Has a Curved Space of Paragraphs](https://towardsdatascience.com/your-llm-has-a-curved-space-of-paragraphs/)
+  - <p>Inside a transformer, token index is a coordinate. Paragraph structure is what turns it into a metric.</p> <p>The post <a href="https://towardsdatascience.com/your-llm-has-a-...
 - [10 Things I’m Learning Beyond AI to Become More Technologically Fluent](https://towardsdatascience.com/10-things-im-learning-beyond-ai-to-become-more-technologically-fluent/)
   - <p>Part 1: Understanding the technologies shaping our future</p> <p>The post <a href="https://towardsdatascience.com/10-things-im-learning-beyond-ai-to-become-more-technological...
 - [Your Model's MSE Is Lying to You: Part II](https://towardsdatascience.com/your-models-mse-is-lying-to-you-part-ii/)
   - <p>Autoregressive rollout and uncertainty propagation. Second in a series on probabilistic forecasting for physical signals.</p> <p>The post <a href="https://towardsdatascience....
 - [RAG Isn't an Agent — I Built the Layer Between Retrieval and Action](https://towardsdatascience.com/rag-isnt-an-agent-i-built-the-layer-between-retrieval-and-action/)
   - <p>RAG retrieves. Agents act. I built both separately, connected them explicitly, and ran the same nine tasks through all three systems.</p> <p>The post <a href="https://towards...
-- [Jev vs. LLMs: When AI Moves from Generation to Decision-Making](https://towardsdatascience.com/jev-vs-llms-when-ai-moves-from-generation-to-decision-making/)
-  - <p>I tested TypeSafe AI’s Jev on 3,080 classification tasks to see how its accuracy, latency, calibration, and confidence compare with LLMs — and whether it works as a practical...
-- [How to Maximize Your Coding Agent Subscriptions](https://towardsdatascience.com/how-to-maximize-your-coding-agent-subscriptions/)
-  - <p>Get more out of your coding agent subscriptions</p> <p>The post <a href="https://towardsdatascience.com/how-to-maximize-your-coding-agent-subscriptions/">How to Maximize Your...
 
 ## KDnuggets (data-analysis)
 - [Batching by Length Instead of Looping Item by Item for SLM Optimization](https://www.kdnuggets.com/batching-by-length-instead-of-looping-item-by-item-for-slm-optimization)
