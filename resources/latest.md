@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-09-27 08:06 UTC
+Updated: 2026-09-28 08:39 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [GraphRAG with TypeSafe Jev: A System One Approach to Scalable Knowledge Graphs](https://towardsdatascience.com/graphrag-with-typesafe-jev-a-system-one-approach-to-scalable-knowledge-graphs/)
+  - <p>How calibrated decision models can handle high-frequency graph decisions while LLMs remain focused on reasoning, synthesis, and open-ended generation.</p> <p>The post <a href...
+- [Good Architecture Deletes the Signals Your Agent Depends On](https://towardsdatascience.com/good-architecture-deletes-the-signals-your-agent-depends-on/)
+  - <p>Every boundary you draw removes a signal your tooling was relying on. That is a structure problem, not a search problem.</p> <p>The post <a href="https://towardsdatascience.c...
 - [AI Slop Is Already in Your Training Dataset. I Tested Three Ways to Spot It.](https://towardsdatascience.com/ai-slop-is-now-in-your-training-dataset-i-tested-three-ways-to-spot-it/)
   - <p>My AI detectors flagged many genuine reviews, and filtering them made the sentiment model less accurate.</p> <p>The post <a href="https://towardsdatascience.com/ai-slop-is-no...
 - [Your LLM Has a Curved Space of Paragraphs](https://towardsdatascience.com/your-llm-has-a-curved-space-of-paragraphs/)
   - <p>Inside a transformer, token index is a coordinate. Paragraph structure is what turns it into a metric.</p> <p>The post <a href="https://towardsdatascience.com/your-llm-has-a-...
 - [10 Things I’m Learning Beyond AI to Become More Technologically Fluent](https://towardsdatascience.com/10-things-im-learning-beyond-ai-to-become-more-technologically-fluent/)
   - <p>Part 1: Understanding the technologies shaping our future</p> <p>The post <a href="https://towardsdatascience.com/10-things-im-learning-beyond-ai-to-become-more-technological...
-- [Your Model's MSE Is Lying to You: Part II](https://towardsdatascience.com/your-models-mse-is-lying-to-you-part-ii/)
-  - <p>Autoregressive rollout and uncertainty propagation. Second in a series on probabilistic forecasting for physical signals.</p> <p>The post <a href="https://towardsdatascience....
-- [RAG Isn't an Agent — I Built the Layer Between Retrieval and Action](https://towardsdatascience.com/rag-isnt-an-agent-i-built-the-layer-between-retrieval-and-action/)
-  - <p>RAG retrieves. Agents act. I built both separately, connected them explicitly, and ran the same nine tasks through all three systems.</p> <p>The post <a href="https://towards...
 
 ## KDnuggets (data-analysis)
 - [Batching by Length Instead of Looping Item by Item for SLM Optimization](https://www.kdnuggets.com/batching-by-length-instead-of-looping-item-by-item-for-slm-optimization)
