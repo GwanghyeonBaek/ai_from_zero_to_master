@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-10-04 08:25 UTC
+Updated: 2026-10-05 09:00 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [How to Govern AI Agents](https://towardsdatascience.com/how-to-govern-ai-agents/)
+  - <p>From guarding one agent to steering a fleet</p> <p>The post <a href="https://towardsdatascience.com/how-to-govern-ai-agents/">How to Govern AI Agents</a> appeared first on <a...
+- [The Reversal Curse: Why a Language Model That Knows “A Is B” Can’t Tell You “B Is A”](https://towardsdatascience.com/the-reversal-curse-why-a-language-model-that-knows-a-is-b-cant-tell-you-b-is-a/)
+  - <p>A model can recall a fact in the direction it learned it and fail in the other. Here's a toy version of why</p> <p>The post <a href="https://towardsdatascience.com/the-revers...
 - [Measuring the Creativity Potential of LLM Agents](https://towardsdatascience.com/measuring-the-creativity-potential-of-llm-agents/)
   - <p>Trying to answer the question of &quot;Can LLM agents discover?&quot; through the lens of creativity</p> <p>The post <a href="https://towardsdatascience.com/measuring-the-cre...
 - [How to Use a PINN for a Navier-Stokes Inverse Problem](https://towardsdatascience.com/how-to-use-a-pinn-for-a-navier-stokes-inverse-problem/)
   - <p>A from-scratch PyTorch build that recovers blood flow, viscosity, and wall shear stress in a narrowed artery from 40 noisy velocity readings</p> <p>The post <a href="https://...
 - [Where the Agent Development Lifecycle Fits](https://towardsdatascience.com/where-the-agent-development-lifecycle-fits/)
   - <p>Coordinating agent capability development with the application it powers</p> <p>The post <a href="https://towardsdatascience.com/where-the-agent-development-lifecycle-fits/">...
-- [How to Build a Control Plane for AI Agents](https://towardsdatascience.com/how-to-build-a-control-plane-for-ai-agents/)
-  - <p>Giving an LLM permission to act, in 9 steps</p> <p>The post <a href="https://towardsdatascience.com/how-to-build-a-control-plane-for-ai-agents/">How to Build a Control Plane ...
-- [Autoencoders vs. PCA: I Rigged the Test and PCA Still Won](https://towardsdatascience.com/autoencoders-vs-pca-i-rigged-the-test-and-pca-still-won/)
-  - <p>A theoretical advantage that didn't survive contact with a real benchmark.</p> <p>The post <a href="https://towardsdatascience.com/autoencoders-vs-pca-i-rigged-the-test-and-p...
 
 ## KDnuggets (data-analysis)
 - [Python Foundations for Engineering: A KDnuggets Cheat Sheet](https://www.kdnuggets.com/python-foundations-for-engineering-a-cheat-sheet)
