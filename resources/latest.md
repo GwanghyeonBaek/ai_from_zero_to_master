@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-10-10 08:27 UTC
+Updated: 2026-10-11 08:46 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [How Can AI Agents Read Untrusted Sources Safely?](https://towardsdatascience.com/how-can-ai-agents-read-untrusted-sources-safely/)
+  - <p>Add architectural guardrails around how agents read untrusted sources and use them in the workflow.</p> <p>The post <a href="https://towardsdatascience.com/how-can-ai-agents-...
+- [Why Temperature 0 Isn't Deterministic](https://towardsdatascience.com/why-temperature-0-isnt-deterministic/)
+  - <p>A one-line formula for how often an LLM's top token flips, and why identical completions fall apart after about a hundred tokens</p> <p>The post <a href="https://towardsdatas...
 - [Can TypeSafe's Jev Make AI Agents Safer Without Another LLM?](https://towardsdatascience.com/can-typesafes-jev-make-ai-agents-safer-without-another-llm/)
   - <p>How a decision-first model can catch risky tool calls before they turn into real-world actions</p> <p>The post <a href="https://towardsdatascience.com/can-typesafes-jev-make-...
 - [Where Does the Money Go Across Long-Running Coding Agents?](https://towardsdatascience.com/where-does-the-money-go-across-long-running-coding-agents/)
   - <p>The cost of control</p> <p>The post <a href="https://towardsdatascience.com/where-does-the-money-go-across-long-running-coding-agents/">Where Does the Money Go Across Long-Ru...
 - [Build Your First AI Agent with One Tool Call](https://towardsdatascience.com/build-your-first-ai-agent-with-one-tool-call/)
   - <p>AI Agents for Beginners, Part 1</p> <p>The post <a href="https://towardsdatascience.com/build-your-first-ai-agent-with-one-tool-call/">Build Your First AI Agent with One Tool...
-- [Stop Using AI. Start Hiring It.](https://towardsdatascience.com/stop-using-ai-start-hiring-it/)
-  - <p>AI agents can now write more code than any of us can read. That changed how I think about AI.</p> <p>The post <a href="https://towardsdatascience.com/stop-using-ai-start-hiri...
-- [Everyone Is Selling AI at You — Here’s How to Keep Your Judgement](https://towardsdatascience.com/everyone-is-selling-ai-at-you-heres-how-to-keep-your-judgement/)
-  - <p>Three moves to decode the hype</p> <p>The post <a href="https://towardsdatascience.com/everyone-is-selling-ai-at-you-heres-how-to-keep-your-judgement/">Everyone Is Selling AI...
 
 ## KDnuggets (data-analysis)
 - [Build Your First MCP Server in Python (Stateless Spec Edition)](https://www.kdnuggets.com/build-your-first-mcp-server-in-python-stateless-spec-edition)
