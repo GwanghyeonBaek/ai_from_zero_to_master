@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-10-11 08:46 UTC
+Updated: 2026-10-12 09:08 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [A Practical Guide to OpenAI's New Decisions API](https://towardsdatascience.com/a-practical-guide-to-openais-new-decisions-api/)
+  - <p>Is this the JEV killer?</p> <p>The post <a href="https://towardsdatascience.com/a-practical-guide-to-openais-new-decisions-api/">A Practical Guide to OpenAI's New Decisions A...
+- [Agentic Systems: A Practitioner's Guide to 6 Advanced Architectural Patterns](https://towardsdatascience.com/agentic-systems-a-practitioners-guide-to-6-advanced-architectural-patterns/)
+  - <p>Beyond basic ReAct loops: six production-oriented architectures for building autonomous, reliable, and scalable LLM agents.</p> <p>The post <a href="https://towardsdatascienc...
 - [How Can AI Agents Read Untrusted Sources Safely?](https://towardsdatascience.com/how-can-ai-agents-read-untrusted-sources-safely/)
   - <p>Add architectural guardrails around how agents read untrusted sources and use them in the workflow.</p> <p>The post <a href="https://towardsdatascience.com/how-can-ai-agents-...
 - [Why Temperature 0 Isn't Deterministic](https://towardsdatascience.com/why-temperature-0-isnt-deterministic/)
   - <p>A one-line formula for how often an LLM's top token flips, and why identical completions fall apart after about a hundred tokens</p> <p>The post <a href="https://towardsdatas...
 - [Can TypeSafe's Jev Make AI Agents Safer Without Another LLM?](https://towardsdatascience.com/can-typesafes-jev-make-ai-agents-safer-without-another-llm/)
   - <p>How a decision-first model can catch risky tool calls before they turn into real-world actions</p> <p>The post <a href="https://towardsdatascience.com/can-typesafes-jev-make-...
-- [Where Does the Money Go Across Long-Running Coding Agents?](https://towardsdatascience.com/where-does-the-money-go-across-long-running-coding-agents/)
-  - <p>The cost of control</p> <p>The post <a href="https://towardsdatascience.com/where-does-the-money-go-across-long-running-coding-agents/">Where Does the Money Go Across Long-Ru...
-- [Build Your First AI Agent with One Tool Call](https://towardsdatascience.com/build-your-first-ai-agent-with-one-tool-call/)
-  - <p>AI Agents for Beginners, Part 1</p> <p>The post <a href="https://towardsdatascience.com/build-your-first-ai-agent-with-one-tool-call/">Build Your First AI Agent with One Tool...
 
 ## KDnuggets (data-analysis)
 - [Build Your First MCP Server in Python (Stateless Spec Edition)](https://www.kdnuggets.com/build-your-first-mcp-server-in-python-stateless-spec-edition)
