@@ -1,32 +1,23 @@
 # Latest Learning Resources
 
-Updated: 2026-10-12 09:08 UTC
+Updated: 2026-10-13 09:23 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [We Specified an AI Agent in 2016. We Called It Analytics.](https://towardsdatascience.com/we-specified-an-ai-agent-in-2016-we-called-it-analytics/)
+  - <p>Re-reading my own IBM patent on real-time concert feedback as what it actually was: an agentic loop with multimodal perception, memory-grounded inference, and a human in the ...
+- [I Built a Trap for AI Image Judges. They Walked Into a Different One.](https://towardsdatascience.com/i-built-a-trap-for-ai-image-judges-they-walked-into-a-different-one/)
+  - <p>Three vision AI models ignored the pretty image, yet GPT-4o invented answers and Claude kept answering B.</p> <p>The post <a href="https://towardsdatascience.com/i-built-a-tr...
 - [A Practical Guide to OpenAI's New Decisions API](https://towardsdatascience.com/a-practical-guide-to-openais-new-decisions-api/)
   - <p>Is this the JEV killer?</p> <p>The post <a href="https://towardsdatascience.com/a-practical-guide-to-openais-new-decisions-api/">A Practical Guide to OpenAI's New Decisions A...
 - [Agentic Systems: A Practitioner's Guide to 6 Advanced Architectural Patterns](https://towardsdatascience.com/agentic-systems-a-practitioners-guide-to-6-advanced-architectural-patterns/)
   - <p>Beyond basic ReAct loops: six production-oriented architectures for building autonomous, reliable, and scalable LLM agents.</p> <p>The post <a href="https://towardsdatascienc...
 - [How Can AI Agents Read Untrusted Sources Safely?](https://towardsdatascience.com/how-can-ai-agents-read-untrusted-sources-safely/)
   - <p>Add architectural guardrails around how agents read untrusted sources and use them in the workflow.</p> <p>The post <a href="https://towardsdatascience.com/how-can-ai-agents-...
-- [Why Temperature 0 Isn't Deterministic](https://towardsdatascience.com/why-temperature-0-isnt-deterministic/)
-  - <p>A one-line formula for how often an LLM's top token flips, and why identical completions fall apart after about a hundred tokens</p> <p>The post <a href="https://towardsdatas...
-- [Can TypeSafe's Jev Make AI Agents Safer Without Another LLM?](https://towardsdatascience.com/can-typesafes-jev-make-ai-agents-safer-without-another-llm/)
-  - <p>How a decision-first model can catch risky tool calls before they turn into real-world actions</p> <p>The post <a href="https://towardsdatascience.com/can-typesafes-jev-make-...
 
 ## KDnuggets (data-analysis)
-- [Build Your First MCP Server in Python (Stateless Spec Edition)](https://www.kdnuggets.com/build-your-first-mcp-server-in-python-stateless-spec-edition)
-  - MCP just got simpler. Learn how to build a stateless MCP server in Python and expose tools, resources, and prompts over HTTP.
-- [10 Free AI Tools That Replace Expensive Software for Data Scientists](https://www.kdnuggets.com/10-free-ai-tools-that-replace-expensive-software-for-data-scientists)
-  - Build a production-grade data science toolkit without spending a dollar, using open-source AI tools that match, and sometimes exceed, their paid alternatives.
-- [Bridging Algorithmic Design and Regulatory Standards in Enterprise AI](https://www.kdnuggets.com/bridging-algorithmic-design-and-regulatory-standards-in-enterprise-ai)
-  - Your models can be both cutting-edge and compliant if you stop treating governance as the final hurdle and start building it into every stage of the ML pipeline.
-- [Building AI Agents with Docker Agent](https://www.kdnuggets.com/building-ai-agents-with-docker-agent)
-  - Docker Agent is an open-source, Apache 2.0-licensed CLI plugin built by Docker Engineering, installed and run as docker agent. Its own tagline states the goal plainly: run AI ag...
-- [7 Best Resources to Learn About Self-Evolving AI Agents](https://www.kdnuggets.com/7-best-resources-to-learn-about-self-evolving-ai-agents)
-  - The next step for AI agents? Self-improvement. Here are 7 resources to get started.
+- (No recent entries found)
 
 ## OpenAI News (ai)
 - [Sophos cuts threat investigation time by 96% with OpenAI Daybreak](https://openai.com/index/sophos)
