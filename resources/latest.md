@@ -1,25 +1,36 @@
 # Latest Learning Resources
 
-Updated: 2026-10-13 09:23 UTC
+Updated: 2026-10-14 07:35 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Your Agent Doesn't Need More Freedom](https://towardsdatascience.com/your-agent-doesnt-need-more-freedom/)
+  - <p>Agents got good. The hard part now is everything around them.</p> <p>The post <a href="https://towardsdatascience.com/your-agent-doesnt-need-more-freedom/">Your Agent Doesn't...
+- [Three Samplers, One Posterior: NUTS vs. Emcee vs. Nested Sampling](https://towardsdatascience.com/three-samplers-one-posterior-nuts-vs-emcee-vs-nested-sampling/)
+  - <p>Benchmarking NumPyro, affine-invariant MCMC, and dynesty against exact ground truth and watching them fail.</p> <p>The post <a href="https://towardsdatascience.com/three-samp...
+- [Coding Agents Can Solve the Task — But How Much Work Did They Waste?](https://towardsdatascience.com/coding-agents-can-solve-the-task-but-how-much-work-did-they-waste/)
+  - <p>Real repositories, seeded agent decisions: what 50,400 runs show about wasted turns, patch churn, and which harness rules help</p> <p>The post <a href="https://towardsdatasci...
+- [How to Leverage NLP for Product Data Science](https://towardsdatascience.com/how-to-leverage-nlp-for-product-data-science/)
+  - <p>A practical guide to strengthening churn, CLV, and other traditional models with text</p> <p>The post <a href="https://towardsdatascience.com/how-to-leverage-nlp-for-product-...
 - [We Specified an AI Agent in 2016. We Called It Analytics.](https://towardsdatascience.com/we-specified-an-ai-agent-in-2016-we-called-it-analytics/)
   - <p>Re-reading my own IBM patent on real-time concert feedback as what it actually was: an agentic loop with multimodal perception, memory-grounded inference, and a human in the ...
-- [I Built a Trap for AI Image Judges. They Walked Into a Different One.](https://towardsdatascience.com/i-built-a-trap-for-ai-image-judges-they-walked-into-a-different-one/)
-  - <p>Three vision AI models ignored the pretty image, yet GPT-4o invented answers and Claude kept answering B.</p> <p>The post <a href="https://towardsdatascience.com/i-built-a-tr...
-- [A Practical Guide to OpenAI's New Decisions API](https://towardsdatascience.com/a-practical-guide-to-openais-new-decisions-api/)
-  - <p>Is this the JEV killer?</p> <p>The post <a href="https://towardsdatascience.com/a-practical-guide-to-openais-new-decisions-api/">A Practical Guide to OpenAI's New Decisions A...
-- [Agentic Systems: A Practitioner's Guide to 6 Advanced Architectural Patterns](https://towardsdatascience.com/agentic-systems-a-practitioners-guide-to-6-advanced-architectural-patterns/)
-  - <p>Beyond basic ReAct loops: six production-oriented architectures for building autonomous, reliable, and scalable LLM agents.</p> <p>The post <a href="https://towardsdatascienc...
-- [How Can AI Agents Read Untrusted Sources Safely?](https://towardsdatascience.com/how-can-ai-agents-read-untrusted-sources-safely/)
-  - <p>Add architectural guardrails around how agents read untrusted sources and use them in the workflow.</p> <p>The post <a href="https://towardsdatascience.com/how-can-ai-agents-...
 
 ## KDnuggets (data-analysis)
-- (No recent entries found)
+- [The Roadmap to Mastering Agentic AI Systems in 2026](https://www.kdnuggets.com/the-roadmap-to-mastering-agentic-ai-systems-in-2026)
+  - A four-level technical roadmap for building agentic AI systems, from single cognitive loops and stateful memory through multi-agent swarms and production observability.
+- [5 AutoHotkey Scripts for Data Scientists](https://www.kdnuggets.com/5-autohotkey-scripts-for-data-scientists)
+  - Five AutoHotkey v2 scripts that handle repetitive Windows desktop work around data analysis: launching a project workspace, converting clipboard IDs to Python or SQL lists, fixi...
+- [The Rise of AI Software Clones: Why REA and ArtCraft Are Going Viral](https://www.kdnuggets.com/the-rise-of-ai-software-clones-why-rea-and-artcraft-are-going-viral)
+  - REA and ArtCraft are two projects driving a wave of AI-built clones that attempt to recreate Adobe and Microsoft software, letting developers reverse-engineer and rebuild commer...
+- [ChatGPT vs. Claude vs. Gemini for Data Science Work: Here’s What I Found](https://www.kdnuggets.com/chatgpt-vs-claude-vs-gemini-for-data-science-work-heres-what-i-found)
+  - Compare ChatGPT, Claude, and Gemini across the data science tasks that matter most to statisticians and analysts.
+- [10 Hugging Face Models Worth Knowing in 2026](https://www.kdnuggets.com/10-hugging-face-models-worth-knowing-in-2026)
+  - Explore 10 Hugging Face models used across text, vision, audio, and retrieval in 2026.
 
 ## OpenAI News (ai)
+- [Higgsfield takes AI video from 1 minute to over 10](https://openai.com/index/higgsfield-longer-videos-voice)
+  - Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.
 - [Sophos cuts threat investigation time by 96% with OpenAI Daybreak](https://openai.com/index/sophos)
   - Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.
 - [Asana cuts model costs 76x in browser tests with GPT-6.1 Sol](https://openai.com/index/asana-browser-agent)
@@ -28,10 +39,10 @@ Updated: 2026-10-13 09:23 UTC
   - Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.
 - [Pollo AI turns creative ideas into campaigns with OpenAI](https://openai.com/index/pollo-ai)
   - With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.
-- [LegalOn halves Codex costs while maintaining development speed](https://openai.com/index/legalon-halves-codex-costs)
-  - LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.
 
 ## Google AI Blog (ai)
+- [Gemini 4 Argon: Built to solve your hardest problems](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/)
+  - TBD
 - [Introducing Playground: Create and play custom games](https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/)
   - Overview of Playground
 - [The latest AI news we announced in September 2026](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/)
@@ -40,12 +51,10 @@ Updated: 2026-10-13 09:23 UTC
   - <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp" />Watch the winning trailer from the Future Vis...
 - [Google Beam expands with new regions, partners, and customers](https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/)
   - Google Beam promotional animation
-- [New experts join Google’s AI & Economy team](https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/)
-  - Text "AI & Economy Research Program" all over a green grid background, with the Google G logo in the bottom right corner
 
 ## Hugging Face Blog (llm)
+- [Run fast, private agents on-device with LFM2.5-24B-A2B](https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b)
 - [Impactful scheduling for GPU clusters](https://huggingface.co/blog/allenai/impactful-scheduling)
 - [The model that didn't exist, so you made it yourself](https://huggingface.co/blog/building-with-ml-intern)
-- [Multimodal open d1 decision models for the edge](https://huggingface.co/blog/LiquidAI/open-d1)
 - [Introducing Falcon ASR](https://huggingface.co/blog/tiiuae/falcon-asr)
 - [One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO](https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026)
