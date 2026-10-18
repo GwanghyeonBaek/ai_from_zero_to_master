@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-10-17 06:54 UTC
+Updated: 2026-10-18 07:12 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [The Number Your Quantization Gate Doesn't Have](https://towardsdatascience.com/the-number-your-quantization-gate-doesnt-have/)
+  - <p>Ten quantization guides, and not one threshold-dependent metric between them — what that gap hides, and the two numbers that close it.</p> <p>The post <a href="https://toward...
+- [When EEG Models See the Same People in Training and Testing](https://towardsdatascience.com/when-eeg-models-see-the-same-people-in-training-and-testing/)
+  - <p>How participant-aware evaluation changed performance across three machine-learning models</p> <p>The post <a href="https://towardsdatascience.com/when-eeg-models-see-the-same...
 - [Do You Still Own the Code Your AI Wrote? I Built CodeOwnership to Measure It](https://towardsdatascience.com/do-you-still-own-the-code-your-ai-wrote-i-built-codeownership-to-measure-it/)
   - <p>I rated my confidence 4 out of 5, then couldn’t find a planted bug in 8 minutes. Here is the tool, the run, and its limits.</p> <p>The post <a href="https://towardsdatascienc...
 - [I Built a Claim-Checker for Writing With Codex. It Passed a Wrong Claim.](https://towardsdatascience.com/i-built-a-claim-checker-for-writing-with-codex-it-passed-a-wrong-claim/)
   - <p>The tool found the right passage but missed the mismatch, and the audit shows where rule-based checks break down.</p> <p>The post <a href="https://towardsdatascience.com/i-bu...
 - [Deploying Data Science Tools: Part 1](https://towardsdatascience.com/deploying-data-science-tools-part-1/)
   - <p>Getting your data science code running anywhere</p> <p>The post <a href="https://towardsdatascience.com/deploying-data-science-tools-part-1/">Deploying Data Science Tools: Pa...
-- [I Reran My Python 3.14 JIT Benchmarks on Python 3.15](https://towardsdatascience.com/i-reran-my-python-314-jit-benchmarks-on-python-315/)
-  - <p>The same three workloads show a much stronger JIT, but it still doesn't help every program</p> <p>The post <a href="https://towardsdatascience.com/i-reran-my-python-314-jit-b...
-- [Jev Your Engines: Seven Open Decision Models vs. a Generative LLM](https://towardsdatascience.com/jev-your-engines-seven-open-decision-models-vs-a-generative-llm/)
-  - <p>A hands-on Jev repo comparison of routing accuracy, latency, and output reliability</p> <p>The post <a href="https://towardsdatascience.com/jev-your-engines-seven-open-decisi...
 
 ## KDnuggets (data-analysis)
 - [Agentic RAG vs. Naive RAG: When Your Retrieval System Should Think for Itself](https://www.kdnuggets.com/agentic-rag-vs-naive-rag-when-your-retrieval-system-should-think-for-itself)
@@ -31,10 +31,10 @@ Updated: 2026-10-17 06:54 UTC
 ## OpenAI News (ai)
 - [How Itaú is building generative AI for its entire customer base](https://openai.com/index/itau-generative-ai)
   - With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated se...
-- [Stack Overflow for Agents triples signups with ChatGPT plugin](https://openai.com/index/stack-overflow-chatgpt-plugin)
-  - Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.
 - [Benefit Street Partners answers questions faster with Codex](https://openai.com/index/benefit-street-partners)
   - Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.
+- [Stack Overflow for Agents triples signups with ChatGPT plugin](https://openai.com/index/stack-overflow-chatgpt-plugin)
+  - Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.
 - [Bringing GPT-Rosalind to academic research labs](https://openai.com/index/introducing-the-rosalind-academic-plan)
   - Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.
 - [Teaching students to think and learn through questions](https://openai.com/index/teaching-students-to-think-and-learn-through-questions)
