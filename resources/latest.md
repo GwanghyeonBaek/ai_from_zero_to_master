@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-10-18 07:12 UTC
+Updated: 2026-10-19 07:43 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Inferring the Host: A Bayesian Look at the Monty Hall Problem](https://towardsdatascience.com/inferring-the-host-a-bayesian-look-at-the-monty-hall-problem/)
+  - <p>&quot;Always switch&quot; is true for one particular host. Watch a few episodes and you can work out which host you've got.</p> <p>The post <a href="https://towardsdatascienc...
+- [Both Charts Are Right. So Why Do They Disagree?](https://towardsdatascience.com/both-charts-are-right-so-why-do-they-disagree/)
+  - <p>The statistical paradox that shows how combining data can reverse the story.</p> <p>The post <a href="https://towardsdatascience.com/both-charts-are-right-so-why-do-they-disa...
 - [The Number Your Quantization Gate Doesn't Have](https://towardsdatascience.com/the-number-your-quantization-gate-doesnt-have/)
   - <p>Ten quantization guides, and not one threshold-dependent metric between them — what that gap hides, and the two numbers that close it.</p> <p>The post <a href="https://toward...
 - [When EEG Models See the Same People in Training and Testing](https://towardsdatascience.com/when-eeg-models-see-the-same-people-in-training-and-testing/)
   - <p>How participant-aware evaluation changed performance across three machine-learning models</p> <p>The post <a href="https://towardsdatascience.com/when-eeg-models-see-the-same...
 - [Do You Still Own the Code Your AI Wrote? I Built CodeOwnership to Measure It](https://towardsdatascience.com/do-you-still-own-the-code-your-ai-wrote-i-built-codeownership-to-measure-it/)
   - <p>I rated my confidence 4 out of 5, then couldn’t find a planted bug in 8 minutes. Here is the tool, the run, and its limits.</p> <p>The post <a href="https://towardsdatascienc...
-- [I Built a Claim-Checker for Writing With Codex. It Passed a Wrong Claim.](https://towardsdatascience.com/i-built-a-claim-checker-for-writing-with-codex-it-passed-a-wrong-claim/)
-  - <p>The tool found the right passage but missed the mismatch, and the audit shows where rule-based checks break down.</p> <p>The post <a href="https://towardsdatascience.com/i-bu...
-- [Deploying Data Science Tools: Part 1](https://towardsdatascience.com/deploying-data-science-tools-part-1/)
-  - <p>Getting your data science code running anywhere</p> <p>The post <a href="https://towardsdatascience.com/deploying-data-science-tools-part-1/">Deploying Data Science Tools: Pa...
 
 ## KDnuggets (data-analysis)
 - [Agentic RAG vs. Naive RAG: When Your Retrieval System Should Think for Itself](https://www.kdnuggets.com/agentic-rag-vs-naive-rag-when-your-retrieval-system-should-think-for-itself)
