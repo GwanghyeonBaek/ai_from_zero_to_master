@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-10-25 07:33 UTC
+Updated: 2026-10-26 07:45 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Agentic AI in Production: Why Your Agent Keeps Answering After Its Tools Fail](https://towardsdatascience.com/agentic-ai-in-production-why-your-agent-keeps-answering-after-its-tools-fail/)
+  - <p>When a tool breaks, an agent can keep going and write a confident answer from nothing while the dashboard stays green.</p> <p>The post <a href="https://towardsdatascience.com...
+- [Data Enablement for AI: A Practitioner's Guide to 6 Advanced Architectural Patterns](https://towardsdatascience.com/data-enablement-for-ai-a-practitioners-guide-to-6-advanced-architectural-patterns/)
+  - <p>Beyond naive chunk-and-embed: Six production architectures for turning enterprise lakehouses into governed AI platforms.</p> <p>The post <a href="https://towardsdatascience.c...
 - [How to Add Guardrails to a Local LLM Agent](https://towardsdatascience.com/how-to-add-guardrails-to-a-local-llm-agent/)
   - <p>A hands-on guide with Gemma 4, Ollama, and the OpenAI Agents SDK</p> <p>The post <a href="https://towardsdatascience.com/how-to-add-guardrails-to-a-local-llm-agent/">How to A...
 - [Python 3.15 Has a New Profiler](https://towardsdatascience.com/python-315-has-a-new-profiler/)
   - <p>Here's what it finds that cProfile misses</p> <p>The post <a href="https://towardsdatascience.com/python-315-has-a-new-profiler/">Python 3.15 Has a New Profiler</a> appeared ...
 - [Don’t Let Messy Data Bend Your Curves](https://towardsdatascience.com/dont-let-messy-data-bend-your-curves/)
   - <p>Robust Estimation Series: Building Accurate Curves with Polynomials and Splines With Spurious Data</p> <p>The post <a href="https://towardsdatascience.com/dont-let-messy-data...
-- [Skewness and Kurtosis: From Moments to Machine Learning](https://towardsdatascience.com/skewness-and-kurtosis-from-moments-to-machine-learning/)
-  - <p>The mathematics, intuition, interpretation, and practical use of higher-order moments.</p> <p>The post <a href="https://towardsdatascience.com/skewness-and-kurtosis-from-mome...
-- [Why Parameter Count Is Not Model Complexity: An Introduction to Effective Dimension](https://towardsdatascience.com/why-parameter-count-is-not-model-complexity-an-introduction-to-effective-dimension/)
-  - <p>What does effective dimension reveal about redundancy, generalization, and trainability that parameter count, loss, and accuracy do not?</p> <p>The post <a href="https://towa...
 
 ## KDnuggets (data-analysis)
 - [What Companies Actually Mean When They Say They Want “AI Experience”](https://www.kdnuggets.com/what-companies-actually-mean-when-they-say-they-want-ai-experience)
