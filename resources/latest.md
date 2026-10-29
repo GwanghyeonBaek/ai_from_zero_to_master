@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-10-28 08:25 UTC
+Updated: 2026-10-29 08:25 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
-- [I Broke a Browser Agent on Purpose. Spotting the Fault Was Not the Same as Fixing It](https://towardsdatascience.com/i-broke-a-browser-agent-on-purpose-spotting-the-fault-was-not-the-same-as-fixing-it/)
-  - <p>I replayed correct model decisions through four broken browser actions. A simple page check missed half of the wrong clicks, and raised a false alarm on every click that work...
-- [Who Watches the AI?](https://towardsdatascience.com/who-watches-the-ai/)
-  - <p>A separation of powers for control of autonomous agents</p> <p>The post <a href="https://towardsdatascience.com/who-watches-the-ai/">Who Watches the AI?</a> appeared first on...
-- [In the Age of Borrowed Thinking, How To Become More Valuable as AI Gets Smarter](https://towardsdatascience.com/in-the-age-of-borrowed-thinking-how-to-become-more-valuable-as-ai-gets-smarter/)
-  - <p>A framework for staying relevant in the age of artificial intelligence</p> <p>The post <a href="https://towardsdatascience.com/in-the-age-of-borrowed-thinking-how-to-become-m...
-- [Developers Felt 20% Faster With AI. They Were 19% Slower.](https://towardsdatascience.com/developers-felt-20-faster-with-ai-they-were-19-slower/)
-  - <p>And that’s not even the worrying part.</p> <p>The post <a href="https://towardsdatascience.com/developers-felt-20-faster-with-ai-they-were-19-slower/">Developers Felt 20% Fas...
-- [What Makes AI-Written Stories Feel Off?](https://towardsdatascience.com/what-makes-ai-written-stories-feel-off/)
-  - <p>And how we can turn that feeling into insights</p> <p>The post <a href="https://towardsdatascience.com/what-makes-ai-written-stories-feel-off/">What Makes AI-Written Stories ...
+- [How to Make AI Work for End-to-End Business Processes](https://towardsdatascience.com/how-to-make-ai-work-for-end-to-end-business-processes/)
+  - <p>From simplifying workflows to connecting knowledge and rules, coordinating AI agents, and delivering measurable business results.</p> <p>The post <a href="https://towardsdata...
+- [Where a Cell Sits Matters More Than How Many There Are](https://towardsdatascience.com/where-a-cell-sits-matters-more-than-how-many-there-are/)
+  - <p>Using spatstat raster layers and point process models to ask how neurons, astrocytes and microglia sit relative to each other</p> <p>The post <a href="https://towardsdatascie...
+- [Building and Visualising Kolmogorov–Arnold Networks](https://towardsdatascience.com/building-and-visualising-kolmogorovarnold-networks/)
+  - <p>Exploring what happens when neural networks learn functions instead of weights.</p> <p>The post <a href="https://towardsdatascience.com/building-and-visualising-kolmogorovarn...
+- [Your RAG Pipeline Is Missing a 1994 Algorithm](https://towardsdatascience.com/your-rag-pipeline-is-missing-a-1994-algorithm/)
+  - <p>Embeddings know that &quot;broken&quot; means &quot;defective&quot;. They may not notice that ZX-4821 is not ZX-4812.</p> <p>The post <a href="https://towardsdatascience.com/...
+- [An AI Agent Can Spot a Mistake and Still Not Fix It](https://towardsdatascience.com/i-broke-a-browser-agent-on-purpose-spotting-the-fault-was-not-the-same-as-fixing-it/)
+  - <p>I replayed correct model decisions through four deliberately broken browser actions, and a simple page check missed half of the wrong clicks, which shows that noticing a faul...
 
 ## KDnuggets (data-analysis)
+- [Access Multiple AI Models in Your Python Apps Using OpenRouter](https://www.kdnuggets.com/access-multiple-ai-models-in-your-python-apps-using-openrouter)
+  - Learn how to get started with the OpenRouter API to call multiple AI models through one API, compare responses, switch models, and set up automatic fallbacks.
+- [Can This Open-Source Model Beat AI Detectors? Let’s Test It Locally](https://www.kdnuggets.com/can-this-open-source-model-beat-ai-detectors-lets-test-it-locally)
+  - Can a free, open-source AI humanizer beat paid tools? We tested a 12B model locally and compared the results against AI detectors to see if the hype is real.
+- [Which Local LMs are Best For Which Tasks](https://www.kdnuggets.com/which-local-lms-are-best-for-which-tasks)
+  - A local language model is one whose actual weights, the enormous file of learned numbers that constitutes the trained model, you download and run entirely on your own hardware.
 - [Google Gemini Omni: What It Actually Does, What It Costs, and How It Compares](https://www.kdnuggets.com/google-gemini-omni-what-it-actually-does-what-it-costs-and-how-it-compares)
   - Gemini Omni is a member of Google's Gemini generative model family, built specifically to create output from any combination of input types, starting with video.
 - [The Roadmap to Becoming a Computer Vision Engineer in 2026](https://www.kdnuggets.com/the-roadmap-to-becoming-a-computer-vision-engineer-in-2026)
   - A four-stage technical roadmap for becoming a computer vision engineer, from spatial mathematics and ViTs through 3D neural rendering and edge deployment optimization.
-- [Building Your First AI Agent in Python with the OpenAI Agents SDK](https://www.kdnuggets.com/building-your-first-ai-agent-in-python-with-the-openai-agents-sdk)
-  - Build your first AI agent in Python with the OpenAI Agents SDK, adding web search, Python tools, conversation memory, and tracing in a simple end-to-end workflow.
-- [7 Advanced Python Design Patterns for Data Scientists](https://www.kdnuggets.com/7-advanced-python-design-patterns-for-data-scientists)
-  - Learn seven design patterns for data science code, from Strategy and Adapter to Command and Proxy, each matched to the pressure it solves, with the Python shape it takes and the...
-- [What Companies Actually Mean When They Say They Want “AI Experience”](https://www.kdnuggets.com/what-companies-actually-mean-when-they-say-they-want-ai-experience)
-  - What employers actually mean when job postings list "AI experience" as a requirement.
 
 ## OpenAI News (ai)
+- [OpenAI and ServiceNow expand partnership across enterprise workflows](https://openai.com/index/openai-servicenow-partnership-expansion)
+  - OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.
+- [The future of the firm](https://openai.com/index/the-future-of-the-firm)
+  - How AI might enter the org chart—beneath, beside, and between us.
+- [Legora is building the agentic operating system for legal work](https://openai.com/index/legora)
+  - See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.
 - [Retell uses OpenAI models to help power 100M monthly calls](https://openai.com/index/retell-ai)
   - GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.
 - [OpenAI expands partnership with Oracle to bring its apps to ChatGPT](https://openai.com/index/oracle-apps-in-chatgpt)
   - OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.
-- [How Check Point accelerates vulnerability research with Daybreak](https://openai.com/index/check-point-daybreak)
-  - With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.
-- [Greptile takes bug detection beyond code review with GPT-6 Astra](https://openai.com/index/greptile-code-review-codex-astra)
-  - How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.
-- [Working with academic communities to build scientific understanding](https://openai.com/index/building-scientific-understanding-with-academic-communities)
-  - OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.
 
 ## Google AI Blog (ai)
 - [Our newest AI Quest: Mapping the human brain](https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/)
@@ -53,8 +53,8 @@ Updated: 2026-10-28 08:25 UTC
   - A video showing the September AI updates
 
 ## Hugging Face Blog (llm)
+- [NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt](https://huggingface.co/blog/nvidia/nemotron-transcribe-granary)
 - [Build specialized multimodal models with LFM3](https://huggingface.co/blog/LiquidAI/lfm3)
 - [Can we trust LLMs to judge whether a research idea is novel?](https://huggingface.co/blog/allenai/novelty-bench)
 - [Does Your Model Run on AWS Trainium? Look It Up](https://huggingface.co/blog/torch-neuronx-model-support)
 - [Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox](https://huggingface.co/blog/microsoft/thinkingbox-training)
-- [Ensemble forecasting with IBM Granite time-series models](https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1)
