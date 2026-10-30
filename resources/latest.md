@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-10-29 08:25 UTC
+Updated: 2026-10-30 08:35 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [When Labels Say No, But Embeddings Say Yes](https://towardsdatascience.com/when-labels-say-no-but-embeddings-say-yes/)
+  - <p>Why traditional retrieval metrics miss meaningful similarities</p> <p>The post <a href="https://towardsdatascience.com/when-labels-say-no-but-embeddings-say-yes/">When Labels...
+- [Difference-in-Differences vs Lagged-Outcome Regression](https://towardsdatascience.com/difference-in-differences-vs-lagged-outcome-regression/)
+  - <p>A simulation study and a pre-period check for choosing the right design for self-selected treatments in product analytics.</p> <p>The post <a href="https://towardsdatascience...
+- [Is the #1 AI Model Really #1?](https://towardsdatascience.com/is-the-1-ai-model-really-1/)
+  - <p>On a 2,000-question test, my top two models couldn't be told apart at the usual 5% level. On a 200-question version, a different model would have taken first place about thre...
+- [What Is Harness Engineering? A Hands-On Introduction](https://towardsdatascience.com/what-is-harness-engineering-a-hands-on-introduction/)
+  - <p>Learn three essential primitives of harness engineering to future-proof your career</p> <p>The post <a href="https://towardsdatascience.com/what-is-harness-engineering-a-hand...
 - [How to Make AI Work for End-to-End Business Processes](https://towardsdatascience.com/how-to-make-ai-work-for-end-to-end-business-processes/)
   - <p>From simplifying workflows to connecting knowledge and rules, coordinating AI agents, and delivering measurable business results.</p> <p>The post <a href="https://towardsdata...
-- [Where a Cell Sits Matters More Than How Many There Are](https://towardsdatascience.com/where-a-cell-sits-matters-more-than-how-many-there-are/)
-  - <p>Using spatstat raster layers and point process models to ask how neurons, astrocytes and microglia sit relative to each other</p> <p>The post <a href="https://towardsdatascie...
-- [Building and Visualising Kolmogorov–Arnold Networks](https://towardsdatascience.com/building-and-visualising-kolmogorovarnold-networks/)
-  - <p>Exploring what happens when neural networks learn functions instead of weights.</p> <p>The post <a href="https://towardsdatascience.com/building-and-visualising-kolmogorovarn...
-- [Your RAG Pipeline Is Missing a 1994 Algorithm](https://towardsdatascience.com/your-rag-pipeline-is-missing-a-1994-algorithm/)
-  - <p>Embeddings know that &quot;broken&quot; means &quot;defective&quot;. They may not notice that ZX-4821 is not ZX-4812.</p> <p>The post <a href="https://towardsdatascience.com/...
-- [An AI Agent Can Spot a Mistake and Still Not Fix It](https://towardsdatascience.com/i-broke-a-browser-agent-on-purpose-spotting-the-fault-was-not-the-same-as-fixing-it/)
-  - <p>I replayed correct model decisions through four deliberately broken browser actions, and a simple page check missed half of the wrong clicks, which shows that noticing a faul...
 
 ## KDnuggets (data-analysis)
-- [Access Multiple AI Models in Your Python Apps Using OpenRouter](https://www.kdnuggets.com/access-multiple-ai-models-in-your-python-apps-using-openrouter)
+- [The AI Skills That Actually Show Up in Job Postings Right Now](https://www.kdnuggets.com/the-ai-skills-that-actually-show-up-in-job-postings-right-now)
+  - Which AI skills appear most often in job postings right now, and what do they mean for your career?
+- [5 Docker Containers You Need for a Home AI Lab](https://www.kdnuggets.com/5-docker-containers-you-need-for-a-home-ai-lab)
+  - Learn which five Docker containers make a reliable home AI lab, from Ollama and Open WebUI to Qdrant, n8n and Portainer CE, what job each one does, and the first mistake to avoi...
+- [How to Access Multiple AI Models in Your Python Apps Using OpenRouter](https://www.kdnuggets.com/access-multiple-ai-models-in-your-python-apps-using-openrouter)
   - Learn how to get started with the OpenRouter API to call multiple AI models through one API, compare responses, switch models, and set up automatic fallbacks.
 - [Can This Open-Source Model Beat AI Detectors? Let’s Test It Locally](https://www.kdnuggets.com/can-this-open-source-model-beat-ai-detectors-lets-test-it-locally)
   - Can a free, open-source AI humanizer beat paid tools? We tested a 12B model locally and compared the results against AI detectors to see if the hype is real.
 - [Which Local LMs are Best For Which Tasks](https://www.kdnuggets.com/which-local-lms-are-best-for-which-tasks)
   - A local language model is one whose actual weights, the enormous file of learned numbers that constitutes the trained model, you download and run entirely on your own hardware.
-- [Google Gemini Omni: What It Actually Does, What It Costs, and How It Compares](https://www.kdnuggets.com/google-gemini-omni-what-it-actually-does-what-it-costs-and-how-it-compares)
-  - Gemini Omni is a member of Google's Gemini generative model family, built specifically to create output from any combination of input types, starting with video.
-- [The Roadmap to Becoming a Computer Vision Engineer in 2026](https://www.kdnuggets.com/the-roadmap-to-becoming-a-computer-vision-engineer-in-2026)
-  - A four-stage technical roadmap for becoming a computer vision engineer, from spatial mathematics and ViTs through 3D neural rendering and edge deployment optimization.
 
 ## OpenAI News (ai)
+- [An updated Model Spec for more capable and beneficial AI](https://openai.com/index/updated-model-spec)
+  - OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.
+- [How we detect frontier model misalignment](https://openai.com/index/how-we-detect-frontier-model-misalignment)
+  - OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.
+- [How Ropes & Gray is developing AI for transactional diligence](https://openai.com/index/ropes-gray-ai-diligence)
+  - Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.
 - [OpenAI and ServiceNow expand partnership across enterprise workflows](https://openai.com/index/openai-servicenow-partnership-expansion)
   - OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.
 - [The future of the firm](https://openai.com/index/the-future-of-the-firm)
   - How AI might enter the org chart—beneath, beside, and between us.
-- [Legora is building the agentic operating system for legal work](https://openai.com/index/legora)
-  - See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.
-- [Retell uses OpenAI models to help power 100M monthly calls](https://openai.com/index/retell-ai)
-  - GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.
-- [OpenAI expands partnership with Oracle to bring its apps to ChatGPT](https://openai.com/index/oracle-apps-in-chatgpt)
-  - OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.
 
 ## Google AI Blog (ai)
 - [Our newest AI Quest: Mapping the human brain](https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/)
@@ -53,8 +53,8 @@ Updated: 2026-10-29 08:25 UTC
   - A video showing the September AI updates
 
 ## Hugging Face Blog (llm)
+- [Granite Switch 4.1.1 — Update models like you update software](https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1)
+- [Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready](https://huggingface.co/blog/announcing-project-protostar)
+- [Welcome Le Chonk: Mistral Large 4 on Hugging Face](https://huggingface.co/blog/mistral-large4)
+- [Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms](https://huggingface.co/blog/anydecisionmodel)
 - [NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt](https://huggingface.co/blog/nvidia/nemotron-transcribe-granary)
-- [Build specialized multimodal models with LFM3](https://huggingface.co/blog/LiquidAI/lfm3)
-- [Can we trust LLMs to judge whether a research idea is novel?](https://huggingface.co/blog/allenai/novelty-bench)
-- [Does Your Model Run on AWS Trainium? Look It Up](https://huggingface.co/blog/torch-neuronx-model-support)
-- [Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox](https://huggingface.co/blog/microsoft/thinkingbox-training)
