@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-10-31 08:23 UTC
+Updated: 2026-11-01 09:12 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [How to Build Bug-Free Applications with Claude Code](https://towardsdatascience.com/how-to-build-bug-free-applications-with-claude-code/)
+  - <p>Use E2E tests to minimize bugs</p> <p>The post <a href="https://towardsdatascience.com/how-to-build-bug-free-applications-with-claude-code/">How to Build Bug-Free Application...
+- [We Taught AI to Answer Questions. Who Taught It to Change Its Mind?](https://towardsdatascience.com/we-taught-ai-to-answer-questions-who-taught-it-to-change-its-mind/)
+  - <p>When new evidence kills one conclusion, do the decisions built on it change too? I tested six update strategies, then a local model.</p> <p>The post <a href="https://towardsd...
+- [I Told an AI Agent That Its Wrong Answers Were Right. One Model Believed Me.](https://towardsdatascience.com/i-told-an-ai-agent-that-its-wrong-answers-were-right-one-model-believed-me/)
+  - <p>A research paper claims reward labels barely change how agents learn. I tested that on three models, and one of them did exactly what the wrong labels told it to.</p> <p>The ...
 - [Pick a Number Between 1 and 10](https://towardsdatascience.com/pick-a-number-between-1-and-10/)
   - <p>A viral tweet says LLMs pick 7 because of gradient descent. The math says it’s more interesting than that.</p> <p>The post <a href="https://towardsdatascience.com/pick-a-numb...
 - [Binning or Feature Selection: Which One Won Us an Insurance Hackathon?](https://towardsdatascience.com/binning-or-feature-selection-which-one-won-us-an-insurance-hackathon/)
   - <p>For a year, we believed that supervised binning carried our winning entry to an insurance competition. After four seeds per arm and one shared feature set, the credit belongs...
-- [Your Agent’s Tools Can Make Decisions, Too](https://towardsdatascience.com/your-agents-tools-can-make-decisions-too/)
-  - <p>Decision models as tools: a hands-on guide</p> <p>The post <a href="https://towardsdatascience.com/your-agents-tools-can-make-decisions-too/">Your Agent’s Tools Can Make Deci...
-- [Claude Code Mods: Custom Hooks to Fix My Biggest AI Coding Frustrations](https://towardsdatascience.com/claude-code-mods-custom-hooks-to-fix-my-biggest-ai-coding-frustrations/)
-  - <p>How I built four Claude Code mods to protect API keys, track plan progress, catch untested code, and monitor context usage — with 135 passing tests and up to 100× less overhe...
-- [When Labels Say No, But Embeddings Say Yes](https://towardsdatascience.com/when-labels-say-no-but-embeddings-say-yes/)
-  - <p>Why traditional retrieval metrics miss meaningful similarities</p> <p>The post <a href="https://towardsdatascience.com/when-labels-say-no-but-embeddings-say-yes/">When Labels...
 
 ## KDnuggets (data-analysis)
 - [Vibe Coding a Classic Game: Building Breakout Step by Step with an AI Assistant](https://www.kdnuggets.com/vibe-coding-a-classic-game-building-breakout-step-by-step-with-an-ai-assistant)
