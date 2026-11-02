@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-11-01 09:12 UTC
+Updated: 2026-11-02 09:25 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [The Enterprise Context Layer: A Practitioner's Guide to 6 Advanced Architectural Patterns](https://towardsdatascience.com/the-enterprise-context-layer-a-practitioners-guide-to-6-advanced-architectural-patterns/)
+  - <p>Beyond RAG: How modern architectures engineer precise, cost-efficient context for enterprise AI agents.</p> <p>The post <a href="https://towardsdatascience.com/the-enterprise...
+- [Fix the Image, Not the Prompt](https://towardsdatascience.com/fix-the-image-not-the-prompt/)
+  - <p>Vision models often fail before they even start reasoning. A few well-placed labels on the image fix more than any prompt tweak.</p> <p>The post <a href="https://towardsdatas...
+- [A Neural Network Learned to Read Digits From Pure Noise](https://towardsdatascience.com/a-neural-network-learned-to-read-digits-from-pure-noise/)
+  - <p>A small NumPy reproduction of subliminal learning, and a short argument for why it works</p> <p>The post <a href="https://towardsdatascience.com/a-neural-network-learned-to-r...
 - [How to Build Bug-Free Applications with Claude Code](https://towardsdatascience.com/how-to-build-bug-free-applications-with-claude-code/)
   - <p>Use E2E tests to minimize bugs</p> <p>The post <a href="https://towardsdatascience.com/how-to-build-bug-free-applications-with-claude-code/">How to Build Bug-Free Application...
 - [We Taught AI to Answer Questions. Who Taught It to Change Its Mind?](https://towardsdatascience.com/we-taught-ai-to-answer-questions-who-taught-it-to-change-its-mind/)
   - <p>When new evidence kills one conclusion, do the decisions built on it change too? I tested six update strategies, then a local model.</p> <p>The post <a href="https://towardsd...
-- [I Told an AI Agent That Its Wrong Answers Were Right. One Model Believed Me.](https://towardsdatascience.com/i-told-an-ai-agent-that-its-wrong-answers-were-right-one-model-believed-me/)
-  - <p>A research paper claims reward labels barely change how agents learn. I tested that on three models, and one of them did exactly what the wrong labels told it to.</p> <p>The ...
-- [Pick a Number Between 1 and 10](https://towardsdatascience.com/pick-a-number-between-1-and-10/)
-  - <p>A viral tweet says LLMs pick 7 because of gradient descent. The math says it’s more interesting than that.</p> <p>The post <a href="https://towardsdatascience.com/pick-a-numb...
-- [Binning or Feature Selection: Which One Won Us an Insurance Hackathon?](https://towardsdatascience.com/binning-or-feature-selection-which-one-won-us-an-insurance-hackathon/)
-  - <p>For a year, we believed that supervised binning carried our winning entry to an insurance competition. After four seeds per arm and one shared feature set, the credit belongs...
 
 ## KDnuggets (data-analysis)
 - [Vibe Coding a Classic Game: Building Breakout Step by Step with an AI Assistant](https://www.kdnuggets.com/vibe-coding-a-classic-game-building-breakout-step-by-step-with-an-ai-assistant)
