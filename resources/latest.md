@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-11-04 09:07 UTC
+Updated: 2026-11-05 09:26 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [A Computational Analysis of Women’s Suffrage in Historical Newspapers](https://towardsdatascience.com/a-computational-analysis-of-womens-suffrage-in-historical-newspapers/)
+  - <p>Using 600,546 digitized newspaper pages to measure how suffrage coverage changed from 1890 to 1920</p> <p>The post <a href="https://towardsdatascience.com/a-computational-ana...
+- [How to Combine Contradictory Filters in DAX](https://towardsdatascience.com/how-to-combine-contradictory-filters-in-dax/)
+  - <p>Sometimes we need to calculate results based on contradictory filters. Without any action, these filters will lead to an empty result. Let's see how we can improve the data m...
+- [Let Decision Models Guide Your Voice Assistant](https://towardsdatascience.com/let-decision-models-guide-your-voice-assistant/)
+  - <p>GPT-Live does the talking. A decision model tracks what’s confirmed and picks what to ask next.</p> <p>The post <a href="https://towardsdatascience.com/let-decision-models-gu...
+- [Beyond Classical: A Quantum Approach to Time-Series Prediction](https://towardsdatascience.com/beyond-classical-a-quantum-approach-to-time-series-prediction/)
+  - <p>Introducing CoQS-LSTM, a Coherent Quantum Long Short-Term Memory Architecture</p> <p>The post <a href="https://towardsdatascience.com/beyond-classical-a-quantum-approach-to-t...
 - [AI Will Do Your Job. That Should Be Good News.](https://towardsdatascience.com/ai-will-do-your-job-that-should-be-good-news/)
   - <p>The case for paying people to play when machines do the work</p> <p>The post <a href="https://towardsdatascience.com/ai-will-do-your-job-that-should-be-good-news/">AI Will Do...
-- [A Good Shooter or Just a Good Shot Selector? Using Python to Find Out](https://towardsdatascience.com/a-good-shooter-or-just-a-good-shot-selector-using-python-to-find-out/)
-  - <p>In basketball, field-goal percentage tells us how often a player makes a shot. But what about the shots’ difficulty? Let's use Python and machine learning to separate shot se...
-- [Your Agent Works in the Demo. Now Make It Survive Monday.](https://towardsdatascience.com/your-agent-works-in-the-demo-now-make-it-survive-monday/)
-  - <p>The demo is the easy part</p> <p>The post <a href="https://towardsdatascience.com/your-agent-works-in-the-demo-now-make-it-survive-monday/">Your Agent Works in the Demo. Now ...
-- [Three Techniques to Understand Your Codebase When Coding Agents Write the Code](https://towardsdatascience.com/three-techniques-to-understand-your-codebase-when-coding-agents-write-the-code/)
-  - <p>Learn how to use Claude Code to write feature memos, review pull requests, and build visual HTML explainers, so you understand what your agents ship</p> <p>The post <a href="...
-- [Credit Risk: What Are We Actually Measuring?](https://towardsdatascience.com/credit-risk-what-are-we-actually-measuring/)
-  - <p>Let’s start with a loan and work out what PD, LGD, and EAD tell us about losses and bank capital.</p> <p>The post <a href="https://towardsdatascience.com/credit-risk-what-are...
 
 ## KDnuggets (data-analysis)
+- [The Data Science Interview in 2026: What’s Changed and How to Prepare](https://www.kdnuggets.com/the-data-science-interview-in-2026-whats-changed-and-how-to-prepare)
+  - A round-by-round breakdown of how the hiring process has shifted, from AI-assisted coding rounds to GenAI evaluation questions, and what you need to do differently to be ready.
+- [7 Small Specialist Models That Beat Giant LLMs at One Job](https://www.kdnuggets.com/7-small-specialist-models-that-beat-giant-llms-at-one-job)
+  - Meet seven open specialist models under 10 billion parameters that rival much bigger systems at one job each, from transcription and OCR to routing and speech.
 - [Using LLM Summarization in Your Scikit-Learn Pipelines with Scikit-LLM](https://www.kdnuggets.com/using-llm-summarization-in-your-scikit-learn-pipelines-with-scikit-llm)
   - Learn how to build an architecture that blends Scikit-LLM estimators for text summarization with traditional scikit-learn methods into a single, unified pipeline for summarizing...
 - [8 LLM Inference Frameworks You Should Try in 2026](https://www.kdnuggets.com/8-llm-inference-frameworks-you-should-try-in-2026)
   - Compare LLM inference frameworks for production serving, request batching, KV cache management, and efficient deployment.
 - [Running LLMs Locally Does Not Mean Your Data Is Safe: What Cohere’s Study Reveals](https://www.kdnuggets.com/running-llms-locally-does-not-mean-your-data-is-safe-what-coheres-study-reveals)
   - Cohere caught Alibaba’s Qwen model unexpectedly attempting to upload a test payload to Alibaba Cloud storage during a cybersecurity task, but the sandbox blocked the request, le...
-- [5 AI Certifications Worth Paying For in 2026 (And Which to Skip)](https://www.kdnuggets.com/5-ai-certifications-worth-paying-for-in-2026-and-which-to-skip)
-  - A data-backed guide to the credentials that actually move the needle for data scientists and machine learning practitioners.
-- [Vibe Coding a Classic Game: Building Breakout Step by Step with an AI Assistant](https://www.kdnuggets.com/vibe-coding-a-classic-game-building-breakout-step-by-step-with-an-ai-assistant)
-  - Vibe coding is a workflow where you describe what you want in natural language and let an AI agent handle code generation, execution, and iteration rather than typing every line...
 
 ## OpenAI News (ai)
-- [Accelerating engineering for the physical world](https://openai.com/index/accelerating-engineering-for-the-physical-world)
-  - Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.
-- [How Cisco defends at machine speed with OpenAI](https://openai.com/index/cisco-cyber)
-  - Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.
-- [Heimstaden is changing residential real estate management with AI](https://openai.com/index/heimstaden)
-  - Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.
-- [OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer](https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer)
-  - Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.
-- [Scaling Git at OpenAI](https://openai.com/index/scaling-git-at-openai)
-  - How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.
+- [OpenAI to acquire Pierre Computer Company, Inc.](https://openai.com/index/openai-to-acquire-pierre)
+  - OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.
+- [Daybreak Red is now available in AWS GovCloud (US-East)](https://openai.com/index/daybreak-red-aws-govcloud)
+  - Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.
+- [A thousand fewer paths to root](https://openai.com/index/a-thousand-fewer-paths-to-root)
+  - OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.
+- [Introducing Images 2.6](https://openai.com/index/introducing-images-2-6)
+  - Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.
+- [DevRev delivers autonomous self-service with GPT-6.1 Sol](https://openai.com/index/devrev-enterprise-self-service)
+  - DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.
 
 ## Google AI Blog (ai)
 - [The latest AI news we announced in October 2026](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/)
@@ -53,8 +53,8 @@ Updated: 2026-11-04 09:07 UTC
   - Overview of Playground
 
 ## Hugging Face Blog (llm)
+- [Dharma Field Extractor: Any Document In, Structured Fields in JSON Out](https://huggingface.co/blog/Dharma-AI/dharma-field-extractor)
 - [StateBench: Testing how language models track state changes over long documents](https://huggingface.co/blog/allenai/statebench)
 - [Palette: teaching a small model to build decks in your design language](https://huggingface.co/blog/ibm-research/palette-deck-building)
 - [CWE-bench v2: More coverage, quality, and transparency](https://huggingface.co/blog/cwe-bench)
 - [Transformers Model Integration Contracts](https://huggingface.co/blog/transformers-mic)
-- [nemotron-halloween](https://huggingface.co/blog/nvidia/nemotron-halloween)
