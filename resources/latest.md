@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-11-07 08:44 UTC
+Updated: 2026-11-08 08:57 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Timestral, t0, Tabby, and Morpheus-2.0 Compared on GIFT-Eval](https://towardsdatascience.com/timestral-t0-tabby-and-morpheus-20-compared-on-gift-eval/)
+  - <p>All four time-series foundation models scale, patch, and predict quantiles; the real split is how series share information.</p> <p>The post <a href="https://towardsdatascienc...
+- [How to Prioritize Product Feedback by Revenue at Risk](https://towardsdatascience.com/how-to-prioritize-product-feedback-by-revenue-at-risk/)
+  - <p>Bellwether joins support tickets, store reviews, sales calls, and NPS to CRM accounts, then stress-tests the ranking on 6,693 synthetic signals.</p> <p>The post <a href="http...
 - [How to Measure AI Adoption, Performance, and ROI With 12 KPIs](https://towardsdatascience.com/how-to-measure-ai-adoption-performance-and-roi-with-12-kpis/)
   - <p>Includes a worked example with 50 users and $110,000 in first-year cost, plus baselines, targets, and ownership rules for every AI initiative.</p> <p>The post <a href="https:...
 - [How to Manage Python Environments with uv Instead of venv and pip](https://towardsdatascience.com/how-to-manage-python-environments-with-uv-instead-of-venv-and-pip/)
   - <p>A side-by-side walkthrough of venv plus pip and uv init, uv add, uv run, and uv sync, with a lockfile that recreates the project on another machine.</p> <p>The post <a href="...
 - [Build Your First Multi-Tool AI Agent with Ollama and Python](https://towardsdatascience.com/build-your-first-multi-tool-ai-agent-with-ollama-and-python/)
   - <p>AI Agents for Beginners, Part 2: The agent picks between three database tools, uses each result to choose its next call, and stops at an eight-turn circuit-breaker if it gets...
-- [Give Your Python AI Agent Persistent Memory with One JSON File](https://towardsdatascience.com/give-your-python-ai-agent-persistent-memory-with-one-json-file/)
-  - <p>Three Python classes, an OpenRouter key, and gpt-4.1-mini give the agent a calculator, a stub web search, and conversation recall that survives restarts.</p> <p>The post <a h...
-- [How to Report for 100+ Clients With One Semantic Model](https://towardsdatascience.com/how-to-report-for-100-clients-with-one-semantic-model/)
-  - <p>Configuration-driven reporting: one semantic model, one metric catalog, and a few lines of configuration per audience</p> <p>The post <a href="https://towardsdatascience.com/...
 
 ## KDnuggets (data-analysis)
 - [Free AI and Data Courses with 365 Data Science: 100% Unlimited Access until Nov 20](https://www.kdnuggets.com/2026/10/365careers/free-ai-and-data-courses-with-365-data-science-100-unlimited-access-until-nov-20)
