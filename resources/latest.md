@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-11-09 09:44 UTC
+Updated: 2026-11-10 09:44 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Continuous Batching Beats Static and Dynamic by Up to 2.91× in vLLM](https://towardsdatascience.com/continuous-batching-beats-static-and-dynamic-by-up-to-291-in-vllm/)
+  - <p>For anyone running an inference server: a zero-variance control, five traffic traces, and an engine-vs-scheduler split show where the gains come from.</p> <p>The post <a href...
+- [Ask AI to Refine Your Ideas, Not Invent Them](https://towardsdatascience.com/ask-ai-to-refine-your-ideas-not-invent-them/)
+  - <p>Studies of short stories, metaphors, and 486 participants point one way, an 800-person experiment points the other, and the author weighs both.</p> <p>The post <a href="https...
+- [How to Estimate the Recall of AI Agents with Capture-Recapture](https://towardsdatascience.com/how-to-estimate-the-recall-of-ai-agents-with-capture-recapture/)
+  - <p>A fisheries estimator from the 1890s, tested on 294 CUAD contracts, landed within 2 points of true recall for most agents with a 10% hand audit.</p> <p>The post <a href="http...
+- [Quantile Regression Caught the House Price OLS Missed by $55K](https://towardsdatascience.com/quantile-regression-caught-the-house-price-ols-missed-by-55k/)
+  - <p>On 88 house sales, OLS predicted $164K for a $219K home, while a 90% interval from 5th and 95th percentile models spanned $136K to $227K.</p> <p>The post <a href="https://tow...
 - [How to Build Multi-Agent Systems with the OpenAI Agents SDK](https://towardsdatascience.com/how-to-build-multi-agent-systems-with-the-openai-agents-sdk/)
   - <p>Build an EV purchase adviser and a support agent in Python, then see how fan-out, pipelines, hierarchies, and swarms reuse the same building blocks.</p> <p>The post <a href="...
-- [Change One Monty Hall Rule and Five LLMs Still Say Switch](https://towardsdatascience.com/change-one-monty-hall-rule-and-five-llms-still-say-switch/)
-  - <p>Even with step-by-step reasoning, the models landed near 33% accuracy, and one quoted the host's rule correctly before ignoring it.</p> <p>The post <a href="https://towardsda...
-- [Timestral, t0, Tabby, and Morpheus-2.0 Compared on GIFT-Eval](https://towardsdatascience.com/timestral-t0-tabby-and-morpheus-20-compared-on-gift-eval/)
-  - <p>All four time-series foundation models scale, patch, and predict quantiles; the real split is how series share information.</p> <p>The post <a href="https://towardsdatascienc...
-- [How to Prioritize Product Feedback by Revenue at Risk](https://towardsdatascience.com/how-to-prioritize-product-feedback-by-revenue-at-risk/)
-  - <p>Bellwether joins support tickets, store reviews, sales calls, and NPS to CRM accounts, then stress-tests the ranking on 6,693 synthetic signals.</p> <p>The post <a href="http...
-- [How to Measure AI Adoption, Performance, and ROI With 12 KPIs](https://towardsdatascience.com/how-to-measure-ai-adoption-performance-and-roi-with-12-kpis/)
-  - <p>Includes a worked example with 50 users and $110,000 in first-year cost, plus baselines, targets, and ownership rules for every AI initiative.</p> <p>The post <a href="https:...
 
 ## KDnuggets (data-analysis)
+- [Can AI Spot Data Leakage Before Your Model Hits 99% Accuracy?](https://www.kdnuggets.com/can-ai-spot-data-leakage-before-your-model-hits-99-accuracy)
+  - 4 classic leaks, planted in real data, tested cold on 4 models.
+- [5 Useful Python Automation Scripts for Beginners](https://www.kdnuggets.com/5-useful-python-automation-scripts-for-beginners)
+  - Learn how to use Python scripts to automate repetitive tasks, organize files, process images, and simplify daily workflows.
 - [Free AI and Data Courses with 365 Data Science: 100% Unlimited Access until Nov 20](https://www.kdnuggets.com/2026/10/365careers/free-ai-and-data-courses-with-365-data-science-100-unlimited-access-until-nov-20)
   - Get unlimited free access to 365 Data Science’s complete AI and data learning platform, including 134 courses, hands-on projects, and certifications, through November 20.
 - [How to Give Your AI Agent Memory](https://www.kdnuggets.com/how-to-give-your-ai-agent-memory)
   - Learn how to give AI agents long-term memory using the OpenAI Agents SDK, Mem0, and MCP to remember preferences, context, and important information across sessions.
 - [Top 7 Python Libraries for Time Series Analysis and Modeling](https://www.kdnuggets.com/top-7-python-libraries-for-time-series-analysis-and-modeling)
   - Working with time series data? These Python libraries cover everything from classical forecasting to deep learning and anomaly detection.
-- [Web Scraping 7,000 Pages in 3 Minutes with Python and Olostep](https://www.kdnuggets.com/web-scraping-7000-pages-in-3-minutes-with-python-and-olostep)
-  - Scrape thousands of pages in a few minutes with the Olostep Batch API, download Markdown, and measure what actually finished.
-- [What I Did with Hermes Agent, Ollama & Local Models](https://www.kdnuggets.com/what-i-did-with-hermes-agent-ollama-local-models)
-  - Build a local multi-agent travel planner with Hermes Agent and Ollama: a coordinator and three specialist agents that research destinations, suggest stays, and generate real Goo...
 
 ## OpenAI News (ai)
-- [Partnering with Hacktron to find vulnerabilities in OpenAI’s systems](https://openai.com/index/partnering-with-hacktron)
-  - OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.
-- [Measuring how AI agents handle everyday wet-lab science](https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science)
-  - OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.
-- [Australian universities are creating AI-native graduates](https://openai.com/index/australian-universities-ai-native-graduates)
-  - Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.
-- [Cult.fit builds operational muscle with Codex](https://openai.com/index/cultfit-builds-with-codex)
-  - Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.
-- [GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents](https://openai.com/index/introducing-gpt-6-cyber)
-  - Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.
+- [Closing the AI guidance gap in education](https://openai.com/index/closing-ai-guidance-gap-education)
+  - Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.
+- [ChatGPT Enterprise now available in AWS Marketplace](https://openai.com/index/chatgpt-enterprise-aws-marketplace)
+  - ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.
+- [Control Room: A central system to track and stop model workloads across our research infrastructure](https://openai.com/index/control-room)
+  - Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.
+- [CodeRabbit scales agentic software development and ships 20x more](https://openai.com/index/coderabbit-codex-daybreak)
+  - CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.
+- [Kuken Industries searches 70 years of drawings in minutes](https://openai.com/index/kuken)
+  - Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.
 
 ## Google AI Blog (ai)
 - [Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/)
@@ -53,8 +53,8 @@ Updated: 2026-11-09 09:44 UTC
   - TBD
 
 ## Hugging Face Blog (llm)
+- [Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context](https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan)
+- [Your Experts Have Partners. There's HOPE for Keeping Them Together](https://huggingface.co/blog/amazon/higher-order-pruning-experts)
 - [ToyBlocks: A controlled world for robot learning and evaluation](https://huggingface.co/blog/allenai/toyblocks)
 - [Egyptian and Nigerian English join the Open ASR Leaderboard](https://huggingface.co/blog/open-asr-leaderboard-liva)
-- [New NVIDIA Cosmos 3 Open Models for Interactive World Simulation](https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation)
 - [A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.](https://huggingface.co/blog/phonon-tts)
-- [Dharma Field Extractor: Any Document In, Structured Fields in JSON Out](https://huggingface.co/blog/Dharma-AI/dharma-field-extractor)
