@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-11-14 08:56 UTC
+Updated: 2026-11-15 09:19 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [How to Build a Markov Chain in Python With NumPy](https://towardsdatascience.com/how-to-build-a-markov-chain-in-python-with-numpy/)
+  - <p>A step-by-step guide to transition matrices, the Chapman–Kolmogorov equation, and stationary distributions, built around a three-state writing example.</p> <p>The post <a hre...
+- [Data From 100+ AI Agents Shows They Fail by Silent Drift, Not Errors](https://towardsdatascience.com/data-from-100-ai-agents-shows-they-fail-by-silent-drift-not-errors/)
+  - <p>Quality and token alerts were early signals for 38% of agents and errors for about 1%, so monitoring should start with quality, cost, and latency.</p> <p>The post <a href="ht...
 - [Keyword Search Tied an 8B Embedding Model at Picking Agent Tools](https://towardsdatascience.com/keyword-search-tied-an-8b-embedding-model-at-picking-agent-tools/)
   - <p>On 200 ToolRet questions and up to 3,794 tools, BM25 ran about 40x faster than BGE-large on just a CPU, and full tool docs made it the best setup tested.</p> <p>The post <a h...
 - [How Jev Makes Decisions About Images, With 4 Python Examples](https://towardsdatascience.com/how-jev-makes-decisions-about-images-with-4-python-examples/)
   - <p>Practical code for classifying fabric against reference photos, scoring product sharpness, cropping shipping labels, and spotting subtle car damage.</p> <p>The post <a href="...
 - [What AI Agents Speed Up in PhD Research, and What They Can't](https://towardsdatascience.com/what-ai-agents-speed-up-in-phd-research-and-what-they-cant/)
   - <p>A PhD student in ML and ecology on why faster code, experiments, and drafts don't fix data with a backstory, and three predictions for how labs will change.</p> <p>The post <...
-- [How to Check Local LLM Output with Ollama, Gemma 4, and Nimble](https://towardsdatascience.com/how-to-check-local-llm-output-with-ollama-gemma-4-and-nimble/)
-  - <p>Gemma 4 E2B drafts the replies, Bespoke Labs' Nimble 9B picks accept, revise, or human review, and only flagged questions get a focused retry.</p> <p>The post <a href="https:...
-- [RAG Retrieval Lost 40 Points When Distracting Passages Grew to 2.68M](https://towardsdatascience.com/rag-retrieval-lost-40-points-when-distracting-passages-grew-to-268m/)
-  - <p>A reproducible test of BM25, embeddings, and parent documents shows why author-written evals overrate search, and why answer position in context matters.</p> <p>The post <a h...
 
 ## KDnuggets (data-analysis)
 - [Getting Started with DuckLake: Build a Lakehouse on DuckDB in Under an Hour](https://www.kdnuggets.com/getting-started-with-ducklake-build-a-lakehouse-on-duckdb-in-under-an-hour)
