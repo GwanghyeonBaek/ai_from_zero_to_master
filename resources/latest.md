@@ -1,46 +1,48 @@
 # Latest Learning Resources
 
-Updated: 2026-11-18 10:05 UTC
+Updated: 2026-11-19 10:16 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [How AI Agents Become a Tool for Attackers, and How to Stop It](https://towardsdatascience.com/how-ai-agents-become-a-tool-for-attackers-and-how-to-stop-it/)
+  - <p>Managing Security When You’re Deploying AI, Part 1: Compromised credentials, salaries inferred from budgets, and doctored documents show why agents need permission checks bef...
+- [Neurosymbolic Agents Explained, With a Z3 Example in Python](https://towardsdatascience.com/neurosymbolic-agents-explained-with-a-z3-example-in-python/)
+  - <p>Starting from Air Canada's chatbot case, a tour of Logic-LM, Agent-C, and Amazon's checks shows the solver is sound but the English-to-logic step is not.</p> <p>The post <a h...
+- [When Qini Rewards the Wrong Uplift Model, Use Doubly Robust Scores](https://towardsdatascience.com/when-qini-rewards-the-wrong-uplift-model-use-doubly-robust-scores/)
+  - <p>On 1 million simulated customers, calibrated Qini scored a Linear DR learner 0.0856 against 0.0826 for the true-CATE ranking that should have won.</p> <p>The post <a href="ht...
+- [How to Estimate Dose-Response Curves When DoubleML Falls Short](https://towardsdatascience.com/how-to-estimate-dose-response-curves-when-doubleml-falls-short/)
+  - <p>Simulations test DoubleML against Kennedy's doubly robust estimator, with partial pooling across 200 stores and a DiD fix for hidden confounders.</p> <p>The post <a href="htt...
 - [How to Improve Coding Agent Efficiency by 30% with an Orchestrator](https://towardsdatascience.com/how-to-improve-coding-agent-efficiency-by-30-with-an-orchestrator/)
   - <p>Stop hunting through sessions for pending questions: a herder agent surfaces them by priority, kept current by webhooks or cheap Haiku polling.</p> <p>The post <a href="https...
-- [How to Govern Coding Agent Skills Across Repos With Plugins](https://towardsdatascience.com/how-to-govern-coding-agent-skills-across-repos-with-plugins/)
-  - <p>Package skills, rules, hooks, and MCP tool configs as versioned plugins, then distribute them through a marketplace, shown with Claude Code and AWS.</p> <p>The post <a href="...
-- [Google ADK Agents That Pause, Resume, and Wait Hours for a Human](https://towardsdatascience.com/google-adk-agents-that-pause-resume-and-wait-hours-for-a-human/)
-  - <p>A synchronous call kept an RSS agent's connection open for 83 seconds; webhooks and 202 receipts free the client while the agent works.</p> <p>The post <a href="https://towar...
-- [How to Design MCP Servers That Leave Orchestration to the Host](https://towardsdatascience.com/how-to-design-mcp-servers-that-leave-orchestration-to-the-host/)
-  - <p>A Python SDK v2 catalogue server with two narrow tools, one resource, and one prompt shows how to keep planning, workflow state, and authorisation host-side.</p> <p>The post ...
-- [After 10 Heads in a Row, Small LLMs Bet Up to 82% on an 11th](https://towardsdatascience.com/after-10-heads-in-a-row-small-llms-bet-up-to-82-on-an-11th/)
-  - <p>Telling eight base and instruction-tuned open models that the coin is fair and the flips are independent trims their streak bias by only a few points.</p> <p>The post <a href...
 
 ## KDnuggets (data-analysis)
+- [Introducing Gemini Decision 1: A Model That Picks Answers Instead of Writing Them](https://www.kdnuggets.com/introducing-gemini-decision-1-a-model-that-picks-answers-instead-of-writing-them)
+  - Google's newest model has one job, and it never writes a word doing it. Decision 1 reads text, images, video, audio and PDFs in a single forward pass, up to 262,144 input tokens...
+- [Jagged Intelligence: Why AI Is Brilliant One Minute and Clueless the Next](https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next)
+  - Why models ace Olympiad math and still fumble simple everyday tasks.
+- [AI and Data Science Salaries in 2026: What Practitioners Are Actually Earning](https://www.kdnuggets.com/ai-and-data-science-salaries-in-2026-what-practitioners-are-actually-earning)
+  - A data-backed breakdown of compensation across roles, experience levels, industries, and geographies, so you know where you stand and where the premium opportunities are.
 - [How to Calibrate Your Classifier’s Probabilities in Scikit-learn](https://www.kdnuggets.com/how-to-calibrate-your-classifiers-probabilities-in-scikit-learn)
   - In this tutorial, you will train two scikit-learn classifiers on a real dataset, expose their miscalibration with a reliability diagram and a Brier score, and fix it with Platt ...
 - [7 Best AI Coding Plans for $10 or Less in 2026](https://www.kdnuggets.com/7-best-ai-coding-plans-for-10-or-less-in-2026)
   - Compare affordable AI coding agents, AI-powered IDEs, open-source tools, and multi-model subscriptions from OpenCode, Cursor, GitHub Copilot, Cline, Zed, and Xiaomi MiMo.
-- [5 Things That Break When AI Agents Start Acting on Their Own](https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own)
-  - Five governance problems emerge when AI agents begin taking real-world actions, from unmanaged access and identity sprawl to approval bottlenecks and manual oversight.
-- [How to Give Claude Code Up-to-Date Documentation With Context7](https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7)
-  - Stop wasting tokens debugging outdated code. Give Claude Code up-to-date docs with Context7.
-- [Agentic System Design: A Self-Study Roadmap](https://www.kdnuggets.com/agentic-system-design-a-self-study-roadmap)
-  - Learn agentic system design with this 7-step roadmap covering tools, memory, control loops, multi-agent coordination, evaluation, and deployment.
 
 ## OpenAI News (ai)
-- [Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT](https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership)
-  - Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.
-- [Introducing GPT-6.2 Astra and Sol](https://openai.com/index/introducing-gpt-6-2-astra-sol)
-  - Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.
-- [Strengthening NATO and allied cyber defenses with AI](https://openai.com/index/strengthening-nato-allied-cyber-defences-ai)
-  - How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.
-- [Introducing ChatGPT for Sales](https://openai.com/index/introducing-chatgpt-for-sales)
-  - Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.
-- [Astra for Law leads in legal intelligence](https://openai.com/index/astra-law-6-2)
-  - Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.
+- [The Silent Consensus](https://openai.com/index/the-silent-consensus)
+  - Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.
+- [Research acceleration: The jagged frontier](https://openai.com/index/research-acceleration-jagged-frontier)
+  - OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.
+- [How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise](https://openai.com/business/customer-stories/sumitomo-life)
+  - Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.
+- [Inside the Codex sandbox](https://openai.com/index/inside-the-codex-sandbox)
+  - See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.
+- [Managing frontier AI risk: From training to deployment](https://openai.com/index/managing-frontier-ai-risk)
+  - OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.
 
 ## Google AI Blog (ai)
+- [The Gemini app is now available on lower-memory Android devices.](https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/)
+  - <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp" />The Google Gemini app now supports lowe...
 - [Put Gemini to work for you](https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/)
   - A user interface displaying the prompt "What can I get done for you?" above an input box containing placeholder text "Describe a task".
 - [New Ask Maps features to help with holiday travel and prep](https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/)
@@ -49,12 +51,10 @@ Updated: 2026-11-18 10:05 UTC
   - Rotating carousel of cards with text "Gemini 4 Hydrogen" "Now in Google Search" and examples from the Google Search UI
 - [Gemini Decisions API: Fast, calibrated multimodal decisions](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/)
   - Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.
-- [Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.](https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/)
-  - <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp" />Tabletop is a new Google Labs experimen...
 
 ## Hugging Face Blog (llm)
-- [Hugging Face and OpenRouter join forces to make open-weight models easy to run](https://huggingface.co/blog/openrouter)
-- [Build a Robot Pick-and-Place Simulation with SimReady Assets](https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place)
-- [XYBench: Helping with the problem behind the question](https://huggingface.co/blog/allenai/xybench)
-- [llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem](https://huggingface.co/blog/ggml-org/llama-cpp-v1)
-- [LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B](https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite)
+- [DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency](https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin)
+- [Why your fine-tuning job takes longer than the FLOPs say](https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time)
+- [Time-Series Models in the Streamhouse: A New Frontier and Use Cases](https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse)
+- [180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers](https://huggingface.co/blog/moe-expert-streaming)
+- [Rumble-2-Flash: an open 0.5B speech model for 40+ languages](https://huggingface.co/blog/rumble-2-flash)
