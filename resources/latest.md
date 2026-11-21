@@ -1,44 +1,44 @@
 # Latest Learning Resources
 
-Updated: 2026-11-20 09:58 UTC
+Updated: 2026-11-21 09:44 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [LightGBM vs. a Four-Week Average for Forecasting Bike-Share Rentals](https://towardsdatascience.com/lightgbm-vs-a-four-week-average-for-forecasting-bike-share-rentals/)
+  - <p>A 48-hour Capital Bikeshare experiment pits XGBoost, Ridge, SARIMA, and Prophet against simple baselines, with care for missing hours and leakage.</p> <p>The post <a href="ht...
+- [Clairic Hit 98% Accuracy on 72.8% of Questions via Confidence Scores](https://towardsdatascience.com/clairic-hit-98-accuracy-on-728-of-questions-via-confidence-scores/)
+  - <p>With a 0.9 confidence cutoff, Cloudflare's System One model handles the easy cases and routes the rest to a bigger, slower LLM like Luna.</p> <p>The post <a href="https://tow...
+- [How to Prepare for a Credit Risk Internship Interview in Nine Steps](https://towardsdatascience.com/how-to-prepare-for-a-credit-risk-internship-interview-in-nine-steps/)
+  - <p>Two years of interviewing master's students distilled into one logistic regression scoring model, from missing values and VIF to AUC and Gini.</p> <p>The post <a href="https:...
+- [Five Guardrails That Limit the Damage an AI Agent Can Do](https://towardsdatascience.com/five-guardrails-that-limit-the-damage-an-ai-agent-can-do/)
+  - <p>AI Agents for Beginners, Part three: strict Pydantic arguments, a tool allowlist, read-only SQLite, a step cap, and confirmed writes, all verified by five pytest tests in 0.6...
 - [The 0.95 Expectile Is Not the 95th Percentile](https://towardsdatascience.com/the-095-expectile-is-not-the-95th-percentile/)
   - <p>Exact uniform math and 100 synthetic Python runs show when to target 95% coverage and when asymmetric squared-error costs call for the expectile.</p> <p>The post <a href="htt...
-- [How to Run Claude Code and Other Coding Agents in the Cloud 24/7](https://towardsdatascience.com/how-to-run-claude-code-and-other-coding-agents-in-the-cloud-247/)
-  - <p>Two setups: flip Claude Code's cloud environment on for the quick path, or rent a server for full control.</p> <p>The post <a href="https://towardsdatascience.com/how-to-run-...
-- [How to Oversee AI Agents at Scale With a Three-Tier Architecture](https://towardsdatascience.com/how-to-oversee-ai-agents-at-scale-with-a-three-tier-architecture/)
-  - <p>Separate runtime oversight from human review: an autonomous supervisor handles reversible fixes, while humans approve high-impact changes.</p> <p>The post <a href="https://to...
-- [Analytics Engineering's Missing Layer Is Business Communication](https://towardsdatascience.com/analytics-engineerings-missing-layer-is-business-communication/)
-  - <p>Why grains, joins, filters, and tests need business translations, and how a four-step framework keeps stakeholders from misreading metric changes.</p> <p>The post <a href="ht...
-- [How AI Agents Become a Tool for Attackers, and How to Stop It](https://towardsdatascience.com/how-ai-agents-become-a-tool-for-attackers-and-how-to-stop-it/)
-  - <p>Managing Security When You’re Deploying AI, Part 1: Compromised credentials, salaries inferred from budgets, and doctored documents show why agents need permission checks bef...
 
 ## KDnuggets (data-analysis)
+- [Open Source vs. Proprietary LLMs: A Decision Framework for 2026](https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026)
+  - A practical guide to choosing between open-weight and commercial models, built around the four questions that actually determine the right answer for your use case.
+- [Decision AI Explained in 5 Minutes](https://www.kdnuggets.com/decision-ai-explained-in-5-minutes)
+  - Learn how decision models work, how they turn LLMs into faster decision-making systems, and how to run open-source alternatives locally.
 - [What I Learned From Kaggle + Google’s Free Agentic AI Course](https://www.kdnuggets.com/what-i-learned-from-kaggle-googles-free-agentic-ai-course)
   - Learn to build AI agents with Gemini and Google’s ADK through this free course, covering tools, memory, evaluation, and deployment.
 - [One Table, Many Engines: Running BigQuery, Spark, and Trino on a Single Iceberg Copy](https://www.kdnuggets.com/one-table-many-engines-running-bigquery-spark-and-trino-on-a-single-iceberg-copy)
   - Run BigQuery, Apache Spark, and Trino on one Apache Iceberg table in Google Cloud's Lakehouse runtime catalog, with no copies or sync jobs, and see how Iceberg handles concurren...
 - [Introducing Gemini Decision 1: A Model That Picks Answers Instead of Writing Them](https://www.kdnuggets.com/introducing-gemini-decision-1-a-model-that-picks-answers-instead-of-writing-them)
   - Google's newest model has one job, and it never writes a word doing it. Decision 1 reads text, images, video, audio and PDFs in a single forward pass, up to 262,144 input tokens...
-- [Jagged Intelligence: Why AI Is Brilliant One Minute and Clueless the Next](https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next)
-  - Why models ace Olympiad math and still fumble simple everyday tasks.
-- [AI and Data Science Salaries in 2026: What Practitioners Are Actually Earning](https://www.kdnuggets.com/ai-and-data-science-salaries-in-2026-what-practitioners-are-actually-earning)
-  - A data-backed breakdown of compensation across roles, experience levels, industries, and geographies, so you know where you stand and where the premium opportunities are.
 
 ## OpenAI News (ai)
+- [Combatting adversarial distillation](https://openai.com/index/combatting-adversarial-distillation)
+  - OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.
+- [Hebbia sees improvements in financial research with GPT-6 Astra](https://openai.com/business/customer-stories/hebbia)
+  - Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.
+- [Can AI help scientists identify promising drug candidates?](https://openai.com/index/introducing-medchembench)
+  - MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.
 - [How OpenAI’s Performance Factory keeps ChatGPT fast](https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast)
   - Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.
-- [Deploying Daybreak Red](https://openai.com/business/learn/deploying-daybreak-red)
-  - Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.
-- [See PR scans in action](https://openai.com/business/learn/pr-scans-demo)
-  - Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.
 - [Explore the Codex Security Plugin](https://openai.com/business/learn/codex-security-plugin-demo)
   - Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.
-- [Get started with Daybreak Blue](https://openai.com/business/learn/daybreak-blue-onboarding-demo)
-  - Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.
 
 ## Google AI Blog (ai)
 - [Introducing Tool Retrieval in the Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/)
@@ -53,8 +53,8 @@ Updated: 2026-11-20 09:58 UTC
   - tbd
 
 ## Hugging Face Blog (llm)
+- [Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup](https://huggingface.co/blog/inkling2mini)
+- [Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost](https://huggingface.co/blog/harness-adapters-at-scale)
 - [DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency](https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin)
 - [Why your fine-tuning job takes longer than the FLOPs say](https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time)
 - [Time-Series Models in the Streamhouse: A New Frontier and Use Cases](https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse)
-- [180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers](https://huggingface.co/blog/moe-expert-streaming)
-- [Rumble-2-Flash: an open 0.5B speech model for 40+ languages](https://huggingface.co/blog/rumble-2-flash)
