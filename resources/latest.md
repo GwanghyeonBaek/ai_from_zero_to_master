@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-11-21 09:44 UTC
+Updated: 2026-11-22 09:43 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [How to Learn Supply Chain Analytics in 2027 with Claude Code](https://towardsdatascience.com/how-to-learn-supply-chain-analytics-in-2027-with-claude-code/)
+  - <p>Each 5-minute case study pairs operational context, a problem statement, and documented code, so data scientists and non-coding planners learn together.</p> <p>The post <a hr...
+- [Censored vs. Truncated Regression in Python, Explained](https://towardsdatascience.com/censored-vs-truncated-regression-in-python-explained/)
+  - <p>A simulated salary survey shows OLS shrinking a $5k-per-year effect to $3.2k, then recovers it with Tobit and truncated likelihoods built from scratch.</p> <p>The post <a hre...
 - [LightGBM vs. a Four-Week Average for Forecasting Bike-Share Rentals](https://towardsdatascience.com/lightgbm-vs-a-four-week-average-for-forecasting-bike-share-rentals/)
   - <p>A 48-hour Capital Bikeshare experiment pits XGBoost, Ridge, SARIMA, and Prophet against simple baselines, with care for missing hours and leakage.</p> <p>The post <a href="ht...
 - [Clairic Hit 98% Accuracy on 72.8% of Questions via Confidence Scores](https://towardsdatascience.com/clairic-hit-98-accuracy-on-728-of-questions-via-confidence-scores/)
   - <p>With a 0.9 confidence cutoff, Cloudflare's System One model handles the easy cases and routes the rest to a bigger, slower LLM like Luna.</p> <p>The post <a href="https://tow...
 - [How to Prepare for a Credit Risk Internship Interview in Nine Steps](https://towardsdatascience.com/how-to-prepare-for-a-credit-risk-internship-interview-in-nine-steps/)
   - <p>Two years of interviewing master's students distilled into one logistic regression scoring model, from missing values and VIF to AUC and Gini.</p> <p>The post <a href="https:...
-- [Five Guardrails That Limit the Damage an AI Agent Can Do](https://towardsdatascience.com/five-guardrails-that-limit-the-damage-an-ai-agent-can-do/)
-  - <p>AI Agents for Beginners, Part three: strict Pydantic arguments, a tool allowlist, read-only SQLite, a step cap, and confirmed writes, all verified by five pytest tests in 0.6...
-- [The 0.95 Expectile Is Not the 95th Percentile](https://towardsdatascience.com/the-095-expectile-is-not-the-95th-percentile/)
-  - <p>Exact uniform math and 100 synthetic Python runs show when to target 95% coverage and when asymmetric squared-error costs call for the expectile.</p> <p>The post <a href="htt...
 
 ## KDnuggets (data-analysis)
 - [Open Source vs. Proprietary LLMs: A Decision Framework for 2026](https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026)
