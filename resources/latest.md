@@ -1,20 +1,20 @@
 # Latest Learning Resources
 
-Updated: 2026-11-22 09:43 UTC
+Updated: 2026-11-23 10:42 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [RANSAC, Explained: Consensus Fitting for Image Feature Matching](https://towardsdatascience.com/ransac-explained-consensus-fitting-for-image-feature-matching/)
+  - <p>How random sampling of 4 matched pairs, an error threshold, and inlier counts turn noisy SIFT matches into an accurate homography matrix.</p> <p>The post <a href="https://tow...
+- [How AI Changes the Four Types of Analytics for Data Scientists](https://towardsdatascience.com/how-ai-changes-the-four-types-of-analytics-for-data-scientists/)
+  - <p>Treat AI agents as junior teammates and move up the abstraction ladder, owning problem framing, model evaluation, and business partnership.</p> <p>The post <a href="https://t...
 - [How to Learn Supply Chain Analytics in 2027 with Claude Code](https://towardsdatascience.com/how-to-learn-supply-chain-analytics-in-2027-with-claude-code/)
   - <p>Each 5-minute case study pairs operational context, a problem statement, and documented code, so data scientists and non-coding planners learn together.</p> <p>The post <a hr...
 - [Censored vs. Truncated Regression in Python, Explained](https://towardsdatascience.com/censored-vs-truncated-regression-in-python-explained/)
   - <p>A simulated salary survey shows OLS shrinking a $5k-per-year effect to $3.2k, then recovers it with Tobit and truncated likelihoods built from scratch.</p> <p>The post <a hre...
 - [LightGBM vs. a Four-Week Average for Forecasting Bike-Share Rentals](https://towardsdatascience.com/lightgbm-vs-a-four-week-average-for-forecasting-bike-share-rentals/)
   - <p>A 48-hour Capital Bikeshare experiment pits XGBoost, Ridge, SARIMA, and Prophet against simple baselines, with care for missing hours and leakage.</p> <p>The post <a href="ht...
-- [Clairic Hit 98% Accuracy on 72.8% of Questions via Confidence Scores](https://towardsdatascience.com/clairic-hit-98-accuracy-on-728-of-questions-via-confidence-scores/)
-  - <p>With a 0.9 confidence cutoff, Cloudflare's System One model handles the easy cases and routes the rest to a bigger, slower LLM like Luna.</p> <p>The post <a href="https://tow...
-- [How to Prepare for a Credit Risk Internship Interview in Nine Steps](https://towardsdatascience.com/how-to-prepare-for-a-credit-risk-internship-interview-in-nine-steps/)
-  - <p>Two years of interviewing master's students distilled into one logistic regression scoring model, from missing values and VIF to AUC and Gini.</p> <p>The post <a href="https:...
 
 ## KDnuggets (data-analysis)
 - [Open Source vs. Proprietary LLMs: A Decision Framework for 2026](https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026)
@@ -29,6 +29,8 @@ Updated: 2026-11-22 09:43 UTC
   - Google's newest model has one job, and it never writes a word doing it. Decision 1 reads text, images, video, audio and PDFs in a single forward pass, up to 262,144 input tokens...
 
 ## OpenAI News (ai)
+- [Perplexity and Intelligence](https://openai.com/index/perplexity-and-intelligence)
+  - How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.
 - [Combatting adversarial distillation](https://openai.com/index/combatting-adversarial-distillation)
   - OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.
 - [Hebbia sees improvements in financial research with GPT-6 Astra](https://openai.com/business/customer-stories/hebbia)
@@ -37,8 +39,6 @@ Updated: 2026-11-22 09:43 UTC
   - MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.
 - [How OpenAI’s Performance Factory keeps ChatGPT fast](https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast)
   - Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.
-- [Explore the Codex Security Plugin](https://openai.com/business/learn/codex-security-plugin-demo)
-  - Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.
 
 ## Google AI Blog (ai)
 - [Introducing Tool Retrieval in the Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/)
