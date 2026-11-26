@@ -1,32 +1,32 @@
 # Latest Learning Resources
 
-Updated: 2026-11-25 11:13 UTC
+Updated: 2026-11-26 10:50 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [DuckDB 2.0 vs Polars 2.0 in Five Real-World Tests and One 14x Gap](https://towardsdatascience.com/duckdb-20-vs-polars-20-in-five-real-world-tests-and-one-14x-gap/)
+  - <p>Three years after a tie between Polars 0.18 and DuckDB 0.9, both 2.0 releases go head to head on datasets of up to 335 million records.</p> <p>The post <a href="https://towar...
+- [A Second LLM Judge Hit 87.5% Precision but Left 21 of 33 for Humans](https://towardsdatascience.com/a-second-llm-judge-hit-875-precision-but-left-21-of-33-for-humans/)
+  - <p>Using Han and Kim's Chatbot Arena data, GPT-6 Luna and Claude Haiku 4.5 were tested as a panel, and Haiku alone matched users on 22 of 23 clear matchups.</p> <p>The post <a h...
 - [I Built a Bayesian Neural Network From One Neuron and Football Shots](https://towardsdatascience.com/i-built-a-bayesian-neural-network-from-one-neuron-and-football-shots/)
   - <p>Gaussian weights, the reparameterisation trick, and Monte Carlo sampling turn a single sigmoid neuron into a Bayesian expected-goals model on StatsBomb data.</p> <p>The post ...
 - [How to Plan Retries for Multi-Agent Workflows Before You Write Code](https://towardsdatascience.com/how-to-plan-retries-for-multi-agent-workflows-before-you-write-code/)
   - <p>A Mermaid blueprint, Python dataclasses, and a retryable flag decide when a failed agent tries again and when the task goes to a person.</p> <p>The post <a href="https://towa...
 - [How to Calculate and Operationalize Customer Lifetime Value](https://towardsdatascience.com/how-to-calculate-and-operationalize-customer-lifetime-value/)
   - <p>For analysts and commercial leaders: how cohort churn, BTYD models, and behavioral segments turn CLV from a board-deck KPI into daily decisions.</p> <p>The post <a href="http...
-- [AI Math Proofs Aren't Knowledge Until Someone Explains Them](https://towardsdatascience.com/ai-math-proofs-arent-knowledge-until-someone-explains-them/)
-  - <p>From the Four Color Theorem to OpenAI's October 2026 claims, why computer-checked proofs still need people to explain, test, and extend them.</p> <p>The post <a href="https:/...
-- [The Birthday Paradox Shows Small LLMs Pick From About 6 of 40 Words](https://towardsdatascience.com/the-birthday-paradox-shows-small-llms-pick-from-about-6-of-40-words/)
-  - <p>Ask the same question 300 times, count the repeats, and solve for N: a few lines of Python that work on any chatbot you can type into.</p> <p>The post <a href="https://toward...
 
 ## KDnuggets (data-analysis)
+- [Vibe Coding for Business Analytics: Custom CRM Dashboards, Reporting Apps, and AI Agents](https://www.kdnuggets.com/2026/11/vibe-coding-for-business-analytics-custom-crm-dashboards-reporting-apps-and-ai-agents)
+  - Discover how Alaio Vibecode, an AI app builder for Bitrix24, helps teams create custom CRM analytics dashboards, reporting tools, lead scoring apps, and AI agents.
+- [Why Data Job Candidates Freeze on Questions They Already Know](https://www.kdnuggets.com/why-data-job-candidates-freeze-on-questions-they-already-know)
+  - Pressure disrupts recall in interviews. Timed mock interviews let you rehearse it.
+- [The Roadmap to Becoming an AI Security Engineer in 2027](https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-security-engineer-in-2026)
+  - From cybersecurity foundations to defending machine learning systems, agentic pipelines, and large language model applications.
 - [How to Run Inkling 2 Mini Locally on an RTX 3090 Using Unsloth Studio](https://www.kdnuggets.com/how-to-run-inkling-2-mini-locally-on-an-rtx-3090-using-unsloth-studio)
   - American open-source AI is making a comeback, and this powerful local LLM is proving that fast inference, AI coding agents, and impressive results don't require expensive APIs.
 - [From Messy to Clean: Taming Real-World CSV Files with pandas read_csv()](https://www.kdnuggets.com/from-messy-to-clean-taming-real-world-csv-files-with-pandas-read_csv)
   - The process of building a bulletproof Python loader based on Pandas' <code>read_csv()</code> function to turn messy data into pristine data.
-- [7 Most Downloaded AI Models on Hugging Face](https://www.kdnuggets.com/7-most-downloaded-ai-models-on-hugging-face)
-  - The most downloaded AI models on Hugging Face aren't the ones you'd expect. Discover why smaller, older, and specialized models dominate the rankings.
-- [How to Use AI Tools to Learn Data Science Faster in 2026](https://www.kdnuggets.com/how-to-use-ai-tools-to-learn-data-science-faster-in-2026)
-  - Discover how to combine AI assistants, coding tools, and adaptive platforms to cut your learning curve and build practical skills more efficiently.
-- [5 Lightweight Alternatives to MCP for Giving AI Agents Tools](https://www.kdnuggets.com/5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools)
-  - Compare five lightweight ways to give AI agents tools without an MCP server, from a Python dispatcher to framework tools, REST adapters, subprocesses, and webhooks, and learn wh...
 
 ## OpenAI News (ai)
 - [GPT-6 models demonstrate intrinsic protein-design capabilities](https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities)
@@ -52,8 +52,8 @@ Updated: 2026-11-25 11:13 UTC
   - <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp" />The Google Gemini app now supports lowe...
 
 ## Hugging Face Blog (llm)
+- [Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference](https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin)
+- [Where scientists draw the line on AI agents](https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents)
 - [An Indic Voice Agent with CUGA](https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga)
-- [Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton](https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance)
-- [RoboTrack: Point tracking for real-world robotic manipulation](https://huggingface.co/blog/allenai/robotrack)
+- [Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000](https://huggingface.co/blog/inkling-2-mini-inference-hillclimb)
 - [How to build and maintain an agentic evaluation](https://huggingface.co/blog/agentic-evals)
-- [Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup](https://huggingface.co/blog/inkling2mini)
