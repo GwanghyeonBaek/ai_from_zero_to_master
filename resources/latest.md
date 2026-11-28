@@ -1,32 +1,23 @@
 # Latest Learning Resources
 
-Updated: 2026-11-27 10:48 UTC
+Updated: 2026-11-28 10:20 UTC
 
 자동 수집된 최신 자료입니다.
 
 ## Towards Data Science (data-analysis)
+- [Speculative Decoding Makes Tool Calls Faster. Agents Need a Cache.](https://towardsdatascience.com/speculative-decoding-makes-tool-calls-faster-agents-need-a-cache/)
+  - <p>Benchmarks with Qwen3 and Llama on llama.cpp show a draft model sped up code, JSON, and tool calls up to 1.7x, while uncached agent loops ran 6% slower.</p> <p>The post <a hr...
+- [Code Mode vs. Tool Calling Benchmarks Find a 16-Tool Crossover](https://towardsdatascience.com/code-mode-vs-tool-calling-benchmarks-find-a-16-tool-crossover/)
+  - <p>For agent builders with many MCP integrations, Code Mode was 120x cheaper and 18x faster on 100-item fan-outs but less reliable on single lookups.</p> <p>The post <a href="ht...
 - [ChatGPT Boosted Consultants' Scores, Not Their Knowledge](https://towardsdatascience.com/chatgpt-boosted-consultants-scores-not-their-knowledge/)
   - <p>Consultants gained 49 points on coding with AI, while apprentices also gained comprehension — which is why assisted work and expertise need separate names.</p> <p>The post <a...
 - [Shuffle the Questions to Catch an LLM That Memorized Its Benchmark](https://towardsdatascience.com/shuffle-the-questions-to-catch-an-llm-that-memorized-its-benchmark/)
   - <p>Two short Python functions and a free Colab GPU score a model in about half an hour; a z above 3 merits a look, while a near-zero score is more of a shrug.</p> <p>The post <a...
 - [How to Map USGS Earthquake Data from 2015 to 2025 in Python](https://towardsdatascience.com/how-to-map-usgs-earthquake-data-from-2015-to-2025-in-python/)
   - <p>A project that pulls M2.5+ events from the USGS API, cleans them in Pandas, and maps, clusters, and flags anomalies with Cartopy, Folium, and DBSCAN.</p> <p>The post <a href=...
-- [DuckDB 2.0 vs Polars 2.0 in Five Real-World Tests and One 14x Gap](https://towardsdatascience.com/duckdb-20-vs-polars-20-in-five-real-world-tests-and-one-14x-gap/)
-  - <p>Three years after a tie between Polars 0.18 and DuckDB 0.9, both 2.0 releases go head to head on datasets of up to 335 million records.</p> <p>The post <a href="https://towar...
-- [A Second LLM Judge Hit 87.5% Precision but Left 21 of 33 for Humans](https://towardsdatascience.com/a-second-llm-judge-hit-875-precision-but-left-21-of-33-for-humans/)
-  - <p>Using Han and Kim's Chatbot Arena data, GPT-6 Luna and Claude Haiku 4.5 were tested as a panel, and Haiku alone matched users on 22 of 23 clear matchups.</p> <p>The post <a h...
 
 ## KDnuggets (data-analysis)
-- [How to Future-Proof Your Data Career as Coding Agents Take Over Routine Work](https://www.kdnuggets.com/how-to-future-proof-your-data-career-as-coding-agents-take-over-routine-work)
-  - The skills that keep you irreplaceable when AI handles the boilerplate.
-- [Top 5 Open-Source Alternatives to OpenAI Dots](https://www.kdnuggets.com/top-5-open-source-alternatives-to-openai-dots)
-  - Explore top open-source alternatives to OpenAI Dots for building always-on AI agents with persistent memory, task automation, custom skills, and local deployment.
-- [Vibe Coding for Business Analytics: Custom CRM Dashboards, Reporting Apps, and AI Agents](https://www.kdnuggets.com/2026/11/vibe-coding-for-business-analytics-custom-crm-dashboards-reporting-apps-and-ai-agents)
-  - Discover how Alaio Vibecode, an AI app builder for Bitrix24, helps teams create custom CRM analytics dashboards, reporting tools, lead scoring apps, and AI agents.
-- [Why Data Job Candidates Freeze on Questions They Already Know](https://www.kdnuggets.com/why-data-job-candidates-freeze-on-questions-they-already-know)
-  - Pressure disrupts recall in interviews. Timed mock interviews let you rehearse it.
-- [The Roadmap to Becoming an AI Security Engineer in 2027](https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-security-engineer-in-2026)
-  - From cybersecurity foundations to defending machine learning systems, agentic pipelines, and large language model applications.
+- (No recent entries found)
 
 ## OpenAI News (ai)
 - [GPT-6 models demonstrate intrinsic protein-design capabilities](https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities)
@@ -52,8 +43,8 @@ Updated: 2026-11-27 10:48 UTC
   - <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp" />The Google Gemini app now supports lowe...
 
 ## Hugging Face Blog (llm)
+- [Taking Trainium3 to the Track: Generating Videos with LTX-2.5](https://huggingface.co/blog/video-trainium3)
 - [Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon](https://huggingface.co/blog/ggml-org/llamacpp-amd-bench)
 - [Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference](https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin)
 - [Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems](https://huggingface.co/blog/training-swarms)
 - [Where scientists draw the line on AI agents](https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents)
-- [An Indic Voice Agent with CUGA](https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga)
